@@ -1,4 +1,4 @@
-#!bash/bin/
+#!bin/bash/
 #Variable naming style is similar to those in other languages. However, in definition, spaces are not allowed. 
 #Better use {} for every variable while using it to make it clear.
 var="Definitions of variable should not have spaces."
