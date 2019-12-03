@@ -19,8 +19,17 @@ function compile_all(){
         hash[count]=${i}
         count=`expr ${count} + 1`
     done 
-    `./Downloader.sh -a ${app[1]} -t ${hash[1]}`
-    `./Compile.sh -a ${app[1]} -v ${hash[1]}`
+
+    #output
+    count=0
+    for i in ${app[*]}
+    do
+        `./Downloader.sh -a ${app[count]} -t ${hash[count]}`
+        `./Compile.sh -a ${app[count]} -v ${hash[count]}>./result/${hash[count]}`
+        #echo "${app[count]}-${hash[count]}"
+        count=`expr ${count} + 1`
+    done
+    
 
 }
 
