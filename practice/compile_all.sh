@@ -1,8 +1,18 @@
 #!bin/bash
-hash=()
+###########################################################
+#Function Name: compile_all 
+#   This function compile all commits and output the 
+#   compiling log to ./result folder with hash as output's
+#   names.
+###########################################################
+#Parameters: app,hash
+#   "app" contains the app name list of the commits.
+#   "hash" contains the hash list of the commits.
+#   The number of commits in two files should be the same.
+###########################################################
 function compile_all(){
 
-    #app names
+    #read app names
     count=0
     app=()
     hash=()
@@ -12,7 +22,7 @@ function compile_all(){
         count=`expr ${count} + 1`
     done 
 
-    #hash
+    #read hash
     count=0
     for i in `cat $2`
     do
@@ -20,22 +30,14 @@ function compile_all(){
         count=`expr ${count} + 1`
     done 
 
-    #output
+    #output to ./result
     count=0
     for i in ${app[*]}
     do
         `./Downloader.sh -a ${app[count]} -t ${hash[count]}`
         `./Compile.sh -a ${app[count]} -v ${hash[count]}>./result/${hash[count]}`
-        #echo "${app[count]}-${hash[count]}"
         count=`expr ${count} + 1`
     done
-    
-
 }
-
+#call to this function
 compile_all app hash
-
-
-#echo ${app}
-#result="result"
-#echo `cat app > $result`
