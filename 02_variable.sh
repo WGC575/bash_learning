@@ -42,7 +42,7 @@ string="WGC575"
 
 #Find. Note, use ``(the same keyboard location with ~) in searching instead of ''
 string="WGC575"
-#echo `expr index "$string" G5`
+#echo `expr index "$string" G5` #expr means expression
 
 #Array
 number_1="number_1"
