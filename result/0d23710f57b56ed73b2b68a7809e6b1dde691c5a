@@ -1,0 +1,873 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina 0d23710f57b56ed73b2b68a7809e6b1dde691c5a:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/adapters/slf4j-impl/2.0-beta2/slf4j-impl-2.0-beta2.pom
+3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/adapters/slf4j-impl/2.0-beta2/slf4j-impl-2.0-beta2.pom (7 KB at 20.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta2/log4j-2.0-beta2.pom
+3/20 KB   5/20 KB   8/20 KB   11/20 KB   13/20 KB   16/20 KB   19/20 KB   20/20 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.0-beta2/log4j-2.0-beta2.pom (20 KB at 569.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.0/slf4j-ext-1.7.0.pom
+3/4 KB     4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.0/slf4j-ext-1.7.0.pom (4 KB at 164.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.0/slf4j-parent-1.7.0.pom
+3/13 KB   5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.0/slf4j-parent-1.7.0.pom (13 KB at 510.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/cal10n/cal10n-api/0.7.4/cal10n-api-0.7.4.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/ch/qos/cal10n/cal10n-api/0.7.4/cal10n-api-0.7.4.pom (2 KB at 75.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/cal10n/cal10n-parent/0.7.4/cal10n-parent-0.7.4.pom
+3/8 KB   5/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/ch/qos/cal10n/cal10n-parent/0.7.4/cal10n-parent-0.7.4.pom (8 KB at 380.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta2/log4j-api-2.0-beta2.pom
+3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta2/log4j-api-2.0-beta2.pom (7 KB at 47.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta2/log4j-core-2.0-beta2.pom
+3/10 KB   5/10 KB   8/10 KB   10/10 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta2/log4j-core-2.0-beta2.pom (10 KB at 99.0 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.0/slf4j-ext-1.7.0.jar
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/cal10n/cal10n-api/0.7.4/cal10n-api-0.7.4.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta2/log4j-api-2.0-beta2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta2/log4j-core-2.0-beta2.jar
+3/30 KB    5/30 KB   8/30 KB   11/30 KB   13/30 KB   16/30 KB   19/30 KB   21/30 KB   24/30 KB   27/30 KB   29/30 KB   30/30 KB   Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/adapters/slf4j-impl/2.0-beta2/slf4j-impl-2.0-beta2.jar
+           Downloaded: https://repo.maven.apache.org/maven2/ch/qos/cal10n/cal10n-api/0.7.4/cal10n-api-0.7.4.jar (30 KB at 944.9 KB/sec)
+3/42 KB    5/42 KB   8/42 KB   11/42 KB   13/42 KB   16/42 KB   19/42 KB   21/42 KB   24/42 KB   27/42 KB   29/42 KB   32/42 KB   36/42 KB   40/42 KB   42/42 KB              Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.0/slf4j-ext-1.7.0.jar (42 KB at 596.4 KB/sec)
+3/21 KB    5/21 KB   8/21 KB   11/21 KB   13/21 KB   16/21 KB   19/21 KB   21/21 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/adapters/slf4j-impl/2.0-beta2/slf4j-impl-2.0-beta2.jar (21 KB at 88.9 KB/sec)
+3/387 KB   5/387 KB   8/387 KB   11/387 KB   13/387 KB   16/387 KB   19/387 KB   21/387 KB   24/387 KB   27/387 KB   29/387 KB   32/387 KB   3/73 KB   32/387 KB   5/73 KB   32/387 KB   5/73 KB   36/387 KB   8/73 KB   36/387 KB   8/73 KB   40/387 KB   8/73 KB   44/387 KB   8/73 KB   48/387 KB   11/73 KB   48/387 KB   13/73 KB   48/387 KB   13/73 KB   52/387 KB   13/73 KB   56/387 KB   13/73 KB   60/387 KB   13/73 KB   64/387 KB   13/73 KB   68/387 KB   13/73 KB   72/387 KB   13/73 KB   76/387 KB   13/73 KB   80/387 KB   13/73 KB   84/387 KB   13/73 KB   88/387 KB   13/73 KB   92/387 KB   13/73 KB   96/387 KB   13/73 KB   100/387 KB   13/73 KB   104/387 KB   13/73 KB   108/387 KB   13/73 KB   112/387 KB   16/73 KB   112/387 KB   19/73 KB   112/387 KB   21/73 KB   112/387 KB   21/73 KB   116/387 KB   21/73 KB   120/387 KB   21/73 KB   124/387 KB   21/73 KB   128/387 KB   24/73 KB   128/387 KB   27/73 KB   128/387 KB   29/73 KB   128/387 KB   32/73 KB   128/387 KB   36/73 KB   128/387 KB   40/73 KB   128/387 KB   44/73 KB   128/387 KB   48/73 KB   128/387 KB   52/73 KB   128/387 KB   56/73 KB   128/387 KB   60/73 KB   128/387 KB   64/73 KB   128/387 KB   68/73 KB   128/387 KB   72/73 KB   128/387 KB   73/73 KB   128/387 KB   73/73 KB   132/387 KB   73/73 KB   136/387 KB   73/73 KB   140/387 KB   73/73 KB   144/387 KB   73/73 KB   148/387 KB   73/73 KB   152/387 KB   73/73 KB   156/387 KB   73/73 KB   160/387 KB   73/73 KB   164/387 KB   73/73 KB   168/387 KB   73/73 KB   172/387 KB   73/73 KB   176/387 KB   73/73 KB   180/387 KB   73/73 KB   184/387 KB   73/73 KB   188/387 KB   73/73 KB   192/387 KB   73/73 KB   196/387 KB   73/73 KB   200/387 KB   73/73 KB   204/387 KB   73/73 KB   208/387 KB   73/73 KB   212/387 KB   73/73 KB   216/387 KB   73/73 KB   220/387 KB   73/73 KB   224/387 KB   73/73 KB   228/387 KB   73/73 KB   232/387 KB   73/73 KB   236/387 KB   73/73 KB   240/387 KB   73/73 KB   244/387 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.0-beta2/log4j-api-2.0-beta2.jar (73 KB at 248.5 KB/sec)
+248/387 KB              252/387 KB   256/387 KB   260/387 KB   264/387 KB   268/387 KB   272/387 KB   276/387 KB   280/387 KB   284/387 KB   288/387 KB   292/387 KB   296/387 KB   300/387 KB   304/387 KB   308/387 KB   312/387 KB   316/387 KB   320/387 KB   324/387 KB   328/387 KB   332/387 KB   336/387 KB   340/387 KB   344/387 KB   348/387 KB   352/387 KB   356/387 KB   360/387 KB   364/387 KB   368/387 KB   372/387 KB   376/387 KB   380/387 KB   384/387 KB   387/387 KB                Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.0-beta2/log4j-core-2.0-beta2.jar (387 KB at 1027.5 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 73 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.523 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  3.013 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.251 s
+[INFO] Finished at: 2019-12-04T07:17:55+00:00
+[INFO] Final Memory: 22M/252M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: mina-core @ 
+[ERROR] Could not find the selected project in the reactor: mina-core -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 73 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.457 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.534 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.701 s
+[INFO] Finished at: 2019-12-04T07:18:02+00:00
+[INFO] Final Memory: 18M/256M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-parent >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-parent <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-parent ---
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.1:cobertura (default) > [cobertura]test @ mina-parent >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:instrument (default) @ mina-parent ---
+[INFO] Skipping cobertura mojo for project with packaging type 'pom'
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.1:cobertura (default) < [cobertura]test @ mina-parent <<<
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:cobertura (default) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-parent/3.0.0-M1-SNAPSHOT/mina-parent-3.0.0-M1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 73 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  1.289 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.475 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.421 s
+[INFO] Finished at: 2019-12-04T07:18:07+00:00
+[INFO] Final Memory: 24M/260M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.472s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina 0d23710f57b56ed73b2b68a7809e6b1dde691c5a:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 73 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.564 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.559 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.861 s
+[INFO] Finished at: 2019-12-04T07:18:12+00:00
+[INFO] Final Memory: 18M/256M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: mina-core @ 
+[ERROR] Could not find the selected project in the reactor: mina-core -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 73 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.449 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.550 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.730 s
+[INFO] Finished at: 2019-12-04T07:18:19+00:00
+[INFO] Final Memory: 18M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-parent >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-parent <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-parent ---
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.1:cobertura (default) > [cobertura]test @ mina-parent >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:instrument (default) @ mina-parent ---
+[INFO] Skipping cobertura mojo for project with packaging type 'pom'
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.1:cobertura (default) < [cobertura]test @ mina-parent <<<
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:cobertura (default) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-parent/3.0.0-M1-SNAPSHOT/mina-parent-3.0.0-M1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 73 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  1.185 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.431 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.362 s
+[INFO] Finished at: 2019-12-04T07:18:24+00:00
+[INFO] Final Memory: 24M/260M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.45s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina 0d23710f57b56ed73b2b68a7809e6b1dde691c5a:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 73 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.798 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.735 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.409 s
+[INFO] Finished at: 2019-12-04T07:18:30+00:00
+[INFO] Final Memory: 17M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: mina-core @ 
+[ERROR] Could not find the selected project in the reactor: mina-core -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 73 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.821 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.719 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.448 s
+[INFO] Finished at: 2019-12-04T07:18:38+00:00
+[INFO] Final Memory: 19M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-parent >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-parent <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-parent ---
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.1:cobertura (default) > [cobertura]test @ mina-parent >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:instrument (default) @ mina-parent ---
+[INFO] Skipping cobertura mojo for project with packaging type 'pom'
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.1:cobertura (default) < [cobertura]test @ mina-parent <<<
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:cobertura (default) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-parent/3.0.0-M1-SNAPSHOT/mina-parent-3.0.0-M1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 73 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  1.687 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.670 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.244 s
+[INFO] Finished at: 2019-12-04T07:18:44+00:00
+[INFO] Final Memory: 27M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/0d23710f57b56ed73b2b68a7809e6b1dde691c5a/core/src/main/java/org/apache/mina/transport/nio/NioTcpServer.java:[70,47] error: constructor FixedSelectorLoopPool in class FixedSelectorLoopPool cannot be applied to given types;
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.170s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina 0d23710f57b56ed73b2b68a7809e6b1dde691c5a:
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.263s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

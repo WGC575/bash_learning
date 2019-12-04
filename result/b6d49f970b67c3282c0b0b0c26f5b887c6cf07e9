@@ -1,0 +1,870 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina-sshd b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:sshd-core:jar:0.5.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.3/maven-resources-plugin-2.3.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.3/maven-resources-plugin-2.3.pom (5 KB at 10.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.3/maven-resources-plugin-2.3.jar
+3/21 KB   5/21 KB   8/21 KB   11/21 KB   13/21 KB   16/21 KB   19/21 KB   21/21 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.3/maven-resources-plugin-2.3.jar (21 KB at 579.1 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/apache/mina/mina-core/2.0.0-RC1/mina-core-2.0.0-RC1.pom
+           Downloading: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.0.0-RC1/mina-core-2.0.0-RC1.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.0.0-RC1/mina-core-2.0.0-RC1.pom (2 KB at 60.6 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/apache/mina/mina-parent/2.0.0-RC1/mina-parent-2.0.0-RC1.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/mina/mina-parent/2.0.0-RC1/mina-parent-2.0.0-RC1.pom
+3/10 KB   5/10 KB   8/10 KB   10/10 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/mina/mina-parent/2.0.0-RC1/mina-parent-2.0.0-RC1.pom (10 KB at 382.2 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/apache/mina/build/2.0.0-RC1/build-2.0.0-RC1.pom
+           Downloading: https://repo.maven.apache.org/maven2/org/apache/mina/build/2.0.0-RC1/build-2.0.0-RC1.pom
+3/8 KB     5/8 KB   8/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/mina/build/2.0.0-RC1/build-2.0.0-RC1.pom (8 KB at 373.7 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.pom (3 KB at 145.7 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/slf4j/slf4j-parent/1.5.2/slf4j-parent-1.5.2.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.2/slf4j-parent-1.5.2.pom
+3/8 KB   5/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.2/slf4j-parent-1.5.2.pom (8 KB at 320.7 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+         Downloading: https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom
+853/853 B               Downloaded: https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom (853 B at 41.7 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/slf4j/slf4j-log4j12/1.4.3/slf4j-log4j12-1.4.3.pom
+            Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.4.3/slf4j-log4j12-1.4.3.pom
+2/2 KB               Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.4.3/slf4j-log4j12-1.4.3.pom (2 KB at 82.2 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/slf4j/slf4j-parent/1.4.3/slf4j-parent-1.4.3.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.4.3/slf4j-parent-1.4.3.pom
+3/8 KB   5/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.4.3/slf4j-parent-1.4.3.pom (8 KB at 355.2 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.4.3/slf4j-api-1.4.3.pom (3 KB at 140.0 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/springframework/spring-context/2.5.5/spring-context-2.5.5.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-context/2.5.5/spring-context-2.5.5.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-context/2.5.5/spring-context-2.5.5.pom (4 KB at 165.0 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/springframework/spring-beans/2.5.5/spring-beans-2.5.5.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/2.5.5/spring-beans-2.5.5.pom
+3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/2.5.5/spring-beans-2.5.5.pom (3 KB at 102.3 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/springframework/spring-core/2.5.5/spring-core-2.5.5.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-core/2.5.5/spring-core-2.5.5.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-core/2.5.5/spring-core-2.5.5.pom (3 KB at 127.7 KB/sec)
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/apache/mina/mina-core/2.0.0-RC1/mina-core-2.0.0-RC1.jar
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.jar
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/slf4j/slf4j-log4j12/1.4.3/slf4j-log4j12-1.4.3.jar
+Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/log4j/log4j/1.2.13/log4j-1.2.13.jar
+         Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/springframework/spring-context/2.5.5/spring-context-2.5.5.jar
+         Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/springframework/spring-beans/2.5.5/spring-beans-2.5.5.jar
+                  Downloading: http://svn.apache.org/repos/asf/servicemix/m2-repo/org/springframework/spring-core/2.5.5/spring-core-2.5.5.jar
+                                    Downloading: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.0.0-RC1/mina-core-2.0.0-RC1.jar
+Downloading: https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.4.3/slf4j-log4j12-1.4.3.jar
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.jar
+Downloading: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.13/log4j-1.2.13.jar
+3/624 KB   5/624 KB   8/624 KB   11/624 KB   13/624 KB   16/624 KB   19/624 KB   21/624 KB   24/624 KB   27/624 KB   29/624 KB   32/624 KB   36/624 KB   40/624 KB   44/624 KB   48/624 KB   52/624 KB   56/624 KB   60/624 KB   64/624 KB   68/624 KB   72/624 KB   76/624 KB   80/624 KB   84/624 KB   88/624 KB   92/624 KB   96/624 KB   100/624 KB   104/624 KB   108/624 KB   112/624 KB   116/624 KB   120/624 KB   124/624 KB   128/624 KB   3/17 KB   128/624 KB   5/17 KB   128/624 KB   8/17 KB   128/624 KB   11/17 KB   128/624 KB   13/17 KB   128/624 KB   13/17 KB   128/624 KB   3/9 KB   13/17 KB   128/624 KB   5/9 KB   13/17 KB   128/624 KB   8/9 KB   13/17 KB   128/624 KB   9/9 KB   13/17 KB   132/624 KB   9/9 KB   13/17 KB   136/624 KB   9/9 KB   13/17 KB   140/624 KB   9/9 KB   13/17 KB   144/624 KB   9/9 KB   13/17 KB   148/624 KB   9/9 KB   13/17 KB   152/624 KB   9/9 KB   13/17 KB   156/624 KB   9/9 KB   3/350 KB   13/17 KB   156/624 KB   9/9 KB   5/350 KB   13/17 KB   156/624 KB   9/9 KB   8/350 KB   13/17 KB   156/624 KB   9/9 KB   11/350 KB   13/17 KB   156/624 KB   9/9 KB   13/350 KB   13/17 KB   156/624 KB   9/9 KB   13/350 KB   16/17 KB   156/624 KB   9/9 KB   13/350 KB   17/17 KB   156/624 KB   9/9 KB   13/350 KB   17/17 KB   160/624 KB   9/9 KB   13/350 KB   17/17 KB   164/624 KB   9/9 KB   13/350 KB   17/17 KB   168/624 KB   9/9 KB   13/350 KB   17/17 KB   172/624 KB   9/9 KB   13/350 KB   17/17 KB   176/624 KB   9/9 KB                                                Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.4.3/slf4j-log4j12-1.4.3.jar (9 KB at 190.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-context/2.5.5/spring-context-2.5.5.jar
+13/350 KB   17/17 KB   176/624 KB   3/48 KB   16/350 KB   17/17 KB   176/624 KB   3/48 KB   16/350 KB   17/17 KB   176/624 KB   5/48 KB   19/350 KB   17/17 KB   176/624 KB   5/48 KB   19/350 KB   17/17 KB   176/624 KB   8/48 KB   21/350 KB   17/17 KB   176/624 KB   8/48 KB   21/350 KB   17/17 KB   176/624 KB   11/48 KB   24/350 KB   17/17 KB   176/624 KB   11/48 KB   24/350 KB   17/17 KB   176/624 KB   13/48 KB   27/350 KB   17/17 KB   176/624 KB   13/48 KB   29/350 KB   17/17 KB   176/624 KB   13/48 KB   32/350 KB   17/17 KB   176/624 KB   13/48 KB   32/350 KB   17/17 KB   180/624 KB   13/48 KB   32/350 KB   17/17 KB   184/624 KB   13/48 KB   32/350 KB   17/17 KB   188/624 KB   13/48 KB   32/350 KB   17/17 KB   192/624 KB   13/48 KB                                                  Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.2/slf4j-api-1.5.2.jar (17 KB at 332.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/2.5.5/spring-beans-2.5.5.jar
+32/350 KB   196/624 KB   13/48 KB              32/350 KB   200/624 KB   13/48 KB   32/350 KB   204/624 KB   13/48 KB   32/350 KB   208/624 KB   13/48 KB   32/350 KB   212/624 KB   13/48 KB   32/350 KB   216/624 KB   13/48 KB   36/350 KB   216/624 KB   13/48 KB   36/350 KB   216/624 KB   16/48 KB   40/350 KB   216/624 KB   16/48 KB   44/350 KB   216/624 KB   16/48 KB   48/350 KB   216/624 KB   16/48 KB   48/350 KB   216/624 KB   19/48 KB   48/350 KB   216/624 KB   21/48 KB   48/350 KB   216/624 KB   24/48 KB   48/350 KB   216/624 KB   27/48 KB   52/350 KB   216/624 KB   27/48 KB   56/350 KB   216/624 KB   27/48 KB   56/350 KB   216/624 KB   29/48 KB   60/350 KB   216/624 KB   29/48 KB   64/350 KB   216/624 KB   29/48 KB   64/350 KB   216/624 KB   32/48 KB   68/350 KB   216/624 KB   32/48 KB   72/350 KB   216/624 KB   32/48 KB   76/350 KB   216/624 KB   32/48 KB   80/350 KB   216/624 KB   32/48 KB   84/350 KB   216/624 KB   32/48 KB   88/350 KB   216/624 KB   32/48 KB   92/350 KB   216/624 KB   32/48 KB   96/350 KB   216/624 KB   32/48 KB   96/350 KB   220/624 KB   32/48 KB   96/350 KB   224/624 KB   32/48 KB   96/350 KB   224/624 KB   3/463 KB   32/48 KB   96/350 KB   224/624 KB   5/463 KB   32/48 KB   96/350 KB   224/624 KB   8/463 KB   32/48 KB   96/350 KB   224/624 KB   11/463 KB   32/48 KB   96/350 KB   224/624 KB   13/463 KB   32/48 KB   96/350 KB   224/624 KB   16/463 KB   32/48 KB   96/350 KB   224/624 KB   19/463 KB   32/48 KB   96/350 KB   224/624 KB   19/463 KB   3/475 KB   32/48 KB   100/350 KB   224/624 KB   19/463 KB   3/475 KB   32/48 KB   100/350 KB   224/624 KB   19/463 KB   3/475 KB   36/48 KB   100/350 KB   224/624 KB   19/463 KB   3/475 KB   40/48 KB   100/350 KB   224/624 KB   19/463 KB   3/475 KB   44/48 KB   100/350 KB   224/624 KB   19/463 KB   3/475 KB   48/48 KB   100/350 KB   228/624 KB   19/463 KB   3/475 KB   48/48 KB   100/350 KB   232/624 KB   19/463 KB   3/475 KB   48/48 KB   100/350 KB   236/624 KB   19/463 KB   3/475 KB   48/48 KB   100/350 KB   240/624 KB   19/463 KB   3/475 KB   48/48 KB   100/350 KB   240/624 KB   21/463 KB   3/475 KB   48/48 KB   100/350 KB   240/624 KB   24/463 KB   3/475 KB   48/48 KB   100/350 KB   240/624 KB   27/463 KB   3/475 KB   48/48 KB   100/350 KB   240/624 KB   29/463 KB   3/475 KB   48/48 KB   100/350 KB   240/624 KB   32/463 KB   3/475 KB   48/48 KB   104/350 KB   240/624 KB   32/463 KB   3/475 KB   48/48 KB   108/350 KB   240/624 KB   32/463 KB   3/475 KB   48/48 KB   108/350 KB   240/624 KB   32/463 KB   5/475 KB   48/48 KB   112/350 KB   240/624 KB   32/463 KB   5/475 KB   48/48 KB   112/350 KB   240/624 KB   32/463 KB   8/475 KB   48/48 KB   112/350 KB   240/624 KB   32/463 KB   11/475 KB   48/48 KB   112/350 KB   240/624 KB   32/463 KB   13/475 KB   48/48 KB   116/350 KB   240/624 KB   32/463 KB   13/475 KB   48/48 KB   120/350 KB   240/624 KB   32/463 KB   13/475 KB   48/48 KB   120/350 KB   240/624 KB   32/463 KB   16/475 KB   48/48 KB   124/350 KB   240/624 KB   32/463 KB   16/475 KB   48/48 KB   128/350 KB   240/624 KB   32/463 KB   16/475 KB   48/48 KB   128/350 KB   240/624 KB   32/463 KB   19/475 KB   48/48 KB   128/350 KB   240/624 KB   32/463 KB   21/475 KB   48/48 KB   132/350 KB   240/624 KB   32/463 KB   21/475 KB   48/48 KB   136/350 KB   240/624 KB   32/463 KB   24/475 KB   48/48 KB   140/350 KB   240/624 KB   32/463 KB   24/475 KB   48/48 KB   144/350 KB   240/624 KB   32/463 KB   24/475 KB   48/48 KB   144/350 KB   240/624 KB   36/463 KB   24/475 KB   48/48 KB   144/350 KB   240/624 KB   40/463 KB   24/475 KB   48/48 KB   132/350 KB   240/624 KB   32/463 KB   24/475 KB   48/48 KB   144/350 KB   240/624 KB   40/463 KB   27/475 KB   48/48 KB   148/350 KB   240/624 KB   40/463 KB   27/475 KB   48/48 KB   152/350 KB   240/624 KB   40/463 KB   27/475 KB   48/48 KB   152/350 KB   240/624 KB   40/463 KB   29/475 KB   48/48 KB   156/350 KB   240/624 KB   40/463 KB   29/475 KB   48/48 KB   160/350 KB   240/624 KB   40/463 KB   29/475 KB   48/48 KB   160/350 KB   240/624 KB   44/463 KB   29/475 KB   48/48 KB   160/350 KB   240/624 KB   48/463 KB   29/475 KB   48/48 KB   160/350 KB   240/624 KB   48/463 KB   32/475 KB   48/48 KB   164/350 KB   240/624 KB   48/463 KB   32/475 KB   48/48 KB   168/350 KB   240/624 KB   48/463 KB   32/475 KB   48/48 KB   172/350 KB   240/624 KB   48/463 KB   32/475 KB   48/48 KB   176/350 KB   240/624 KB   48/463 KB   32/475 KB   48/48 KB   176/350 KB   240/624 KB   48/463 KB   36/475 KB   48/48 KB   176/350 KB   240/624 KB   48/463 KB   40/475 KB   48/48 KB   176/350 KB   240/624 KB   48/463 KB   44/475 KB   48/48 KB   176/350 KB   240/624 KB   48/463 KB   48/475 KB   48/48 KB   180/350 KB   240/624 KB   48/463 KB   48/475 KB   48/48 KB   184/350 KB   240/624 KB   48/463 KB   48/475 KB   48/48 KB   188/350 KB   240/624 KB   48/463 KB   48/475 KB   48/48 KB   192/350 KB   240/624 KB   48/463 KB   48/475 KB   48/48 KB   192/350 KB   240/624 KB   48/463 KB   52/475 KB   48/48 KB   192/350 KB   240/624 KB   48/463 KB   56/475 KB   48/48 KB   192/350 KB   240/624 KB   48/463 KB   60/475 KB   48/48 KB   192/350 KB   240/624 KB   48/463 KB   64/475 KB   48/48 KB   196/350 KB   240/624 KB   48/463 KB   64/475 KB   48/48 KB   200/350 KB   240/624 KB   48/463 KB   64/475 KB   48/48 KB   204/350 KB   240/624 KB   48/463 KB   64/475 KB   48/48 KB   208/350 KB   240/624 KB   48/463 KB   64/475 KB   48/48 KB   208/350 KB   240/624 KB   48/463 KB   68/475 KB   48/48 KB   208/350 KB   240/624 KB   48/463 KB   72/475 KB   48/48 KB   208/350 KB   240/624 KB   48/463 KB   76/475 KB   48/48 KB   208/350 KB   240/624 KB   48/463 KB   80/475 KB   48/48 KB   212/350 KB   240/624 KB   48/463 KB   80/475 KB   48/48 KB   216/350 KB   240/624 KB   48/463 KB   80/475 KB   48/48 KB   220/350 KB   240/624 KB   48/463 KB   80/475 KB   48/48 KB   224/350 KB   240/624 KB   48/463 KB   80/475 KB   48/48 KB   224/350 KB   240/624 KB   52/463 KB   80/475 KB   48/48 KB   224/350 KB   240/624 KB   56/463 KB   80/475 KB   48/48 KB   224/350 KB   240/624 KB   60/463 KB   80/475 KB   48/48 KB   224/350 KB   240/624 KB   64/463 KB   80/475 KB   48/48 KB   224/350 KB   240/624 KB   68/463 KB   80/475 KB   48/48 KB   224/350 KB   240/624 KB   72/463 KB   80/475 KB   48/48 KB   224/350 KB   240/624 KB   76/463 KB   80/475 KB   48/48 KB   224/350 KB   240/624 KB   80/463 KB   80/475 KB   48/48 KB                                                                Downloaded: https://repo.maven.apache.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.jar (48 KB at 640.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-core/2.5.5/spring-core-2.5.5.jar
+224/350 KB   240/624 KB   84/463 KB   80/475 KB              224/350 KB   240/624 KB   88/463 KB   80/475 KB   224/350 KB   240/624 KB   92/463 KB   80/475 KB   224/350 KB   240/624 KB   96/463 KB   80/475 KB   224/350 KB   240/624 KB   96/463 KB   84/475 KB   224/350 KB   240/624 KB   96/463 KB   88/475 KB   224/350 KB   240/624 KB   96/463 KB   92/475 KB   224/350 KB   240/624 KB   96/463 KB   96/475 KB   224/350 KB   240/624 KB   96/463 KB   100/475 KB   224/350 KB   240/624 KB   96/463 KB   104/475 KB   224/350 KB   240/624 KB   96/463 KB   108/475 KB   224/350 KB   240/624 KB   96/463 KB   112/475 KB   224/350 KB   240/624 KB   96/463 KB   116/475 KB   224/350 KB   240/624 KB   96/463 KB   120/475 KB   224/350 KB   240/624 KB   96/463 KB   124/475 KB   224/350 KB   240/624 KB   96/463 KB   128/475 KB   224/350 KB   240/624 KB   96/463 KB   132/475 KB   224/350 KB   240/624 KB   96/463 KB   136/475 KB   224/350 KB   240/624 KB   96/463 KB   140/475 KB   224/350 KB   240/624 KB   96/463 KB   144/475 KB   224/350 KB   244/624 KB   96/463 KB   144/475 KB   224/350 KB   248/624 KB   96/463 KB   144/475 KB   224/350 KB   252/624 KB   96/463 KB   144/475 KB   224/350 KB   256/624 KB   96/463 KB   144/475 KB   224/350 KB   260/624 KB   96/463 KB   144/475 KB   224/350 KB   264/624 KB   96/463 KB   144/475 KB   224/350 KB   268/624 KB   96/463 KB   144/475 KB   224/350 KB   272/624 KB   96/463 KB   144/475 KB   224/350 KB   276/624 KB   96/463 KB   144/475 KB   224/350 KB   280/624 KB   96/463 KB   144/475 KB   224/350 KB   284/624 KB   96/463 KB   144/475 KB   224/350 KB   288/624 KB   96/463 KB   144/475 KB   224/350 KB   292/624 KB   96/463 KB   144/475 KB   224/350 KB   296/624 KB   96/463 KB   144/475 KB   224/350 KB   300/624 KB   96/463 KB   144/475 KB   224/350 KB   304/624 KB   96/463 KB   144/475 KB   224/350 KB   304/624 KB   100/463 KB   144/475 KB   224/350 KB   304/624 KB   104/463 KB   144/475 KB   224/350 KB   304/624 KB   108/463 KB   144/475 KB   224/350 KB   304/624 KB   112/463 KB   144/475 KB   224/350 KB   304/624 KB   116/463 KB   144/475 KB   224/350 KB   304/624 KB   120/463 KB   144/475 KB   224/350 KB   304/624 KB   124/463 KB   144/475 KB   224/350 KB   304/624 KB   128/463 KB   144/475 KB   224/350 KB   304/624 KB   132/463 KB   144/475 KB   224/350 KB   304/624 KB   136/463 KB   144/475 KB   224/350 KB   304/624 KB   140/463 KB   144/475 KB   224/350 KB   304/624 KB   144/463 KB   144/475 KB   224/350 KB   304/624 KB   148/463 KB   144/475 KB   224/350 KB   304/624 KB   152/463 KB   144/475 KB   224/350 KB   304/624 KB   156/463 KB   144/475 KB   224/350 KB   304/624 KB   160/463 KB   144/475 KB   228/350 KB   304/624 KB   4/281 KB   164/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   168/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   172/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   176/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   180/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   184/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   188/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   192/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   196/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   200/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   204/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   208/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   212/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   216/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   160/463 KB   148/475 KB   228/350 KB   304/624 KB   4/281 KB   160/463 KB   144/475 KB   228/350 KB   304/624 KB   160/463 KB   144/475 KB   228/350 KB   304/624 KB   8/281 KB   216/463 KB   148/475 KB   232/350 KB   304/624 KB   8/281 KB   216/463 KB   148/475 KB   232/350 KB   304/624 KB   12/281 KB   216/463 KB   148/475 KB   236/350 KB   304/624 KB   12/281 KB   216/463 KB   148/475 KB   236/350 KB   304/624 KB   16/281 KB   216/463 KB   148/475 KB   240/350 KB   304/624 KB   16/281 KB   216/463 KB   148/475 KB   244/350 KB   304/624 KB   20/281 KB   216/463 KB   148/475 KB   244/350 KB   304/624 KB   20/281 KB   216/463 KB   148/475 KB   244/350 KB   304/624 KB   24/281 KB   216/463 KB   148/475 KB   248/350 KB   304/624 KB   24/281 KB   216/463 KB   148/475 KB   248/350 KB   304/624 KB   28/281 KB   216/463 KB   148/475 KB   252/350 KB   304/624 KB   28/281 KB   216/463 KB   148/475 KB   252/350 KB   304/624 KB   32/281 KB   216/463 KB   148/475 KB   256/350 KB   304/624 KB   32/281 KB   216/463 KB   148/475 KB   256/350 KB   304/624 KB   36/281 KB   216/463 KB   148/475 KB   260/350 KB   304/624 KB   36/281 KB   216/463 KB   148/475 KB   260/350 KB   304/624 KB   40/281 KB   216/463 KB   148/475 KB   264/350 KB   304/624 KB   40/281 KB   216/463 KB   148/475 KB   264/350 KB   304/624 KB   44/281 KB   216/463 KB   148/475 KB   268/350 KB   304/624 KB   44/281 KB   216/463 KB   148/475 KB   268/350 KB   304/624 KB   48/281 KB   216/463 KB   148/475 KB   272/350 KB   304/624 KB   48/281 KB   216/463 KB   148/475 KB   272/350 KB   304/624 KB   48/281 KB   216/463 KB   152/475 KB   272/350 KB   304/624 KB   48/281 KB   216/463 KB   156/475 KB   272/350 KB   304/624 KB   48/281 KB   216/463 KB   160/475 KB   276/350 KB   304/624 KB   48/281 KB   216/463 KB   160/475 KB   280/350 KB   304/624 KB   48/281 KB   216/463 KB   160/475 KB   284/350 KB   304/624 KB   48/281 KB   216/463 KB   160/475 KB   288/350 KB   304/624 KB   48/281 KB   216/463 KB   160/475 KB   288/350 KB   304/624 KB   48/281 KB   216/463 KB   164/475 KB   288/350 KB   304/624 KB   48/281 KB   216/463 KB   168/475 KB   288/350 KB   304/624 KB   48/281 KB   216/463 KB   172/475 KB   288/350 KB   304/624 KB   48/281 KB   216/463 KB   176/475 KB   292/350 KB   304/624 KB   48/281 KB   216/463 KB   176/475 KB   296/350 KB   304/624 KB   48/281 KB   216/463 KB   176/475 KB   300/350 KB   304/624 KB   48/281 KB   216/463 KB   176/475 KB   304/350 KB   304/624 KB   48/281 KB   216/463 KB   176/475 KB   308/350 KB   304/624 KB   48/281 KB   216/463 KB   176/475 KB   308/350 KB   304/624 KB   52/281 KB   216/463 KB   176/475 KB   312/350 KB   304/624 KB   52/281 KB   216/463 KB   176/475 KB   312/350 KB   304/624 KB   56/281 KB   216/463 KB   176/475 KB   316/350 KB   304/624 KB   56/281 KB   216/463 KB   176/475 KB   316/350 KB   304/624 KB   60/281 KB   216/463 KB   176/475 KB   320/350 KB   304/624 KB   60/281 KB   216/463 KB   176/475 KB   320/350 KB   304/624 KB   64/281 KB   216/463 KB   176/475 KB   324/350 KB   304/624 KB   64/281 KB   216/463 KB   176/475 KB   324/350 KB   304/624 KB   68/281 KB   216/463 KB   176/475 KB   328/350 KB   304/624 KB   68/281 KB   216/463 KB   176/475 KB   328/350 KB   304/624 KB   72/281 KB   216/463 KB   176/475 KB   332/350 KB   304/624 KB   72/281 KB   216/463 KB   176/475 KB   332/350 KB   304/624 KB   76/281 KB   216/463 KB   176/475 KB   336/350 KB   304/624 KB   76/281 KB   216/463 KB   176/475 KB   336/350 KB   304/624 KB   80/281 KB   216/463 KB   176/475 KB   340/350 KB   304/624 KB   80/281 KB   216/463 KB   176/475 KB   344/350 KB   304/624 KB   84/281 KB   216/463 KB   176/475 KB   344/350 KB   304/624 KB   84/281 KB   216/463 KB   176/475 KB   348/350 KB   304/624 KB   84/281 KB   216/463 KB   176/475 KB   348/350 KB   304/624 KB   88/281 KB   216/463 KB   176/475 KB   350/350 KB   304/624 KB   88/281 KB   216/463 KB   176/475 KB   350/350 KB   304/624 KB   92/281 KB   216/463 KB   176/475 KB   350/350 KB   304/624 KB   96/281 KB   216/463 KB   176/475 KB   350/350 KB   304/624 KB   100/281 KB   216/463 KB   176/475 KB   350/350 KB   304/624 KB   104/281 KB   216/463 KB   176/475 KB   350/350 KB   304/624 KB   108/281 KB   216/463 KB   176/475 KB   350/350 KB   304/624 KB   112/281 KB   216/463 KB   176/475 KB   350/350 KB   308/624 KB   112/281 KB   216/463 KB   176/475 KB   350/350 KB   312/624 KB   112/281 KB   216/463 KB   176/475 KB   350/350 KB   316/624 KB   112/281 KB   216/463 KB   176/475 KB   350/350 KB   320/624 KB   112/281 KB   216/463 KB   176/475 KB   350/350 KB   324/624 KB   112/281 KB   216/463 KB   176/475 KB   350/350 KB   328/624 KB   112/281 KB   216/463 KB   176/475 KB   350/350 KB   332/624 KB   112/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   112/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   116/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   120/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   124/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   128/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   132/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   136/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   140/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   144/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   148/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   152/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   156/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   176/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   180/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   184/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   188/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   192/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   196/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   200/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   204/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   208/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   212/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   216/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   220/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   224/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   228/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   232/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   236/475 KB   350/350 KB   336/624 KB   160/281 KB   216/463 KB   240/475 KB                                                                    Downloaded: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.13/log4j-1.2.13.jar (350 KB at 3396.0 KB/sec)
+336/624 KB   160/281 KB   216/463 KB   244/475 KB                336/624 KB   160/281 KB   216/463 KB   248/475 KB   336/624 KB   160/281 KB   216/463 KB   252/475 KB   336/624 KB   160/281 KB   216/463 KB   256/475 KB   336/624 KB   160/281 KB   216/463 KB   260/475 KB   336/624 KB   160/281 KB   216/463 KB   264/475 KB   336/624 KB   160/281 KB   216/463 KB   268/475 KB   336/624 KB   160/281 KB   216/463 KB   272/475 KB   336/624 KB   164/281 KB   216/463 KB   272/475 KB   336/624 KB   168/281 KB   216/463 KB   272/475 KB   336/624 KB   172/281 KB   216/463 KB   272/475 KB   336/624 KB   176/281 KB   216/463 KB   272/475 KB   336/624 KB   180/281 KB   216/463 KB   272/475 KB   336/624 KB   184/281 KB   216/463 KB   272/475 KB   336/624 KB   188/281 KB   216/463 KB   272/475 KB   336/624 KB   192/281 KB   216/463 KB   272/475 KB   340/624 KB   192/281 KB   216/463 KB   272/475 KB   344/624 KB   192/281 KB   216/463 KB   272/475 KB   348/624 KB   192/281 KB   216/463 KB   272/475 KB   352/624 KB   192/281 KB   216/463 KB   272/475 KB   356/624 KB   192/281 KB   216/463 KB   272/475 KB   360/624 KB   192/281 KB   216/463 KB   272/475 KB   364/624 KB   192/281 KB   216/463 KB   272/475 KB   368/624 KB   192/281 KB   216/463 KB   272/475 KB   372/624 KB   192/281 KB   216/463 KB   272/475 KB   376/624 KB   192/281 KB   216/463 KB   272/475 KB   380/624 KB   192/281 KB   216/463 KB   272/475 KB   384/624 KB   192/281 KB   216/463 KB   272/475 KB   388/624 KB   192/281 KB   216/463 KB   272/475 KB   392/624 KB   192/281 KB   216/463 KB   272/475 KB   396/624 KB   192/281 KB   216/463 KB   272/475 KB   400/624 KB   192/281 KB   216/463 KB   272/475 KB   404/624 KB   192/281 KB   216/463 KB   272/475 KB   408/624 KB   192/281 KB   216/463 KB   272/475 KB   412/624 KB   192/281 KB   216/463 KB   272/475 KB   416/624 KB   192/281 KB   216/463 KB   272/475 KB   420/624 KB   192/281 KB   216/463 KB   272/475 KB   424/624 KB   192/281 KB   216/463 KB   272/475 KB   428/624 KB   192/281 KB   216/463 KB   272/475 KB   432/624 KB   192/281 KB   216/463 KB   272/475 KB   436/624 KB   192/281 KB   216/463 KB   272/475 KB   440/624 KB   192/281 KB   216/463 KB   272/475 KB   444/624 KB   192/281 KB   216/463 KB   272/475 KB   448/624 KB   192/281 KB   216/463 KB   272/475 KB   452/624 KB   192/281 KB   216/463 KB   272/475 KB   456/624 KB   192/281 KB   216/463 KB   272/475 KB   460/624 KB   192/281 KB   216/463 KB   272/475 KB   464/624 KB   192/281 KB   216/463 KB   272/475 KB   464/624 KB   192/281 KB   220/463 KB   272/475 KB   464/624 KB   192/281 KB   224/463 KB   272/475 KB   464/624 KB   192/281 KB   228/463 KB   272/475 KB   464/624 KB   192/281 KB   232/463 KB   272/475 KB   464/624 KB   192/281 KB   236/463 KB   272/475 KB   464/624 KB   192/281 KB   240/463 KB   272/475 KB   464/624 KB   192/281 KB   244/463 KB   272/475 KB   464/624 KB   192/281 KB   248/463 KB   272/475 KB   464/624 KB   192/281 KB   252/463 KB   272/475 KB   464/624 KB   192/281 KB   256/463 KB   272/475 KB   464/624 KB   192/281 KB   260/463 KB   272/475 KB   464/624 KB   192/281 KB   264/463 KB   272/475 KB   464/624 KB   192/281 KB   268/463 KB   272/475 KB   464/624 KB   192/281 KB   272/463 KB   272/475 KB   464/624 KB   192/281 KB   276/463 KB   272/475 KB   464/624 KB   192/281 KB   280/463 KB   272/475 KB   464/624 KB   192/281 KB   284/463 KB   272/475 KB   464/624 KB   192/281 KB   288/463 KB   272/475 KB   464/624 KB   192/281 KB   292/463 KB   272/475 KB   464/624 KB   192/281 KB   296/463 KB   272/475 KB   464/624 KB   196/281 KB   296/463 KB   272/475 KB   464/624 KB   200/281 KB   296/463 KB   272/475 KB   464/624 KB   204/281 KB   296/463 KB   272/475 KB   464/624 KB   208/281 KB   296/463 KB   272/475 KB   464/624 KB   212/281 KB   296/463 KB   272/475 KB   464/624 KB   216/281 KB   296/463 KB   272/475 KB   464/624 KB   220/281 KB   296/463 KB   272/475 KB   464/624 KB   224/281 KB   296/463 KB   272/475 KB   464/624 KB   228/281 KB   296/463 KB   272/475 KB   464/624 KB   232/281 KB   296/463 KB   272/475 KB   464/624 KB   236/281 KB   296/463 KB   272/475 KB   464/624 KB   240/281 KB   296/463 KB   272/475 KB   464/624 KB   244/281 KB   296/463 KB   272/475 KB   464/624 KB   248/281 KB   296/463 KB   272/475 KB   464/624 KB   252/281 KB   296/463 KB   272/475 KB   464/624 KB   256/281 KB   296/463 KB   272/475 KB   464/624 KB   260/281 KB   296/463 KB   272/475 KB   464/624 KB   264/281 KB   296/463 KB   272/475 KB   464/624 KB   268/281 KB   296/463 KB   272/475 KB   464/624 KB   268/281 KB   296/463 KB   276/475 KB   464/624 KB   268/281 KB   296/463 KB   280/475 KB   464/624 KB   268/281 KB   296/463 KB   284/475 KB   464/624 KB   268/281 KB   296/463 KB   288/475 KB   464/624 KB   268/281 KB   296/463 KB   292/475 KB   464/624 KB   268/281 KB   296/463 KB   296/475 KB   464/624 KB   268/281 KB   296/463 KB   300/475 KB   464/624 KB   268/281 KB   296/463 KB   304/475 KB   464/624 KB   268/281 KB   296/463 KB   308/475 KB   464/624 KB   268/281 KB   296/463 KB   312/475 KB   464/624 KB   268/281 KB   296/463 KB   316/475 KB   464/624 KB   268/281 KB   296/463 KB   320/475 KB   464/624 KB   268/281 KB   296/463 KB   324/475 KB   464/624 KB   268/281 KB   296/463 KB   328/475 KB   464/624 KB   268/281 KB   296/463 KB   332/475 KB   464/624 KB   268/281 KB   296/463 KB   336/475 KB   464/624 KB   268/281 KB   296/463 KB   340/475 KB   464/624 KB   268/281 KB   296/463 KB   344/475 KB   464/624 KB   268/281 KB   296/463 KB   348/475 KB   464/624 KB   268/281 KB   296/463 KB   352/475 KB   464/624 KB   268/281 KB   300/463 KB   352/475 KB   464/624 KB   268/281 KB   304/463 KB   352/475 KB   464/624 KB   268/281 KB   308/463 KB   352/475 KB   464/624 KB   268/281 KB   312/463 KB   352/475 KB   464/624 KB   268/281 KB   316/463 KB   352/475 KB   464/624 KB   268/281 KB   320/463 KB   352/475 KB   464/624 KB   268/281 KB   324/463 KB   352/475 KB   464/624 KB   268/281 KB   328/463 KB   352/475 KB   464/624 KB   268/281 KB   332/463 KB   352/475 KB   464/624 KB   268/281 KB   336/463 KB   352/475 KB   464/624 KB   268/281 KB   340/463 KB   352/475 KB   464/624 KB   268/281 KB   344/463 KB   352/475 KB   464/624 KB   268/281 KB   348/463 KB   352/475 KB   464/624 KB   268/281 KB   352/463 KB   352/475 KB   464/624 KB   268/281 KB   356/463 KB   352/475 KB   464/624 KB   268/281 KB   360/463 KB   352/475 KB   464/624 KB   268/281 KB   364/463 KB   352/475 KB   464/624 KB   268/281 KB   368/463 KB   352/475 KB   464/624 KB   268/281 KB   372/463 KB   352/475 KB   464/624 KB   272/281 KB   376/463 KB   352/475 KB   464/624 KB   276/281 KB   376/463 KB   352/475 KB   464/624 KB   280/281 KB   376/463 KB   352/475 KB   464/624 KB   281/281 KB   376/463 KB   352/475 KB   468/624 KB   281/281 KB   376/463 KB   352/475 KB   472/624 KB   281/281 KB   376/463 KB   352/475 KB   476/624 KB   281/281 KB   376/463 KB   352/475 KB   480/624 KB   281/281 KB   376/463 KB   352/475 KB   484/624 KB   281/281 KB   376/463 KB   352/475 KB   488/624 KB   281/281 KB   376/463 KB   352/475 KB   492/624 KB   281/281 KB   376/463 KB   352/475 KB   496/624 KB   281/281 KB   376/463 KB   352/475 KB   500/624 KB   281/281 KB   376/463 KB   352/475 KB   504/624 KB   281/281 KB   376/463 KB   352/475 KB   508/624 KB   281/281 KB   376/463 KB   352/475 KB   512/624 KB   281/281 KB   376/463 KB   352/475 KB   516/624 KB   281/281 KB   376/463 KB   352/475 KB   520/624 KB   281/281 KB   376/463 KB   352/475 KB   524/624 KB   281/281 KB   376/463 KB   352/475 KB   528/624 KB   281/281 KB   376/463 KB   352/475 KB   532/624 KB   281/281 KB   376/463 KB   352/475 KB   536/624 KB   281/281 KB   376/463 KB   352/475 KB   540/624 KB   281/281 KB   376/463 KB   352/475 KB   544/624 KB   281/281 KB   376/463 KB   352/475 KB   544/624 KB   281/281 KB   376/463 KB   356/475 KB   544/624 KB   281/281 KB   376/463 KB   360/475 KB   544/624 KB   281/281 KB   376/463 KB   364/475 KB   544/624 KB   281/281 KB   376/463 KB   368/475 KB   548/624 KB   281/281 KB   376/463 KB   368/475 KB   552/624 KB   281/281 KB   376/463 KB   368/475 KB   556/624 KB   281/281 KB   376/463 KB   368/475 KB   560/624 KB   281/281 KB   376/463 KB   368/475 KB   560/624 KB   281/281 KB   376/463 KB   372/475 KB   560/624 KB   281/281 KB   376/463 KB   376/475 KB   560/624 KB   281/281 KB   376/463 KB   380/475 KB   560/624 KB   281/281 KB   376/463 KB   384/475 KB   564/624 KB   281/281 KB   376/463 KB   384/475 KB   568/624 KB   281/281 KB   376/463 KB   384/475 KB   572/624 KB   281/281 KB   376/463 KB   384/475 KB   576/624 KB   281/281 KB   376/463 KB   384/475 KB   576/624 KB   281/281 KB   376/463 KB   388/475 KB   576/624 KB   281/281 KB   376/463 KB   392/475 KB   576/624 KB   281/281 KB   376/463 KB   396/475 KB   576/624 KB   281/281 KB   376/463 KB   400/475 KB   580/624 KB   281/281 KB   376/463 KB   400/475 KB   584/624 KB   281/281 KB   376/463 KB   400/475 KB   588/624 KB   281/281 KB   376/463 KB   400/475 KB   592/624 KB   281/281 KB   376/463 KB   400/475 KB   592/624 KB   281/281 KB   376/463 KB   404/475 KB   592/624 KB   281/281 KB   376/463 KB   408/475 KB   592/624 KB   281/281 KB   376/463 KB   412/475 KB   596/624 KB   281/281 KB   376/463 KB   412/475 KB   600/624 KB   281/281 KB   376/463 KB   412/475 KB   604/624 KB   281/281 KB   376/463 KB   412/475 KB   608/624 KB   281/281 KB   376/463 KB   412/475 KB   464/624 KB   281/281 KB   376/463 KB   412/475 KB   608/624 KB   281/281 KB   380/463 KB   412/475 KB   608/624 KB   281/281 KB   384/463 KB   412/475 KB   608/624 KB   281/281 KB   388/463 KB   412/475 KB   608/624 KB   281/281 KB   392/463 KB   412/475 KB   608/624 KB   281/281 KB   396/463 KB   412/475 KB   608/624 KB   281/281 KB   400/463 KB   412/475 KB   608/624 KB   281/281 KB   404/463 KB   412/475 KB   608/624 KB   281/281 KB   408/463 KB   412/475 KB   608/624 KB   281/281 KB   412/463 KB   412/475 KB   608/624 KB   281/281 KB   416/463 KB   412/475 KB   608/624 KB   281/281 KB   420/463 KB   412/475 KB   608/624 KB   281/281 KB   424/463 KB   412/475 KB   608/624 KB   281/281 KB   428/463 KB   412/475 KB   608/624 KB   281/281 KB   432/463 KB   412/475 KB   608/624 KB   281/281 KB   432/463 KB   416/475 KB   608/624 KB   281/281 KB   432/463 KB   420/475 KB   608/624 KB   281/281 KB   432/463 KB   424/475 KB   608/624 KB   281/281 KB   432/463 KB   428/475 KB   608/624 KB   281/281 KB   432/463 KB   432/475 KB   608/624 KB   281/281 KB   432/463 KB   436/475 KB   608/624 KB   281/281 KB   432/463 KB   440/475 KB   608/624 KB   281/281 KB   432/463 KB   444/475 KB   608/624 KB   281/281 KB   432/463 KB   448/475 KB   608/624 KB   281/281 KB   432/463 KB   452/475 KB   608/624 KB   281/281 KB   432/463 KB   456/475 KB   608/624 KB   281/281 KB   432/463 KB   460/475 KB   608/624 KB   281/281 KB   432/463 KB   464/475 KB   608/624 KB   281/281 KB   436/463 KB   464/475 KB   608/624 KB   281/281 KB   440/463 KB   464/475 KB   608/624 KB   281/281 KB   444/463 KB   464/475 KB   608/624 KB   281/281 KB   448/463 KB   464/475 KB   608/624 KB   281/281 KB   452/463 KB   464/475 KB   608/624 KB   281/281 KB   456/463 KB   464/475 KB   608/624 KB   281/281 KB   460/463 KB   464/475 KB   608/624 KB   281/281 KB   463/463 KB   464/475 KB                                                       Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-core/2.5.5/spring-core-2.5.5.jar (281 KB at 1908.2 KB/sec)
+608/624 KB   463/463 KB   468/475 KB                608/624 KB   463/463 KB   472/475 KB   608/624 KB   463/463 KB   475/475 KB   612/624 KB   463/463 KB   475/475 KB   616/624 KB   463/463 KB   475/475 KB   620/624 KB   463/463 KB   475/475 KB   624/624 KB   463/463 KB   475/475 KB                                          Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-context/2.5.5/spring-context-2.5.5.jar (463 KB at 2836.9 KB/sec)
+                                       Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/2.5.5/spring-beans-2.5.5.jar (475 KB at 2948.1 KB/sec)
+                                       Downloaded: https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.0.0-RC1/mina-core-2.0.0-RC1.jar (624 KB at 3688.4 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd-core ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ sshd-core ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom
+4/4 KB                                          Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom (4 KB at 196.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar
+3/33 KB   5/33 KB   8/33 KB   11/33 KB   13/33 KB   16/33 KB   19/33 KB   21/33 KB   24/33 KB   27/33 KB   29/33 KB   32/33 KB   33/33 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar (33 KB at 1620.1 KB/sec)
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ sshd-core ---
+[INFO] Compiling 138 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.084 s
+[INFO] Finished at: 2019-12-04T07:24:39+00:00
+[INFO] Final Memory: 16M/249M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project sshd-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[772,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[775,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[778,50] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:sshd-core:jar:0.5.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:apache-sshd:pom:0.5.0-SNAPSHOT
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd-core ---
+[INFO] Deleting file set: /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target (included: [**], excluded: [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ sshd-core ---
+[INFO] Compiling 138 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  0.579 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  0.773 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.586 s
+[INFO] Finished at: 2019-12-04T07:24:42+00:00
+[INFO] Final Memory: 14M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project sshd-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[772,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[775,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[778,50] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:sshd-core:jar:0.5.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:apache-sshd:pom:0.5.0-SNAPSHOT
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd ---
+[INFO] Deleting file set: /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/target (included: [**], excluded: [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-install-plugin:2.2:install (default-install) @ sshd ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/pom.xml to /home/ubuntu/.m2/repository/org/apache/sshd/sshd/0.5.0-SNAPSHOT/sshd-0.5.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd-core ---
+[INFO] Deleting file set: /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target (included: [**], excluded: [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ sshd-core ---
+[INFO] Compiling 138 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  0.671 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  0.885 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.813 s
+[INFO] Finished at: 2019-12-04T07:24:45+00:00
+[INFO] Final Memory: 14M/253M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project sshd-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[772,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[775,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[778,50] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.150s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina-sshd b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:sshd-core:jar:0.5.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd-core ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ sshd-core ---
+[INFO] Compiling 138 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.557 s
+[INFO] Finished at: 2019-12-04T07:24:49+00:00
+[INFO] Final Memory: 14M/268M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project sshd-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[772,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[775,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[778,50] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:sshd-core:jar:0.5.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:apache-sshd:pom:0.5.0-SNAPSHOT
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd-core ---
+[INFO] Deleting file set: /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target (included: [**], excluded: [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ sshd-core ---
+[INFO] Compiling 138 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  0.678 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  0.774 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.718 s
+[INFO] Finished at: 2019-12-04T07:24:52+00:00
+[INFO] Final Memory: 14M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project sshd-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[772,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[775,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[778,50] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:sshd-core:jar:0.5.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:apache-sshd:pom:0.5.0-SNAPSHOT
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd ---
+[INFO] Deleting file set: /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/target (included: [**], excluded: [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-install-plugin:2.2:install (default-install) @ sshd ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/pom.xml to /home/ubuntu/.m2/repository/org/apache/sshd/sshd/0.5.0-SNAPSHOT/sshd-0.5.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd-core ---
+[INFO] Deleting file set: /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target (included: [**], excluded: [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ sshd-core ---
+[INFO] Compiling 138 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  0.668 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  0.786 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.696 s
+[INFO] Finished at: 2019-12-04T07:24:56+00:00
+[INFO] Final Memory: 14M/254M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project sshd-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[772,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[775,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[778,50] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.6s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina-sshd b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:sshd-core:jar:0.5.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd-core ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ sshd-core ---
+[INFO] Compiling 138 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.229 s
+[INFO] Finished at: 2019-12-04T07:25:00+00:00
+[INFO] Final Memory: 14M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project sshd-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[772,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[775,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[778,50] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:sshd-core:jar:0.5.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:apache-sshd:pom:0.5.0-SNAPSHOT
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd-core ---
+[INFO] Deleting file set: /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target (included: [**], excluded: [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ sshd-core ---
+[INFO] Compiling 138 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  0.758 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  1.397 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.419 s
+[INFO] Finished at: 2019-12-04T07:25:05+00:00
+[INFO] Final Memory: 14M/211M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project sshd-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[772,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[775,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[778,50] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:sshd-core:jar:0.5.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.sshd:apache-sshd:pom:0.5.0-SNAPSHOT
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd ---
+[INFO] Deleting file set: /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/target (included: [**], excluded: [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-install-plugin:2.2:install (default-install) @ sshd ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/pom.xml to /home/ubuntu/.m2/repository/org/apache/sshd/sshd/0.5.0-SNAPSHOT/sshd-0.5.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 0.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ sshd-core ---
+[INFO] Deleting file set: /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target (included: [**], excluded: [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ sshd-core ---
+[INFO] Compiling 138 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  0.984 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  1.304 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.553 s
+[INFO] Finished at: 2019-12-04T07:25:09+00:00
+[INFO] Final Memory: 15M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project sshd-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[772,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[775,50] error: ';' expected
+[ERROR] 
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9/sshd-core/src/main/java/org/apache/sshd/server/sftp/SftpSubsystem.java:[778,50] error: ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.106s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina-sshd b6d49f970b67c3282c0b0b0c26f5b887c6cf07e9:
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.215s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,289 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-helix 53c94feae1cac284b4624c39d303a8b723e42378:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Helix Modules Root
+[INFO] helix-core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Helix Modules Root 0.5.8
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building helix-core 0.5.8
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.restlet:org.restlet:jar:1.1.10 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Helix Modules Root ................................. SUCCESS [  0.307 s]
+[INFO] helix-core ......................................... FAILURE [  0.135 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.630 s
+[INFO] Finished at: 2019-12-04T07:12:19+00:00
+[INFO] Final Memory: 9M/208M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project helix-core: Could not resolve dependencies for project com.linkedin.helix:helix-core:jar:0.5.8: Failure to find org.restlet:org.restlet:jar:1.1.10 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :helix-core
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.249s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-helix 53c94feae1cac284b4624c39d303a8b723e42378:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Helix Modules Root
+[INFO] helix-core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Helix Modules Root 0.5.8
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building helix-core 0.5.8
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.restlet:org.restlet:jar:1.1.10 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Helix Modules Root ................................. SUCCESS [  0.331 s]
+[INFO] helix-core ......................................... FAILURE [  0.149 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.671 s
+[INFO] Finished at: 2019-12-04T07:12:22+00:00
+[INFO] Final Memory: 9M/208M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project helix-core: Could not resolve dependencies for project com.linkedin.helix:helix-core:jar:0.5.8: Failure to find org.restlet:org.restlet:jar:1.1.10 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :helix-core
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.442s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-helix 53c94feae1cac284b4624c39d303a8b723e42378:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Helix Modules Root
+[INFO] helix-core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Helix Modules Root 0.5.8
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building helix-core 0.5.8
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.restlet:org.restlet:jar:1.1.10 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Helix Modules Root ................................. SUCCESS [  0.505 s]
+[INFO] helix-core ......................................... FAILURE [  0.373 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.075 s
+[INFO] Finished at: 2019-12-04T07:12:26+00:00
+[INFO] Final Memory: 9M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project helix-core: Could not resolve dependencies for project com.linkedin.helix:helix-core:jar:0.5.8: Failure to find org.restlet:org.restlet:jar:1.1.10 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :helix-core
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.104s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-helix 53c94feae1cac284b4624c39d303a8b723e42378:
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.223s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

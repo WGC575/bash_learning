@@ -1,0 +1,763 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-compress cec72ce690353c90f3867191d7e657ba59ed2612:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.15-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575433719688
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+  required: java.nio.charset.Charset
+  found: java.nio.charset.Charset,boolean
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.393 s
+[INFO] Finished at: 2019-12-04T04:28:43+00:00
+[INFO] Final Memory: 23M/336M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+[ERROR] required: java.nio.charset.Charset
+[ERROR] found: java.nio.charset.Charset,boolean
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.15-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575433726818
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+  required: java.nio.charset.Charset
+  found: java.nio.charset.Charset,boolean
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.435 s
+[INFO] Finished at: 2019-12-04T04:28:50+00:00
+[INFO] Final Memory: 24M/339M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+[ERROR] required: java.nio.charset.Charset
+[ERROR] found: java.nio.charset.Charset,boolean
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.15-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575433733932
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+  required: java.nio.charset.Charset
+  found: java.nio.charset.Charset,boolean
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.469 s
+[INFO] Finished at: 2019-12-04T04:28:57+00:00
+[INFO] Final Memory: 24M/349M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+[ERROR] required: java.nio.charset.Charset
+[ERROR] found: java.nio.charset.Charset,boolean
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.284s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-compress cec72ce690353c90f3867191d7e657ba59ed2612:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.15-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575433741457
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+  required: java.nio.charset.Charset
+  found: java.nio.charset.Charset,boolean
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.157 s
+[INFO] Finished at: 2019-12-04T04:29:04+00:00
+[INFO] Final Memory: 23M/332M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+[ERROR] required: java.nio.charset.Charset
+[ERROR] found: java.nio.charset.Charset,boolean
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.15-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575433748439
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+  required: java.nio.charset.Charset
+  found: java.nio.charset.Charset,boolean
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.303 s
+[INFO] Finished at: 2019-12-04T04:29:11+00:00
+[INFO] Final Memory: 25M/349M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+[ERROR] required: java.nio.charset.Charset
+[ERROR] found: java.nio.charset.Charset,boolean
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.15-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575433755263
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+  required: java.nio.charset.Charset
+  found: java.nio.charset.Charset,boolean
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.107 s
+[INFO] Finished at: 2019-12-04T04:29:18+00:00
+[INFO] Final Memory: 24M/348M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+[ERROR] required: java.nio.charset.Charset
+[ERROR] found: java.nio.charset.Charset,boolean
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.479s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-compress cec72ce690353c90f3867191d7e657ba59ed2612:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.15-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575433764179
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+  required: java.nio.charset.Charset
+  found: java.nio.charset.Charset,boolean
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.237 s
+[INFO] Finished at: 2019-12-04T04:29:29+00:00
+[INFO] Final Memory: 27M/335M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+[ERROR] required: java.nio.charset.Charset
+[ERROR] found: java.nio.charset.Charset,boolean
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.15-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575433774707
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+  required: java.nio.charset.Charset
+  found: java.nio.charset.Charset,boolean
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.049 s
+[INFO] Finished at: 2019-12-04T04:29:40+00:00
+[INFO] Final Memory: 23M/331M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+[ERROR] required: java.nio.charset.Charset
+[ERROR] found: java.nio.charset.Charset,boolean
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.15-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575433785730
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 195 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+  required: java.nio.charset.Charset
+  found: java.nio.charset.Charset,boolean
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.255 s
+[INFO] Finished at: 2019-12-04T04:29:50+00:00
+[INFO] Final Memory: 23M/332M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/cec72ce690353c90f3867191d7e657ba59ed2612/src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java:[115,16] constructor NioZipEncoding in class org.apache.commons.compress.archivers.zip.NioZipEncoding cannot be applied to given types;
+[ERROR] required: java.nio.charset.Charset
+[ERROR] found: java.nio.charset.Charset,boolean
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.394s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-compress cec72ce690353c90f3867191d7e657ba59ed2612:
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.156s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,1844 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-phoenix b435dacb785b60b1b4a797260f1d4343033520ec:
+No local changes to save
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  0.721 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  2.566 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  1.768 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 12.368 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.773 s
+[INFO] Finished at: 2019-12-04T09:00:34+00:00
+[INFO] Final Memory: 46M/758M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  0.725 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  2.858 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  1.759 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 12.250 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.974 s
+[INFO] Finished at: 2019-12-04T09:00:53+00:00
+[INFO] Final Memory: 46M/753M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  0.760 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  2.611 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  1.601 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 11.283 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.597 s
+[INFO] Finished at: 2019-12-04T09:01:12+00:00
+[INFO] Final Memory: 46M/762M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  0.789 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  2.499 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  1.661 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 11.115 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.416 s
+[INFO] Finished at: 2019-12-04T09:01:30+00:00
+[INFO] Final Memory: 46M/758M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+(git stash; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.98.0-hadoop1) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0) || (sed -i -- 's/<hbase.version>1.0.1-SNAPSHOT<\/hbase.version>/<hbase.version>1.0.0<\/hbase.version>/g'  pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0)
+0.423s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-phoenix b435dacb785b60b1b4a797260f1d4343033520ec:
+No local changes to save
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  0.760 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  2.615 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  1.578 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 11.957 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.265 s
+[INFO] Finished at: 2019-12-04T09:01:50+00:00
+[INFO] Final Memory: 46M/761M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  0.765 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  2.649 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  1.557 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 11.193 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.543 s
+[INFO] Finished at: 2019-12-04T09:02:08+00:00
+[INFO] Final Memory: 46M/760M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  0.774 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  2.541 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  1.800 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 11.850 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.325 s
+[INFO] Finished at: 2019-12-04T09:02:27+00:00
+[INFO] Final Memory: 46M/753M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/util/ServerUtil.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  0.770 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  2.563 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  1.666 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 10.962 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.309 s
+[INFO] Finished at: 2019-12-04T09:02:45+00:00
+[INFO] Final Memory: 46M/761M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+(git stash; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.98.0-hadoop1) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0) || (sed -i -- 's/<hbase.version>1.0.1-SNAPSHOT<\/hbase.version>/<hbase.version>1.0.0<\/hbase.version>/g'  pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0)
+0.37s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-phoenix b435dacb785b60b1b4a797260f1d4343033520ec:
+No local changes to save
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/CsvBulkLoadTool.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/CsvBulkLoadTool.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.205 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  5.549 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  2.057 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 15.638 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.886 s
+[INFO] Finished at: 2019-12-04T09:03:13+00:00
+[INFO] Final Memory: 49M/683M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/CsvBulkLoadTool.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/CsvBulkLoadTool.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.142 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  5.077 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  2.126 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 15.668 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.433 s
+[INFO] Finished at: 2019-12-04T09:03:39+00:00
+[INFO] Final Memory: 47M/683M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/CsvBulkLoadTool.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/CsvBulkLoadTool.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.183 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  4.505 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  2.095 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 16.049 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.274 s
+[INFO] Finished at: 2019-12-04T09:04:06+00:00
+[INFO] Final Memory: 50M/688M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Hadoop Compatibility
+[INFO] Phoenix Hadoop2 Compatibility
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop-compat/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Hadoop2 Compatibility 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-hadoop2-compat ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-hadoop2-compat ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-hadoop2-compat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-hadoop2-compat ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/target/classes
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-hadoop2-compat/src/main/java/org/apache/phoenix/metrics/MetricsManagerImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 5.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 665 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/CsvBulkLoadTool.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/CsvBulkLoadTool.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+  symbol:   variable StatisticsCollectionScope
+  location: class org.apache.phoenix.parse.PhoenixSQLParser
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.224 s]
+[INFO] Phoenix Hadoop Compatibility ....................... SUCCESS [  4.850 s]
+[INFO] Phoenix Hadoop2 Compatibility ...................... SUCCESS [  2.174 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 16.093 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.808 s
+[INFO] Finished at: 2019-12-04T09:04:33+00:00
+[INFO] Final Memory: 47M/686M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[43,38] package org.apache.phoenix.schema.stat does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,127] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/b435dacb785b60b1b4a797260f1d4343033520ec/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java:[2867,168] cannot find symbol
+[ERROR] symbol:   variable StatisticsCollectionScope
+[ERROR] location: class org.apache.phoenix.parse.PhoenixSQLParser
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+(git stash; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.98.0-hadoop1) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0) || (sed -i -- 's/<hbase.version>1.0.1-SNAPSHOT<\/hbase.version>/<hbase.version>1.0.0<\/hbase.version>/g'  pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0)
+0.124s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-phoenix b435dacb785b60b1b4a797260f1d4343033520ec:
+No local changes to save
+(git stash; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.98.0-hadoop1) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0) || (sed -i -- 's/<hbase.version>1.0.1-SNAPSHOT<\/hbase.version>/<hbase.version>1.0.0<\/hbase.version>/g'  pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0)
+0.328s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

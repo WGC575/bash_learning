@@ -1,0 +1,445 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-net d3e2a981256ba84529c72aa5fbd3cb5936d0029b:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-net:commons-net:bundle:2.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Net 2.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-net ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-net ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-net ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-net ---
+[INFO] Compiling 153 source files to /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.130 s
+[INFO] Finished at: 2019-12-04T04:45:26+00:00
+[INFO] Final Memory: 13M/254M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-net: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPClientConfig.java:[244,19] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/util/ListenerList.java:[29,59] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/parser/VMSVersioningFTPEntryParser.java:[119,29] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ntp/TimeStamp.java:[412,47] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/tftp/TFTPServer.java:[64,16] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/smtp/SMTP.java:[105,13] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/smtp/SMTP.java:[464,25] error: enhanced for loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPFileEntryParser.java:[140,22] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/io/CopyStreamAdapter.java:[96,36] error: enhanced for loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPFileEntryParserImpl.java:[67,30] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ProtocolCommandSupport.java:[72,36] error: enhanced for loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPClient.java:[1946,17] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTP.java:[220,23] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTP.java:[654,25] error: enhanced for loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPListParseEngine.java:[76,16] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ntp/TimeInfo.java:[34,16] error: generics are not supported in -source 1.2
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true
+0.295s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-net d3e2a981256ba84529c72aa5fbd3cb5936d0029b:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-net:commons-net:bundle:2.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Net 2.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-net ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-net ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-net ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-net ---
+[INFO] Compiling 153 source files to /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.930 s
+[INFO] Finished at: 2019-12-04T04:45:30+00:00
+[INFO] Final Memory: 13M/251M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-net: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPClientConfig.java:[244,19] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/util/ListenerList.java:[29,59] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/parser/VMSVersioningFTPEntryParser.java:[119,29] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ntp/TimeStamp.java:[412,47] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/tftp/TFTPServer.java:[64,16] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/smtp/SMTP.java:[105,13] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/smtp/SMTP.java:[464,25] error: enhanced for loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPFileEntryParser.java:[140,22] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/io/CopyStreamAdapter.java:[96,36] error: enhanced for loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPFileEntryParserImpl.java:[67,30] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ProtocolCommandSupport.java:[72,36] error: enhanced for loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPClient.java:[1946,17] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTP.java:[220,23] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTP.java:[654,25] error: enhanced for loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPListParseEngine.java:[76,16] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ntp/TimeInfo.java:[34,16] error: generics are not supported in -source 1.2
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true
+0.84s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-net d3e2a981256ba84529c72aa5fbd3cb5936d0029b:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-net:commons-net:bundle:2.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Net 2.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-net ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-net ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-net ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-net ---
+[INFO] Compiling 153 source files to /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.486 s
+[INFO] Finished at: 2019-12-04T04:45:36+00:00
+[INFO] Final Memory: 14M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-net: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTP.java:[220,23] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTP.java:[654,25] error: for-each loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPListParseEngine.java:[76,16] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/io/CopyStreamAdapter.java:[96,36] error: for-each loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/tftp/TFTPServer.java:[64,16] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPFileEntryParser.java:[140,22] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPClientConfig.java:[244,19] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/parser/VMSVersioningFTPEntryParser.java:[119,29] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ntp/TimeStamp.java:[412,47] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ntp/TimeInfo.java:[34,16] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPClient.java:[1946,17] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/smtp/SMTP.java:[105,13] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/smtp/SMTP.java:[464,25] error: for-each loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/util/ListenerList.java:[29,59] error: generics are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable generics)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ProtocolCommandSupport.java:[72,36] error: for-each loops are not supported in -source 1.2
+[ERROR] 
+[ERROR] (use -source 5 or higher to enable for-each loops)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-net/download/d3e2a981256ba84529c72aa5fbd3cb5936d0029b/src/main/java/org/apache/commons/net/ftp/FTPFileEntryParserImpl.java:[67,30] error: generics are not supported in -source 1.2
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true
+0.318s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-net d3e2a981256ba84529c72aa5fbd3cb5936d0029b:
+mvn clean compile -DskipTests=true
+0.378s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

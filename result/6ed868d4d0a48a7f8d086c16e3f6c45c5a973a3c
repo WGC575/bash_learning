@@ -1,0 +1,668 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-collections 6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Collections 4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-collections4 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-collections4 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433557972
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 305 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[28,43] cannot find symbol
+  symbol:   class PredicatedNavigableSet
+  location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[31,43] cannot find symbol
+  symbol:   class TransformedNavigableSet
+  location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[34,43] cannot find symbol
+  symbol:   class UnmodifiableNavigableSet
+  location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[375,16] cannot find symbol
+  symbol:   variable UnmodifiableNavigableSet
+  location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[394,16] cannot find symbol
+  symbol:   variable PredicatedNavigableSet
+  location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[416,16] cannot find symbol
+  symbol:   variable TransformedNavigableSet
+  location: class org.apache.commons.collections4.SetUtils
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.846 s
+[INFO] Finished at: 2019-12-04T04:26:00+00:00
+[INFO] Final Memory: 22M/345M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-collections4: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[28,43] cannot find symbol
+[ERROR] symbol:   class PredicatedNavigableSet
+[ERROR] location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[31,43] cannot find symbol
+[ERROR] symbol:   class TransformedNavigableSet
+[ERROR] location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[34,43] cannot find symbol
+[ERROR] symbol:   class UnmodifiableNavigableSet
+[ERROR] location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[375,16] cannot find symbol
+[ERROR] symbol:   variable UnmodifiableNavigableSet
+[ERROR] location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[394,16] cannot find symbol
+[ERROR] symbol:   variable PredicatedNavigableSet
+[ERROR] location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[416,16] cannot find symbol
+[ERROR] symbol:   variable TransformedNavigableSet
+[ERROR] location: class org.apache.commons.collections4.SetUtils
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/build.xml
+
+init:
+     [echo] -------- commons-collections4 4.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 305 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:28: error: cannot find symbol
+    [javac] import org.apache.commons.collections4.set.PredicatedNavigableSet;
+    [javac]                                           ^
+    [javac]   symbol:   class PredicatedNavigableSet
+    [javac]   location: package org.apache.commons.collections4.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:31: error: cannot find symbol
+    [javac] import org.apache.commons.collections4.set.TransformedNavigableSet;
+    [javac]                                           ^
+    [javac]   symbol:   class TransformedNavigableSet
+    [javac]   location: package org.apache.commons.collections4.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:34: error: cannot find symbol
+    [javac] import org.apache.commons.collections4.set.UnmodifiableNavigableSet;
+    [javac]                                           ^
+    [javac]   symbol:   class UnmodifiableNavigableSet
+    [javac]   location: package org.apache.commons.collections4.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:375: error: cannot find symbol
+    [javac]         return UnmodifiableNavigableSet.unmodifiableNavigableSet(set);
+    [javac]                ^
+    [javac]   symbol:   variable UnmodifiableNavigableSet
+    [javac]   location: class SetUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:394: error: cannot find symbol
+    [javac]         return PredicatedNavigableSet.predicatedNavigableSet(set, predicate);
+    [javac]                ^
+    [javac]   symbol:   variable PredicatedNavigableSet
+    [javac]   location: class SetUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:416: error: cannot find symbol
+    [javac]         return TransformedNavigableSet.transformingNavigableSet(set, transformer);
+    [javac]                ^
+    [javac]   symbol:   variable TransformedNavigableSet
+    [javac]   location: class SetUtils
+    [javac] 6 errors
+    [javac] 1 warning
+(mvn clean compile -DskipTests) || (ant compile)
+0.343s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-collections 6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Collections 4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-collections4 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-collections4 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433568099
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 305 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[28,43] cannot find symbol
+  symbol:   class PredicatedNavigableSet
+  location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[31,43] cannot find symbol
+  symbol:   class TransformedNavigableSet
+  location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[34,43] cannot find symbol
+  symbol:   class UnmodifiableNavigableSet
+  location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[375,16] cannot find symbol
+  symbol:   variable UnmodifiableNavigableSet
+  location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[394,16] cannot find symbol
+  symbol:   variable PredicatedNavigableSet
+  location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[416,16] cannot find symbol
+  symbol:   variable TransformedNavigableSet
+  location: class org.apache.commons.collections4.SetUtils
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.739 s
+[INFO] Finished at: 2019-12-04T04:26:11+00:00
+[INFO] Final Memory: 21M/344M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-collections4: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[28,43] cannot find symbol
+[ERROR] symbol:   class PredicatedNavigableSet
+[ERROR] location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[31,43] cannot find symbol
+[ERROR] symbol:   class TransformedNavigableSet
+[ERROR] location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[34,43] cannot find symbol
+[ERROR] symbol:   class UnmodifiableNavigableSet
+[ERROR] location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[375,16] cannot find symbol
+[ERROR] symbol:   variable UnmodifiableNavigableSet
+[ERROR] location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[394,16] cannot find symbol
+[ERROR] symbol:   variable PredicatedNavigableSet
+[ERROR] location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[416,16] cannot find symbol
+[ERROR] symbol:   variable TransformedNavigableSet
+[ERROR] location: class org.apache.commons.collections4.SetUtils
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/build.xml
+
+init:
+     [echo] -------- commons-collections4 4.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 305 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:28: error: cannot find symbol
+    [javac] import org.apache.commons.collections4.set.PredicatedNavigableSet;
+    [javac]                                           ^
+    [javac]   symbol:   class PredicatedNavigableSet
+    [javac]   location: package org.apache.commons.collections4.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:31: error: cannot find symbol
+    [javac] import org.apache.commons.collections4.set.TransformedNavigableSet;
+    [javac]                                           ^
+    [javac]   symbol:   class TransformedNavigableSet
+    [javac]   location: package org.apache.commons.collections4.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:34: error: cannot find symbol
+    [javac] import org.apache.commons.collections4.set.UnmodifiableNavigableSet;
+    [javac]                                           ^
+    [javac]   symbol:   class UnmodifiableNavigableSet
+    [javac]   location: package org.apache.commons.collections4.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:375: error: cannot find symbol
+    [javac]         return UnmodifiableNavigableSet.unmodifiableNavigableSet(set);
+    [javac]                ^
+    [javac]   symbol:   variable UnmodifiableNavigableSet
+    [javac]   location: class SetUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:394: error: cannot find symbol
+    [javac]         return PredicatedNavigableSet.predicatedNavigableSet(set, predicate);
+    [javac]                ^
+    [javac]   symbol:   variable PredicatedNavigableSet
+    [javac]   location: class SetUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:416: error: cannot find symbol
+    [javac]         return TransformedNavigableSet.transformingNavigableSet(set, transformer);
+    [javac]                ^
+    [javac]   symbol:   variable TransformedNavigableSet
+    [javac]   location: class SetUtils
+    [javac] 6 errors
+    [javac] 1 warning
+(mvn clean compile -DskipTests) || (ant compile)
+0.38s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-collections 6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Collections 4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-collections4 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-collections4 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433579014
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 305 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMap.java: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMap.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/multimap/AbstractMultiValuedMap.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[28,43] cannot find symbol
+  symbol:   class PredicatedNavigableSet
+  location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[31,43] cannot find symbol
+  symbol:   class TransformedNavigableSet
+  location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[34,43] cannot find symbol
+  symbol:   class UnmodifiableNavigableSet
+  location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[375,16] cannot find symbol
+  symbol:   variable UnmodifiableNavigableSet
+  location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[394,16] cannot find symbol
+  symbol:   variable PredicatedNavigableSet
+  location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[416,16] cannot find symbol
+  symbol:   variable TransformedNavigableSet
+  location: class org.apache.commons.collections4.SetUtils
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.634 s
+[INFO] Finished at: 2019-12-04T04:26:24+00:00
+[INFO] Final Memory: 24M/334M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-collections4: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[28,43] cannot find symbol
+[ERROR] symbol:   class PredicatedNavigableSet
+[ERROR] location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[31,43] cannot find symbol
+[ERROR] symbol:   class TransformedNavigableSet
+[ERROR] location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[34,43] cannot find symbol
+[ERROR] symbol:   class UnmodifiableNavigableSet
+[ERROR] location: package org.apache.commons.collections4.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[375,16] cannot find symbol
+[ERROR] symbol:   variable UnmodifiableNavigableSet
+[ERROR] location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[394,16] cannot find symbol
+[ERROR] symbol:   variable PredicatedNavigableSet
+[ERROR] location: class org.apache.commons.collections4.SetUtils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:[416,16] cannot find symbol
+[ERROR] symbol:   variable TransformedNavigableSet
+[ERROR] location: class org.apache.commons.collections4.SetUtils
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/build.xml
+
+init:
+     [echo] -------- commons-collections4 4.1-SNAPSHOT --------
+
+compile:
+    [javac] Compiling 305 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:28: error: cannot find symbol
+    [javac] import org.apache.commons.collections4.set.PredicatedNavigableSet;
+    [javac]                                           ^
+    [javac]   symbol:   class PredicatedNavigableSet
+    [javac]   location: package org.apache.commons.collections4.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:31: error: cannot find symbol
+    [javac] import org.apache.commons.collections4.set.TransformedNavigableSet;
+    [javac]                                           ^
+    [javac]   symbol:   class TransformedNavigableSet
+    [javac]   location: package org.apache.commons.collections4.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:34: error: cannot find symbol
+    [javac] import org.apache.commons.collections4.set.UnmodifiableNavigableSet;
+    [javac]                                           ^
+    [javac]   symbol:   class UnmodifiableNavigableSet
+    [javac]   location: package org.apache.commons.collections4.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:375: error: cannot find symbol
+    [javac]         return UnmodifiableNavigableSet.unmodifiableNavigableSet(set);
+    [javac]                ^
+    [javac]   symbol:   variable UnmodifiableNavigableSet
+    [javac]   location: class SetUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:394: error: cannot find symbol
+    [javac]         return PredicatedNavigableSet.predicatedNavigableSet(set, predicate);
+    [javac]                ^
+    [javac]   symbol:   variable PredicatedNavigableSet
+    [javac]   location: class SetUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:416: error: cannot find symbol
+    [javac]         return TransformedNavigableSet.transformingNavigableSet(set, transformer);
+    [javac]                ^
+    [javac]   symbol:   variable TransformedNavigableSet
+    [javac]   location: class SetUtils
+    [javac] 6 errors
+    [javac] 1 warning
+(mvn clean compile -DskipTests) || (ant compile)
+0.352s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-collections 6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/build.xml
+
+init:
+     [echo] -------- commons-collections4 4.1-SNAPSHOT --------
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/classes
+    [javac] Compiling 305 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/MapUtils.java:974: warning: [deprecation] org.apache.commons.collections4.ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac]                                              final ArrayStack<Map<?, ?>> lineage, final boolean debug) {
+    [javac]                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:28: cannot find symbol
+    [javac] symbol  : class PredicatedNavigableSet
+    [javac] location: package org.apache.commons.collections4.set
+    [javac] import org.apache.commons.collections4.set.PredicatedNavigableSet;
+    [javac]                                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:31: cannot find symbol
+    [javac] symbol  : class TransformedNavigableSet
+    [javac] location: package org.apache.commons.collections4.set
+    [javac] import org.apache.commons.collections4.set.TransformedNavigableSet;
+    [javac]                                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:34: cannot find symbol
+    [javac] symbol  : class UnmodifiableNavigableSet
+    [javac] location: package org.apache.commons.collections4.set
+    [javac] import org.apache.commons.collections4.set.UnmodifiableNavigableSet;
+    [javac]                                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/PredicateUtils.java:258: <T>andPredicate(org.apache.commons.collections4.Predicate<? super T>,org.apache.commons.collections4.Predicate<? super T>) in org.apache.commons.collections4.functors.AndPredicate cannot be applied to (org.apache.commons.collections4.Predicate<capture#406 of ? super T>,org.apache.commons.collections4.Predicate<capture#128 of ? super T>)
+    [javac]         return AndPredicate.andPredicate(predicate1, predicate2);
+    [javac]                            ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/PredicateUtils.java:306: <T>orPredicate(org.apache.commons.collections4.Predicate<? super T>,org.apache.commons.collections4.Predicate<? super T>) in org.apache.commons.collections4.functors.OrPredicate cannot be applied to (org.apache.commons.collections4.Predicate<capture#707 of ? super T>,org.apache.commons.collections4.Predicate<capture#654 of ? super T>)
+    [javac]         return OrPredicate.orPredicate(predicate1, predicate2);
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/PredicateUtils.java:355: cannot find symbol
+    [javac] symbol  : method onePredicate(org.apache.commons.collections4.Predicate<capture#355 of ? super T>,org.apache.commons.collections4.Predicate<capture#601 of ? super T>)
+    [javac] location: class org.apache.commons.collections4.PredicateUtils
+    [javac]         final Predicate<T> onePredicate = PredicateUtils.onePredicate(predicate1, predicate2);
+    [javac]                                                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/PredicateUtils.java:405: cannot find symbol
+    [javac] symbol  : method nonePredicate(org.apache.commons.collections4.Predicate<capture#834 of ? super T>,org.apache.commons.collections4.Predicate<capture#647 of ? super T>)
+    [javac] location: class org.apache.commons.collections4.PredicateUtils
+    [javac]         final Predicate<T> nonePredicate = PredicateUtils.nonePredicate(predicate1, predicate2);
+    [javac]                                                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/PredicateUtils.java:537: <T>transformedPredicate(org.apache.commons.collections4.Transformer<? super T,? extends T>,org.apache.commons.collections4.Predicate<? super T>) in org.apache.commons.collections4.functors.TransformedPredicate cannot be applied to (org.apache.commons.collections4.Transformer<capture#151 of ? super T,capture#911 of ? extends T>,org.apache.commons.collections4.Predicate<capture#277 of ? super T>)
+    [javac]         return TransformedPredicate.transformedPredicate(transformer, predicate);
+    [javac]                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:375: cannot find symbol
+    [javac] symbol  : variable UnmodifiableNavigableSet
+    [javac] location: class org.apache.commons.collections4.SetUtils
+    [javac]         return UnmodifiableNavigableSet.unmodifiableNavigableSet(set);
+    [javac]                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:394: cannot find symbol
+    [javac] symbol  : variable PredicatedNavigableSet
+    [javac] location: class org.apache.commons.collections4.SetUtils
+    [javac]         return PredicatedNavigableSet.predicatedNavigableSet(set, predicate);
+    [javac]                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/SetUtils.java:416: cannot find symbol
+    [javac] symbol  : variable TransformedNavigableSet
+    [javac] location: class org.apache.commons.collections4.SetUtils
+    [javac]         return TransformedNavigableSet.transformingNavigableSet(set, transformer);
+    [javac]                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/TransformerUtils.java:228: cannot find symbol
+    [javac] symbol  : method ifTransformer(org.apache.commons.collections4.Predicate<capture#294 of ? super T>,org.apache.commons.collections4.Transformer<capture#540 of ? super T,capture#59 of ? extends T>)
+    [javac] location: class org.apache.commons.collections4.functors.IfTransformer
+    [javac]         return IfTransformer.ifTransformer(predicate, trueTransformer);
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/TransformerUtils.java:248: cannot find symbol
+    [javac] symbol  : method ifTransformer(org.apache.commons.collections4.Predicate<capture#241 of ? super I>,org.apache.commons.collections4.Transformer<capture#350 of ? super I,capture#56 of ? extends O>,org.apache.commons.collections4.Transformer<capture#89 of ? super I,capture#273 of ? extends O>)
+    [javac] location: class org.apache.commons.collections4.functors.IfTransformer
+    [javac]         return IfTransformer.ifTransformer(predicate, trueTransformer, falseTransformer);
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/TransformerUtils.java:292: cannot find symbol
+    [javac] symbol  : method switchTransformer(org.apache.commons.collections4.Predicate<? super I>[],org.apache.commons.collections4.Transformer<? super I,? extends O>[],<nulltype>)
+    [javac] location: class org.apache.commons.collections4.functors.SwitchTransformer
+    [javac]         return SwitchTransformer.switchTransformer(predicates, transformers, null);
+    [javac]                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/TransformerUtils.java:316: cannot find symbol
+    [javac] symbol  : method switchTransformer(org.apache.commons.collections4.Predicate<? super I>[],org.apache.commons.collections4.Transformer<? super I,? extends O>[],org.apache.commons.collections4.Transformer<capture#769 of ? super I,capture#295 of ? extends O>)
+    [javac] location: class org.apache.commons.collections4.functors.SwitchTransformer
+    [javac]         return SwitchTransformer.switchTransformer(predicates, transformers, defaultTransformer);
+    [javac]                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/TransformerUtils.java:342: cannot find symbol
+    [javac] symbol  : method switchTransformer(java.util.Map<org.apache.commons.collections4.Predicate<I>,org.apache.commons.collections4.Transformer<I,O>>)
+    [javac] location: class org.apache.commons.collections4.functors.SwitchTransformer
+    [javac]         return SwitchTransformer.switchTransformer(predicatesAndTransformers);
+    [javac]                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/6ed868d4d0a48a7f8d086c16e3f6c45c5a973a3c/src/main/java/org/apache/commons/collections4/TransformerUtils.java:378: cannot find symbol
+    [javac] symbol  : method switchTransformer(org.apache.commons.collections4.Predicate<I>[],org.apache.commons.collections4.Transformer<? super I,? extends O>[],org.apache.commons.collections4.Transformer<capture#992 of ? super I,capture#993 of ? extends O>)
+    [javac] location: class org.apache.commons.collections4.TransformerUtils
+    [javac]         return TransformerUtils.switchTransformer(preds, trs, def);
+    [javac]                                ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 17 errors
+    [javac] 1 warning
+(mvn clean compile -DskipTests) || (ant compile)
+0.186s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

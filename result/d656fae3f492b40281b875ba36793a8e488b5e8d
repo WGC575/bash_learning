@@ -1,0 +1,980 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-flume d656fae3f492b40281b875ba36793a8e488b5e8d:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG SDK
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG SDK 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-sdk ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-sdk ---
+[INFO] Compiling 17 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/target/classes
+[INFO] 
+[INFO] --- paranamer-maven-plugin:2.3:generate (run) @ flume-ng-sdk ---
+[INFO] Generating parameter names from /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/target/generated-sources/avro to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Compiling 19 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-configuration/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:exec (generate-version) @ flume-ng-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ flume-ng-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/generated-sources/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 105 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR]  class GangliaServer.GangliaCollector
+/home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.609 s]
+[INFO] Flume NG SDK ....................................... SUCCESS [  2.155 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  1.168 s]
+[INFO] Flume NG Core ...................................... FAILURE [  1.947 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.460 s
+[INFO] Finished at: 2019-12-04T06:54:03+00:00
+[INFO] Final Memory: 36M/379M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR] class GangliaServer.GangliaCollector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+No local changes to save
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-core:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-configuration:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sinks:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-node:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-dist:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-jdbc-channel:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-file-channel:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-recoverable-memory-channel:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-channels:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-thrift-source:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-avro-source:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-legacy-sources:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-clients:flume-ng-log4jappender:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-clients:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sdk:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-tests:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-parent:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ line 828, column 19
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:exec (generate-version) @ flume-ng-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ flume-ng-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/generated-sources/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 105 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR]  class GangliaServer.GangliaCollector
+/home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.607 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  0.831 s]
+[INFO] Flume NG Core ...................................... FAILURE [  2.128 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.109 s
+[INFO] Finished at: 2019-12-04T06:54:09+00:00
+[INFO] Final Memory: 26M/334M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR] class GangliaServer.GangliaCollector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.389s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-flume d656fae3f492b40281b875ba36793a8e488b5e8d:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG SDK
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG SDK 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-sdk ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-sdk ---
+[INFO] Compiling 17 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/target/classes
+[INFO] 
+[INFO] --- paranamer-maven-plugin:2.3:generate (run) @ flume-ng-sdk ---
+[INFO] Generating parameter names from /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/target/generated-sources/avro to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Compiling 19 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-configuration/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:exec (generate-version) @ flume-ng-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ flume-ng-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/generated-sources/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 105 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR]  class GangliaServer.GangliaCollector
+/home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.684 s]
+[INFO] Flume NG SDK ....................................... SUCCESS [  2.026 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  1.166 s]
+[INFO] Flume NG Core ...................................... FAILURE [  1.893 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.369 s
+[INFO] Finished at: 2019-12-04T06:54:18+00:00
+[INFO] Final Memory: 36M/384M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR] class GangliaServer.GangliaCollector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+No local changes to save
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-core:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-configuration:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sinks:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-node:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-dist:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-jdbc-channel:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-file-channel:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-recoverable-memory-channel:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-channels:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-thrift-source:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-avro-source:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-legacy-sources:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-clients:flume-ng-log4jappender:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-clients:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sdk:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-tests:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-parent:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ line 828, column 19
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:exec (generate-version) @ flume-ng-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ flume-ng-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/generated-sources/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 105 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR]  class GangliaServer.GangliaCollector
+/home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.678 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  0.915 s]
+[INFO] Flume NG Core ...................................... FAILURE [  2.046 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.144 s
+[INFO] Finished at: 2019-12-04T06:54:24+00:00
+[INFO] Final Memory: 26M/335M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR] class GangliaServer.GangliaCollector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.303s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-flume d656fae3f492b40281b875ba36793a8e488b5e8d:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG SDK
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG SDK 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-sdk ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-sdk ---
+[INFO] Compiling 17 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/target/classes
+[INFO] 
+[INFO] --- paranamer-maven-plugin:2.3:generate (run) @ flume-ng-sdk ---
+[INFO] Generating parameter names from /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/target/generated-sources/avro to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-sdk/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Compiling 19 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-configuration/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:exec (generate-version) @ flume-ng-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ flume-ng-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/generated-sources/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 105 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR]  class GangliaServer.GangliaCollector
+/home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  1.040 s]
+[INFO] Flume NG SDK ....................................... SUCCESS [  3.111 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  1.353 s]
+[INFO] Flume NG Core ...................................... FAILURE [  2.362 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.587 s
+[INFO] Finished at: 2019-12-04T06:54:35+00:00
+[INFO] Final Memory: 37M/334M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR] class GangliaServer.GangliaCollector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+No local changes to save
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-core:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-configuration:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sinks:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-node:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-dist:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-jdbc-channel:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-file-channel:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-recoverable-memory-channel:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-channels:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-thrift-source:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-avro-source:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-legacy-sources:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-clients:flume-ng-log4jappender:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-clients:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sdk:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-tests:jar:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ org.apache.flume:flume-parent:1.3.0-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/pom.xml, line 828, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-parent:pom:1.3.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.3.0-SNAPSHOT @ line 828, column 19
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:exec (generate-version) @ flume-ng-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-source) @ flume-ng-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/generated-sources/java added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 105 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR]  class GangliaServer.GangliaCollector
+/home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.891 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  1.505 s]
+[INFO] Flume NG Core ...................................... FAILURE [  2.796 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.870 s
+[INFO] Finished at: 2019-12-04T06:54:43+00:00
+[INFO] Final Memory: 25M/332M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[45,44] error: package org.apache.flume.instrumentation.util does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/GangliaServer.java:[335,16] error: cannot find symbol
+[ERROR] class GangliaServer.GangliaCollector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/d656fae3f492b40281b875ba36793a8e488b5e8d/flume-ng-core/src/main/java/org/apache/flume/instrumentation/MonitoringType.java:[28,44] error: package org.apache.flume.instrumentation.http does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.190s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-flume d656fae3f492b40281b875ba36793a8e488b5e8d:
+No local changes to save
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.399s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

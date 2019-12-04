@@ -1,0 +1,651 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-jcs cfa533f9cccde6c1fd9cc41d72ab96367c77cba9:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JCS :: Core 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-jcs-core ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (copy-notices) @ commons-jcs-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/LICENSE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF/LICENSE.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/NOTICE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF/NOTICE.txt
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/LICENSE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF/LICENSE.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/NOTICE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF/NOTICE.txt
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/apidocs/META-INF
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/NOTICE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/apidocs/META-INF/NOTICE.txt
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jcs-core ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434392482
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-resource (add-source-notices) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jcs-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/resources
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jcs-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 241 source files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[31,8] org.apache.commons.jcs.auxiliary.remote.CommonRemoteCacheAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[160,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[172,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[183,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[27,8] org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes is not abstract and does not override abstract method setFailovers(java.lang.String[]) in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[99,29] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+  return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[98,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[109,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheAttributes.java:[25,8] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+  return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java:[109,55] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerAttributes.java:[28,8] org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[143,92] incompatible types: java.lang.String[] cannot be converted to org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[308,84] incompatible types: java.lang.String[] cannot be converted to org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[199,19] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[201,18] cannot find symbol
+  symbol:   method setRemoteLocation(java.lang.String,int)
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[204,35] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/AbstractRemoteCacheListener.java:[345,46] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable irca of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[159,17] cannot find symbol
+  symbol:   method setRemotePort(int)
+  location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[160,17] cannot find symbol
+  symbol:   method setRemoteHost(java.lang.String)
+  location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[189,44] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[191,56] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.121 s
+[INFO] Finished at: 2019-12-04T04:39:55+00:00
+[INFO] Final Memory: 25M/334M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jcs-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[31,8] org.apache.commons.jcs.auxiliary.remote.CommonRemoteCacheAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[160,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[172,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[183,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[27,8] org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes is not abstract and does not override abstract method setFailovers(java.lang.String[]) in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[99,29] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[98,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[109,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheAttributes.java:[25,8] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java:[109,55] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerAttributes.java:[28,8] org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[143,92] incompatible types: java.lang.String[] cannot be converted to org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[308,84] incompatible types: java.lang.String[] cannot be converted to org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[199,19] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[201,18] cannot find symbol
+[ERROR] symbol:   method setRemoteLocation(java.lang.String,int)
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[204,35] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/AbstractRemoteCacheListener.java:[345,46] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable irca of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[159,17] cannot find symbol
+[ERROR] symbol:   method setRemotePort(int)
+[ERROR] location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[160,17] cannot find symbol
+[ERROR] symbol:   method setRemoteHost(java.lang.String)
+[ERROR] location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[189,44] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[191,56] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.117s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-jcs cfa533f9cccde6c1fd9cc41d72ab96367c77cba9:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JCS :: Core 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-jcs-core ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (copy-notices) @ commons-jcs-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/LICENSE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF/LICENSE.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/NOTICE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF/NOTICE.txt
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/LICENSE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF/LICENSE.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/NOTICE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF/NOTICE.txt
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/apidocs/META-INF
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/NOTICE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/apidocs/META-INF/NOTICE.txt
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jcs-core ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434399449
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-resource (add-source-notices) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jcs-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/resources
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jcs-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 241 source files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[31,8] org.apache.commons.jcs.auxiliary.remote.CommonRemoteCacheAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[160,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[172,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[183,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[27,8] org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes is not abstract and does not override abstract method setFailovers(java.lang.String[]) in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[99,29] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+  return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[98,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[109,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheAttributes.java:[25,8] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+  return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java:[109,55] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerAttributes.java:[28,8] org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[143,92] incompatible types: java.lang.String[] cannot be converted to org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[308,84] incompatible types: java.lang.String[] cannot be converted to org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[199,19] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[201,18] cannot find symbol
+  symbol:   method setRemoteLocation(java.lang.String,int)
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[204,35] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/AbstractRemoteCacheListener.java:[345,46] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable irca of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[159,17] cannot find symbol
+  symbol:   method setRemotePort(int)
+  location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[160,17] cannot find symbol
+  symbol:   method setRemoteHost(java.lang.String)
+  location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[189,44] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[191,56] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.091 s
+[INFO] Finished at: 2019-12-04T04:40:02+00:00
+[INFO] Final Memory: 24M/324M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jcs-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[31,8] org.apache.commons.jcs.auxiliary.remote.CommonRemoteCacheAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[160,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[172,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[183,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[27,8] org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes is not abstract and does not override abstract method setFailovers(java.lang.String[]) in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[99,29] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[98,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[109,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheAttributes.java:[25,8] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java:[109,55] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerAttributes.java:[28,8] org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[143,92] incompatible types: java.lang.String[] cannot be converted to org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[308,84] incompatible types: java.lang.String[] cannot be converted to org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[199,19] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[201,18] cannot find symbol
+[ERROR] symbol:   method setRemoteLocation(java.lang.String,int)
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[204,35] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/AbstractRemoteCacheListener.java:[345,46] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable irca of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[159,17] cannot find symbol
+[ERROR] symbol:   method setRemotePort(int)
+[ERROR] location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[160,17] cannot find symbol
+[ERROR] symbol:   method setRemoteHost(java.lang.String)
+[ERROR] location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[189,44] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[191,56] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.227s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-jcs cfa533f9cccde6c1fd9cc41d72ab96367c77cba9:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JCS :: Core 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-jcs-core ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (copy-notices) @ commons-jcs-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/LICENSE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF/LICENSE.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/NOTICE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-resources/notices/META-INF/NOTICE.txt
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/LICENSE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF/LICENSE.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/NOTICE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/generated-test-resources/notices/META-INF/NOTICE.txt
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/apidocs/META-INF
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/NOTICE.txt to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/apidocs/META-INF/NOTICE.txt
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jcs-core ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434408000
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-resource (add-source-notices) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jcs-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/resources
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jcs-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 241 source files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[31,8] org.apache.commons.jcs.auxiliary.remote.CommonRemoteCacheAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[160,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[172,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[183,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[27,8] org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes is not abstract and does not override abstract method setFailovers(java.lang.String[]) in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[99,29] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+  return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[98,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[109,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheAttributes.java:[25,8] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+  return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java:[109,55] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/AbstractRemoteCacheListener.java:[345,46] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable irca of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[189,44] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[191,56] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[143,92] incompatible types
+  required: org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+  found:    java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[308,84] incompatible types
+  required: org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+  found:    java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerAttributes.java:[28,8] org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[199,19] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[201,18] cannot find symbol
+  symbol:   method setRemoteLocation(java.lang.String,int)
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[204,35] cannot find symbol
+  symbol:   method getRemoteLocation()
+  location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[159,17] cannot find symbol
+  symbol:   method setRemotePort(int)
+  location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[160,17] cannot find symbol
+  symbol:   method setRemoteHost(java.lang.String)
+  location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.745 s
+[INFO] Finished at: 2019-12-04T04:40:12+00:00
+[INFO] Final Memory: 24M/325M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jcs-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[31,8] org.apache.commons.jcs.auxiliary.remote.CommonRemoteCacheAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[160,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[172,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java:[183,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[27,8] org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes is not abstract and does not override abstract method setFailovers(java.lang.String[]) in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[99,29] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[98,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java:[109,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheAttributes.java:[25,8] getFailovers() in org.apache.commons.jcs.auxiliary.remote.RemoteCacheAttributes cannot implement getFailovers() in org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] return type org.apache.commons.jcs.auxiliary.remote.RemoteLocation[] is not compatible with java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java:[109,55] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/AbstractRemoteCacheListener.java:[345,46] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable irca of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[189,44] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java:[191,56] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: interface org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[143,92] incompatible types
+[ERROR] required: org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] found:    java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java:[308,84] incompatible types
+[ERROR] required: org.apache.commons.jcs.auxiliary.remote.RemoteLocation[]
+[ERROR] found:    java.lang.String[]
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerAttributes.java:[28,8] org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes is not abstract and does not override abstract method setRemotePort(int) in org.apache.commons.jcs.auxiliary.remote.behavior.ICommonRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[199,19] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[201,18] cannot find symbol
+[ERROR] symbol:   method setRemoteLocation(java.lang.String,int)
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java:[204,35] cannot find symbol
+[ERROR] symbol:   method getRemoteLocation()
+[ERROR] location: variable cattr of type org.apache.commons.jcs.auxiliary.remote.behavior.IRemoteCacheAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[159,17] cannot find symbol
+[ERROR] symbol:   method setRemotePort(int)
+[ERROR] location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/cfa533f9cccde6c1fd9cc41d72ab96367c77cba9/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java:[160,17] cannot find symbol
+[ERROR] symbol:   method setRemoteHost(java.lang.String)
+[ERROR] location: variable rcsa of type org.apache.commons.jcs.auxiliary.remote.server.RemoteCacheServerAttributes
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.293s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-jcs cfa533f9cccde6c1fd9cc41d72ab96367c77cba9:
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.259s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

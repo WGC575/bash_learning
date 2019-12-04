@@ -1,0 +1,758 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-giraph f5b685efa09b539b1f95925405723f7ac7b1dcea:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Giraph Parent
+[INFO] Apache Giraph Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Parent 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (default) @ giraph-parent ---
+[INFO] 
+[INFO] --- maven-dependency-versions-check-plugin:2.0.2:check (default) @ giraph-parent ---
+[INFO] Checking dependency versions
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ giraph-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Core 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (default) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-dependency-versions-check-plugin:2.0.2:check (default) @ giraph-core ---
+[INFO] Checking dependency versions
+[INFO] 
+[INFO] --- munge-maven-plugin:1.0:munge (munge) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ giraph-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ giraph-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 965 source files to /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING]   symbol:   method resetBytesReceivedPerSuperstep()
+  location: variable workerServer of type WorkerServer<I,V,E>
+  where I,V,E are type-variables:
+    I extends WritableComparable declared in class BspServiceWorker
+    V extends Writable declared in class BspServiceWorker
+    E extends Writable declared in class BspServiceWorker
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeArrayReads.java:[39,31] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeArrayReads.java:[42,28] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeArrayReads.java:[44,24] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING]   symbol: class ProgressCounter
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[43,28] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[45,24] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[58,31] Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 6 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[78,35] error: cannot find symbol
+[ERROR]   symbol:   class MemoryEstimatorOracle
+  location: package org.apache.giraph.ooc.policy
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[25,29] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: package org.apache.giraph.comm
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/WorkerServer.java:[38,12] error: cannot find symbol
+[ERROR]   symbol: class NetworkMetrics
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[154,16] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: class OutOfCoreEngine
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[165,25] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: class OutOfCoreEngine
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[551,9] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: class OutOfCoreEngine
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[30,30] error: cannot find symbol
+[ERROR]   symbol:   class ProgressCounter
+  location: package org.apache.giraph.utils
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[32,30] error: cannot find symbol
+[ERROR]   symbol:   class ThreadLocalProgressCounter
+  location: package org.apache.giraph.utils
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[66,22] error: cannot find symbol
+[ERROR]   symbol:   class ThreadLocalProgressCounter
+  location: class AbstractEdgeStore<I,V,E,K,Et>
+  where I,V,E,K,Et are type-variables:
+    I extends WritableComparable declared in class AbstractEdgeStore
+    V extends Writable declared in class AbstractEdgeStore
+    E extends Writable declared in class AbstractEdgeStore
+    K extends Object declared in class AbstractEdgeStore
+    Et extends Object declared in class AbstractEdgeStore
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[989,10] error: cannot find symbol
+[ERROR]   symbol:   class MemoryEstimatorOracle
+  location: interface GiraphConstants
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/worker/BspServiceWorker.java:[717,16] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[67,8] error: cannot find symbol
+[ERROR]   symbol:   class ThreadLocalProgressCounter
+  location: class AbstractEdgeStore<I,V,E,K,Et>
+  where I,V,E,K,Et are type-variables:
+    I extends WritableComparable declared in class AbstractEdgeStore
+    V extends Writable declared in class AbstractEdgeStore
+    E extends Writable declared in class AbstractEdgeStore
+    K extends Object declared in class AbstractEdgeStore
+    Et extends Object declared in class AbstractEdgeStore
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[288,12] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[115,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[120,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[125,2] error: method does not override or implement a method from a supertype
+[INFO] 16 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Giraph Parent ............................... SUCCESS [  1.885 s]
+[INFO] Apache Giraph Core ................................. FAILURE [  8.308 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.664 s
+[INFO] Finished at: 2019-12-04T06:55:26+00:00
+[INFO] Final Memory: 30M/493M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project giraph-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[78,35] error: cannot find symbol
+[ERROR] symbol:   class MemoryEstimatorOracle
+[ERROR] location: package org.apache.giraph.ooc.policy
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[25,29] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: package org.apache.giraph.comm
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/WorkerServer.java:[38,12] error: cannot find symbol
+[ERROR] symbol: class NetworkMetrics
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[154,16] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: class OutOfCoreEngine
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[165,25] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: class OutOfCoreEngine
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[551,9] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: class OutOfCoreEngine
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[30,30] error: cannot find symbol
+[ERROR] symbol:   class ProgressCounter
+[ERROR] location: package org.apache.giraph.utils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[32,30] error: cannot find symbol
+[ERROR] symbol:   class ThreadLocalProgressCounter
+[ERROR] location: package org.apache.giraph.utils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[66,22] error: cannot find symbol
+[ERROR] symbol:   class ThreadLocalProgressCounter
+[ERROR] location: class AbstractEdgeStore<I,V,E,K,Et>
+[ERROR] where I,V,E,K,Et are type-variables:
+[ERROR] I extends WritableComparable declared in class AbstractEdgeStore
+[ERROR] V extends Writable declared in class AbstractEdgeStore
+[ERROR] E extends Writable declared in class AbstractEdgeStore
+[ERROR] K extends Object declared in class AbstractEdgeStore
+[ERROR] Et extends Object declared in class AbstractEdgeStore
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[989,10] error: cannot find symbol
+[ERROR] symbol:   class MemoryEstimatorOracle
+[ERROR] location: interface GiraphConstants
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/worker/BspServiceWorker.java:[717,16] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[67,8] error: cannot find symbol
+[ERROR] symbol:   class ThreadLocalProgressCounter
+[ERROR] location: class AbstractEdgeStore<I,V,E,K,Et>
+[ERROR] where I,V,E,K,Et are type-variables:
+[ERROR] I extends WritableComparable declared in class AbstractEdgeStore
+[ERROR] V extends Writable declared in class AbstractEdgeStore
+[ERROR] E extends Writable declared in class AbstractEdgeStore
+[ERROR] K extends Object declared in class AbstractEdgeStore
+[ERROR] Et extends Object declared in class AbstractEdgeStore
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[288,12] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[115,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[120,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[125,2] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :giraph-core
+mvn clean compile -DskipTests -pl giraph-core -am
+0.133s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-giraph f5b685efa09b539b1f95925405723f7ac7b1dcea:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Giraph Parent
+[INFO] Apache Giraph Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Parent 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (default) @ giraph-parent ---
+[INFO] 
+[INFO] --- maven-dependency-versions-check-plugin:2.0.2:check (default) @ giraph-parent ---
+[INFO] Checking dependency versions
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ giraph-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Core 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (default) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-dependency-versions-check-plugin:2.0.2:check (default) @ giraph-core ---
+[INFO] Checking dependency versions
+[INFO] 
+[INFO] --- munge-maven-plugin:1.0:munge (munge) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ giraph-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ giraph-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 965 source files to /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING]   symbol:   method resetBytesReceivedPerSuperstep()
+  location: variable workerServer of type WorkerServer<I,V,E>
+  where I,V,E are type-variables:
+    I extends WritableComparable declared in class BspServiceWorker
+    V extends Writable declared in class BspServiceWorker
+    E extends Writable declared in class BspServiceWorker
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeArrayReads.java:[39,31] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeArrayReads.java:[42,28] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeArrayReads.java:[44,24] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING]   symbol: class ProgressCounter
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[43,28] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[45,24] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[58,31] Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 6 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[78,35] error: cannot find symbol
+[ERROR]   symbol:   class MemoryEstimatorOracle
+  location: package org.apache.giraph.ooc.policy
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[25,29] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: package org.apache.giraph.comm
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/WorkerServer.java:[38,12] error: cannot find symbol
+[ERROR]   symbol: class NetworkMetrics
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[154,16] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: class OutOfCoreEngine
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[165,25] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: class OutOfCoreEngine
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[551,9] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: class OutOfCoreEngine
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[30,30] error: cannot find symbol
+[ERROR]   symbol:   class ProgressCounter
+  location: package org.apache.giraph.utils
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[32,30] error: cannot find symbol
+[ERROR]   symbol:   class ThreadLocalProgressCounter
+  location: package org.apache.giraph.utils
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[66,22] error: cannot find symbol
+[ERROR]   symbol:   class ThreadLocalProgressCounter
+  location: class AbstractEdgeStore<I,V,E,K,Et>
+  where I,V,E,K,Et are type-variables:
+    I extends WritableComparable declared in class AbstractEdgeStore
+    V extends Writable declared in class AbstractEdgeStore
+    E extends Writable declared in class AbstractEdgeStore
+    K extends Object declared in class AbstractEdgeStore
+    Et extends Object declared in class AbstractEdgeStore
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[989,10] error: cannot find symbol
+[ERROR]   symbol:   class MemoryEstimatorOracle
+  location: interface GiraphConstants
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/worker/BspServiceWorker.java:[717,16] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[67,8] error: cannot find symbol
+[ERROR]   symbol:   class ThreadLocalProgressCounter
+  location: class AbstractEdgeStore<I,V,E,K,Et>
+  where I,V,E,K,Et are type-variables:
+    I extends WritableComparable declared in class AbstractEdgeStore
+    V extends Writable declared in class AbstractEdgeStore
+    E extends Writable declared in class AbstractEdgeStore
+    K extends Object declared in class AbstractEdgeStore
+    Et extends Object declared in class AbstractEdgeStore
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[288,12] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[115,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[120,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[125,2] error: method does not override or implement a method from a supertype
+[INFO] 16 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Giraph Parent ............................... SUCCESS [  1.843 s]
+[INFO] Apache Giraph Core ................................. FAILURE [  7.750 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.085 s
+[INFO] Finished at: 2019-12-04T06:55:38+00:00
+[INFO] Final Memory: 31M/541M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project giraph-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[78,35] error: cannot find symbol
+[ERROR] symbol:   class MemoryEstimatorOracle
+[ERROR] location: package org.apache.giraph.ooc.policy
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[25,29] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: package org.apache.giraph.comm
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/WorkerServer.java:[38,12] error: cannot find symbol
+[ERROR] symbol: class NetworkMetrics
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[154,16] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: class OutOfCoreEngine
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[165,25] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: class OutOfCoreEngine
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[551,9] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: class OutOfCoreEngine
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[30,30] error: cannot find symbol
+[ERROR] symbol:   class ProgressCounter
+[ERROR] location: package org.apache.giraph.utils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[32,30] error: cannot find symbol
+[ERROR] symbol:   class ThreadLocalProgressCounter
+[ERROR] location: package org.apache.giraph.utils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[66,22] error: cannot find symbol
+[ERROR] symbol:   class ThreadLocalProgressCounter
+[ERROR] location: class AbstractEdgeStore<I,V,E,K,Et>
+[ERROR] where I,V,E,K,Et are type-variables:
+[ERROR] I extends WritableComparable declared in class AbstractEdgeStore
+[ERROR] V extends Writable declared in class AbstractEdgeStore
+[ERROR] E extends Writable declared in class AbstractEdgeStore
+[ERROR] K extends Object declared in class AbstractEdgeStore
+[ERROR] Et extends Object declared in class AbstractEdgeStore
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[989,10] error: cannot find symbol
+[ERROR] symbol:   class MemoryEstimatorOracle
+[ERROR] location: interface GiraphConstants
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/worker/BspServiceWorker.java:[717,16] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[67,8] error: cannot find symbol
+[ERROR] symbol:   class ThreadLocalProgressCounter
+[ERROR] location: class AbstractEdgeStore<I,V,E,K,Et>
+[ERROR] where I,V,E,K,Et are type-variables:
+[ERROR] I extends WritableComparable declared in class AbstractEdgeStore
+[ERROR] V extends Writable declared in class AbstractEdgeStore
+[ERROR] E extends Writable declared in class AbstractEdgeStore
+[ERROR] K extends Object declared in class AbstractEdgeStore
+[ERROR] Et extends Object declared in class AbstractEdgeStore
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[288,12] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[115,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[120,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[125,2] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :giraph-core
+mvn clean compile -DskipTests -pl giraph-core -am
+0.100s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-giraph f5b685efa09b539b1f95925405723f7ac7b1dcea:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Giraph Parent
+[INFO] Apache Giraph Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Parent 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (default) @ giraph-parent ---
+[INFO] 
+[INFO] --- maven-dependency-versions-check-plugin:2.0.2:check (default) @ giraph-parent ---
+[INFO] Checking dependency versions
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ giraph-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Core 1.3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (default) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-dependency-versions-check-plugin:2.0.2:check (default) @ giraph-core ---
+[INFO] Checking dependency versions
+[INFO] 
+[INFO] --- munge-maven-plugin:1.0:munge (munge) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ giraph-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ giraph-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 965 source files to /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING]   symbol:   method resetBytesReceivedPerSuperstep()
+  location: variable workerServer of type WorkerServer<I,V,E>
+  where I,V,E are type-variables:
+    I extends WritableComparable declared in class BspServiceWorker
+    V extends Writable declared in class BspServiceWorker
+    E extends Writable declared in class BspServiceWorker
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[43,28] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[45,24] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[58,31] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeArrayReads.java:[39,31] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeArrayReads.java:[42,28] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeArrayReads.java:[44,24] Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 6 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[78,35] error: cannot find symbol
+[ERROR]   symbol:   class MemoryEstimatorOracle
+  location: package org.apache.giraph.ooc.policy
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[25,29] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: package org.apache.giraph.comm
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/WorkerServer.java:[38,12] error: cannot find symbol
+[ERROR]   symbol: class NetworkMetrics
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[154,16] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: class OutOfCoreEngine
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[165,25] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: class OutOfCoreEngine
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[551,9] error: cannot find symbol
+[ERROR]   symbol:   class NetworkMetrics
+  location: class OutOfCoreEngine
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[30,30] error: cannot find symbol
+[ERROR]   symbol:   class ProgressCounter
+  location: package org.apache.giraph.utils
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[32,30] error: cannot find symbol
+[ERROR]   symbol:   class ThreadLocalProgressCounter
+  location: package org.apache.giraph.utils
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[66,22] error: cannot find symbol
+[ERROR]   symbol:   class ThreadLocalProgressCounter
+  location: class AbstractEdgeStore<I,V,E,K,Et>
+  where I,V,E,K,Et are type-variables:
+    I extends WritableComparable declared in class AbstractEdgeStore
+    V extends Writable declared in class AbstractEdgeStore
+    E extends Writable declared in class AbstractEdgeStore
+    K extends Object declared in class AbstractEdgeStore
+    Et extends Object declared in class AbstractEdgeStore
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[989,10] error: cannot find symbol
+[ERROR]   symbol:   class MemoryEstimatorOracle
+  location: interface GiraphConstants
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/worker/BspServiceWorker.java:[717,16] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[67,8] error: cannot find symbol
+[ERROR]   symbol:   class ThreadLocalProgressCounter
+  location: class AbstractEdgeStore<I,V,E,K,Et>
+  where I,V,E,K,Et are type-variables:
+    I extends WritableComparable declared in class AbstractEdgeStore
+    V extends Writable declared in class AbstractEdgeStore
+    E extends Writable declared in class AbstractEdgeStore
+    K extends Object declared in class AbstractEdgeStore
+    Et extends Object declared in class AbstractEdgeStore
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[288,12] error: cannot find symbol
+[ERROR]   symbol: class ProgressCounter
+/home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[115,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[120,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[125,2] error: method does not override or implement a method from a supertype
+[INFO] 16 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Giraph Parent ............................... SUCCESS [  3.377 s]
+[INFO] Apache Giraph Core ................................. FAILURE [ 12.738 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.839 s
+[INFO] Finished at: 2019-12-04T06:55:57+00:00
+[INFO] Final Memory: 34M/706M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project giraph-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[78,35] error: cannot find symbol
+[ERROR] symbol:   class MemoryEstimatorOracle
+[ERROR] location: package org.apache.giraph.ooc.policy
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[25,29] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: package org.apache.giraph.comm
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/WorkerServer.java:[38,12] error: cannot find symbol
+[ERROR] symbol: class NetworkMetrics
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[154,16] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: class OutOfCoreEngine
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[165,25] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: class OutOfCoreEngine
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/ooc/OutOfCoreEngine.java:[551,9] error: cannot find symbol
+[ERROR] symbol:   class NetworkMetrics
+[ERROR] location: class OutOfCoreEngine
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[30,30] error: cannot find symbol
+[ERROR] symbol:   class ProgressCounter
+[ERROR] location: package org.apache.giraph.utils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[32,30] error: cannot find symbol
+[ERROR] symbol:   class ThreadLocalProgressCounter
+[ERROR] location: package org.apache.giraph.utils
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[66,22] error: cannot find symbol
+[ERROR] symbol:   class ThreadLocalProgressCounter
+[ERROR] location: class AbstractEdgeStore<I,V,E,K,Et>
+[ERROR] where I,V,E,K,Et are type-variables:
+[ERROR] I extends WritableComparable declared in class AbstractEdgeStore
+[ERROR] V extends Writable declared in class AbstractEdgeStore
+[ERROR] E extends Writable declared in class AbstractEdgeStore
+[ERROR] K extends Object declared in class AbstractEdgeStore
+[ERROR] Et extends Object declared in class AbstractEdgeStore
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/conf/GiraphConstants.java:[989,10] error: cannot find symbol
+[ERROR] symbol:   class MemoryEstimatorOracle
+[ERROR] location: interface GiraphConstants
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/worker/BspServiceWorker.java:[717,16] error: cannot find symbol
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[67,8] error: cannot find symbol
+[ERROR] symbol:   class ThreadLocalProgressCounter
+[ERROR] location: class AbstractEdgeStore<I,V,E,K,Et>
+[ERROR] where I,V,E,K,Et are type-variables:
+[ERROR] I extends WritableComparable declared in class AbstractEdgeStore
+[ERROR] V extends Writable declared in class AbstractEdgeStore
+[ERROR] E extends Writable declared in class AbstractEdgeStore
+[ERROR] K extends Object declared in class AbstractEdgeStore
+[ERROR] Et extends Object declared in class AbstractEdgeStore
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/edge/AbstractEdgeStore.java:[288,12] error: cannot find symbol
+[ERROR] symbol: class ProgressCounter
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[115,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[120,2] error: method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/f5b685efa09b539b1f95925405723f7ac7b1dcea/giraph-core/target/munged/main/org/apache/giraph/comm/netty/NettyWorkerServer.java:[125,2] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :giraph-core
+mvn clean compile -DskipTests -pl giraph-core -am
+0.18s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-giraph f5b685efa09b539b1f95925405723f7ac7b1dcea:
+mvn clean compile -DskipTests -pl giraph-core -am
+0.132s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

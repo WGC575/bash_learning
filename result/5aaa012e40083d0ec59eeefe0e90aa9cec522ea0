@@ -1,0 +1,505 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-configuration 5aaa012e40083d0ec59eeefe0e90aa9cec522ea0:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Configuration 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-configuration ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ commons-configuration ---
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-configuration ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-configuration ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434108869
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-configuration ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-configuration ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 236 source files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java uses or overrides a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/ConfigurationConverter.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/ConfigurationConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1287,19] cannot find symbol
+  symbol:   method addBuilderListener(<anonymous org.apache.commons.configuration.builder.BuilderListener>)
+  location: variable defBuilder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.HierarchicalConfiguration<?>>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1440,18] cannot find symbol
+  symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable b of type org.apache.commons.configuration.builder.ConfigurationBuilder<?>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1531,20] cannot find symbol
+  symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[155,20] org.apache.commons.configuration.builder.combined.MultiFileConfigurationBuilderProvider.WrapperBuilder is not abstract and does not override abstract method <T>removeEventListener(org.apache.commons.configuration.event.EventType<T>,org.apache.commons.configuration.event.EventListener<? super T>) in org.apache.commons.configuration.builder.ConfigurationBuilder
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[183,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[186,20] cannot find symbol
+  symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[189,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[192,20] cannot find symbol
+  symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.152 s
+[INFO] Finished at: 2019-12-04T04:35:11+00:00
+[INFO] Final Memory: 23M/352M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project commons-configuration: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1287,19] cannot find symbol
+[ERROR] symbol:   method addBuilderListener(<anonymous org.apache.commons.configuration.builder.BuilderListener>)
+[ERROR] location: variable defBuilder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.HierarchicalConfiguration<?>>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1440,18] cannot find symbol
+[ERROR] symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable b of type org.apache.commons.configuration.builder.ConfigurationBuilder<?>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1531,20] cannot find symbol
+[ERROR] symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[155,20] org.apache.commons.configuration.builder.combined.MultiFileConfigurationBuilderProvider.WrapperBuilder is not abstract and does not override abstract method <T>removeEventListener(org.apache.commons.configuration.event.EventType<T>,org.apache.commons.configuration.event.EventListener<? super T>) in org.apache.commons.configuration.builder.ConfigurationBuilder
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[183,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[186,20] cannot find symbol
+[ERROR] symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[189,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[192,20] cannot find symbol
+[ERROR] symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests
+0.119s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-configuration 5aaa012e40083d0ec59eeefe0e90aa9cec522ea0:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Configuration 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-configuration ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ commons-configuration ---
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-configuration ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-configuration ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434115859
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-configuration ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-configuration ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 236 source files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java uses or overrides a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/ConfigurationConverter.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/ConfigurationConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1287,19] cannot find symbol
+  symbol:   method addBuilderListener(<anonymous org.apache.commons.configuration.builder.BuilderListener>)
+  location: variable defBuilder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.HierarchicalConfiguration<?>>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1440,18] cannot find symbol
+  symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable b of type org.apache.commons.configuration.builder.ConfigurationBuilder<?>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1531,20] cannot find symbol
+  symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[155,20] org.apache.commons.configuration.builder.combined.MultiFileConfigurationBuilderProvider.WrapperBuilder is not abstract and does not override abstract method <T>removeEventListener(org.apache.commons.configuration.event.EventType<T>,org.apache.commons.configuration.event.EventListener<? super T>) in org.apache.commons.configuration.builder.ConfigurationBuilder
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[183,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[186,20] cannot find symbol
+  symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[189,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[192,20] cannot find symbol
+  symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.070 s
+[INFO] Finished at: 2019-12-04T04:35:18+00:00
+[INFO] Final Memory: 24M/369M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project commons-configuration: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1287,19] cannot find symbol
+[ERROR] symbol:   method addBuilderListener(<anonymous org.apache.commons.configuration.builder.BuilderListener>)
+[ERROR] location: variable defBuilder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.HierarchicalConfiguration<?>>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1440,18] cannot find symbol
+[ERROR] symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable b of type org.apache.commons.configuration.builder.ConfigurationBuilder<?>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1531,20] cannot find symbol
+[ERROR] symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[155,20] org.apache.commons.configuration.builder.combined.MultiFileConfigurationBuilderProvider.WrapperBuilder is not abstract and does not override abstract method <T>removeEventListener(org.apache.commons.configuration.event.EventType<T>,org.apache.commons.configuration.event.EventListener<? super T>) in org.apache.commons.configuration.builder.ConfigurationBuilder
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[183,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[186,20] cannot find symbol
+[ERROR] symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[189,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[192,20] cannot find symbol
+[ERROR] symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests
+0.255s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-configuration 5aaa012e40083d0ec59eeefe0e90aa9cec522ea0:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Configuration 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-configuration ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ commons-configuration ---
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-configuration ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-configuration ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434124238
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-configuration ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-configuration ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 236 source files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java uses or overrides a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/event/EventListenerList.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/event/EventListenerList.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1287,19] cannot find symbol
+  symbol:   method addBuilderListener(<anonymous org.apache.commons.configuration.builder.BuilderListener>)
+  location: variable defBuilder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.HierarchicalConfiguration<?>>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1440,18] cannot find symbol
+  symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable b of type org.apache.commons.configuration.builder.ConfigurationBuilder<?>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1531,20] cannot find symbol
+  symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[155,20] org.apache.commons.configuration.builder.combined.MultiFileConfigurationBuilderProvider.WrapperBuilder is not abstract and does not override abstract method <T>removeEventListener(org.apache.commons.configuration.event.EventType<T>,org.apache.commons.configuration.event.EventListener<? super T>) in org.apache.commons.configuration.builder.ConfigurationBuilder
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[186,20] cannot find symbol
+  symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[183,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[192,20] cannot find symbol
+  symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+  location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[189,9] method does not override or implement a method from a supertype
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.984 s
+[INFO] Finished at: 2019-12-04T04:35:29+00:00
+[INFO] Final Memory: 23M/333M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project commons-configuration: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1287,19] cannot find symbol
+[ERROR] symbol:   method addBuilderListener(<anonymous org.apache.commons.configuration.builder.BuilderListener>)
+[ERROR] location: variable defBuilder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.HierarchicalConfiguration<?>>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1440,18] cannot find symbol
+[ERROR] symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable b of type org.apache.commons.configuration.builder.ConfigurationBuilder<?>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/CombinedConfigurationBuilder.java:[1531,20] cannot find symbol
+[ERROR] symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[155,20] org.apache.commons.configuration.builder.combined.MultiFileConfigurationBuilderProvider.WrapperBuilder is not abstract and does not override abstract method <T>removeEventListener(org.apache.commons.configuration.event.EventType<T>,org.apache.commons.configuration.event.EventListener<? super T>) in org.apache.commons.configuration.builder.ConfigurationBuilder
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[186,20] cannot find symbol
+[ERROR] symbol:   method addBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[183,9] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[192,20] cannot find symbol
+[ERROR] symbol:   method removeBuilderListener(org.apache.commons.configuration.builder.BuilderListener)
+[ERROR] location: variable builder of type org.apache.commons.configuration.builder.ConfigurationBuilder<? extends org.apache.commons.configuration.Configuration>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/5aaa012e40083d0ec59eeefe0e90aa9cec522ea0/src/main/java/org/apache/commons/configuration/builder/combined/MultiFileConfigurationBuilderProvider.java:[189,9] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests
+0.398s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-configuration 5aaa012e40083d0ec59eeefe0e90aa9cec522ea0:
+mvn clean compile -DskipTests
+0.401s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

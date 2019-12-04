@@ -1,0 +1,382 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-cxf-fediz 5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.275s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-cxf-fediz 5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.237s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-cxf-fediz 5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.cxf.fediz:plugin:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml) has 1 error
+[ERROR]     Child module /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/jetty of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a/plugins/pom.xml does not exist
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.87s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-cxf-fediz 5cb6bbc15a37e7e2c8164ce2ecfd622e89f29c9a:
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.391s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

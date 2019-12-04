@@ -1,0 +1,1616 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-hama c58145626e34f4b36789f12872d5e3ce87dd3359:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.649 s]
+[INFO] core ............................................... FAILURE [  4.047 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.169 s
+[INFO] Finished at: 2019-12-04T07:02:03+00:00
+[INFO] Final Memory: 28M/340M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.745 s]
+[INFO] core ............................................... FAILURE [  4.077 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.249 s
+[INFO] Finished at: 2019-12-04T07:02:10+00:00
+[INFO] Final Memory: 28M/345M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop1" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.8:check (default) @ hama-parent ---
+[INFO] Exclude: .idea/**
+[INFO] Exclude: .git/**
+[INFO] Exclude: .classpath/**
+[INFO] Exclude: .project
+[INFO] Exclude: **/*.asc
+[INFO] Exclude: **/logs/**
+[INFO] Exclude: **/docs/**
+[INFO] Exclude: CHANGES.txt
+[INFO] Exclude: conf/groomservers
+[INFO] Exclude: src/site/resources/files/hama-eclipse-formatter.xml
+[INFO] Exclude: **/src/test/resources/*.properties
+[INFO] Exclude: **dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.8.1:jar (default) @ hama-parent ---
+[INFO] Not executing Javadoc as the project is not a Java classpath-capable package
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ hama-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/pom.xml to /home/ubuntu/.m2/repository/org/apache/hama/hama-parent/0.6.0-SNAPSHOT/hama-parent-0.6.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+760/760 B               Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml (760 B at 1.8 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.719 s]
+[INFO] core ............................................... FAILURE [  4.595 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.734 s
+[INFO] Finished at: 2019-12-04T07:02:18+00:00
+[INFO] Final Memory: 37M/373M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop2" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+Buildfile: build.xml does not exist!
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO] graph
+[INFO] examples
+[INFO] yarn
+[INFO] machine learning
+[INFO] hama-dist
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.770 s]
+[INFO] core ............................................... FAILURE [  3.988 s]
+[INFO] graph .............................................. SKIPPED
+[INFO] examples ........................................... SKIPPED
+[INFO] yarn ............................................... SKIPPED
+[INFO] machine learning ................................... SKIPPED
+[INFO] hama-dist .......................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.214 s
+[INFO] Finished at: 2019-12-04T07:02:25+00:00
+[INFO] Final Memory: 28M/339M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+(mvn -DskipTests clean compile -pl core -am) || (mvn -DskipTests clean compile  -Phadoop1 -pl core -am) || (mvn -DskipTests clean install -Phadoop2 -U -pl core -am) || (ant clean compile) || (mvn -DskipTests clean compile)
+0.213s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-hama c58145626e34f4b36789f12872d5e3ce87dd3359:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.742 s]
+[INFO] core ............................................... FAILURE [  3.999 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.210 s
+[INFO] Finished at: 2019-12-04T07:02:33+00:00
+[INFO] Final Memory: 28M/334M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.855 s]
+[INFO] core ............................................... FAILURE [  4.100 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.423 s
+[INFO] Finished at: 2019-12-04T07:02:40+00:00
+[INFO] Final Memory: 28M/346M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop1" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.8:check (default) @ hama-parent ---
+[INFO] Exclude: .idea/**
+[INFO] Exclude: .git/**
+[INFO] Exclude: .classpath/**
+[INFO] Exclude: .project
+[INFO] Exclude: **/*.asc
+[INFO] Exclude: **/logs/**
+[INFO] Exclude: **/docs/**
+[INFO] Exclude: CHANGES.txt
+[INFO] Exclude: conf/groomservers
+[INFO] Exclude: src/site/resources/files/hama-eclipse-formatter.xml
+[INFO] Exclude: **/src/test/resources/*.properties
+[INFO] Exclude: **dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.8.1:jar (default) @ hama-parent ---
+[INFO] Not executing Javadoc as the project is not a Java classpath-capable package
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ hama-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/pom.xml to /home/ubuntu/.m2/repository/org/apache/hama/hama-parent/0.6.0-SNAPSHOT/hama-parent-0.6.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+760/760 B               Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml (760 B at 1.8 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.743 s]
+[INFO] core ............................................... FAILURE [  4.569 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.750 s
+[INFO] Finished at: 2019-12-04T07:02:48+00:00
+[INFO] Final Memory: 37M/386M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop2" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+Buildfile: build.xml does not exist!
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO] graph
+[INFO] examples
+[INFO] yarn
+[INFO] machine learning
+[INFO] hama-dist
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.697 s]
+[INFO] core ............................................... FAILURE [  4.140 s]
+[INFO] graph .............................................. SKIPPED
+[INFO] examples ........................................... SKIPPED
+[INFO] yarn ............................................... SKIPPED
+[INFO] machine learning ................................... SKIPPED
+[INFO] hama-dist .......................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.287 s
+[INFO] Finished at: 2019-12-04T07:02:55+00:00
+[INFO] Final Memory: 28M/328M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+(mvn -DskipTests clean compile -pl core -am) || (mvn -DskipTests clean compile  -Phadoop1 -pl core -am) || (mvn -DskipTests clean install -Phadoop2 -U -pl core -am) || (ant clean compile) || (mvn -DskipTests clean compile)
+0.187s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-hama c58145626e34f4b36789f12872d5e3ce87dd3359:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.136 s]
+[INFO] core ............................................... FAILURE [  6.780 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.442 s
+[INFO] Finished at: 2019-12-04T07:03:06+00:00
+[INFO] Final Memory: 34M/335M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.253 s]
+[INFO] core ............................................... FAILURE [  7.506 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.253 s
+[INFO] Finished at: 2019-12-04T07:03:17+00:00
+[INFO] Final Memory: 28M/331M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop1" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.8:check (default) @ hama-parent ---
+[INFO] Exclude: .idea/**
+[INFO] Exclude: .git/**
+[INFO] Exclude: .classpath/**
+[INFO] Exclude: .project
+[INFO] Exclude: **/*.asc
+[INFO] Exclude: **/logs/**
+[INFO] Exclude: **/docs/**
+[INFO] Exclude: CHANGES.txt
+[INFO] Exclude: conf/groomservers
+[INFO] Exclude: src/site/resources/files/hama-eclipse-formatter.xml
+[INFO] Exclude: **/src/test/resources/*.properties
+[INFO] Exclude: **dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.8.1:jar (default) @ hama-parent ---
+[INFO] Not executing Javadoc as the project is not a Java classpath-capable package
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ hama-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/pom.xml to /home/ubuntu/.m2/repository/org/apache/hama/hama-parent/0.6.0-SNAPSHOT/hama-parent-0.6.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+[WARNING] Could not transfer metadata org.codehaus.mojo:build-helper-maven-plugin/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): Received fatal alert: protocol_version
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  2.758 s]
+[INFO] core ............................................... FAILURE [  7.324 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.561 s
+[INFO] Finished at: 2019-12-04T07:03:30+00:00
+[INFO] Final Memory: 38M/486M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop2" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+Buildfile: build.xml does not exist!
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.6.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 220, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO] graph
+[INFO] examples
+[INFO] yarn
+[INFO] machine learning
+[INFO] hama-dist
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359 (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core (includes = [lib/**, logs/**, docs/apidocs/**, core/docs/**, examples/docs/**, graph/docs/**, yarn/docs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 178 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR]  package org.apache.hama.util
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class AvroMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+    M extends Writable declared in class HadoopMessageManagerImpl
+/home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.204 s]
+[INFO] core ............................................... FAILURE [  6.765 s]
+[INFO] graph .............................................. SKIPPED
+[INFO] examples ........................................... SKIPPED
+[INFO] yarn ............................................... SKIPPED
+[INFO] machine learning ................................... SKIPPED
+[INFO] hama-dist .......................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.447 s
+[INFO] Finished at: 2019-12-04T07:03:41+00:00
+[INFO] Final Memory: 29M/331M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[36,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[50,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[42,27] error: cannot find symbol
+[ERROR] package org.apache.hama.util
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[52,10] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class AvroMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/HadoopMessageManagerImpl.java:[59,24] error: cannot find symbol
+[ERROR] 
+[ERROR] M extends Writable declared in class HadoopMessageManagerImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/c58145626e34f4b36789f12872d5e3ce87dd3359/core/src/main/java/org/apache/hama/bsp/message/AvroMessageManagerImpl.java:[61,24] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+(mvn -DskipTests clean compile -pl core -am) || (mvn -DskipTests clean compile  -Phadoop1 -pl core -am) || (mvn -DskipTests clean install -Phadoop2 -U -pl core -am) || (ant clean compile) || (mvn -DskipTests clean compile)
+0.418s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-hama c58145626e34f4b36789f12872d5e3ce87dd3359:
+Buildfile: build.xml does not exist!
+(mvn -DskipTests clean compile -pl core -am) || (mvn -DskipTests clean compile  -Phadoop1 -pl core -am) || (mvn -DskipTests clean install -Phadoop2 -U -pl core -am) || (ant clean compile) || (mvn -DskipTests clean compile)
+0.335s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,526 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-helix 2ce971e24b7abe05df5fda0b6e0a889d1701e92f:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Helix Modules Root
+[INFO] helix-core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Helix Modules Root 0.5.6
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building helix-core 0.5.6
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ helix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ helix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 241 source files to /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/PropertyKey.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/PropertyKey.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/HelixManager.java:[281,30] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: interface com.linkedin.helix.HelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[62,26] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,8] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[736,37] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[47,26] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[445,37] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.file.DynamicFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[46,26] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[555,37] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.file.StaticFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,66] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[707,9] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[INFO] 10 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Helix Modules Root ................................. SUCCESS [  0.328 s]
+[INFO] helix-core ......................................... FAILURE [  2.798 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.306 s
+[INFO] Finished at: 2019-12-04T07:08:09+00:00
+[INFO] Final Memory: 18M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project helix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/HelixManager.java:[281,30] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: interface com.linkedin.helix.HelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[62,26] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,8] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[736,37] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[47,26] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[445,37] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.file.DynamicFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[46,26] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[555,37] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.file.StaticFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,66] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[707,9] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :helix-core
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.118s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-helix 2ce971e24b7abe05df5fda0b6e0a889d1701e92f:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Helix Modules Root
+[INFO] helix-core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Helix Modules Root 0.5.6
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building helix-core 0.5.6
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ helix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ helix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 241 source files to /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/PropertyKey.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/PropertyKey.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/HelixManager.java:[281,30] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: interface com.linkedin.helix.HelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[62,26] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,8] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[736,37] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[47,26] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[445,37] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.file.DynamicFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[46,26] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[555,37] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.file.StaticFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,66] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[707,9] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[INFO] 10 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Helix Modules Root ................................. SUCCESS [  0.339 s]
+[INFO] helix-core ......................................... FAILURE [  3.055 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.577 s
+[INFO] Finished at: 2019-12-04T07:08:14+00:00
+[INFO] Final Memory: 18M/258M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project helix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/HelixManager.java:[281,30] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: interface com.linkedin.helix.HelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[62,26] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,8] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[736,37] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[47,26] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[445,37] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.file.DynamicFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[46,26] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[555,37] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.file.StaticFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,66] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[707,9] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :helix-core
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.206s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-helix 2ce971e24b7abe05df5fda0b6e0a889d1701e92f:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Helix Modules Root
+[INFO] helix-core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Helix Modules Root 0.5.6
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building helix-core 0.5.6
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ helix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ helix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 241 source files to /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/controller/stages/HealthDataCache.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/controller/stages/HealthDataCache.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/PropertyKey.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/PropertyKey.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[47,26] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[445,37] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.file.DynamicFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/HelixManager.java:[281,30] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: interface com.linkedin.helix.HelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[62,26] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,8] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[736,37] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[46,26] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[555,37] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.file.StaticFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,66] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[707,9] cannot find symbol
+  symbol:   class PreConnectCallback
+  location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[INFO] 10 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Helix Modules Root ................................. SUCCESS [  0.535 s]
+[INFO] helix-core ......................................... FAILURE [  5.981 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.725 s
+[INFO] Finished at: 2019-12-04T07:08:23+00:00
+[INFO] Final Memory: 21M/346M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project helix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[47,26] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/DynamicFileHelixManager.java:[445,37] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.file.DynamicFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/HelixManager.java:[281,30] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: interface com.linkedin.helix.HelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[62,26] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,8] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[736,37] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[46,26] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: package com.linkedin.helix
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/file/StaticFileHelixManager.java:[555,37] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.file.StaticFileHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[113,66] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/2ce971e24b7abe05df5fda0b6e0a889d1701e92f/helix-core/src/main/java/com/linkedin/helix/manager/zk/ZKHelixManager.java:[707,9] cannot find symbol
+[ERROR] symbol:   class PreConnectCallback
+[ERROR] location: class com.linkedin.helix.manager.zk.ZKHelixManager
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :helix-core
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.8s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-helix 2ce971e24b7abe05df5fda0b6e0a889d1701e92f:
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.241s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

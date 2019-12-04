@@ -1,0 +1,631 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-httpclient c7f3b744e6753f7d696843f37ba037a160e97738:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 123, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 133, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 112, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 122, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 125, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 126, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 139, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[ERROR] 'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.httpcomponents:httpclient-osgi:4.1-alpha2-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 123, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 133, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 112, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 122, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 125, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 126, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 139, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[ERROR] 'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.httpcomponents:httpclient-osgi:4.1-alpha2-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 123, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 133, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 112, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 122, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 125, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 126, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 139, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[ERROR] 'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.httpcomponents:httpclient-osgi:4.1-alpha2-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+(mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am) || (mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient5 -am) || (mvn compile -Dhttpcore.version=4.2-alpha1 -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am)
+0.400s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-httpclient c7f3b744e6753f7d696843f37ba037a160e97738:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 123, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 133, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 112, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 122, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 125, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 126, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 139, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[ERROR] 'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.httpcomponents:httpclient-osgi:4.1-alpha2-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 123, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 133, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 112, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 122, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 125, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 126, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 139, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[ERROR] 'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.httpcomponents:httpclient-osgi:4.1-alpha2-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 123, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 133, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 112, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 122, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 125, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 126, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 139, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[ERROR] 'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 98, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.httpcomponents:httpclient-osgi:4.1-alpha2-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+(mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am) || (mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient5 -am) || (mvn compile -Dhttpcore.version=4.2-alpha1 -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am)
+0.479s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-httpclient c7f3b744e6753f7d696843f37ba037a160e97738:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 123, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 133, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 136, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 112, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 122, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 125, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 126, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 139, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[ERROR] 'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.httpcomponents:httpclient-osgi:4.1-alpha2-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 123, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 133, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 136, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 112, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 122, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 125, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 126, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 139, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[ERROR] 'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.httpcomponents:httpclient-osgi:4.1-alpha2-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 123, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 133, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient/pom.xml, line 136, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 112, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 122, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpmime:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpmime/pom.xml, line 125, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 126, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 136, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:httpclient-cache:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-cache/pom.xml, line 139, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.apache.httpcomponents:httpcomponents-client:4.1-alpha2-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/pom.xml, line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[ERROR] 'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 98, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 245, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-site-plugin is missing. @ line 108, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 87, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.httpcomponents:project:4.0, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom, line 252, column 15
+[WARNING] The expression ${pom.name} is deprecated. Please use ${project.name} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.httpcomponents:httpclient-osgi:4.1-alpha2-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.apache.james:apache-mime4j:jar must be a valid version but is '${mime4j.version}'. @ org.apache.httpcomponents:httpclient-osgi:[unknown-version], /home/ubuntu/ATLAS/apps/apache-httpclient/download/c7f3b744e6753f7d696843f37ba037a160e97738/httpclient-osgi/pom.xml, line 71, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+(mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am) || (mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient5 -am) || (mvn compile -Dhttpcore.version=4.2-alpha1 -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am)
+0.300s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-httpclient c7f3b744e6753f7d696843f37ba037a160e97738:
+(mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am) || (mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient5 -am) || (mvn compile -Dhttpcore.version=4.2-alpha1 -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am)
+0.265s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

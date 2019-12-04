@@ -1,0 +1,1742 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-cxf-fediz 00c043f5cab7f752561b4310d79c0edc3f17957d:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.wss4j:wss4j-ws-security-dom:jar:2.0.0-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.009 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.139 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.118 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.178 s
+[INFO] Finished at: 2019-12-04T04:56:57+00:00
+[INFO] Final Memory: 25M/264M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:bundle:1.2.0-SNAPSHOT: Failure to find org.apache.wss4j:wss4j-ws-security-dom:jar:2.0.0-SNAPSHOT in http://repository.apache.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of apache.snapshots has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb is not found and thus excluded from the dependency check
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] the last modified time of the inputs is  1575419543000
+[INFO] the last modified time of the outputs is -9223372036854775808
+[INFO] Compiling file:/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Writing output to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fediz-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fediz-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/config/FederationContext.java:[258,24] cannot find symbol
+  symbol:   method close()
+  location: variable replayCache of type org.apache.wss4j.common.cache.ReplayCache
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.098 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.109 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  3.091 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.349 s
+[INFO] Finished at: 2019-12-04T04:57:04+00:00
+[INFO] Final Memory: 36M/386M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fediz-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/config/FederationContext.java:[258,24] cannot find symbol
+[ERROR] symbol:   method close()
+[ERROR] location: variable replayCache of type org.apache.wss4j.common.cache.ReplayCache
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ArgumentType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/AudienceUris.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CallbackType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertificateStores.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimTypesRequested.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ContextConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FederationProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FedizConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ObjectFactory.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TokenValidators.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuerType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuers.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ValidationType.java
+[INFO] the last modified time of the inputs is  1575419543000
+[INFO] the last modified time of the outputs is 1575435422000
+[INFO] files are up to date
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fediz-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fediz-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[255,15] no suitable method found for verifyTrust(java.security.cert.X509Certificate[],boolean)
+    method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.cert.X509Certificate[],boolean,java.util.Collection<java.util.regex.Pattern>) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.PublicKey) is not applicable
+      (actual and formal argument lists differ in length)
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.089 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.135 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  2.254 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.400 s
+[INFO] Finished at: 2019-12-04T04:57:10+00:00
+[INFO] Final Memory: 35M/271M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fediz-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[255,15] no suitable method found for verifyTrust(java.security.cert.X509Certificate[],boolean)
+[ERROR] method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.cert.X509Certificate[],boolean,java.util.Collection<java.util.regex.Pattern>) is not applicable
+[ERROR] (actual and formal argument lists differ in length)
+[ERROR] method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.PublicKey) is not applicable
+[ERROR] (actual and formal argument lists differ in length)
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ArgumentType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/AudienceUris.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CallbackType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertificateStores.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimTypesRequested.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ContextConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FederationProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FedizConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ObjectFactory.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TokenValidators.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuerType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuers.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ValidationType.java
+[INFO] the last modified time of the inputs is  1575419543000
+[INFO] the last modified time of the outputs is 1575435422000
+[INFO] files are up to date
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fediz-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fediz-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java uses or overrides a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: Recompile with -Xlint:unchecked for details.
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 5 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[45,27] package org.opensaml.common does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[54,28] cannot find symbol
+  symbol:   class WSSConfig
+  location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[59,27] package org.opensaml.common does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[60,24] package org.opensaml.xml does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[61,34] package org.opensaml.xml.signature does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[62,34] package org.opensaml.xml.signature does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[252,36] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[323,36] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[420,36] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[433,36] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[62,28] cannot find symbol
+  symbol:   class WSSConfig
+  location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[63,28] cannot find symbol
+  symbol:   class WSSecurityEngine
+  location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[226,19] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.security.cert.CertificateExpiredException)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+      (argument mismatch; java.security.cert.CertificateExpiredException cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[230,19] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.security.cert.CertificateNotYetValidException)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+      (argument mismatch; java.security.cert.CertificateNotYetValidException cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[255,15] no suitable method found for verifyTrust(java.security.cert.X509Certificate[],boolean)
+    method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.cert.X509Certificate[],boolean,java.util.Collection<java.util.regex.Pattern>) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.PublicKey) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[288,51] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SamlAssertionValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[296,23] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.String)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[320,22] cannot find symbol
+  symbol:   method validateAssertion(boolean)
+  location: variable samlAssertion of type org.apache.wss4j.common.saml.SamlAssertionWrapper
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[96,13] cannot find symbol
+  symbol:   class WSSConfig
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[96,35] cannot find symbol
+  symbol:   variable WSSConfig
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[109,13] cannot find symbol
+  symbol:   class Signature
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[110,13] cannot find symbol
+  symbol:   class KeyInfo
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[194,51] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[198,29] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[253,37] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[264,37] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[269,41] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[271,41] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[305,22] cannot find symbol
+  symbol:   class XMLObject
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[324,37] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[336,37] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[340,41] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[342,41] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[361,22] cannot find symbol
+  symbol:   class XMLObject
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[448,47] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[466,47] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[470,54] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[281,9] cannot find symbol
+  symbol:   class WSSConfig
+  location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[281,31] cannot find symbol
+  symbol:   variable WSSConfig
+  location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[282,32] cannot find symbol
+  symbol:   variable WSSecurityEngine
+  location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[283,32] cannot find symbol
+  symbol:   variable WSSecurityEngine
+  location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[290,33] incompatible types: java.util.List<org.apache.wss4j.dom.engine.WSSecurityEngineResult> cannot be converted to java.util.List<org.apache.wss4j.dom.WSSecurityEngineResult>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[599,20] org.apache.cxf.fediz.core.FederationProcessorImpl.NOOpProcessor is not abstract and does not override abstract method handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.wss4j.dom.processor.Processor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[602,45] handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.cxf.fediz.core.FederationProcessorImpl.NOOpProcessor cannot implement handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.wss4j.dom.processor.Processor
+  return type java.util.List<org.apache.wss4j.dom.WSSecurityEngineResult> is not compatible with java.util.List<org.apache.wss4j.dom.engine.WSSecurityEngineResult>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[601,9] method does not override or implement a method from a supertype
+[INFO] 45 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.215 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.107 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  2.818 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.053 s
+[INFO] Finished at: 2019-12-04T04:57:17+00:00
+[INFO] Final Memory: 39M/350M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fediz-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[45,27] package org.opensaml.common does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[54,28] cannot find symbol
+[ERROR] symbol:   class WSSConfig
+[ERROR] location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[59,27] package org.opensaml.common does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[60,24] package org.opensaml.xml does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[61,34] package org.opensaml.xml.signature does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[62,34] package org.opensaml.xml.signature does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[252,36] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[323,36] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[420,36] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[433,36] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[62,28] cannot find symbol
+[ERROR] symbol:   class WSSConfig
+[ERROR] location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[63,28] cannot find symbol
+[ERROR] symbol:   class WSSecurityEngine
+[ERROR] location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[226,19] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.security.cert.CertificateExpiredException)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+[ERROR] (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+[ERROR] (argument mismatch; java.security.cert.CertificateExpiredException cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[230,19] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.security.cert.CertificateNotYetValidException)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+[ERROR] (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+[ERROR] (argument mismatch; java.security.cert.CertificateNotYetValidException cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[255,15] no suitable method found for verifyTrust(java.security.cert.X509Certificate[],boolean)
+[ERROR] method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.cert.X509Certificate[],boolean,java.util.Collection<java.util.regex.Pattern>) is not applicable
+[ERROR] (actual and formal argument lists differ in length)
+[ERROR] method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.PublicKey) is not applicable
+[ERROR] (actual and formal argument lists differ in length)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[288,51] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SamlAssertionValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[296,23] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.String)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+[ERROR] (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+[ERROR] (argument mismatch; java.lang.String cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[320,22] cannot find symbol
+[ERROR] symbol:   method validateAssertion(boolean)
+[ERROR] location: variable samlAssertion of type org.apache.wss4j.common.saml.SamlAssertionWrapper
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[96,13] cannot find symbol
+[ERROR] symbol:   class WSSConfig
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[96,35] cannot find symbol
+[ERROR] symbol:   variable WSSConfig
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[109,13] cannot find symbol
+[ERROR] symbol:   class Signature
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[110,13] cannot find symbol
+[ERROR] symbol:   class KeyInfo
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[194,51] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[198,29] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[253,37] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[264,37] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[269,41] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[271,41] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[305,22] cannot find symbol
+[ERROR] symbol:   class XMLObject
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[324,37] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[336,37] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[340,41] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[342,41] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[361,22] cannot find symbol
+[ERROR] symbol:   class XMLObject
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[448,47] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[466,47] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[470,54] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[281,9] cannot find symbol
+[ERROR] symbol:   class WSSConfig
+[ERROR] location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[281,31] cannot find symbol
+[ERROR] symbol:   variable WSSConfig
+[ERROR] location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[282,32] cannot find symbol
+[ERROR] symbol:   variable WSSecurityEngine
+[ERROR] location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[283,32] cannot find symbol
+[ERROR] symbol:   variable WSSecurityEngine
+[ERROR] location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[290,33] incompatible types: java.util.List<org.apache.wss4j.dom.engine.WSSecurityEngineResult> cannot be converted to java.util.List<org.apache.wss4j.dom.WSSecurityEngineResult>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[599,20] org.apache.cxf.fediz.core.FederationProcessorImpl.NOOpProcessor is not abstract and does not override abstract method handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.wss4j.dom.processor.Processor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[602,45] handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.cxf.fediz.core.FederationProcessorImpl.NOOpProcessor cannot implement handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.wss4j.dom.processor.Processor
+[ERROR] return type java.util.List<org.apache.wss4j.dom.WSSecurityEngineResult> is not compatible with java.util.List<org.apache.wss4j.dom.engine.WSSecurityEngineResult>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[601,9] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.wss4j:wss4j-ws-security-dom:jar:2.0.0-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.185 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.143 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.082 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.385 s
+[INFO] Finished at: 2019-12-04T04:57:21+00:00
+[INFO] Final Memory: 25M/265M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:bundle:1.2.0-SNAPSHOT: Failure to find org.apache.wss4j:wss4j-ws-security-dom:jar:2.0.0-SNAPSHOT in http://repository.apache.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of apache.snapshots has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.144s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-cxf-fediz 00c043f5cab7f752561b4310d79c0edc3f17957d:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.wss4j:wss4j-ws-security-dom:jar:2.0.0-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.059 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.136 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.112 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.231 s
+[INFO] Finished at: 2019-12-04T04:57:25+00:00
+[INFO] Final Memory: 25M/265M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:bundle:1.2.0-SNAPSHOT: Failure to find org.apache.wss4j:wss4j-ws-security-dom:jar:2.0.0-SNAPSHOT in http://repository.apache.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of apache.snapshots has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb is not found and thus excluded from the dependency check
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] the last modified time of the inputs is  1575435413000
+[INFO] the last modified time of the outputs is -9223372036854775808
+[INFO] Compiling file:/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Writing output to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fediz-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fediz-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/config/FederationContext.java:[258,24] cannot find symbol
+  symbol:   method close()
+  location: variable replayCache of type org.apache.wss4j.common.cache.ReplayCache
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.131 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.103 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  3.056 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.250 s
+[INFO] Finished at: 2019-12-04T04:57:32+00:00
+[INFO] Final Memory: 36M/391M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fediz-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/config/FederationContext.java:[258,24] cannot find symbol
+[ERROR] symbol:   method close()
+[ERROR] location: variable replayCache of type org.apache.wss4j.common.cache.ReplayCache
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ArgumentType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/AudienceUris.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CallbackType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertificateStores.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimTypesRequested.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ContextConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FederationProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FedizConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ObjectFactory.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TokenValidators.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuerType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuers.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ValidationType.java
+[INFO] the last modified time of the inputs is  1575435413000
+[INFO] the last modified time of the outputs is 1575435450000
+[INFO] files are up to date
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fediz-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fediz-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[255,15] no suitable method found for verifyTrust(java.security.cert.X509Certificate[],boolean)
+    method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.cert.X509Certificate[],boolean,java.util.Collection<java.util.regex.Pattern>) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.PublicKey) is not applicable
+      (actual and formal argument lists differ in length)
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.186 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.105 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  2.316 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.603 s
+[INFO] Finished at: 2019-12-04T04:57:39+00:00
+[INFO] Final Memory: 35M/272M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fediz-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[255,15] no suitable method found for verifyTrust(java.security.cert.X509Certificate[],boolean)
+[ERROR] method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.cert.X509Certificate[],boolean,java.util.Collection<java.util.regex.Pattern>) is not applicable
+[ERROR] (actual and formal argument lists differ in length)
+[ERROR] method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.PublicKey) is not applicable
+[ERROR] (actual and formal argument lists differ in length)
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ArgumentType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/AudienceUris.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CallbackType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertificateStores.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimTypesRequested.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ContextConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FederationProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FedizConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ObjectFactory.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TokenValidators.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuerType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuers.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ValidationType.java
+[INFO] the last modified time of the inputs is  1575435413000
+[INFO] the last modified time of the outputs is 1575435450000
+[INFO] files are up to date
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fediz-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fediz-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java uses or overrides a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java: Recompile with -Xlint:unchecked for details.
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 5 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[45,27] package org.opensaml.common does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[54,28] cannot find symbol
+  symbol:   class WSSConfig
+  location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[59,27] package org.opensaml.common does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[60,24] package org.opensaml.xml does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[61,34] package org.opensaml.xml.signature does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[62,34] package org.opensaml.xml.signature does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[252,36] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[323,36] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[420,36] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[433,36] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[62,28] cannot find symbol
+  symbol:   class WSSConfig
+  location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[63,28] cannot find symbol
+  symbol:   class WSSecurityEngine
+  location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[226,19] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.security.cert.CertificateExpiredException)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+      (argument mismatch; java.security.cert.CertificateExpiredException cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[230,19] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.security.cert.CertificateNotYetValidException)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+      (argument mismatch; java.security.cert.CertificateNotYetValidException cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[255,15] no suitable method found for verifyTrust(java.security.cert.X509Certificate[],boolean)
+    method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.cert.X509Certificate[],boolean,java.util.Collection<java.util.regex.Pattern>) is not applicable
+      (actual and formal argument lists differ in length)
+    method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.PublicKey) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[288,51] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SamlAssertionValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[296,23] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.String)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+    constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+      (argument mismatch; java.lang.String cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[320,22] cannot find symbol
+  symbol:   method validateAssertion(boolean)
+  location: variable samlAssertion of type org.apache.wss4j.common.saml.SamlAssertionWrapper
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[96,13] cannot find symbol
+  symbol:   class WSSConfig
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[96,35] cannot find symbol
+  symbol:   variable WSSConfig
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[109,13] cannot find symbol
+  symbol:   class Signature
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[110,13] cannot find symbol
+  symbol:   class KeyInfo
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[194,51] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[198,29] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[253,37] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[264,37] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[269,41] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[271,41] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[305,22] cannot find symbol
+  symbol:   class XMLObject
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[324,37] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[336,37] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[340,41] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[342,41] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[361,22] cannot find symbol
+  symbol:   class XMLObject
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[448,47] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[466,47] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[470,54] cannot find symbol
+  symbol:   variable SAMLVersion
+  location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[281,9] cannot find symbol
+  symbol:   class WSSConfig
+  location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[281,31] cannot find symbol
+  symbol:   variable WSSConfig
+  location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[282,32] cannot find symbol
+  symbol:   variable WSSecurityEngine
+  location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[283,32] cannot find symbol
+  symbol:   variable WSSecurityEngine
+  location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[290,33] incompatible types: java.util.List<org.apache.wss4j.dom.engine.WSSecurityEngineResult> cannot be converted to java.util.List<org.apache.wss4j.dom.WSSecurityEngineResult>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[599,20] org.apache.cxf.fediz.core.FederationProcessorImpl.NOOpProcessor is not abstract and does not override abstract method handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.wss4j.dom.processor.Processor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[602,45] handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.cxf.fediz.core.FederationProcessorImpl.NOOpProcessor cannot implement handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.wss4j.dom.processor.Processor
+  return type java.util.List<org.apache.wss4j.dom.WSSecurityEngineResult> is not compatible with java.util.List<org.apache.wss4j.dom.engine.WSSecurityEngineResult>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[601,9] method does not override or implement a method from a supertype
+[INFO] 45 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.162 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.160 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  2.687 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.080 s
+[INFO] Finished at: 2019-12-04T04:57:45+00:00
+[INFO] Final Memory: 39M/349M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fediz-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[45,27] package org.opensaml.common does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[54,28] cannot find symbol
+[ERROR] symbol:   class WSSConfig
+[ERROR] location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[59,27] package org.opensaml.common does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[60,24] package org.opensaml.xml does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[61,34] package org.opensaml.xml.signature does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[62,34] package org.opensaml.xml.signature does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[252,36] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[323,36] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[420,36] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[433,36] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[62,28] cannot find symbol
+[ERROR] symbol:   class WSSConfig
+[ERROR] location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[63,28] cannot find symbol
+[ERROR] symbol:   class WSSecurityEngine
+[ERROR] location: package org.apache.wss4j.dom
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[226,19] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.security.cert.CertificateExpiredException)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+[ERROR] (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+[ERROR] (argument mismatch; java.security.cert.CertificateExpiredException cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[230,19] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.security.cert.CertificateNotYetValidException)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+[ERROR] (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+[ERROR] (argument mismatch; java.security.cert.CertificateNotYetValidException cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[255,15] no suitable method found for verifyTrust(java.security.cert.X509Certificate[],boolean)
+[ERROR] method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.cert.X509Certificate[],boolean,java.util.Collection<java.util.regex.Pattern>) is not applicable
+[ERROR] (actual and formal argument lists differ in length)
+[ERROR] method org.apache.wss4j.common.crypto.Crypto.verifyTrust(java.security.PublicKey) is not applicable
+[ERROR] (actual and formal argument lists differ in length)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[288,51] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SamlAssertionValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[296,23] no suitable constructor found for WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.String)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.Exception,java.lang.String) is not applicable
+[ERROR] (argument mismatch; java.lang.String cannot be converted to java.lang.Exception)
+[ERROR] constructor org.apache.wss4j.common.ext.WSSecurityException.WSSecurityException(org.apache.wss4j.common.ext.WSSecurityException.ErrorCode,java.lang.String,java.lang.Object[]) is not applicable
+[ERROR] (argument mismatch; java.lang.String cannot be converted to java.lang.Object[])
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SamlAssertionValidator.java:[320,22] cannot find symbol
+[ERROR] symbol:   method validateAssertion(boolean)
+[ERROR] location: variable samlAssertion of type org.apache.wss4j.common.saml.SamlAssertionWrapper
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[96,13] cannot find symbol
+[ERROR] symbol:   class WSSConfig
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[96,35] cannot find symbol
+[ERROR] symbol:   variable WSSConfig
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[109,13] cannot find symbol
+[ERROR] symbol:   class Signature
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[110,13] cannot find symbol
+[ERROR] symbol:   class KeyInfo
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[194,51] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[198,29] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[253,37] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[264,37] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[269,41] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[271,41] package org.opensaml.saml1.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[305,22] cannot find symbol
+[ERROR] symbol:   class XMLObject
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[324,37] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[336,37] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[340,41] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[342,41] package org.opensaml.saml2.core does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[361,22] cannot find symbol
+[ERROR] symbol:   class XMLObject
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[448,47] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[466,47] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/saml/SAMLTokenValidator.java:[470,54] cannot find symbol
+[ERROR] symbol:   variable SAMLVersion
+[ERROR] location: class org.apache.cxf.fediz.core.saml.SAMLTokenValidator
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[281,9] cannot find symbol
+[ERROR] symbol:   class WSSConfig
+[ERROR] location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[281,31] cannot find symbol
+[ERROR] symbol:   variable WSSConfig
+[ERROR] location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[282,32] cannot find symbol
+[ERROR] symbol:   variable WSSecurityEngine
+[ERROR] location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[283,32] cannot find symbol
+[ERROR] symbol:   variable WSSecurityEngine
+[ERROR] location: class org.apache.cxf.fediz.core.FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[290,33] incompatible types: java.util.List<org.apache.wss4j.dom.engine.WSSecurityEngineResult> cannot be converted to java.util.List<org.apache.wss4j.dom.WSSecurityEngineResult>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[599,20] org.apache.cxf.fediz.core.FederationProcessorImpl.NOOpProcessor is not abstract and does not override abstract method handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.wss4j.dom.processor.Processor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[602,45] handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.cxf.fediz.core.FederationProcessorImpl.NOOpProcessor cannot implement handleToken(org.w3c.dom.Element,org.apache.wss4j.dom.handler.RequestData,org.apache.wss4j.dom.WSDocInfo) in org.apache.wss4j.dom.processor.Processor
+[ERROR] return type java.util.List<org.apache.wss4j.dom.WSSecurityEngineResult> is not compatible with java.util.List<org.apache.wss4j.dom.engine.WSSecurityEngineResult>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[601,9] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.2.0-SNAPSHOT/fediz-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ plugin ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.2:attach-descriptor (attach-descriptor) @ plugin ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar-no-fork (attach-sources) @ plugin ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plugin ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/00c043f5cab7f752561b4310d79c0edc3f17957d/plugins/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/plugin/1.2.0-SNAPSHOT/plugin-1.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.wss4j:wss4j-ws-security-dom:jar:2.0.0-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.079 s]
+[INFO] Apache Fediz Plugin ................................ SUCCESS [  0.103 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.080 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.262 s
+[INFO] Finished at: 2019-12-04T04:57:49+00:00
+[INFO] Final Memory: 25M/269M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:bundle:1.2.0-SNAPSHOT: Failure to find org.apache.wss4j:wss4j-ws-security-dom:jar:2.0.0-SNAPSHOT in http://repository.apache.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of apache.snapshots has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.8s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-cxf-fediz 00c043f5cab7f752561b4310d79c0edc3f17957d:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.9.1/maven-checkstyle-plugin-2.9.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... FAILURE [  0.529 s]
+[INFO] Apache Fediz Plugin ................................ SKIPPED
+[INFO] Apache Fediz Plugin Core ........................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.114 s
+[INFO] Finished at: 2019-12-04T04:57:55+00:00
+[INFO] Final Memory: 20M/215M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-checkstyle-plugin:2.9.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-checkstyle-plugin:jar:2.9.1: Could not transfer artifact org.apache.maven.plugins:maven-checkstyle-plugin:pom:2.9.1 from/to central (https://repo.maven.apache.org/maven2): Received fatal alert: protocol_version -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.9.1/maven-checkstyle-plugin-2.9.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... FAILURE [  0.537 s]
+[INFO] Apache Fediz Plugin ................................ SKIPPED
+[INFO] Apache Fediz Plugin Core ........................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.129 s
+[INFO] Finished at: 2019-12-04T04:57:59+00:00
+[INFO] Final Memory: 20M/215M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-checkstyle-plugin:2.9.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-checkstyle-plugin:jar:2.9.1: Could not transfer artifact org.apache.maven.plugins:maven-checkstyle-plugin:pom:2.9.1 from/to central (https://repo.maven.apache.org/maven2): Received fatal alert: protocol_version -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.9.1/maven-checkstyle-plugin-2.9.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... FAILURE [  0.556 s]
+[INFO] Apache Fediz Plugin ................................ SKIPPED
+[INFO] Apache Fediz Plugin Core ........................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.077 s
+[INFO] Finished at: 2019-12-04T04:58:03+00:00
+[INFO] Final Memory: 20M/215M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-checkstyle-plugin:2.9.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-checkstyle-plugin:jar:2.9.1: Could not transfer artifact org.apache.maven.plugins:maven-checkstyle-plugin:pom:2.9.1 from/to central (https://repo.maven.apache.org/maven2): Received fatal alert: protocol_version -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.9.1/maven-checkstyle-plugin-2.9.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... FAILURE [  0.586 s]
+[INFO] Apache Fediz Plugin ................................ SKIPPED
+[INFO] Apache Fediz Plugin Core ........................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.174 s
+[INFO] Finished at: 2019-12-04T04:58:07+00:00
+[INFO] Final Memory: 20M/216M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-checkstyle-plugin:2.9.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-checkstyle-plugin:jar:2.9.1: Could not transfer artifact org.apache.maven.plugins:maven-checkstyle-plugin:pom:2.9.1 from/to central (https://repo.maven.apache.org/maven2): Received fatal alert: protocol_version -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-checkstyle-plugin/2.9.1/maven-checkstyle-plugin-2.9.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... FAILURE [  0.529 s]
+[INFO] Apache Fediz Plugin ................................ SKIPPED
+[INFO] Apache Fediz Plugin Core ........................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.113 s
+[INFO] Finished at: 2019-12-04T04:58:11+00:00
+[INFO] Final Memory: 20M/216M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-checkstyle-plugin:2.9.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-checkstyle-plugin:jar:2.9.1: Could not transfer artifact org.apache.maven.plugins:maven-checkstyle-plugin:pom:2.9.1 from/to central (https://repo.maven.apache.org/maven2): Received fatal alert: protocol_version -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.46s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-cxf-fediz 00c043f5cab7f752561b4310d79c0edc3f17957d:
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.56s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

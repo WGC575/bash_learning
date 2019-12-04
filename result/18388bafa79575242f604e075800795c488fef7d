@@ -1,0 +1,1561 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-jexl 18388bafa79575242f604e075800795c488fef7d:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JEXL3 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jexl3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (jexl-jjtree) @ commons-jexl3 ---
+Java Compiler Compiler Version 5.0 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt . . .
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "ASTJexlScript.java" does not exist.  Will create one.
+File "ASTBlock.java" does not exist.  Will create one.
+File "ASTAmbiguous.java" does not exist.  Will create one.
+File "ASTIfStatement.java" does not exist.  Will create one.
+File "ASTWhileStatement.java" does not exist.  Will create one.
+File "ASTReturnStatement.java" does not exist.  Will create one.
+File "ASTContinue.java" does not exist.  Will create one.
+File "ASTBreak.java" does not exist.  Will create one.
+File "ASTForeachStatement.java" does not exist.  Will create one.
+File "ASTReference.java" does not exist.  Will create one.
+File "ASTAssignment.java" does not exist.  Will create one.
+File "ASTVar.java" does not exist.  Will create one.
+File "ASTSetAddNode.java" does not exist.  Will create one.
+File "ASTSetMultNode.java" does not exist.  Will create one.
+File "ASTSetDivNode.java" does not exist.  Will create one.
+File "ASTSetModNode.java" does not exist.  Will create one.
+File "ASTSetAndNode.java" does not exist.  Will create one.
+File "ASTSetOrNode.java" does not exist.  Will create one.
+File "ASTSetXorNode.java" does not exist.  Will create one.
+File "ASTSetSubNode.java" does not exist.  Will create one.
+File "ASTTernaryNode.java" does not exist.  Will create one.
+File "ASTOrNode.java" does not exist.  Will create one.
+File "ASTAndNode.java" does not exist.  Will create one.
+File "ASTBitwiseOrNode.java" does not exist.  Will create one.
+File "ASTBitwiseXorNode.java" does not exist.  Will create one.
+File "ASTBitwiseAndNode.java" does not exist.  Will create one.
+File "ASTEQNode.java" does not exist.  Will create one.
+File "ASTNENode.java" does not exist.  Will create one.
+File "ASTRangeNode.java" does not exist.  Will create one.
+File "ASTLTNode.java" does not exist.  Will create one.
+File "ASTGTNode.java" does not exist.  Will create one.
+File "ASTLENode.java" does not exist.  Will create one.
+File "ASTGENode.java" does not exist.  Will create one.
+File "ASTERNode.java" does not exist.  Will create one.
+File "ASTNRNode.java" does not exist.  Will create one.
+File "ASTSWNode.java" does not exist.  Will create one.
+File "ASTNSWNode.java" does not exist.  Will create one.
+File "ASTEWNode.java" does not exist.  Will create one.
+File "ASTNEWNode.java" does not exist.  Will create one.
+File "ASTAddNode.java" does not exist.  Will create one.
+File "ASTSubNode.java" does not exist.  Will create one.
+File "ASTMulNode.java" does not exist.  Will create one.
+File "ASTDivNode.java" does not exist.  Will create one.
+File "ASTModNode.java" does not exist.  Will create one.
+File "ASTUnaryMinusNode.java" does not exist.  Will create one.
+File "ASTBitwiseComplNode.java" does not exist.  Will create one.
+File "ASTNotNode.java" does not exist.  Will create one.
+File "ASTEmptyFunction.java" does not exist.  Will create one.
+File "ASTSizeFunction.java" does not exist.  Will create one.
+File "ASTIdentifier.java" does not exist.  Will create one.
+File "ASTNumberLiteral.java" does not exist.  Will create one.
+File "ASTNullLiteral.java" does not exist.  Will create one.
+File "ASTTrueNode.java" does not exist.  Will create one.
+File "ASTFalseNode.java" does not exist.  Will create one.
+File "ASTStringLiteral.java" does not exist.  Will create one.
+File "ASTJxltLiteral.java" does not exist.  Will create one.
+File "ASTExtendedLiteral.java" does not exist.  Will create one.
+File "ASTArrayLiteral.java" does not exist.  Will create one.
+File "ASTMapLiteral.java" does not exist.  Will create one.
+File "ASTMapEntry.java" does not exist.  Will create one.
+File "ASTSetLiteral.java" does not exist.  Will create one.
+File "ASTEmptyMethod.java" does not exist.  Will create one.
+File "ASTSizeMethod.java" does not exist.  Will create one.
+File "ASTArguments.java" does not exist.  Will create one.
+File "ASTFunctionNode.java" does not exist.  Will create one.
+File "ASTConstructorNode.java" does not exist.  Will create one.
+File "ASTJexlLambda.java" does not exist.  Will create one.
+File "ASTIdentifierAccess.java" does not exist.  Will create one.
+File "ASTArrayAccess.java" does not exist.  Will create one.
+File "ASTMethodNode.java" does not exist.  Will create one.
+File "ASTReferenceExpression.java" does not exist.  Will create one.
+File "ParserTreeConstants.java" does not exist.  Will create one.
+File "ParserVisitor.java" does not exist.  Will create one.
+File "JJTParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434478993/node/Parser.jj
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434478993/node/Parser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jexl3 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434480067
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jexl3 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jexl3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.510 s
+[INFO] Finished at: 2019-12-04T04:41:22+00:00
+[INFO] Final Memory: 25M/332M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jexl3: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JEXL3 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jexl3 ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jexl3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (jexl-jjtree) @ commons-jexl3 ---
+Java Compiler Compiler Version 5.0 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt . . .
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "ASTJexlScript.java" does not exist.  Will create one.
+File "ASTBlock.java" does not exist.  Will create one.
+File "ASTAmbiguous.java" does not exist.  Will create one.
+File "ASTIfStatement.java" does not exist.  Will create one.
+File "ASTWhileStatement.java" does not exist.  Will create one.
+File "ASTReturnStatement.java" does not exist.  Will create one.
+File "ASTContinue.java" does not exist.  Will create one.
+File "ASTBreak.java" does not exist.  Will create one.
+File "ASTForeachStatement.java" does not exist.  Will create one.
+File "ASTReference.java" does not exist.  Will create one.
+File "ASTAssignment.java" does not exist.  Will create one.
+File "ASTVar.java" does not exist.  Will create one.
+File "ASTSetAddNode.java" does not exist.  Will create one.
+File "ASTSetMultNode.java" does not exist.  Will create one.
+File "ASTSetDivNode.java" does not exist.  Will create one.
+File "ASTSetModNode.java" does not exist.  Will create one.
+File "ASTSetAndNode.java" does not exist.  Will create one.
+File "ASTSetOrNode.java" does not exist.  Will create one.
+File "ASTSetXorNode.java" does not exist.  Will create one.
+File "ASTSetSubNode.java" does not exist.  Will create one.
+File "ASTTernaryNode.java" does not exist.  Will create one.
+File "ASTOrNode.java" does not exist.  Will create one.
+File "ASTAndNode.java" does not exist.  Will create one.
+File "ASTBitwiseOrNode.java" does not exist.  Will create one.
+File "ASTBitwiseXorNode.java" does not exist.  Will create one.
+File "ASTBitwiseAndNode.java" does not exist.  Will create one.
+File "ASTEQNode.java" does not exist.  Will create one.
+File "ASTNENode.java" does not exist.  Will create one.
+File "ASTRangeNode.java" does not exist.  Will create one.
+File "ASTLTNode.java" does not exist.  Will create one.
+File "ASTGTNode.java" does not exist.  Will create one.
+File "ASTLENode.java" does not exist.  Will create one.
+File "ASTGENode.java" does not exist.  Will create one.
+File "ASTERNode.java" does not exist.  Will create one.
+File "ASTNRNode.java" does not exist.  Will create one.
+File "ASTSWNode.java" does not exist.  Will create one.
+File "ASTNSWNode.java" does not exist.  Will create one.
+File "ASTEWNode.java" does not exist.  Will create one.
+File "ASTNEWNode.java" does not exist.  Will create one.
+File "ASTAddNode.java" does not exist.  Will create one.
+File "ASTSubNode.java" does not exist.  Will create one.
+File "ASTMulNode.java" does not exist.  Will create one.
+File "ASTDivNode.java" does not exist.  Will create one.
+File "ASTModNode.java" does not exist.  Will create one.
+File "ASTUnaryMinusNode.java" does not exist.  Will create one.
+File "ASTBitwiseComplNode.java" does not exist.  Will create one.
+File "ASTNotNode.java" does not exist.  Will create one.
+File "ASTEmptyFunction.java" does not exist.  Will create one.
+File "ASTSizeFunction.java" does not exist.  Will create one.
+File "ASTIdentifier.java" does not exist.  Will create one.
+File "ASTNumberLiteral.java" does not exist.  Will create one.
+File "ASTNullLiteral.java" does not exist.  Will create one.
+File "ASTTrueNode.java" does not exist.  Will create one.
+File "ASTFalseNode.java" does not exist.  Will create one.
+File "ASTStringLiteral.java" does not exist.  Will create one.
+File "ASTJxltLiteral.java" does not exist.  Will create one.
+File "ASTExtendedLiteral.java" does not exist.  Will create one.
+File "ASTArrayLiteral.java" does not exist.  Will create one.
+File "ASTMapLiteral.java" does not exist.  Will create one.
+File "ASTMapEntry.java" does not exist.  Will create one.
+File "ASTSetLiteral.java" does not exist.  Will create one.
+File "ASTEmptyMethod.java" does not exist.  Will create one.
+File "ASTSizeMethod.java" does not exist.  Will create one.
+File "ASTArguments.java" does not exist.  Will create one.
+File "ASTFunctionNode.java" does not exist.  Will create one.
+File "ASTConstructorNode.java" does not exist.  Will create one.
+File "ASTJexlLambda.java" does not exist.  Will create one.
+File "ASTIdentifierAccess.java" does not exist.  Will create one.
+File "ASTArrayAccess.java" does not exist.  Will create one.
+File "ASTMethodNode.java" does not exist.  Will create one.
+File "ASTReferenceExpression.java" does not exist.  Will create one.
+File "ParserTreeConstants.java" does not exist.  Will create one.
+File "ParserVisitor.java" does not exist.  Will create one.
+File "JJTParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434486281/node/Parser.jj
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434486281/node/Parser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jexl3 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434487277
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jexl3 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jexl3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.668 s
+[INFO] Finished at: 2019-12-04T04:41:30+00:00
+[INFO] Final Memory: 25M/340M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jexl3: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-jexl3:jar:3.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: log4j:log4j:jar -> duplicate declaration of version 1.2.17 @ line 113, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JEXL3 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jexl3 ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jexl3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (jexl-jjtree) @ commons-jexl3 ---
+Java Compiler Compiler Version 5.0 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt . . .
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "ASTJexlScript.java" does not exist.  Will create one.
+File "ASTBlock.java" does not exist.  Will create one.
+File "ASTAmbiguous.java" does not exist.  Will create one.
+File "ASTIfStatement.java" does not exist.  Will create one.
+File "ASTWhileStatement.java" does not exist.  Will create one.
+File "ASTReturnStatement.java" does not exist.  Will create one.
+File "ASTContinue.java" does not exist.  Will create one.
+File "ASTBreak.java" does not exist.  Will create one.
+File "ASTForeachStatement.java" does not exist.  Will create one.
+File "ASTReference.java" does not exist.  Will create one.
+File "ASTAssignment.java" does not exist.  Will create one.
+File "ASTVar.java" does not exist.  Will create one.
+File "ASTSetAddNode.java" does not exist.  Will create one.
+File "ASTSetMultNode.java" does not exist.  Will create one.
+File "ASTSetDivNode.java" does not exist.  Will create one.
+File "ASTSetModNode.java" does not exist.  Will create one.
+File "ASTSetAndNode.java" does not exist.  Will create one.
+File "ASTSetOrNode.java" does not exist.  Will create one.
+File "ASTSetXorNode.java" does not exist.  Will create one.
+File "ASTSetSubNode.java" does not exist.  Will create one.
+File "ASTTernaryNode.java" does not exist.  Will create one.
+File "ASTOrNode.java" does not exist.  Will create one.
+File "ASTAndNode.java" does not exist.  Will create one.
+File "ASTBitwiseOrNode.java" does not exist.  Will create one.
+File "ASTBitwiseXorNode.java" does not exist.  Will create one.
+File "ASTBitwiseAndNode.java" does not exist.  Will create one.
+File "ASTEQNode.java" does not exist.  Will create one.
+File "ASTNENode.java" does not exist.  Will create one.
+File "ASTRangeNode.java" does not exist.  Will create one.
+File "ASTLTNode.java" does not exist.  Will create one.
+File "ASTGTNode.java" does not exist.  Will create one.
+File "ASTLENode.java" does not exist.  Will create one.
+File "ASTGENode.java" does not exist.  Will create one.
+File "ASTERNode.java" does not exist.  Will create one.
+File "ASTNRNode.java" does not exist.  Will create one.
+File "ASTSWNode.java" does not exist.  Will create one.
+File "ASTNSWNode.java" does not exist.  Will create one.
+File "ASTEWNode.java" does not exist.  Will create one.
+File "ASTNEWNode.java" does not exist.  Will create one.
+File "ASTAddNode.java" does not exist.  Will create one.
+File "ASTSubNode.java" does not exist.  Will create one.
+File "ASTMulNode.java" does not exist.  Will create one.
+File "ASTDivNode.java" does not exist.  Will create one.
+File "ASTModNode.java" does not exist.  Will create one.
+File "ASTUnaryMinusNode.java" does not exist.  Will create one.
+File "ASTBitwiseComplNode.java" does not exist.  Will create one.
+File "ASTNotNode.java" does not exist.  Will create one.
+File "ASTEmptyFunction.java" does not exist.  Will create one.
+File "ASTSizeFunction.java" does not exist.  Will create one.
+File "ASTIdentifier.java" does not exist.  Will create one.
+File "ASTNumberLiteral.java" does not exist.  Will create one.
+File "ASTNullLiteral.java" does not exist.  Will create one.
+File "ASTTrueNode.java" does not exist.  Will create one.
+File "ASTFalseNode.java" does not exist.  Will create one.
+File "ASTStringLiteral.java" does not exist.  Will create one.
+File "ASTJxltLiteral.java" does not exist.  Will create one.
+File "ASTExtendedLiteral.java" does not exist.  Will create one.
+File "ASTArrayLiteral.java" does not exist.  Will create one.
+File "ASTMapLiteral.java" does not exist.  Will create one.
+File "ASTMapEntry.java" does not exist.  Will create one.
+File "ASTSetLiteral.java" does not exist.  Will create one.
+File "ASTEmptyMethod.java" does not exist.  Will create one.
+File "ASTSizeMethod.java" does not exist.  Will create one.
+File "ASTArguments.java" does not exist.  Will create one.
+File "ASTFunctionNode.java" does not exist.  Will create one.
+File "ASTConstructorNode.java" does not exist.  Will create one.
+File "ASTJexlLambda.java" does not exist.  Will create one.
+File "ASTIdentifierAccess.java" does not exist.  Will create one.
+File "ASTArrayAccess.java" does not exist.  Will create one.
+File "ASTMethodNode.java" does not exist.  Will create one.
+File "ASTReferenceExpression.java" does not exist.  Will create one.
+File "ParserTreeConstants.java" does not exist.  Will create one.
+File "ParserVisitor.java" does not exist.  Will create one.
+File "JJTParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434493704/node/Parser.jj
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434493704/node/Parser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jexl3 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434494682
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jexl3 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jexl3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.555 s
+[INFO] Finished at: 2019-12-04T04:41:37+00:00
+[INFO] Final Memory: 25M/323M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jexl3: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+(mvn clean compile -DskipTests) || (mvn clean install -DskipTests) || (sed -i -- 's/<\/dependencies>/<dependency><groupId>log4j<\/groupId><artifactId>log4j<\/artifactId><version>1.2.17<\/version><\/dependency><\/dependencies>/g' pom.xml ; mvn clean install -DskipTests)
+0.249s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-jexl 18388bafa79575242f604e075800795c488fef7d:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JEXL3 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jexl3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (jexl-jjtree) @ commons-jexl3 ---
+Java Compiler Compiler Version 5.0 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt . . .
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "ASTJexlScript.java" does not exist.  Will create one.
+File "ASTBlock.java" does not exist.  Will create one.
+File "ASTAmbiguous.java" does not exist.  Will create one.
+File "ASTIfStatement.java" does not exist.  Will create one.
+File "ASTWhileStatement.java" does not exist.  Will create one.
+File "ASTReturnStatement.java" does not exist.  Will create one.
+File "ASTContinue.java" does not exist.  Will create one.
+File "ASTBreak.java" does not exist.  Will create one.
+File "ASTForeachStatement.java" does not exist.  Will create one.
+File "ASTReference.java" does not exist.  Will create one.
+File "ASTAssignment.java" does not exist.  Will create one.
+File "ASTVar.java" does not exist.  Will create one.
+File "ASTSetAddNode.java" does not exist.  Will create one.
+File "ASTSetMultNode.java" does not exist.  Will create one.
+File "ASTSetDivNode.java" does not exist.  Will create one.
+File "ASTSetModNode.java" does not exist.  Will create one.
+File "ASTSetAndNode.java" does not exist.  Will create one.
+File "ASTSetOrNode.java" does not exist.  Will create one.
+File "ASTSetXorNode.java" does not exist.  Will create one.
+File "ASTSetSubNode.java" does not exist.  Will create one.
+File "ASTTernaryNode.java" does not exist.  Will create one.
+File "ASTOrNode.java" does not exist.  Will create one.
+File "ASTAndNode.java" does not exist.  Will create one.
+File "ASTBitwiseOrNode.java" does not exist.  Will create one.
+File "ASTBitwiseXorNode.java" does not exist.  Will create one.
+File "ASTBitwiseAndNode.java" does not exist.  Will create one.
+File "ASTEQNode.java" does not exist.  Will create one.
+File "ASTNENode.java" does not exist.  Will create one.
+File "ASTRangeNode.java" does not exist.  Will create one.
+File "ASTLTNode.java" does not exist.  Will create one.
+File "ASTGTNode.java" does not exist.  Will create one.
+File "ASTLENode.java" does not exist.  Will create one.
+File "ASTGENode.java" does not exist.  Will create one.
+File "ASTERNode.java" does not exist.  Will create one.
+File "ASTNRNode.java" does not exist.  Will create one.
+File "ASTSWNode.java" does not exist.  Will create one.
+File "ASTNSWNode.java" does not exist.  Will create one.
+File "ASTEWNode.java" does not exist.  Will create one.
+File "ASTNEWNode.java" does not exist.  Will create one.
+File "ASTAddNode.java" does not exist.  Will create one.
+File "ASTSubNode.java" does not exist.  Will create one.
+File "ASTMulNode.java" does not exist.  Will create one.
+File "ASTDivNode.java" does not exist.  Will create one.
+File "ASTModNode.java" does not exist.  Will create one.
+File "ASTUnaryMinusNode.java" does not exist.  Will create one.
+File "ASTBitwiseComplNode.java" does not exist.  Will create one.
+File "ASTNotNode.java" does not exist.  Will create one.
+File "ASTEmptyFunction.java" does not exist.  Will create one.
+File "ASTSizeFunction.java" does not exist.  Will create one.
+File "ASTIdentifier.java" does not exist.  Will create one.
+File "ASTNumberLiteral.java" does not exist.  Will create one.
+File "ASTNullLiteral.java" does not exist.  Will create one.
+File "ASTTrueNode.java" does not exist.  Will create one.
+File "ASTFalseNode.java" does not exist.  Will create one.
+File "ASTStringLiteral.java" does not exist.  Will create one.
+File "ASTJxltLiteral.java" does not exist.  Will create one.
+File "ASTExtendedLiteral.java" does not exist.  Will create one.
+File "ASTArrayLiteral.java" does not exist.  Will create one.
+File "ASTMapLiteral.java" does not exist.  Will create one.
+File "ASTMapEntry.java" does not exist.  Will create one.
+File "ASTSetLiteral.java" does not exist.  Will create one.
+File "ASTEmptyMethod.java" does not exist.  Will create one.
+File "ASTSizeMethod.java" does not exist.  Will create one.
+File "ASTArguments.java" does not exist.  Will create one.
+File "ASTFunctionNode.java" does not exist.  Will create one.
+File "ASTConstructorNode.java" does not exist.  Will create one.
+File "ASTJexlLambda.java" does not exist.  Will create one.
+File "ASTIdentifierAccess.java" does not exist.  Will create one.
+File "ASTArrayAccess.java" does not exist.  Will create one.
+File "ASTMethodNode.java" does not exist.  Will create one.
+File "ASTReferenceExpression.java" does not exist.  Will create one.
+File "ParserTreeConstants.java" does not exist.  Will create one.
+File "ParserVisitor.java" does not exist.  Will create one.
+File "JJTParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434501277/node/Parser.jj
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434501277/node/Parser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jexl3 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434502243
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jexl3 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jexl3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.549 s
+[INFO] Finished at: 2019-12-04T04:41:45+00:00
+[INFO] Final Memory: 25M/341M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jexl3: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JEXL3 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jexl3 ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jexl3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (jexl-jjtree) @ commons-jexl3 ---
+Java Compiler Compiler Version 5.0 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt . . .
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "ASTJexlScript.java" does not exist.  Will create one.
+File "ASTBlock.java" does not exist.  Will create one.
+File "ASTAmbiguous.java" does not exist.  Will create one.
+File "ASTIfStatement.java" does not exist.  Will create one.
+File "ASTWhileStatement.java" does not exist.  Will create one.
+File "ASTReturnStatement.java" does not exist.  Will create one.
+File "ASTContinue.java" does not exist.  Will create one.
+File "ASTBreak.java" does not exist.  Will create one.
+File "ASTForeachStatement.java" does not exist.  Will create one.
+File "ASTReference.java" does not exist.  Will create one.
+File "ASTAssignment.java" does not exist.  Will create one.
+File "ASTVar.java" does not exist.  Will create one.
+File "ASTSetAddNode.java" does not exist.  Will create one.
+File "ASTSetMultNode.java" does not exist.  Will create one.
+File "ASTSetDivNode.java" does not exist.  Will create one.
+File "ASTSetModNode.java" does not exist.  Will create one.
+File "ASTSetAndNode.java" does not exist.  Will create one.
+File "ASTSetOrNode.java" does not exist.  Will create one.
+File "ASTSetXorNode.java" does not exist.  Will create one.
+File "ASTSetSubNode.java" does not exist.  Will create one.
+File "ASTTernaryNode.java" does not exist.  Will create one.
+File "ASTOrNode.java" does not exist.  Will create one.
+File "ASTAndNode.java" does not exist.  Will create one.
+File "ASTBitwiseOrNode.java" does not exist.  Will create one.
+File "ASTBitwiseXorNode.java" does not exist.  Will create one.
+File "ASTBitwiseAndNode.java" does not exist.  Will create one.
+File "ASTEQNode.java" does not exist.  Will create one.
+File "ASTNENode.java" does not exist.  Will create one.
+File "ASTRangeNode.java" does not exist.  Will create one.
+File "ASTLTNode.java" does not exist.  Will create one.
+File "ASTGTNode.java" does not exist.  Will create one.
+File "ASTLENode.java" does not exist.  Will create one.
+File "ASTGENode.java" does not exist.  Will create one.
+File "ASTERNode.java" does not exist.  Will create one.
+File "ASTNRNode.java" does not exist.  Will create one.
+File "ASTSWNode.java" does not exist.  Will create one.
+File "ASTNSWNode.java" does not exist.  Will create one.
+File "ASTEWNode.java" does not exist.  Will create one.
+File "ASTNEWNode.java" does not exist.  Will create one.
+File "ASTAddNode.java" does not exist.  Will create one.
+File "ASTSubNode.java" does not exist.  Will create one.
+File "ASTMulNode.java" does not exist.  Will create one.
+File "ASTDivNode.java" does not exist.  Will create one.
+File "ASTModNode.java" does not exist.  Will create one.
+File "ASTUnaryMinusNode.java" does not exist.  Will create one.
+File "ASTBitwiseComplNode.java" does not exist.  Will create one.
+File "ASTNotNode.java" does not exist.  Will create one.
+File "ASTEmptyFunction.java" does not exist.  Will create one.
+File "ASTSizeFunction.java" does not exist.  Will create one.
+File "ASTIdentifier.java" does not exist.  Will create one.
+File "ASTNumberLiteral.java" does not exist.  Will create one.
+File "ASTNullLiteral.java" does not exist.  Will create one.
+File "ASTTrueNode.java" does not exist.  Will create one.
+File "ASTFalseNode.java" does not exist.  Will create one.
+File "ASTStringLiteral.java" does not exist.  Will create one.
+File "ASTJxltLiteral.java" does not exist.  Will create one.
+File "ASTExtendedLiteral.java" does not exist.  Will create one.
+File "ASTArrayLiteral.java" does not exist.  Will create one.
+File "ASTMapLiteral.java" does not exist.  Will create one.
+File "ASTMapEntry.java" does not exist.  Will create one.
+File "ASTSetLiteral.java" does not exist.  Will create one.
+File "ASTEmptyMethod.java" does not exist.  Will create one.
+File "ASTSizeMethod.java" does not exist.  Will create one.
+File "ASTArguments.java" does not exist.  Will create one.
+File "ASTFunctionNode.java" does not exist.  Will create one.
+File "ASTConstructorNode.java" does not exist.  Will create one.
+File "ASTJexlLambda.java" does not exist.  Will create one.
+File "ASTIdentifierAccess.java" does not exist.  Will create one.
+File "ASTArrayAccess.java" does not exist.  Will create one.
+File "ASTMethodNode.java" does not exist.  Will create one.
+File "ASTReferenceExpression.java" does not exist.  Will create one.
+File "ParserTreeConstants.java" does not exist.  Will create one.
+File "ParserVisitor.java" does not exist.  Will create one.
+File "JJTParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434508516/node/Parser.jj
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434508516/node/Parser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jexl3 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434509500
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jexl3 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jexl3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.563 s
+[INFO] Finished at: 2019-12-04T04:41:52+00:00
+[INFO] Final Memory: 25M/300M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jexl3: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-jexl3:jar:3.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: log4j:log4j:jar -> duplicate declaration of version 1.2.17 @ line 113, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JEXL3 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jexl3 ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jexl3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (jexl-jjtree) @ commons-jexl3 ---
+Java Compiler Compiler Version 5.0 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt . . .
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "ASTJexlScript.java" does not exist.  Will create one.
+File "ASTBlock.java" does not exist.  Will create one.
+File "ASTAmbiguous.java" does not exist.  Will create one.
+File "ASTIfStatement.java" does not exist.  Will create one.
+File "ASTWhileStatement.java" does not exist.  Will create one.
+File "ASTReturnStatement.java" does not exist.  Will create one.
+File "ASTContinue.java" does not exist.  Will create one.
+File "ASTBreak.java" does not exist.  Will create one.
+File "ASTForeachStatement.java" does not exist.  Will create one.
+File "ASTReference.java" does not exist.  Will create one.
+File "ASTAssignment.java" does not exist.  Will create one.
+File "ASTVar.java" does not exist.  Will create one.
+File "ASTSetAddNode.java" does not exist.  Will create one.
+File "ASTSetMultNode.java" does not exist.  Will create one.
+File "ASTSetDivNode.java" does not exist.  Will create one.
+File "ASTSetModNode.java" does not exist.  Will create one.
+File "ASTSetAndNode.java" does not exist.  Will create one.
+File "ASTSetOrNode.java" does not exist.  Will create one.
+File "ASTSetXorNode.java" does not exist.  Will create one.
+File "ASTSetSubNode.java" does not exist.  Will create one.
+File "ASTTernaryNode.java" does not exist.  Will create one.
+File "ASTOrNode.java" does not exist.  Will create one.
+File "ASTAndNode.java" does not exist.  Will create one.
+File "ASTBitwiseOrNode.java" does not exist.  Will create one.
+File "ASTBitwiseXorNode.java" does not exist.  Will create one.
+File "ASTBitwiseAndNode.java" does not exist.  Will create one.
+File "ASTEQNode.java" does not exist.  Will create one.
+File "ASTNENode.java" does not exist.  Will create one.
+File "ASTRangeNode.java" does not exist.  Will create one.
+File "ASTLTNode.java" does not exist.  Will create one.
+File "ASTGTNode.java" does not exist.  Will create one.
+File "ASTLENode.java" does not exist.  Will create one.
+File "ASTGENode.java" does not exist.  Will create one.
+File "ASTERNode.java" does not exist.  Will create one.
+File "ASTNRNode.java" does not exist.  Will create one.
+File "ASTSWNode.java" does not exist.  Will create one.
+File "ASTNSWNode.java" does not exist.  Will create one.
+File "ASTEWNode.java" does not exist.  Will create one.
+File "ASTNEWNode.java" does not exist.  Will create one.
+File "ASTAddNode.java" does not exist.  Will create one.
+File "ASTSubNode.java" does not exist.  Will create one.
+File "ASTMulNode.java" does not exist.  Will create one.
+File "ASTDivNode.java" does not exist.  Will create one.
+File "ASTModNode.java" does not exist.  Will create one.
+File "ASTUnaryMinusNode.java" does not exist.  Will create one.
+File "ASTBitwiseComplNode.java" does not exist.  Will create one.
+File "ASTNotNode.java" does not exist.  Will create one.
+File "ASTEmptyFunction.java" does not exist.  Will create one.
+File "ASTSizeFunction.java" does not exist.  Will create one.
+File "ASTIdentifier.java" does not exist.  Will create one.
+File "ASTNumberLiteral.java" does not exist.  Will create one.
+File "ASTNullLiteral.java" does not exist.  Will create one.
+File "ASTTrueNode.java" does not exist.  Will create one.
+File "ASTFalseNode.java" does not exist.  Will create one.
+File "ASTStringLiteral.java" does not exist.  Will create one.
+File "ASTJxltLiteral.java" does not exist.  Will create one.
+File "ASTExtendedLiteral.java" does not exist.  Will create one.
+File "ASTArrayLiteral.java" does not exist.  Will create one.
+File "ASTMapLiteral.java" does not exist.  Will create one.
+File "ASTMapEntry.java" does not exist.  Will create one.
+File "ASTSetLiteral.java" does not exist.  Will create one.
+File "ASTEmptyMethod.java" does not exist.  Will create one.
+File "ASTSizeMethod.java" does not exist.  Will create one.
+File "ASTArguments.java" does not exist.  Will create one.
+File "ASTFunctionNode.java" does not exist.  Will create one.
+File "ASTConstructorNode.java" does not exist.  Will create one.
+File "ASTJexlLambda.java" does not exist.  Will create one.
+File "ASTIdentifierAccess.java" does not exist.  Will create one.
+File "ASTArrayAccess.java" does not exist.  Will create one.
+File "ASTMethodNode.java" does not exist.  Will create one.
+File "ASTReferenceExpression.java" does not exist.  Will create one.
+File "ParserTreeConstants.java" does not exist.  Will create one.
+File "ParserVisitor.java" does not exist.  Will create one.
+File "JJTParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434515846/node/Parser.jj
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434515846/node/Parser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jexl3 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434516853
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jexl3 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jexl3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.672 s
+[INFO] Finished at: 2019-12-04T04:41:59+00:00
+[INFO] Final Memory: 26M/353M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jexl3: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+(mvn clean compile -DskipTests) || (mvn clean install -DskipTests) || (sed -i -- 's/<\/dependencies>/<dependency><groupId>log4j<\/groupId><artifactId>log4j<\/artifactId><version>1.2.17<\/version><\/dependency><\/dependencies>/g' pom.xml ; mvn clean install -DskipTests)
+0.134s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-jexl 18388bafa79575242f604e075800795c488fef7d:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JEXL3 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jexl3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (jexl-jjtree) @ commons-jexl3 ---
+Java Compiler Compiler Version 5.0 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt . . .
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "ASTJexlScript.java" does not exist.  Will create one.
+File "ASTBlock.java" does not exist.  Will create one.
+File "ASTAmbiguous.java" does not exist.  Will create one.
+File "ASTIfStatement.java" does not exist.  Will create one.
+File "ASTWhileStatement.java" does not exist.  Will create one.
+File "ASTReturnStatement.java" does not exist.  Will create one.
+File "ASTContinue.java" does not exist.  Will create one.
+File "ASTBreak.java" does not exist.  Will create one.
+File "ASTForeachStatement.java" does not exist.  Will create one.
+File "ASTReference.java" does not exist.  Will create one.
+File "ASTAssignment.java" does not exist.  Will create one.
+File "ASTVar.java" does not exist.  Will create one.
+File "ASTSetAddNode.java" does not exist.  Will create one.
+File "ASTSetMultNode.java" does not exist.  Will create one.
+File "ASTSetDivNode.java" does not exist.  Will create one.
+File "ASTSetModNode.java" does not exist.  Will create one.
+File "ASTSetAndNode.java" does not exist.  Will create one.
+File "ASTSetOrNode.java" does not exist.  Will create one.
+File "ASTSetXorNode.java" does not exist.  Will create one.
+File "ASTSetSubNode.java" does not exist.  Will create one.
+File "ASTTernaryNode.java" does not exist.  Will create one.
+File "ASTOrNode.java" does not exist.  Will create one.
+File "ASTAndNode.java" does not exist.  Will create one.
+File "ASTBitwiseOrNode.java" does not exist.  Will create one.
+File "ASTBitwiseXorNode.java" does not exist.  Will create one.
+File "ASTBitwiseAndNode.java" does not exist.  Will create one.
+File "ASTEQNode.java" does not exist.  Will create one.
+File "ASTNENode.java" does not exist.  Will create one.
+File "ASTRangeNode.java" does not exist.  Will create one.
+File "ASTLTNode.java" does not exist.  Will create one.
+File "ASTGTNode.java" does not exist.  Will create one.
+File "ASTLENode.java" does not exist.  Will create one.
+File "ASTGENode.java" does not exist.  Will create one.
+File "ASTERNode.java" does not exist.  Will create one.
+File "ASTNRNode.java" does not exist.  Will create one.
+File "ASTSWNode.java" does not exist.  Will create one.
+File "ASTNSWNode.java" does not exist.  Will create one.
+File "ASTEWNode.java" does not exist.  Will create one.
+File "ASTNEWNode.java" does not exist.  Will create one.
+File "ASTAddNode.java" does not exist.  Will create one.
+File "ASTSubNode.java" does not exist.  Will create one.
+File "ASTMulNode.java" does not exist.  Will create one.
+File "ASTDivNode.java" does not exist.  Will create one.
+File "ASTModNode.java" does not exist.  Will create one.
+File "ASTUnaryMinusNode.java" does not exist.  Will create one.
+File "ASTBitwiseComplNode.java" does not exist.  Will create one.
+File "ASTNotNode.java" does not exist.  Will create one.
+File "ASTEmptyFunction.java" does not exist.  Will create one.
+File "ASTSizeFunction.java" does not exist.  Will create one.
+File "ASTIdentifier.java" does not exist.  Will create one.
+File "ASTNumberLiteral.java" does not exist.  Will create one.
+File "ASTNullLiteral.java" does not exist.  Will create one.
+File "ASTTrueNode.java" does not exist.  Will create one.
+File "ASTFalseNode.java" does not exist.  Will create one.
+File "ASTStringLiteral.java" does not exist.  Will create one.
+File "ASTJxltLiteral.java" does not exist.  Will create one.
+File "ASTExtendedLiteral.java" does not exist.  Will create one.
+File "ASTArrayLiteral.java" does not exist.  Will create one.
+File "ASTMapLiteral.java" does not exist.  Will create one.
+File "ASTMapEntry.java" does not exist.  Will create one.
+File "ASTSetLiteral.java" does not exist.  Will create one.
+File "ASTEmptyMethod.java" does not exist.  Will create one.
+File "ASTSizeMethod.java" does not exist.  Will create one.
+File "ASTArguments.java" does not exist.  Will create one.
+File "ASTFunctionNode.java" does not exist.  Will create one.
+File "ASTConstructorNode.java" does not exist.  Will create one.
+File "ASTJexlLambda.java" does not exist.  Will create one.
+File "ASTIdentifierAccess.java" does not exist.  Will create one.
+File "ASTArrayAccess.java" does not exist.  Will create one.
+File "ASTMethodNode.java" does not exist.  Will create one.
+File "ASTReferenceExpression.java" does not exist.  Will create one.
+File "ParserTreeConstants.java" does not exist.  Will create one.
+File "ParserVisitor.java" does not exist.  Will create one.
+File "JJTParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434524225/node/Parser.jj
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434524225/node/Parser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jexl3 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434526111
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jexl3 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jexl3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.337 s
+[INFO] Finished at: 2019-12-04T04:42:11+00:00
+[INFO] Final Memory: 24M/329M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jexl3: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JEXL3 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jexl3 ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jexl3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (jexl-jjtree) @ commons-jexl3 ---
+Java Compiler Compiler Version 5.0 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt . . .
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "ASTJexlScript.java" does not exist.  Will create one.
+File "ASTBlock.java" does not exist.  Will create one.
+File "ASTAmbiguous.java" does not exist.  Will create one.
+File "ASTIfStatement.java" does not exist.  Will create one.
+File "ASTWhileStatement.java" does not exist.  Will create one.
+File "ASTReturnStatement.java" does not exist.  Will create one.
+File "ASTContinue.java" does not exist.  Will create one.
+File "ASTBreak.java" does not exist.  Will create one.
+File "ASTForeachStatement.java" does not exist.  Will create one.
+File "ASTReference.java" does not exist.  Will create one.
+File "ASTAssignment.java" does not exist.  Will create one.
+File "ASTVar.java" does not exist.  Will create one.
+File "ASTSetAddNode.java" does not exist.  Will create one.
+File "ASTSetMultNode.java" does not exist.  Will create one.
+File "ASTSetDivNode.java" does not exist.  Will create one.
+File "ASTSetModNode.java" does not exist.  Will create one.
+File "ASTSetAndNode.java" does not exist.  Will create one.
+File "ASTSetOrNode.java" does not exist.  Will create one.
+File "ASTSetXorNode.java" does not exist.  Will create one.
+File "ASTSetSubNode.java" does not exist.  Will create one.
+File "ASTTernaryNode.java" does not exist.  Will create one.
+File "ASTOrNode.java" does not exist.  Will create one.
+File "ASTAndNode.java" does not exist.  Will create one.
+File "ASTBitwiseOrNode.java" does not exist.  Will create one.
+File "ASTBitwiseXorNode.java" does not exist.  Will create one.
+File "ASTBitwiseAndNode.java" does not exist.  Will create one.
+File "ASTEQNode.java" does not exist.  Will create one.
+File "ASTNENode.java" does not exist.  Will create one.
+File "ASTRangeNode.java" does not exist.  Will create one.
+File "ASTLTNode.java" does not exist.  Will create one.
+File "ASTGTNode.java" does not exist.  Will create one.
+File "ASTLENode.java" does not exist.  Will create one.
+File "ASTGENode.java" does not exist.  Will create one.
+File "ASTERNode.java" does not exist.  Will create one.
+File "ASTNRNode.java" does not exist.  Will create one.
+File "ASTSWNode.java" does not exist.  Will create one.
+File "ASTNSWNode.java" does not exist.  Will create one.
+File "ASTEWNode.java" does not exist.  Will create one.
+File "ASTNEWNode.java" does not exist.  Will create one.
+File "ASTAddNode.java" does not exist.  Will create one.
+File "ASTSubNode.java" does not exist.  Will create one.
+File "ASTMulNode.java" does not exist.  Will create one.
+File "ASTDivNode.java" does not exist.  Will create one.
+File "ASTModNode.java" does not exist.  Will create one.
+File "ASTUnaryMinusNode.java" does not exist.  Will create one.
+File "ASTBitwiseComplNode.java" does not exist.  Will create one.
+File "ASTNotNode.java" does not exist.  Will create one.
+File "ASTEmptyFunction.java" does not exist.  Will create one.
+File "ASTSizeFunction.java" does not exist.  Will create one.
+File "ASTIdentifier.java" does not exist.  Will create one.
+File "ASTNumberLiteral.java" does not exist.  Will create one.
+File "ASTNullLiteral.java" does not exist.  Will create one.
+File "ASTTrueNode.java" does not exist.  Will create one.
+File "ASTFalseNode.java" does not exist.  Will create one.
+File "ASTStringLiteral.java" does not exist.  Will create one.
+File "ASTJxltLiteral.java" does not exist.  Will create one.
+File "ASTExtendedLiteral.java" does not exist.  Will create one.
+File "ASTArrayLiteral.java" does not exist.  Will create one.
+File "ASTMapLiteral.java" does not exist.  Will create one.
+File "ASTMapEntry.java" does not exist.  Will create one.
+File "ASTSetLiteral.java" does not exist.  Will create one.
+File "ASTEmptyMethod.java" does not exist.  Will create one.
+File "ASTSizeMethod.java" does not exist.  Will create one.
+File "ASTArguments.java" does not exist.  Will create one.
+File "ASTFunctionNode.java" does not exist.  Will create one.
+File "ASTConstructorNode.java" does not exist.  Will create one.
+File "ASTJexlLambda.java" does not exist.  Will create one.
+File "ASTIdentifierAccess.java" does not exist.  Will create one.
+File "ASTArrayAccess.java" does not exist.  Will create one.
+File "ASTMethodNode.java" does not exist.  Will create one.
+File "ASTReferenceExpression.java" does not exist.  Will create one.
+File "ParserTreeConstants.java" does not exist.  Will create one.
+File "ParserVisitor.java" does not exist.  Will create one.
+File "JJTParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434535775/node/Parser.jj
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434535775/node/Parser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jexl3 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434537595
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jexl3 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jexl3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.940 s
+[INFO] Finished at: 2019-12-04T04:42:22+00:00
+[INFO] Final Memory: 24M/329M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jexl3: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-jexl3:jar:3.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: log4j:log4j:jar -> duplicate declaration of version 1.2.17 @ line 113, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JEXL3 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ commons-jexl3 ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jexl3 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:jjtree-javacc (jexl-jjtree) @ commons-jexl3 ---
+Java Compiler Compiler Version 5.0 (Tree Builder)
+(type "jjtree" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt . . .
+File "Node.java" does not exist.  Will create one.
+File "SimpleNode.java" does not exist.  Will create one.
+File "ASTJexlScript.java" does not exist.  Will create one.
+File "ASTBlock.java" does not exist.  Will create one.
+File "ASTAmbiguous.java" does not exist.  Will create one.
+File "ASTIfStatement.java" does not exist.  Will create one.
+File "ASTWhileStatement.java" does not exist.  Will create one.
+File "ASTReturnStatement.java" does not exist.  Will create one.
+File "ASTContinue.java" does not exist.  Will create one.
+File "ASTBreak.java" does not exist.  Will create one.
+File "ASTForeachStatement.java" does not exist.  Will create one.
+File "ASTReference.java" does not exist.  Will create one.
+File "ASTAssignment.java" does not exist.  Will create one.
+File "ASTVar.java" does not exist.  Will create one.
+File "ASTSetAddNode.java" does not exist.  Will create one.
+File "ASTSetMultNode.java" does not exist.  Will create one.
+File "ASTSetDivNode.java" does not exist.  Will create one.
+File "ASTSetModNode.java" does not exist.  Will create one.
+File "ASTSetAndNode.java" does not exist.  Will create one.
+File "ASTSetOrNode.java" does not exist.  Will create one.
+File "ASTSetXorNode.java" does not exist.  Will create one.
+File "ASTSetSubNode.java" does not exist.  Will create one.
+File "ASTTernaryNode.java" does not exist.  Will create one.
+File "ASTOrNode.java" does not exist.  Will create one.
+File "ASTAndNode.java" does not exist.  Will create one.
+File "ASTBitwiseOrNode.java" does not exist.  Will create one.
+File "ASTBitwiseXorNode.java" does not exist.  Will create one.
+File "ASTBitwiseAndNode.java" does not exist.  Will create one.
+File "ASTEQNode.java" does not exist.  Will create one.
+File "ASTNENode.java" does not exist.  Will create one.
+File "ASTRangeNode.java" does not exist.  Will create one.
+File "ASTLTNode.java" does not exist.  Will create one.
+File "ASTGTNode.java" does not exist.  Will create one.
+File "ASTLENode.java" does not exist.  Will create one.
+File "ASTGENode.java" does not exist.  Will create one.
+File "ASTERNode.java" does not exist.  Will create one.
+File "ASTNRNode.java" does not exist.  Will create one.
+File "ASTSWNode.java" does not exist.  Will create one.
+File "ASTNSWNode.java" does not exist.  Will create one.
+File "ASTEWNode.java" does not exist.  Will create one.
+File "ASTNEWNode.java" does not exist.  Will create one.
+File "ASTAddNode.java" does not exist.  Will create one.
+File "ASTSubNode.java" does not exist.  Will create one.
+File "ASTMulNode.java" does not exist.  Will create one.
+File "ASTDivNode.java" does not exist.  Will create one.
+File "ASTModNode.java" does not exist.  Will create one.
+File "ASTUnaryMinusNode.java" does not exist.  Will create one.
+File "ASTBitwiseComplNode.java" does not exist.  Will create one.
+File "ASTNotNode.java" does not exist.  Will create one.
+File "ASTEmptyFunction.java" does not exist.  Will create one.
+File "ASTSizeFunction.java" does not exist.  Will create one.
+File "ASTIdentifier.java" does not exist.  Will create one.
+File "ASTNumberLiteral.java" does not exist.  Will create one.
+File "ASTNullLiteral.java" does not exist.  Will create one.
+File "ASTTrueNode.java" does not exist.  Will create one.
+File "ASTFalseNode.java" does not exist.  Will create one.
+File "ASTStringLiteral.java" does not exist.  Will create one.
+File "ASTJxltLiteral.java" does not exist.  Will create one.
+File "ASTExtendedLiteral.java" does not exist.  Will create one.
+File "ASTArrayLiteral.java" does not exist.  Will create one.
+File "ASTMapLiteral.java" does not exist.  Will create one.
+File "ASTMapEntry.java" does not exist.  Will create one.
+File "ASTSetLiteral.java" does not exist.  Will create one.
+File "ASTEmptyMethod.java" does not exist.  Will create one.
+File "ASTSizeMethod.java" does not exist.  Will create one.
+File "ASTArguments.java" does not exist.  Will create one.
+File "ASTFunctionNode.java" does not exist.  Will create one.
+File "ASTConstructorNode.java" does not exist.  Will create one.
+File "ASTJexlLambda.java" does not exist.  Will create one.
+File "ASTIdentifierAccess.java" does not exist.  Will create one.
+File "ASTArrayAccess.java" does not exist.  Will create one.
+File "ASTMethodNode.java" does not exist.  Will create one.
+File "ASTReferenceExpression.java" does not exist.  Will create one.
+File "ParserTreeConstants.java" does not exist.  Will create one.
+File "ParserVisitor.java" does not exist.  Will create one.
+File "JJTParserState.java" does not exist.  Will create one.
+Annotated grammar generated successfully in /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434546744/node/Parser.jj
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/javacc-1575434546744/node/Parser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jexl3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-jexl3 ---
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434548682
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jexl3 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-jexl3 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 146 source files to /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.966 s
+[INFO] Finished at: 2019-12-04T04:42:33+00:00
+[INFO] Final Memory: 24M/329M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-jexl3: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jexl/download/18388bafa79575242f604e075800795c488fef7d/src/main/java/org/apache/commons/jexl3/internal/Interpreter.java:[112,8] org.apache.commons.jexl3.internal.Interpreter is not abstract and does not override abstract method visit(org.apache.commons.jexl3.parser.ASTJxltLiteral,java.lang.Object) in org.apache.commons.jexl3.parser.ParserVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+(mvn clean compile -DskipTests) || (mvn clean install -DskipTests) || (sed -i -- 's/<\/dependencies>/<dependency><groupId>log4j<\/groupId><artifactId>log4j<\/artifactId><version>1.2.17<\/version><\/dependency><\/dependencies>/g' pom.xml ; mvn clean install -DskipTests)
+0.454s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-jexl 18388bafa79575242f604e075800795c488fef7d:
+(mvn clean compile -DskipTests) || (mvn clean install -DskipTests) || (sed -i -- 's/<\/dependencies>/<dependency><groupId>log4j<\/groupId><artifactId>log4j<\/artifactId><version>1.2.17<\/version><\/dependency><\/dependencies>/g' pom.xml ; mvn clean install -DskipTests)
+0.235s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

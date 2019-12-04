@@ -1,0 +1,1025 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-flume 2945f7461b67b5c7c7fdf7a34001858bdb835a48:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG SDK
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG SDK 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-sdk ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-sdk ---
+[INFO] Compiling 13 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/target/classes
+[INFO] 
+[INFO] --- paranamer-maven-plugin:2.3:generate (run) @ flume-ng-sdk ---
+[INFO] Generating parameter names from /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/target/generated-sources/avro to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Compiling 19 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-configuration/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 78 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.548 s]
+[INFO] Flume NG SDK ....................................... SUCCESS [  2.276 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  1.119 s]
+[INFO] Flume NG Core ...................................... FAILURE [  1.395 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.883 s
+[INFO] Finished at: 2019-12-04T06:53:16+00:00
+[INFO] Final Memory: 34M/374M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+No local changes to save
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-core:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-configuration:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sinks:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-node:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-dist:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-jdbc-channel:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-file-channel:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-recoverable-memory-channel:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-channels:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-thrift-source:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-avro-source:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-legacy-sources:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-clients:flume-ng-log4jappender:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-clients:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sdk:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-parent:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ line 721, column 19
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 78 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.690 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  0.851 s]
+[INFO] Flume NG Core ...................................... FAILURE [  1.597 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.639 s
+[INFO] Finished at: 2019-12-04T06:53:21+00:00
+[INFO] Final Memory: 24M/332M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.23s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-flume 2945f7461b67b5c7c7fdf7a34001858bdb835a48:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG SDK
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG SDK 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-sdk ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-sdk ---
+[INFO] Compiling 13 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/target/classes
+[INFO] 
+[INFO] --- paranamer-maven-plugin:2.3:generate (run) @ flume-ng-sdk ---
+[INFO] Generating parameter names from /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/target/generated-sources/avro to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Compiling 19 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-configuration/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 78 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.649 s]
+[INFO] Flume NG SDK ....................................... SUCCESS [  2.102 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  1.129 s]
+[INFO] Flume NG Core ...................................... FAILURE [  1.496 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.832 s
+[INFO] Finished at: 2019-12-04T06:53:29+00:00
+[INFO] Final Memory: 34M/375M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+No local changes to save
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-core:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-configuration:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sinks:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-node:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-dist:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-jdbc-channel:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-file-channel:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-recoverable-memory-channel:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-channels:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-thrift-source:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-avro-source:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-legacy-sources:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-clients:flume-ng-log4jappender:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-clients:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sdk:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-parent:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ line 721, column 19
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 78 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.573 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  0.887 s]
+[INFO] Flume NG Core ...................................... FAILURE [  1.509 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.378 s
+[INFO] Finished at: 2019-12-04T06:53:34+00:00
+[INFO] Final Memory: 24M/333M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.217s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-flume 2945f7461b67b5c7c7fdf7a34001858bdb835a48:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG SDK
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG SDK 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-sdk ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-sdk ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-sdk ---
+[INFO] Compiling 13 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/target/classes
+[INFO] 
+[INFO] --- paranamer-maven-plugin:2.3:generate (run) @ flume-ng-sdk ---
+[INFO] Generating parameter names from /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/target/generated-sources/avro to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-sdk/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Compiling 19 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-configuration/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 78 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  1.219 s]
+[INFO] Flume NG SDK ....................................... SUCCESS [  2.661 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  1.548 s]
+[INFO] Flume NG Core ...................................... FAILURE [  1.669 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.808 s
+[INFO] Finished at: 2019-12-04T06:53:45+00:00
+[INFO] Final Memory: 38M/339M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+No local changes to save
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-core:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-configuration:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sinks:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-node:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-dist:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-jdbc-channel:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-file-channel:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-channels:flume-recoverable-memory-channel:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-channels:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-thrift-source:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-legacy-sources:flume-avro-source:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-legacy-sources:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume.flume-ng-clients:flume-ng-log4jappender:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-clients:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-ng-sdk:jar:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ org.apache.flume:flume-parent:1.2.0-incubating-SNAPSHOT, /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/pom.xml, line 721, column 19
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.flume:flume-parent:pom:1.2.0-incubating-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.flume:flume-ng-sdk:jar -> version 1.8.0 vs 1.2.0-incubating-SNAPSHOT @ line 721, column 19
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Configuration
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Configuration 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-configuration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-configuration/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-configuration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.2.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 78 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR]  class ChannelProcessor
+/home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.829 s]
+[INFO] Flume NG Configuration ............................. SUCCESS [  1.719 s]
+[INFO] Flume NG Core ...................................... FAILURE [  2.371 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.629 s
+[INFO] Finished at: 2019-12-04T06:53:53+00:00
+[INFO] Final Memory: 25M/336M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[34,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[35,35] error: package org.apache.flume.interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[58,16] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[62,32] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[85,9] error: cannot find symbol
+[ERROR] class ChannelProcessor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[104,23] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[105,21] error: package Interceptor does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/2945f7461b67b5c7c7fdf7a34001858bdb835a48/flume-ng-core/src/main/java/org/apache/flume/channel/ChannelProcessor.java:[106,26] error: package Interceptor does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.399s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-flume 2945f7461b67b5c7c7fdf7a34001858bdb835a48:
+No local changes to save
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.428s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

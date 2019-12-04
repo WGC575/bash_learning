@@ -1,0 +1,601 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-compress ab9ebfc83e6e741b1a4296c4c651ac2798f467f7:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-compress:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 85, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress (Sandbox) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 49 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.025 s
+[INFO] Finished at: 2019-12-04T04:32:24+00:00
+[INFO] Final Memory: 17M/248M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java:[43,17] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-compress:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 85, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress (Sandbox) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 49 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.867 s
+[INFO] Finished at: 2019-12-04T04:32:28+00:00
+[INFO] Final Memory: 17M/252M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java:[43,17] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-compress:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 85, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress (Sandbox) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 49 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.679 s
+[INFO] Finished at: 2019-12-04T04:32:33+00:00
+[INFO] Final Memory: 17M/255M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java:[43,17] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.317s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-compress ab9ebfc83e6e741b1a4296c4c651ac2798f467f7:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-compress:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 85, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress (Sandbox) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 49 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.690 s
+[INFO] Finished at: 2019-12-04T04:32:37+00:00
+[INFO] Final Memory: 17M/254M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java:[43,17] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-compress:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 85, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress (Sandbox) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 49 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.653 s
+[INFO] Finished at: 2019-12-04T04:32:42+00:00
+[INFO] Final Memory: 17M/252M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java:[43,17] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-compress:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 85, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress (Sandbox) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 49 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.977 s
+[INFO] Finished at: 2019-12-04T04:32:46+00:00
+[INFO] Final Memory: 17M/253M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java:[43,17] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.49s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-compress ab9ebfc83e6e741b1a4296c4c651ac2798f467f7:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-compress:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 85, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress (Sandbox) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 49 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.961 s
+[INFO] Finished at: 2019-12-04T04:32:53+00:00
+[INFO] Final Memory: 20M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java:[43,17] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-compress:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 85, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress (Sandbox) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 49 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.979 s
+[INFO] Finished at: 2019-12-04T04:32:59+00:00
+[INFO] Final Memory: 14M/209M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java:[43,17] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.commons:commons-compress:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 85, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:8, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/8/commons-parent-8.pom, line 246, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress (Sandbox) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.1:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 49 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.082 s
+[INFO] Finished at: 2019-12-04T04:33:05+00:00
+[INFO] Final Memory: 14M/209M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/ab9ebfc83e6e741b1a4296c4c651ac2798f467f7/src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java:[43,17] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.107s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-compress ab9ebfc83e6e741b1a4296c4c651ac2798f467f7:
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.55s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

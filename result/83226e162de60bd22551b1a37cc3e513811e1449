@@ -1,0 +1,977 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-collections 83226e162de60bd22551b1a37cc3e513811e1449:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Collections 4.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-collections4 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433598218
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[38,8] org.apache.commons.collections4.trie.UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[143,58] cannot find symbol
+  symbol:   method prefixMap(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[152,53] cannot find symbol
+  symbol:   method mapIterator()
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[157,24] cannot find symbol
+  symbol:   method nextKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[161,24] cannot find symbol
+  symbol:   method previousKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiValueMap.java:[211,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections4.map.MultiValueMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+  return type V is not compatible with boolean
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/MultiMap.java:[64,14] name clash: remove(K,V) in org.apache.commons.collections4.MultiMap and remove(java.lang.Object,java.lang.Object) in java.util.Map have the same erasure, yet neither overrides the other
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:[58,8] org.apache.commons.collections4.trie.PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(java.lang.String,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[37,8] org.apache.commons.collections4.trie.SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[143,58] cannot find symbol
+  symbol:   method prefixMap(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[149,53] cannot find symbol
+  symbol:   method mapIterator()
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[154,24] cannot find symbol
+  symbol:   method nextKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[158,24] cannot find symbol
+  symbol:   method previousKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiKeyMap.java:[199,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections4.map.MultiKeyMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+  return type V is not compatible with boolean
+[INFO] 14 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.616 s
+[INFO] Finished at: 2019-12-04T04:26:41+00:00
+[INFO] Final Memory: 21M/289M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project commons-collections4: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[38,8] org.apache.commons.collections4.trie.UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[143,58] cannot find symbol
+[ERROR] symbol:   method prefixMap(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[152,53] cannot find symbol
+[ERROR] symbol:   method mapIterator()
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[157,24] cannot find symbol
+[ERROR] symbol:   method nextKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[161,24] cannot find symbol
+[ERROR] symbol:   method previousKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiValueMap.java:[211,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections4.map.MultiValueMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+[ERROR] return type V is not compatible with boolean
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/MultiMap.java:[64,14] name clash: remove(K,V) in org.apache.commons.collections4.MultiMap and remove(java.lang.Object,java.lang.Object) in java.util.Map have the same erasure, yet neither overrides the other
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:[58,8] org.apache.commons.collections4.trie.PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(java.lang.String,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[37,8] org.apache.commons.collections4.trie.SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[143,58] cannot find symbol
+[ERROR] symbol:   method prefixMap(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[149,53] cannot find symbol
+[ERROR] symbol:   method mapIterator()
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[154,24] cannot find symbol
+[ERROR] symbol:   method nextKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[158,24] cannot find symbol
+[ERROR] symbol:   method previousKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiKeyMap.java:[199,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections4.map.MultiKeyMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+[ERROR] return type V is not compatible with boolean
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+init:
+     [echo] -------- commons-collections 4.0-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build/classes
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/ObjectGraphIterator.java:22: warning: [deprecation] ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java:22: warning: [deprecation] ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/list/TreeList.java:26: warning: [deprecation] ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiValueMap.java:211: error: remove(Object,Object) in MultiValueMap cannot implement remove(Object,Object) in Map
+    [javac]     public V remove(final Object key, final Object value) {
+    [javac]              ^
+    [javac]   return type V is not compatible with boolean
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class MultiValueMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/MultiMap.java:64: error: name clash: remove(K,V) in MultiMap and remove(Object,Object) in Map have the same erasure, yet neither overrides the other
+    [javac]     public V remove(K key, V item);
+    [javac]              ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface MultiMap
+    [javac]     V extends Object declared in interface MultiMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiKeyMap.java:199: error: remove(Object,Object) in MultiKeyMap cannot implement remove(Object,Object) in Map
+    [javac]     public V remove(final Object key1, final Object key2) {
+    [javac]              ^
+    [javac]   return type V is not compatible with boolean
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class MultiKeyMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:58: error: PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(String,int,int) in Trie
+    [javac] public class PatriciaTrie<E> extends AbstractPatriciaTrie<String, E> implements Trie<String, E> {
+    [javac]        ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class PatriciaTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:37: error: SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in Trie
+    [javac] public class SynchronizedTrie<K, V> implements Trie<K, V>, Serializable {
+    [javac]        ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:143: error: cannot find symbol
+    [javac]         return Collections.synchronizedSortedMap(delegate.prefixMap(key));
+    [javac]                                                          ^
+    [javac]   symbol:   method prefixMap(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:149: error: cannot find symbol
+    [javac]         final OrderedMapIterator<K, V> it = delegate.mapIterator();
+    [javac]                                                     ^
+    [javac]   symbol:   method mapIterator()
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:154: error: cannot find symbol
+    [javac]         return delegate.nextKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method nextKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:158: error: cannot find symbol
+    [javac]         return delegate.previousKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method previousKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:38: error: UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in Trie
+    [javac] public class UnmodifiableTrie<K, V> implements Trie<K, V>, Serializable, Unmodifiable {
+    [javac]        ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:143: error: cannot find symbol
+    [javac]         return Collections.unmodifiableSortedMap(delegate.prefixMap(key));
+    [javac]                                                          ^
+    [javac]   symbol:   method prefixMap(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:152: error: cannot find symbol
+    [javac]         final OrderedMapIterator<K, V> it = delegate.mapIterator();
+    [javac]                                                     ^
+    [javac]   symbol:   method mapIterator()
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:157: error: cannot find symbol
+    [javac]         return delegate.nextKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method nextKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:161: error: cannot find symbol
+    [javac]         return delegate.previousKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method previousKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 14 errors
+    [javac] 3 warnings
+(mvn clean compile -DskipTests) || (ant compile)
+0.31s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-collections 83226e162de60bd22551b1a37cc3e513811e1449:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Collections 4.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-collections4 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433608635
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[38,8] org.apache.commons.collections4.trie.UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[143,58] cannot find symbol
+  symbol:   method prefixMap(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[152,53] cannot find symbol
+  symbol:   method mapIterator()
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[157,24] cannot find symbol
+  symbol:   method nextKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[161,24] cannot find symbol
+  symbol:   method previousKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiValueMap.java:[211,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections4.map.MultiValueMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+  return type V is not compatible with boolean
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/MultiMap.java:[64,14] name clash: remove(K,V) in org.apache.commons.collections4.MultiMap and remove(java.lang.Object,java.lang.Object) in java.util.Map have the same erasure, yet neither overrides the other
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:[58,8] org.apache.commons.collections4.trie.PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(java.lang.String,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[37,8] org.apache.commons.collections4.trie.SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[143,58] cannot find symbol
+  symbol:   method prefixMap(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[149,53] cannot find symbol
+  symbol:   method mapIterator()
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[154,24] cannot find symbol
+  symbol:   method nextKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[158,24] cannot find symbol
+  symbol:   method previousKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiKeyMap.java:[199,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections4.map.MultiKeyMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+  return type V is not compatible with boolean
+[INFO] 14 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.518 s
+[INFO] Finished at: 2019-12-04T04:26:51+00:00
+[INFO] Final Memory: 21M/290M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project commons-collections4: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[38,8] org.apache.commons.collections4.trie.UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[143,58] cannot find symbol
+[ERROR] symbol:   method prefixMap(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[152,53] cannot find symbol
+[ERROR] symbol:   method mapIterator()
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[157,24] cannot find symbol
+[ERROR] symbol:   method nextKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[161,24] cannot find symbol
+[ERROR] symbol:   method previousKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiValueMap.java:[211,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections4.map.MultiValueMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+[ERROR] return type V is not compatible with boolean
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/MultiMap.java:[64,14] name clash: remove(K,V) in org.apache.commons.collections4.MultiMap and remove(java.lang.Object,java.lang.Object) in java.util.Map have the same erasure, yet neither overrides the other
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:[58,8] org.apache.commons.collections4.trie.PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(java.lang.String,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[37,8] org.apache.commons.collections4.trie.SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[143,58] cannot find symbol
+[ERROR] symbol:   method prefixMap(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[149,53] cannot find symbol
+[ERROR] symbol:   method mapIterator()
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[154,24] cannot find symbol
+[ERROR] symbol:   method nextKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[158,24] cannot find symbol
+[ERROR] symbol:   method previousKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiKeyMap.java:[199,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections4.map.MultiKeyMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+[ERROR] return type V is not compatible with boolean
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+init:
+     [echo] -------- commons-collections 4.0-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build/classes
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/ObjectGraphIterator.java:22: warning: [deprecation] ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java:22: warning: [deprecation] ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/list/TreeList.java:26: warning: [deprecation] ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiValueMap.java:211: error: remove(Object,Object) in MultiValueMap cannot implement remove(Object,Object) in Map
+    [javac]     public V remove(final Object key, final Object value) {
+    [javac]              ^
+    [javac]   return type V is not compatible with boolean
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class MultiValueMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/MultiMap.java:64: error: name clash: remove(K,V) in MultiMap and remove(Object,Object) in Map have the same erasure, yet neither overrides the other
+    [javac]     public V remove(K key, V item);
+    [javac]              ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface MultiMap
+    [javac]     V extends Object declared in interface MultiMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/map/MultiKeyMap.java:199: error: remove(Object,Object) in MultiKeyMap cannot implement remove(Object,Object) in Map
+    [javac]     public V remove(final Object key1, final Object key2) {
+    [javac]              ^
+    [javac]   return type V is not compatible with boolean
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class MultiKeyMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:58: error: PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(String,int,int) in Trie
+    [javac] public class PatriciaTrie<E> extends AbstractPatriciaTrie<String, E> implements Trie<String, E> {
+    [javac]        ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class PatriciaTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:37: error: SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in Trie
+    [javac] public class SynchronizedTrie<K, V> implements Trie<K, V>, Serializable {
+    [javac]        ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:143: error: cannot find symbol
+    [javac]         return Collections.synchronizedSortedMap(delegate.prefixMap(key));
+    [javac]                                                          ^
+    [javac]   symbol:   method prefixMap(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:149: error: cannot find symbol
+    [javac]         final OrderedMapIterator<K, V> it = delegate.mapIterator();
+    [javac]                                                     ^
+    [javac]   symbol:   method mapIterator()
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:154: error: cannot find symbol
+    [javac]         return delegate.nextKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method nextKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:158: error: cannot find symbol
+    [javac]         return delegate.previousKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method previousKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:38: error: UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in Trie
+    [javac] public class UnmodifiableTrie<K, V> implements Trie<K, V>, Serializable, Unmodifiable {
+    [javac]        ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:143: error: cannot find symbol
+    [javac]         return Collections.unmodifiableSortedMap(delegate.prefixMap(key));
+    [javac]                                                          ^
+    [javac]   symbol:   method prefixMap(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:152: error: cannot find symbol
+    [javac]         final OrderedMapIterator<K, V> it = delegate.mapIterator();
+    [javac]                                                     ^
+    [javac]   symbol:   method mapIterator()
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:157: error: cannot find symbol
+    [javac]         return delegate.nextKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method nextKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:161: error: cannot find symbol
+    [javac]         return delegate.previousKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method previousKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 14 errors
+    [javac] 3 warnings
+(mvn clean compile -DskipTests) || (ant compile)
+0.449s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-collections 83226e162de60bd22551b1a37cc3e513811e1449:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Collections 4.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-collections4 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433619931
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[37,8] org.apache.commons.collections4.trie.SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[143,58] cannot find symbol
+  symbol:   method prefixMap(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[149,53] cannot find symbol
+  symbol:   method mapIterator()
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[154,24] cannot find symbol
+  symbol:   method nextKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[158,24] cannot find symbol
+  symbol:   method previousKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[38,8] org.apache.commons.collections4.trie.UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[143,58] cannot find symbol
+  symbol:   method prefixMap(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[152,53] cannot find symbol
+  symbol:   method mapIterator()
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[157,24] cannot find symbol
+  symbol:   method nextKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[161,24] cannot find symbol
+  symbol:   method previousKey(K)
+  location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:[58,8] org.apache.commons.collections4.trie.PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(java.lang.String,int,int) in org.apache.commons.collections4.Trie
+[INFO] 11 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.484 s
+[INFO] Finished at: 2019-12-04T04:27:05+00:00
+[INFO] Final Memory: 23M/342M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project commons-collections4: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[37,8] org.apache.commons.collections4.trie.SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[143,58] cannot find symbol
+[ERROR] symbol:   method prefixMap(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[149,53] cannot find symbol
+[ERROR] symbol:   method mapIterator()
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[154,24] cannot find symbol
+[ERROR] symbol:   method nextKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:[158,24] cannot find symbol
+[ERROR] symbol:   method previousKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[38,8] org.apache.commons.collections4.trie.UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[143,58] cannot find symbol
+[ERROR] symbol:   method prefixMap(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[152,53] cannot find symbol
+[ERROR] symbol:   method mapIterator()
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[157,24] cannot find symbol
+[ERROR] symbol:   method nextKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:[161,24] cannot find symbol
+[ERROR] symbol:   method previousKey(K)
+[ERROR] location: variable delegate of type org.apache.commons.collections4.Trie<K,V>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:[58,8] org.apache.commons.collections4.trie.PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(java.lang.String,int,int) in org.apache.commons.collections4.Trie
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+init:
+     [echo] -------- commons-collections 4.0-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build/classes
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/ObjectGraphIterator.java:22: warning: [deprecation] ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java:22: warning: [deprecation] ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/list/TreeList.java:26: warning: [deprecation] ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:58: error: PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(String,int,int) in Trie
+    [javac] public class PatriciaTrie<E> extends AbstractPatriciaTrie<String, E> implements Trie<String, E> {
+    [javac]        ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class PatriciaTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:37: error: SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in Trie
+    [javac] public class SynchronizedTrie<K, V> implements Trie<K, V>, Serializable {
+    [javac]        ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:143: error: cannot find symbol
+    [javac]         return Collections.synchronizedSortedMap(delegate.prefixMap(key));
+    [javac]                                                          ^
+    [javac]   symbol:   method prefixMap(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:149: error: cannot find symbol
+    [javac]         final OrderedMapIterator<K, V> it = delegate.mapIterator();
+    [javac]                                                     ^
+    [javac]   symbol:   method mapIterator()
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:154: error: cannot find symbol
+    [javac]         return delegate.nextKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method nextKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:158: error: cannot find symbol
+    [javac]         return delegate.previousKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method previousKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class SynchronizedTrie
+    [javac]     V extends Object declared in class SynchronizedTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:38: error: UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in Trie
+    [javac] public class UnmodifiableTrie<K, V> implements Trie<K, V>, Serializable, Unmodifiable {
+    [javac]        ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:143: error: cannot find symbol
+    [javac]         return Collections.unmodifiableSortedMap(delegate.prefixMap(key));
+    [javac]                                                          ^
+    [javac]   symbol:   method prefixMap(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:152: error: cannot find symbol
+    [javac]         final OrderedMapIterator<K, V> it = delegate.mapIterator();
+    [javac]                                                     ^
+    [javac]   symbol:   method mapIterator()
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:157: error: cannot find symbol
+    [javac]         return delegate.nextKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method nextKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:161: error: cannot find symbol
+    [javac]         return delegate.previousKey(key);
+    [javac]                        ^
+    [javac]   symbol:   method previousKey(K)
+    [javac]   location: variable delegate of type Trie<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class UnmodifiableTrie
+    [javac]     V extends Object declared in class UnmodifiableTrie
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 11 errors
+    [javac] 3 warnings
+(mvn clean compile -DskipTests) || (ant compile)
+0.337s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-collections 83226e162de60bd22551b1a37cc3e513811e1449:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+init:
+     [echo] -------- commons-collections 4.0-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build/classes
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/MapUtils.java:968: warning: [deprecation] org.apache.commons.collections4.ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac]                                              final ArrayStack<Map<?, ?>> lineage, final boolean debug) {
+    [javac]                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/ObjectGraphIterator.java:22: warning: [deprecation] org.apache.commons.collections4.ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/ObjectGraphIterator.java:80: warning: [deprecation] org.apache.commons.collections4.ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac]     private final ArrayStack<Iterator<? extends E>> stack = new ArrayStack<Iterator<? extends E>>(8);
+    [javac]                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java:22: warning: [deprecation] org.apache.commons.collections4.ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/iterators/PushbackIterator.java:43: warning: [deprecation] org.apache.commons.collections4.ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac]     private ArrayStack<E> items = new ArrayStack<E>();
+    [javac]             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/list/TreeList.java:26: warning: [deprecation] org.apache.commons.collections4.ArrayStack in org.apache.commons.collections4 has been deprecated
+    [javac] import org.apache.commons.collections4.ArrayStack;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/PatriciaTrie.java:58: org.apache.commons.collections4.trie.PatriciaTrie is not abstract and does not override abstract method getPrefixedByBits(java.lang.String,int,int) in org.apache.commons.collections4.Trie
+    [javac] public class PatriciaTrie<E> extends AbstractPatriciaTrie<String, E> implements Trie<String, E> {
+    [javac]        ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:37: org.apache.commons.collections4.trie.SynchronizedTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+    [javac] public class SynchronizedTrie<K, V> implements Trie<K, V>, Serializable {
+    [javac]        ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:143: cannot find symbol
+    [javac] symbol  : method prefixMap(K)
+    [javac] location: interface org.apache.commons.collections4.Trie<K,V>
+    [javac]         return Collections.synchronizedSortedMap(delegate.prefixMap(key));
+    [javac]                                                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:149: cannot find symbol
+    [javac] symbol  : method mapIterator()
+    [javac] location: interface org.apache.commons.collections4.Trie<K,V>
+    [javac]         final OrderedMapIterator<K, V> it = delegate.mapIterator();
+    [javac]                                                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:154: cannot find symbol
+    [javac] symbol  : method nextKey(K)
+    [javac] location: interface org.apache.commons.collections4.Trie<K,V>
+    [javac]         return delegate.nextKey(key);
+    [javac]                        ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/SynchronizedTrie.java:158: cannot find symbol
+    [javac] symbol  : method previousKey(K)
+    [javac] location: interface org.apache.commons.collections4.Trie<K,V>
+    [javac]         return delegate.previousKey(key);
+    [javac]                        ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:38: org.apache.commons.collections4.trie.UnmodifiableTrie is not abstract and does not override abstract method getPrefixedByBits(K,int,int) in org.apache.commons.collections4.Trie
+    [javac] public class UnmodifiableTrie<K, V> implements Trie<K, V>, Serializable, Unmodifiable {
+    [javac]        ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:143: cannot find symbol
+    [javac] symbol  : method prefixMap(K)
+    [javac] location: interface org.apache.commons.collections4.Trie<K,V>
+    [javac]         return Collections.unmodifiableSortedMap(delegate.prefixMap(key));
+    [javac]                                                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:152: cannot find symbol
+    [javac] symbol  : method mapIterator()
+    [javac] location: interface org.apache.commons.collections4.Trie<K,V>
+    [javac]         final OrderedMapIterator<K, V> it = delegate.mapIterator();
+    [javac]                                                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:157: cannot find symbol
+    [javac] symbol  : method nextKey(K)
+    [javac] location: interface org.apache.commons.collections4.Trie<K,V>
+    [javac]         return delegate.nextKey(key);
+    [javac]                        ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/83226e162de60bd22551b1a37cc3e513811e1449/src/main/java/org/apache/commons/collections4/trie/UnmodifiableTrie.java:161: cannot find symbol
+    [javac] symbol  : method previousKey(K)
+    [javac] location: interface org.apache.commons.collections4.Trie<K,V>
+    [javac]         return delegate.previousKey(key);
+    [javac]                        ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 11 errors
+    [javac] 6 warnings
+(mvn clean compile -DskipTests) || (ant compile)
+0.376s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

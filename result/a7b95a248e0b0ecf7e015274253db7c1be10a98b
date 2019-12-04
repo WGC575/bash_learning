@@ -1,0 +1,370 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-scxml a7b95a248e0b0ecf7e015274253db7c1be10a98b:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-scxml:commons-scxml:jar:0.7-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 170, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 178, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:1, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/1/commons-parent-1.pom, line 90, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SCXML 0.7-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-scxml ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ commons-scxml ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/target/classes/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-scxml ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-scxml ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 79 source files to /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[266,23] addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.State cannot override addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.TransitionTarget
+  overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[276,26] hasHistory() in org.apache.commons.scxml.model.State cannot override hasHistory() in org.apache.commons.scxml.model.TransitionTarget
+  overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[287,23] getHistory() in org.apache.commons.scxml.model.State cannot override getHistory() in org.apache.commons.scxml.model.TransitionTarget
+  overridden method is final
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.719 s
+[INFO] Finished at: 2019-12-04T04:47:12+00:00
+[INFO] Final Memory: 17M/263M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-scxml: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[266,23] addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.State cannot override addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.TransitionTarget
+[ERROR] overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[276,26] hasHistory() in org.apache.commons.scxml.model.State cannot override hasHistory() in org.apache.commons.scxml.model.TransitionTarget
+[ERROR] overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[287,23] getHistory() in org.apache.commons.scxml.model.State cannot override getHistory() in org.apache.commons.scxml.model.TransitionTarget
+[ERROR] overridden method is final
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -DskipTests clean compile
+0.185s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-scxml a7b95a248e0b0ecf7e015274253db7c1be10a98b:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-scxml:commons-scxml:jar:0.7-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 170, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 178, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:1, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/1/commons-parent-1.pom, line 90, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SCXML 0.7-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-scxml ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ commons-scxml ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/target/classes/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-scxml ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-scxml ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 79 source files to /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[266,23] addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.State cannot override addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.TransitionTarget
+  overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[276,26] hasHistory() in org.apache.commons.scxml.model.State cannot override hasHistory() in org.apache.commons.scxml.model.TransitionTarget
+  overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[287,23] getHistory() in org.apache.commons.scxml.model.State cannot override getHistory() in org.apache.commons.scxml.model.TransitionTarget
+  overridden method is final
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.580 s
+[INFO] Finished at: 2019-12-04T04:47:17+00:00
+[INFO] Final Memory: 17M/258M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-scxml: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[266,23] addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.State cannot override addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.TransitionTarget
+[ERROR] overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[276,26] hasHistory() in org.apache.commons.scxml.model.State cannot override hasHistory() in org.apache.commons.scxml.model.TransitionTarget
+[ERROR] overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[287,23] getHistory() in org.apache.commons.scxml.model.State cannot override getHistory() in org.apache.commons.scxml.model.TransitionTarget
+[ERROR] overridden method is final
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -DskipTests clean compile
+0.147s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-scxml a7b95a248e0b0ecf7e015274253db7c1be10a98b:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-scxml:commons-scxml:jar:0.7-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:1, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/1/commons-parent-1.pom, line 90, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 170, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 178, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SCXML 0.7-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-scxml ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ commons-scxml ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/target/classes/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-scxml ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-scxml ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 79 source files to /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[266,23] addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.State cannot override addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.TransitionTarget
+  overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[276,26] hasHistory() in org.apache.commons.scxml.model.State cannot override hasHistory() in org.apache.commons.scxml.model.TransitionTarget
+  overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[287,23] getHistory() in org.apache.commons.scxml.model.State cannot override getHistory() in org.apache.commons.scxml.model.TransitionTarget
+  overridden method is final
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.516 s
+[INFO] Finished at: 2019-12-04T04:47:22+00:00
+[INFO] Final Memory: 17M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-scxml: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[266,23] addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.State cannot override addHistory(org.apache.commons.scxml.model.History) in org.apache.commons.scxml.model.TransitionTarget
+[ERROR] overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[276,26] hasHistory() in org.apache.commons.scxml.model.State cannot override hasHistory() in org.apache.commons.scxml.model.TransitionTarget
+[ERROR] overridden method is final
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-scxml/download/a7b95a248e0b0ecf7e015274253db7c1be10a98b/src/main/java/org/apache/commons/scxml/model/State.java:[287,23] getHistory() in org.apache.commons.scxml.model.State cannot override getHistory() in org.apache.commons.scxml.model.TransitionTarget
+[ERROR] overridden method is final
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -DskipTests clean compile
+0.103s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-scxml a7b95a248e0b0ecf7e015274253db7c1be10a98b:
+mvn -DskipTests clean compile
+0.52s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

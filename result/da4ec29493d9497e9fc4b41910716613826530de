@@ -1,0 +1,523 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-bcel da4ec29493d9497e9fc4b41910716613826530de:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for bcel:bcel:jar:5.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 147, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 156, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Jakarta BCEL 5.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bcel ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bcel ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ bcel ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 360 source files to /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMap.java:[31,4] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,83] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,89] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,97] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,18] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,24] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReturnaddressType.java:[24,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[26,27] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ObjectType.java:[142,54] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/Utility.java:[627,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[107,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[115,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[131,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[142,59] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[149,51] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[157,98] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[188,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[270,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/util/Class2HTML.java:[110,88] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[658,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[1641,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[103,36] cannot find symbol
+  symbol:   class ClassElementValueGen
+  location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[107,36] cannot find symbol
+  symbol:   class AnnotationElementValueGen
+  location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[117,36] cannot find symbol
+  symbol:   class ArrayElementValueGen
+  location: class org.apache.bcel.generic.ElementValueGen
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.648 s
+[INFO] Finished at: 2019-12-04T04:24:42+00:00
+[INFO] Final Memory: 16M/258M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project bcel: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMap.java:[31,4] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,83] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,89] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,97] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,18] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,24] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReturnaddressType.java:[24,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[26,27] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ObjectType.java:[142,54] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/Utility.java:[627,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[107,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[115,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[131,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[142,59] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[149,51] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[157,98] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[188,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[270,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/util/Class2HTML.java:[110,88] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[658,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[1641,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[103,36] cannot find symbol
+[ERROR] symbol:   class ClassElementValueGen
+[ERROR] location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[107,36] cannot find symbol
+[ERROR] symbol:   class AnnotationElementValueGen
+[ERROR] location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[117,36] cannot find symbol
+[ERROR] symbol:   class ArrayElementValueGen
+[ERROR] location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -DskipTests clean compile
+0.119s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-bcel da4ec29493d9497e9fc4b41910716613826530de:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for bcel:bcel:jar:5.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 147, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 156, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Jakarta BCEL 5.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bcel ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bcel ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ bcel ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 360 source files to /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMap.java:[31,4] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,83] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,89] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,97] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,18] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,24] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReturnaddressType.java:[24,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[26,27] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ObjectType.java:[142,54] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/Utility.java:[627,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[107,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[115,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[131,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[142,59] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[149,51] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[157,98] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[188,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[270,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/util/Class2HTML.java:[110,88] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[658,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[1641,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[103,36] cannot find symbol
+  symbol:   class ClassElementValueGen
+  location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[107,36] cannot find symbol
+  symbol:   class AnnotationElementValueGen
+  location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[117,36] cannot find symbol
+  symbol:   class ArrayElementValueGen
+  location: class org.apache.bcel.generic.ElementValueGen
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.822 s
+[INFO] Finished at: 2019-12-04T04:24:48+00:00
+[INFO] Final Memory: 15M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project bcel: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMap.java:[31,4] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,83] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,89] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,97] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,18] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,24] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReturnaddressType.java:[24,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[26,27] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ObjectType.java:[142,54] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/Utility.java:[627,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[107,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[115,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[131,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[142,59] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[149,51] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[157,98] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[188,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[270,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/util/Class2HTML.java:[110,88] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[658,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[1641,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[103,36] cannot find symbol
+[ERROR] symbol:   class ClassElementValueGen
+[ERROR] location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[107,36] cannot find symbol
+[ERROR] symbol:   class AnnotationElementValueGen
+[ERROR] location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[117,36] cannot find symbol
+[ERROR] symbol:   class ArrayElementValueGen
+[ERROR] location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -DskipTests clean compile
+0.347s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-bcel da4ec29493d9497e9fc4b41910716613826530de:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for bcel:bcel:jar:5.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 147, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 156, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Jakarta BCEL 5.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ bcel ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ bcel ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ bcel ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 360 source files to /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java: Some input files use or override a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[26,27] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[107,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[115,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[131,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[142,59] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[149,51] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[157,98] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[188,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[270,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/util/Class2HTML.java:[110,88] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReturnaddressType.java:[24,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/Utility.java:[627,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,18] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,24] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,83] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,89] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,97] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ObjectType.java:[142,54] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[658,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[1641,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMap.java:[31,4] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[103,36] cannot find symbol
+  symbol:   class ClassElementValueGen
+  location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[107,36] cannot find symbol
+  symbol:   class AnnotationElementValueGen
+  location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[117,36] cannot find symbol
+  symbol:   class ArrayElementValueGen
+  location: class org.apache.bcel.generic.ElementValueGen
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.686 s
+[INFO] Finished at: 2019-12-04T04:24:57+00:00
+[INFO] Final Memory: 13M/209M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project bcel: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[26,27] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[107,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[115,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[131,61] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[142,59] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[149,51] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[157,98] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[188,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReferenceType.java:[270,46] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/util/Class2HTML.java:[110,88] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ReturnaddressType.java:[24,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/Utility.java:[627,16] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,18] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,24] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[38,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,52] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java:[39,53] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,83] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,89] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java:[1330,97] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ObjectType.java:[142,54] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[658,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java:[1641,35] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/classfile/StackMap.java:[31,4] unmappable character for encoding UTF8
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[103,36] cannot find symbol
+[ERROR] symbol:   class ClassElementValueGen
+[ERROR] location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[107,36] cannot find symbol
+[ERROR] symbol:   class AnnotationElementValueGen
+[ERROR] location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/da4ec29493d9497e9fc4b41910716613826530de/src/main/java/org/apache/bcel/generic/ElementValueGen.java:[117,36] cannot find symbol
+[ERROR] symbol:   class ArrayElementValueGen
+[ERROR] location: class org.apache.bcel.generic.ElementValueGen
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -DskipTests clean compile
+0.201s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-bcel da4ec29493d9497e9fc4b41910716613826530de:
+mvn -DskipTests clean compile
+0.115s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

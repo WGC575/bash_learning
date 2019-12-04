@@ -1,0 +1,561 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-io 79f6ffa3f3582ffde0687304c8858f159b9dc567:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.097 s
+[INFO] Finished at: 2019-12-04T04:39:35+00:00
+[INFO] Final Memory: 7M/147M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/build.xml
+
+clean:
+
+init:
+     [echo] -------- io 1.0-dev --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/conf
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/tests
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/examples
+
+static:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/conf
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/build.xml:138: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 44 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/AbstractFileFilter.java:61: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilter.java:61: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilter.java:68: error: cannot find symbol
+    [javac] extends java.io.FileFilter, FilenameFilter, Predicate
+    [javac]                                             ^
+    [javac]   symbol: class Predicate
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:3: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:4: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.PredicateUtils;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:11: error: cannot find symbol
+    [javac]     static public FileFilter predicateToFileFilter(Predicate predicate) {
+    [javac]                                                    ^
+    [javac]   symbol:   class Predicate
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:5: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:15: error: cannot find symbol
+    [javac]     private Predicate predicate;
+    [javac]             ^
+    [javac]   symbol:   class Predicate
+    [javac]   location: class PredicateFileFilter
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:17: error: cannot find symbol
+    [javac]     public PredicateFileFilter(Predicate predicate) {
+    [javac]                                ^
+    [javac]   symbol:   class Predicate
+    [javac]   location: class PredicateFileFilter
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/FileUtils.java:518: warning: [deprecation] toURL() in File has been deprecated
+    [javac]             urls[ i ] = files[ i ].toURL();
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/compress/zip/ZipEntry.java:238: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]             c_setCompressedSizeMethod.invoke( entry, s );
+    [javac]                                                      ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:17: error: cannot find symbol
+    [javac]             PredicateUtils.andPredicate( f1, f2 ) 
+    [javac]             ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:23: error: cannot find symbol
+    [javac]             PredicateUtils.orPredicate( f1, f2 ) 
+    [javac]             ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:28: error: cannot find symbol
+    [javac]         return predicateToFileFilter( PredicateUtils.nullPredicate() );
+    [javac]                                       ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:32: error: cannot find symbol
+    [javac]         return predicateToFileFilter( PredicateUtils.notPredicate( f ) );
+    [javac]                                       ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 13 errors
+    [javac] 2 warnings
+(mvn clean compile) || (ant clean compile)
+0.3s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-io 79f6ffa3f3582ffde0687304c8858f159b9dc567:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.116 s
+[INFO] Finished at: 2019-12-04T04:39:39+00:00
+[INFO] Final Memory: 7M/147M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/build.xml
+
+clean:
+
+init:
+     [echo] -------- io 1.0-dev --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/conf
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/tests
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/examples
+
+static:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/conf
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/build.xml:138: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 44 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/AbstractFileFilter.java:61: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilter.java:61: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilter.java:68: error: cannot find symbol
+    [javac] extends java.io.FileFilter, FilenameFilter, Predicate
+    [javac]                                             ^
+    [javac]   symbol: class Predicate
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:3: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:4: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.PredicateUtils;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:11: error: cannot find symbol
+    [javac]     static public FileFilter predicateToFileFilter(Predicate predicate) {
+    [javac]                                                    ^
+    [javac]   symbol:   class Predicate
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:5: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:15: error: cannot find symbol
+    [javac]     private Predicate predicate;
+    [javac]             ^
+    [javac]   symbol:   class Predicate
+    [javac]   location: class PredicateFileFilter
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:17: error: cannot find symbol
+    [javac]     public PredicateFileFilter(Predicate predicate) {
+    [javac]                                ^
+    [javac]   symbol:   class Predicate
+    [javac]   location: class PredicateFileFilter
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/FileUtils.java:518: warning: [deprecation] toURL() in File has been deprecated
+    [javac]             urls[ i ] = files[ i ].toURL();
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/compress/zip/ZipEntry.java:238: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]             c_setCompressedSizeMethod.invoke( entry, s );
+    [javac]                                                      ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:17: error: cannot find symbol
+    [javac]             PredicateUtils.andPredicate( f1, f2 ) 
+    [javac]             ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:23: error: cannot find symbol
+    [javac]             PredicateUtils.orPredicate( f1, f2 ) 
+    [javac]             ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:28: error: cannot find symbol
+    [javac]         return predicateToFileFilter( PredicateUtils.nullPredicate() );
+    [javac]                                       ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:32: error: cannot find symbol
+    [javac]         return predicateToFileFilter( PredicateUtils.notPredicate( f ) );
+    [javac]                                       ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 13 errors
+    [javac] 2 warnings
+(mvn clean compile) || (ant clean compile)
+0.184s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-io 79f6ffa3f3582ffde0687304c8858f159b9dc567:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.094 s
+[INFO] Finished at: 2019-12-04T04:39:43+00:00
+[INFO] Final Memory: 5M/145M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/build.xml
+
+clean:
+
+init:
+     [echo] -------- io 1.0-dev --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/conf
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/tests
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/examples
+
+static:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/conf
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/build.xml:138: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 44 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/AbstractFileFilter.java:61: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilter.java:61: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilter.java:68: error: cannot find symbol
+    [javac] extends java.io.FileFilter, FilenameFilter, Predicate
+    [javac]                                             ^
+    [javac]   symbol: class Predicate
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:3: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:4: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.PredicateUtils;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:11: error: cannot find symbol
+    [javac]     static public FileFilter predicateToFileFilter(Predicate predicate) {
+    [javac]                                                    ^
+    [javac]   symbol:   class Predicate
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:5: error: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:15: error: cannot find symbol
+    [javac]     private Predicate predicate;
+    [javac]             ^
+    [javac]   symbol:   class Predicate
+    [javac]   location: class PredicateFileFilter
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:17: error: cannot find symbol
+    [javac]     public PredicateFileFilter(Predicate predicate) {
+    [javac]                                ^
+    [javac]   symbol:   class Predicate
+    [javac]   location: class PredicateFileFilter
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/FileUtils.java:518: warning: [deprecation] toURL() in File has been deprecated
+    [javac]             urls[ i ] = files[ i ].toURL();
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/compress/zip/ZipEntry.java:238: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]             c_setCompressedSizeMethod.invoke( entry, s );
+    [javac]                                                      ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:17: error: cannot find symbol
+    [javac]             PredicateUtils.andPredicate( f1, f2 ) 
+    [javac]             ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:23: error: cannot find symbol
+    [javac]             PredicateUtils.orPredicate( f1, f2 ) 
+    [javac]             ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:28: error: cannot find symbol
+    [javac]         return predicateToFileFilter( PredicateUtils.nullPredicate() );
+    [javac]                                       ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:32: error: cannot find symbol
+    [javac]         return predicateToFileFilter( PredicateUtils.notPredicate( f ) );
+    [javac]                                       ^
+    [javac]   symbol:   variable PredicateUtils
+    [javac]   location: class FileFilterUtils
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 13 errors
+    [javac] 2 warnings
+(mvn clean compile) || (ant clean compile)
+0.338s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-io 79f6ffa3f3582ffde0687304c8858f159b9dc567:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/build.xml
+
+clean:
+
+init:
+     [echo] -------- io 1.0-dev --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/conf
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/tests
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/examples
+
+static:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/conf
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/build.xml:138: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 44 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/AbstractFileFilter.java:61: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilter.java:61: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilter.java:68: cannot find symbol
+    [javac] symbol: class Predicate
+    [javac] extends java.io.FileFilter, FilenameFilter, Predicate
+    [javac]                                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:3: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:4: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.PredicateUtils;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:11: cannot find symbol
+    [javac] symbol  : class Predicate
+    [javac] location: class org.apache.commons.io.filefilter.FileFilterUtils
+    [javac]     static public FileFilter predicateToFileFilter(Predicate predicate) {
+    [javac]                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:5: package org.apache.commons.lang.functor does not exist
+    [javac] import org.apache.commons.lang.functor.Predicate;
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:15: cannot find symbol
+    [javac] symbol  : class Predicate
+    [javac] location: class org.apache.commons.io.filefilter.PredicateFileFilter
+    [javac]     private Predicate predicate;
+    [javac]             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/PredicateFileFilter.java:17: cannot find symbol
+    [javac] symbol  : class Predicate
+    [javac] location: class org.apache.commons.io.filefilter.PredicateFileFilter
+    [javac]     public PredicateFileFilter(Predicate predicate) {
+    [javac]                                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/FileUtils.java:518: warning: [deprecation] toURL() in java.io.File has been deprecated
+    [javac]             urls[ i ] = files[ i ].toURL();
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/compress/zip/ZipEntry.java:238: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac] cast to java.lang.Object for a varargs call
+    [javac] cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+    [javac]             c_setCompressedSizeMethod.invoke( entry, s );
+    [javac]                                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:17: cannot find symbol
+    [javac] symbol  : variable PredicateUtils
+    [javac] location: class org.apache.commons.io.filefilter.FileFilterUtils
+    [javac]             PredicateUtils.andPredicate( f1, f2 ) 
+    [javac]             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:23: cannot find symbol
+    [javac] symbol  : variable PredicateUtils
+    [javac] location: class org.apache.commons.io.filefilter.FileFilterUtils
+    [javac]             PredicateUtils.orPredicate( f1, f2 ) 
+    [javac]             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:28: cannot find symbol
+    [javac] symbol  : variable PredicateUtils
+    [javac] location: class org.apache.commons.io.filefilter.FileFilterUtils
+    [javac]         return predicateToFileFilter( PredicateUtils.nullPredicate() );
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/79f6ffa3f3582ffde0687304c8858f159b9dc567/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:32: cannot find symbol
+    [javac] symbol  : variable PredicateUtils
+    [javac] location: class org.apache.commons.io.filefilter.FileFilterUtils
+    [javac]         return predicateToFileFilter( PredicateUtils.notPredicate( f ) );
+    [javac]                                       ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 13 errors
+    [javac] 2 warnings
+(mvn clean compile) || (ant clean compile)
+0.390s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

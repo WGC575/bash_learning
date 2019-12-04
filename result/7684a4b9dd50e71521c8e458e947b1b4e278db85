@@ -1,0 +1,691 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-compress 7684a4b9dd50e71521c8e458e947b1b4e278db85:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433796079
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.463 s
+[INFO] Finished at: 2019-12-04T04:29:57+00:00
+[INFO] Final Memory: 20M/285M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433801148
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.437 s
+[INFO] Finished at: 2019-12-04T04:30:02+00:00
+[INFO] Final Memory: 19M/267M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433806080
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.340 s
+[INFO] Finished at: 2019-12-04T04:30:07+00:00
+[INFO] Final Memory: 19M/284M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.16s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-compress 7684a4b9dd50e71521c8e458e947b1b4e278db85:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433811303
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.291 s
+[INFO] Finished at: 2019-12-04T04:30:13+00:00
+[INFO] Final Memory: 19M/281M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433816312
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.401 s
+[INFO] Finished at: 2019-12-04T04:30:18+00:00
+[INFO] Final Memory: 19M/265M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433821301
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.356 s
+[INFO] Finished at: 2019-12-04T04:30:23+00:00
+[INFO] Final Memory: 19M/280M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.435s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-compress 7684a4b9dd50e71521c8e458e947b1b4e278db85:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433827781
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.863 s
+[INFO] Finished at: 2019-12-04T04:30:30+00:00
+[INFO] Final Memory: 19M/211M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433834885
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.079 s
+[INFO] Finished at: 2019-12-04T04:30:37+00:00
+[INFO] Final Memory: 22M/211M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433841865
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.901 s
+[INFO] Finished at: 2019-12-04T04:30:44+00:00
+[INFO] Final Memory: 19M/211M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-compress: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/7684a4b9dd50e71521c8e458e947b1b4e278db85/src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java:[552,12] error: cannot assign a value to final variable allowableBlockSize
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.433s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-compress 7684a4b9dd50e71521c8e458e947b1b4e278db85:
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.332s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

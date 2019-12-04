@@ -1,0 +1,1844 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-zookeeper a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/package/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/test/lib
+
+ivy-download:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/lib/ivy-2.2.0.jar
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.5.0-SNAPSHOT
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found jline#jline;2.11 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.7.5 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.7.5 in maven2
+[ivy:retrieve] 	found commons-cli#commons-cli;1.2 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.16 in maven2
+[ivy:retrieve] 	found io.netty#netty;3.7.0.Final in maven2
+[ivy:retrieve] 	found net.java.dev.javacc#javacc;5.0 in maven2
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.jar ...
+[ivy:retrieve] ......... (203kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] jline#jline;2.11!jline.jar (40ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar ...
+[ivy:retrieve] .. (25kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar (26ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar ...
+[ivy:retrieve] .. (8kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] org.slf4j#slf4j-log4j12;1.7.5!slf4j-log4j12.jar (26ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar ...
+[ivy:retrieve] .. (40kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] commons-cli#commons-cli;1.2!commons-cli.jar (26ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar ...
+[ivy:retrieve] ............... (470kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] log4j#log4j;1.2.16!log4j.jar(bundle) (35ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar ...
+[ivy:retrieve] ....................... (1180kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] io.netty#netty;3.7.0.Final!netty.jar (39ms)
+[ivy:retrieve] downloading http://repo1.maven.org/maven2/net/java/dev/javacc/javacc/5.0/javacc-5.0.jar ...
+[ivy:retrieve] ...... (291kB)
+[ivy:retrieve] .. (0kB)
+[ivy:retrieve] 	[SUCCESSFUL ] net.java.dev.javacc#javacc;5.0!javacc.jar (28ms)
+[ivy:retrieve] :: resolution report :: resolve 1019ms :: artifacts dl 226ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   7   |   7   |   7   |   0   ||   7   |   7   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	7 artifacts copied, 0 already retrieved (2220kB/6ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+generate_jute_parser:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/jute_compiler/org/apache/jute/compiler/generated
+[ivy:artifactproperty] DEPRECATED: 'ivy.conf.file' is deprecated, use 'ivy.settings.file' instead
+[ivy:artifactproperty] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+     [move] Moving 1 file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+   [javacc] Java Compiler Compiler Version 5.0 (Parser Generator)
+   [javacc] (type "javacc" with no arguments for help)
+   [javacc] Reading from file /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/jute/compiler/generated/rcc.jj . . .
+   [javacc] File "TokenMgrError.java" does not exist.  Will create one.
+   [javacc] File "ParseException.java" does not exist.  Will create one.
+   [javacc] File "Token.java" does not exist.  Will create one.
+   [javacc] File "SimpleCharStream.java" does not exist.  Will create one.
+   [javacc] Parser generated successfully.
+
+jute:
+    [javac] Compiling 39 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/generated/.generated
+
+ver-gen:
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+process-template:
+
+build-generated:
+    [javac] Compiling 60 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile:
+    [javac] Compiling 185 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:65: error: cannot find symbol
+    [javac]     static public class Proposal  extends SyncedLearnerTracker {
+    [javac]                                           ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:62: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:69: error: method does not override or implement a method from a supertype
+    [javac]         @Override
+    [javac]         ^
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build.xml
+
+init:
+
+ivy-download:
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.5.0-SNAPSHOT
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found jline#jline;2.11 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.7.5 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.7.5 in maven2
+[ivy:retrieve] 	found commons-cli#commons-cli;1.2 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.16 in maven2
+[ivy:retrieve] 	found io.netty#netty;3.7.0.Final in maven2
+[ivy:retrieve] 	found net.java.dev.javacc#javacc;5.0 in maven2
+[ivy:retrieve] :: resolution report :: resolve 194ms :: artifacts dl 11ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   7   |   0   |   0   |   0   ||   7   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	1 artifacts copied, 6 already retrieved (291kB/6ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+generate_jute_parser:
+[ivy:artifactproperty] DEPRECATED: 'ivy.conf.file' is deprecated, use 'ivy.settings.file' instead
+[ivy:artifactproperty] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+     [move] Moving 1 file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+   [javacc] Java Compiler Compiler Version 5.0 (Parser Generator)
+   [javacc] (type "javacc" with no arguments for help)
+   [javacc] Reading from file /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/jute/compiler/generated/rcc.jj . . .
+   [javacc] File "TokenMgrError.java" is being rebuilt.
+   [javacc] File "ParseException.java" is being rebuilt.
+   [javacc] File "Token.java" is being rebuilt.
+   [javacc] File "SimpleCharStream.java" is being rebuilt.
+   [javacc] Parser generated successfully.
+
+jute:
+    [javac] Compiling 7 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+
+svn-revision:
+
+version-info:
+
+process-template:
+
+build-generated:
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile:
+    [javac] Compiling 185 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:65: error: cannot find symbol
+    [javac]     static public class Proposal  extends SyncedLearnerTracker {
+    [javac]                                           ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:62: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:69: error: method does not override or implement a method from a supertype
+    [javac]         @Override
+    [javac]         ^
+ant compile || ant -DlastRevision=1
+0.262s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-zookeeper a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/package/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/test/lib
+
+ivy-download:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/lib/ivy-2.2.0.jar
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.5.0-SNAPSHOT
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found jline#jline;2.11 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.7.5 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.7.5 in maven2
+[ivy:retrieve] 	found commons-cli#commons-cli;1.2 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.16 in maven2
+[ivy:retrieve] 	found io.netty#netty;3.7.0.Final in maven2
+[ivy:retrieve] 	found net.java.dev.javacc#javacc;5.0 in maven2
+[ivy:retrieve] :: resolution report :: resolve 267ms :: artifacts dl 11ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   7   |   0   |   0   |   0   ||   7   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	7 artifacts copied, 0 already retrieved (2220kB/13ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+generate_jute_parser:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/jute_compiler/org/apache/jute/compiler/generated
+[ivy:artifactproperty] DEPRECATED: 'ivy.conf.file' is deprecated, use 'ivy.settings.file' instead
+[ivy:artifactproperty] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+     [move] Moving 1 file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+   [javacc] Java Compiler Compiler Version 5.0 (Parser Generator)
+   [javacc] (type "javacc" with no arguments for help)
+   [javacc] Reading from file /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/jute/compiler/generated/rcc.jj . . .
+   [javacc] File "TokenMgrError.java" does not exist.  Will create one.
+   [javacc] File "ParseException.java" does not exist.  Will create one.
+   [javacc] File "Token.java" does not exist.  Will create one.
+   [javacc] File "SimpleCharStream.java" does not exist.  Will create one.
+   [javacc] Parser generated successfully.
+
+jute:
+    [javac] Compiling 39 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/generated/.generated
+
+ver-gen:
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+process-template:
+
+build-generated:
+    [javac] Compiling 60 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile:
+    [javac] Compiling 185 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:65: error: cannot find symbol
+    [javac]     static public class Proposal  extends SyncedLearnerTracker {
+    [javac]                                           ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:62: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:69: error: method does not override or implement a method from a supertype
+    [javac]         @Override
+    [javac]         ^
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build.xml
+
+init:
+
+ivy-download:
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.5.0-SNAPSHOT
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found jline#jline;2.11 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.7.5 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.7.5 in maven2
+[ivy:retrieve] 	found commons-cli#commons-cli;1.2 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.16 in maven2
+[ivy:retrieve] 	found io.netty#netty;3.7.0.Final in maven2
+[ivy:retrieve] 	found net.java.dev.javacc#javacc;5.0 in maven2
+[ivy:retrieve] :: resolution report :: resolve 187ms :: artifacts dl 6ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   7   |   0   |   0   |   0   ||   7   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	1 artifacts copied, 6 already retrieved (291kB/6ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+generate_jute_parser:
+[ivy:artifactproperty] DEPRECATED: 'ivy.conf.file' is deprecated, use 'ivy.settings.file' instead
+[ivy:artifactproperty] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+     [move] Moving 1 file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+   [javacc] Java Compiler Compiler Version 5.0 (Parser Generator)
+   [javacc] (type "javacc" with no arguments for help)
+   [javacc] Reading from file /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/jute/compiler/generated/rcc.jj . . .
+   [javacc] File "TokenMgrError.java" is being rebuilt.
+   [javacc] File "ParseException.java" is being rebuilt.
+   [javacc] File "Token.java" is being rebuilt.
+   [javacc] File "SimpleCharStream.java" is being rebuilt.
+   [javacc] Parser generated successfully.
+
+jute:
+    [javac] Compiling 7 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+
+svn-revision:
+
+version-info:
+
+process-template:
+
+build-generated:
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile:
+    [javac] Compiling 185 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:65: error: cannot find symbol
+    [javac]     static public class Proposal  extends SyncedLearnerTracker {
+    [javac]                                           ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:62: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:69: error: method does not override or implement a method from a supertype
+    [javac]         @Override
+    [javac]         ^
+ant compile || ant -DlastRevision=1
+0.143s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-zookeeper a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/package/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/test/lib
+
+ivy-download:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/lib/ivy-2.2.0.jar
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.5.0-SNAPSHOT
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found jline#jline;2.11 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.7.5 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.7.5 in maven2
+[ivy:retrieve] 	found commons-cli#commons-cli;1.2 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.16 in maven2
+[ivy:retrieve] 	found io.netty#netty;3.7.0.Final in maven2
+[ivy:retrieve] 	found net.java.dev.javacc#javacc;5.0 in maven2
+[ivy:retrieve] :: resolution report :: resolve 216ms :: artifacts dl 10ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   7   |   0   |   0   |   0   ||   7   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	7 artifacts copied, 0 already retrieved (2220kB/19ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+generate_jute_parser:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/jute_compiler/org/apache/jute/compiler/generated
+[ivy:artifactproperty] DEPRECATED: 'ivy.conf.file' is deprecated, use 'ivy.settings.file' instead
+[ivy:artifactproperty] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+     [move] Moving 1 file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+   [javacc] Java Compiler Compiler Version 5.0 (Parser Generator)
+   [javacc] (type "javacc" with no arguments for help)
+   [javacc] Reading from file /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/jute/compiler/generated/rcc.jj . . .
+   [javacc] File "TokenMgrError.java" does not exist.  Will create one.
+   [javacc] File "ParseException.java" does not exist.  Will create one.
+   [javacc] File "Token.java" does not exist.  Will create one.
+   [javacc] File "SimpleCharStream.java" does not exist.  Will create one.
+   [javacc] Parser generated successfully.
+
+jute:
+    [javac] Compiling 39 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/generated/.generated
+
+ver-gen:
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+process-template:
+
+build-generated:
+    [javac] Compiling 60 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile:
+    [javac] Compiling 185 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:65: error: cannot find symbol
+    [javac]     static public class Proposal  extends SyncedLearnerTracker {
+    [javac]                                           ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:62: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:69: error: method does not override or implement a method from a supertype
+    [javac]         @Override
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:329: error: type argument Proposal is not within bounds of type-variable V
+    [javac]     final ConcurrentMap<Long, Proposal> outstandingProposals = new ConcurrentHashMap<Long, Proposal>();
+    [javac]                               ^
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in interface ConcurrentMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:329: error: type argument Proposal is not within bounds of type-variable V
+    [javac]     final ConcurrentMap<Long, Proposal> outstandingProposals = new ConcurrentHashMap<Long, Proposal>();
+    [javac]                                                                                            ^
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class ConcurrentHashMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:331: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     private final ConcurrentLinkedQueue<Proposal> toBeApplied = new ConcurrentLinkedQueue<Proposal>();
+    [javac]                                         ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ConcurrentLinkedQueue
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:331: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     private final ConcurrentLinkedQueue<Proposal> toBeApplied = new ConcurrentLinkedQueue<Proposal>();
+    [javac]                                                                                           ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ConcurrentLinkedQueue
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:460: error: cannot find symbol
+    [javac]             newLeaderProposal.addQuorumVerifier(self.getQuorumVerifier());
+    [javac]                              ^
+    [javac]   symbol:   method addQuorumVerifier(QuorumVerifier)
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:462: error: cannot find symbol
+    [javac]                newLeaderProposal.addQuorumVerifier(self.getLastSeenQuorumVerifier());
+    [javac]                                 ^
+    [javac]   symbol:   method addQuorumVerifier(QuorumVerifier)
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:476: error: cannot find symbol
+    [javac]                          + newLeaderProposal.ackSetsToString() + " ]");
+    [javac]                                             ^
+    [javac]   symbol:   method ackSetsToString()
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:485: error: cannot find symbol
+    [javac]                  for (Proposal.QuorumVerifierAcksetPair qvAckset:newLeaderProposal.qvAcksetPairs) {
+    [javac]                               ^
+    [javac]   symbol:   class QuorumVerifierAcksetPair
+    [javac]   location: class Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:485: error: cannot find symbol
+    [javac]                  for (Proposal.QuorumVerifierAcksetPair qvAckset:newLeaderProposal.qvAcksetPairs) {
+    [javac]                                                                                   ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:549: error: cannot find symbol
+    [javac]                     SyncedLearnerTracker syncedAckSet = new SyncedLearnerTracker();
+    [javac]                     ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:549: error: cannot find symbol
+    [javac]                     SyncedLearnerTracker syncedAckSet = new SyncedLearnerTracker();
+    [javac]                                                             ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: error: cannot find symbol
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                ^
+    [javac]   symbol:   class QuorumVerifierAcksetPair
+    [javac]   location: class Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: error: cannot find symbol
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                                                                                                               ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable reconfigProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: error: cannot find symbol
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                                                                            ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable reconfigProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:662: error: bad operand types for binary operator '!='
+    [javac]        while (p!=null && !candidates.isEmpty()) {                              
+    [javac]                ^
+    [javac]   first type:  Proposal
+    [javac]   second type: <null>
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:663: error: cannot find symbol
+    [javac]            for (Proposal.QuorumVerifierAcksetPair qvAckset: p.qvAcksetPairs){ 
+    [javac]                         ^
+    [javac]   symbol:   class QuorumVerifierAcksetPair
+    [javac]   location: class Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:663: error: cannot find symbol
+    [javac]            for (Proposal.QuorumVerifierAcksetPair qvAckset: p.qvAcksetPairs){ 
+    [javac]                                                              ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:694: error: cannot find symbol
+    [javac]         if (!p.hasAllQuorums()) {
+    [javac]               ^
+    [javac]   symbol:   method hasAllQuorums()
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:726: error: cannot find symbol
+    [javac]             QuorumVerifier newQV = p.qvAcksetPairs.get(p.qvAcksetPairs.size()-1).getQuorumVerifier();
+    [javac]                                                         ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:726: error: cannot find symbol
+    [javac]             QuorumVerifier newQV = p.qvAcksetPairs.get(p.qvAcksetPairs.size()-1).getQuorumVerifier();
+    [javac]                                     ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:800: error: bad operand types for binary operator '=='
+    [javac]         if (p == null) {
+    [javac]               ^
+    [javac]   first type:  Proposal
+    [javac]   second type: <null>
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:806: error: cannot find symbol
+    [javac]         p.addAck(sid);        
+    [javac]          ^
+    [javac]   symbol:   method addAck(long)
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:825: error: bad operand types for binary operator '!='
+    [javac]            while (allowedToCommit && hasCommitted && p!=null){
+    [javac]                                                       ^
+    [javac]   first type:  Proposal
+    [javac]   second type: <null>
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:828: error: bad operand types for binary operator '!='
+    [javac]                if (p !=null) hasCommitted = tryToCommit(p, curZxid, null);             
+    [javac]                      ^
+    [javac]   first type:  Proposal
+    [javac]   second type: <null>
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:874: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                 Iterator<Proposal> iter = leader.toBeApplied.iterator();
+    [javac]                          ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1034: error: cannot find symbol
+    [javac]            p.addQuorumVerifier(self.getQuorumVerifier());
+    [javac]             ^
+    [javac]   symbol:   method addQuorumVerifier(QuorumVerifier)
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1041: error: cannot find symbol
+    [javac]                p.addQuorumVerifier(self.getLastSeenQuorumVerifier());
+    [javac]                 ^
+    [javac]   symbol:   method addQuorumVerifier(QuorumVerifier)
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1221: error: cannot find symbol
+    [javac]                 + newLeaderProposal.ackSetsToString()
+    [javac]                                    ^
+    [javac]   symbol:   method ackSetsToString()
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1265: error: cannot find symbol
+    [javac]         synchronized (newLeaderProposal.qvAcksetPairs) {
+    [javac]                                        ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1284: error: cannot find symbol
+    [javac]             newLeaderProposal.addAck(sid);
+    [javac]                              ^
+    [javac]   symbol:   method addAck(long)
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1286: error: cannot find symbol
+    [javac]             if (newLeaderProposal.hasAllQuorums()) {
+    [javac]                                  ^
+    [javac]   symbol:   method hasAllQuorums()
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1288: error: cannot find symbol
+    [javac]                 newLeaderProposal.qvAcksetPairs.notifyAll();
+    [javac]                                  ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1294: error: cannot find symbol
+    [javac]                     newLeaderProposal.qvAcksetPairs.wait(end - cur);
+    [javac]                                      ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:85: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     protected LinkedList<Proposal> committedLog = new LinkedList<Proposal>();
+    [javac]                          ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class LinkedList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:85: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     protected LinkedList<Proposal> committedLog = new LinkedList<Proposal>();
+    [javac]                                                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class LinkedList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:170: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     public synchronized List<Proposal> getCommittedLog() {
+    [javac]                              ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:176: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                 return new LinkedList<Proposal>(this.committedLog);
+    [javac]                                       ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class LinkedList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:292: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     public Iterator<Proposal> getProposalsFromTxnLog(long startZxid,
+    [javac]                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:710: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                 Iterator<Proposal> itr = db.getCommittedLog().iterator();
+    [javac]                          ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:721: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                 Iterator<Proposal> txnLogItr = db.getProposalsFromTxnLog(
+    [javac]                          ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:729: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                     Iterator<Proposal> committedLogItr = db.getCommittedLog().iterator();
+    [javac]                              ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:771: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     protected long queueCommittedProposals(Iterator<Proposal> itr,
+    [javac]                                                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/TxnLogProposalIterator.java:43: error: type argument Proposal is not within bounds of type-variable E
+    [javac] public class TxnLogProposalIterator implements Iterator<Proposal> {
+    [javac]                                                         ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/util/KerberosUtil.java:39: warning: [rawtypes] found raw type: Class
+    [javac]     getInstanceMethod = classRef.getMethod("getInstance", new Class[0]);
+    [javac]                                                               ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/util/KerberosUtil.java:42: warning: [rawtypes] found raw type: Class
+    [javac]          new Class[0]);
+    [javac]              ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/util/OSMXBean.java:89: warning: [rawtypes] found raw type: Class
+    [javac]                 new Class[0]);
+    [javac]                     ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] 45 errors
+    [javac] 5 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build.xml
+
+init:
+
+ivy-download:
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.5.0-SNAPSHOT
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found jline#jline;2.11 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.7.5 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.7.5 in maven2
+[ivy:retrieve] 	found commons-cli#commons-cli;1.2 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.16 in maven2
+[ivy:retrieve] 	found io.netty#netty;3.7.0.Final in maven2
+[ivy:retrieve] 	found net.java.dev.javacc#javacc;5.0 in maven2
+[ivy:retrieve] :: resolution report :: resolve 235ms :: artifacts dl 17ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   7   |   0   |   0   |   0   ||   7   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	1 artifacts copied, 6 already retrieved (291kB/16ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+generate_jute_parser:
+[ivy:artifactproperty] DEPRECATED: 'ivy.conf.file' is deprecated, use 'ivy.settings.file' instead
+[ivy:artifactproperty] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+     [move] Moving 1 file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+   [javacc] Java Compiler Compiler Version 5.0 (Parser Generator)
+   [javacc] (type "javacc" with no arguments for help)
+   [javacc] Reading from file /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/jute/compiler/generated/rcc.jj . . .
+   [javacc] File "TokenMgrError.java" is being rebuilt.
+   [javacc] File "ParseException.java" is being rebuilt.
+   [javacc] File "Token.java" is being rebuilt.
+   [javacc] File "SimpleCharStream.java" is being rebuilt.
+   [javacc] Parser generated successfully.
+
+jute:
+    [javac] Compiling 7 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+
+svn-revision:
+
+version-info:
+
+process-template:
+
+build-generated:
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile:
+    [javac] Compiling 185 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:65: error: cannot find symbol
+    [javac]     static public class Proposal  extends SyncedLearnerTracker {
+    [javac]                                           ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:62: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:69: error: method does not override or implement a method from a supertype
+    [javac]         @Override
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:329: error: type argument Proposal is not within bounds of type-variable V
+    [javac]     final ConcurrentMap<Long, Proposal> outstandingProposals = new ConcurrentHashMap<Long, Proposal>();
+    [javac]                               ^
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in interface ConcurrentMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:329: error: type argument Proposal is not within bounds of type-variable V
+    [javac]     final ConcurrentMap<Long, Proposal> outstandingProposals = new ConcurrentHashMap<Long, Proposal>();
+    [javac]                                                                                            ^
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class ConcurrentHashMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:331: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     private final ConcurrentLinkedQueue<Proposal> toBeApplied = new ConcurrentLinkedQueue<Proposal>();
+    [javac]                                         ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ConcurrentLinkedQueue
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:331: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     private final ConcurrentLinkedQueue<Proposal> toBeApplied = new ConcurrentLinkedQueue<Proposal>();
+    [javac]                                                                                           ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ConcurrentLinkedQueue
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:460: error: cannot find symbol
+    [javac]             newLeaderProposal.addQuorumVerifier(self.getQuorumVerifier());
+    [javac]                              ^
+    [javac]   symbol:   method addQuorumVerifier(QuorumVerifier)
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:462: error: cannot find symbol
+    [javac]                newLeaderProposal.addQuorumVerifier(self.getLastSeenQuorumVerifier());
+    [javac]                                 ^
+    [javac]   symbol:   method addQuorumVerifier(QuorumVerifier)
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:476: error: cannot find symbol
+    [javac]                          + newLeaderProposal.ackSetsToString() + " ]");
+    [javac]                                             ^
+    [javac]   symbol:   method ackSetsToString()
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:485: error: cannot find symbol
+    [javac]                  for (Proposal.QuorumVerifierAcksetPair qvAckset:newLeaderProposal.qvAcksetPairs) {
+    [javac]                               ^
+    [javac]   symbol:   class QuorumVerifierAcksetPair
+    [javac]   location: class Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:485: error: cannot find symbol
+    [javac]                  for (Proposal.QuorumVerifierAcksetPair qvAckset:newLeaderProposal.qvAcksetPairs) {
+    [javac]                                                                                   ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:549: error: cannot find symbol
+    [javac]                     SyncedLearnerTracker syncedAckSet = new SyncedLearnerTracker();
+    [javac]                     ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:549: error: cannot find symbol
+    [javac]                     SyncedLearnerTracker syncedAckSet = new SyncedLearnerTracker();
+    [javac]                                                             ^
+    [javac]   symbol:   class SyncedLearnerTracker
+    [javac]   location: class Leader
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: error: cannot find symbol
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                ^
+    [javac]   symbol:   class QuorumVerifierAcksetPair
+    [javac]   location: class Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: error: cannot find symbol
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                                                                                                               ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable reconfigProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: error: cannot find symbol
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                                                                            ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable reconfigProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:662: error: bad operand types for binary operator '!='
+    [javac]        while (p!=null && !candidates.isEmpty()) {                              
+    [javac]                ^
+    [javac]   first type:  Proposal
+    [javac]   second type: <null>
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:663: error: cannot find symbol
+    [javac]            for (Proposal.QuorumVerifierAcksetPair qvAckset: p.qvAcksetPairs){ 
+    [javac]                         ^
+    [javac]   symbol:   class QuorumVerifierAcksetPair
+    [javac]   location: class Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:663: error: cannot find symbol
+    [javac]            for (Proposal.QuorumVerifierAcksetPair qvAckset: p.qvAcksetPairs){ 
+    [javac]                                                              ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:694: error: cannot find symbol
+    [javac]         if (!p.hasAllQuorums()) {
+    [javac]               ^
+    [javac]   symbol:   method hasAllQuorums()
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:726: error: cannot find symbol
+    [javac]             QuorumVerifier newQV = p.qvAcksetPairs.get(p.qvAcksetPairs.size()-1).getQuorumVerifier();
+    [javac]                                                         ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:726: error: cannot find symbol
+    [javac]             QuorumVerifier newQV = p.qvAcksetPairs.get(p.qvAcksetPairs.size()-1).getQuorumVerifier();
+    [javac]                                     ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:800: error: bad operand types for binary operator '=='
+    [javac]         if (p == null) {
+    [javac]               ^
+    [javac]   first type:  Proposal
+    [javac]   second type: <null>
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:806: error: cannot find symbol
+    [javac]         p.addAck(sid);        
+    [javac]          ^
+    [javac]   symbol:   method addAck(long)
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:825: error: bad operand types for binary operator '!='
+    [javac]            while (allowedToCommit && hasCommitted && p!=null){
+    [javac]                                                       ^
+    [javac]   first type:  Proposal
+    [javac]   second type: <null>
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:828: error: bad operand types for binary operator '!='
+    [javac]                if (p !=null) hasCommitted = tryToCommit(p, curZxid, null);             
+    [javac]                      ^
+    [javac]   first type:  Proposal
+    [javac]   second type: <null>
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:874: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                 Iterator<Proposal> iter = leader.toBeApplied.iterator();
+    [javac]                          ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1034: error: cannot find symbol
+    [javac]            p.addQuorumVerifier(self.getQuorumVerifier());
+    [javac]             ^
+    [javac]   symbol:   method addQuorumVerifier(QuorumVerifier)
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1041: error: cannot find symbol
+    [javac]                p.addQuorumVerifier(self.getLastSeenQuorumVerifier());
+    [javac]                 ^
+    [javac]   symbol:   method addQuorumVerifier(QuorumVerifier)
+    [javac]   location: variable p of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1221: error: cannot find symbol
+    [javac]                 + newLeaderProposal.ackSetsToString()
+    [javac]                                    ^
+    [javac]   symbol:   method ackSetsToString()
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1265: error: cannot find symbol
+    [javac]         synchronized (newLeaderProposal.qvAcksetPairs) {
+    [javac]                                        ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1284: error: cannot find symbol
+    [javac]             newLeaderProposal.addAck(sid);
+    [javac]                              ^
+    [javac]   symbol:   method addAck(long)
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1286: error: cannot find symbol
+    [javac]             if (newLeaderProposal.hasAllQuorums()) {
+    [javac]                                  ^
+    [javac]   symbol:   method hasAllQuorums()
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1288: error: cannot find symbol
+    [javac]                 newLeaderProposal.qvAcksetPairs.notifyAll();
+    [javac]                                  ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1294: error: cannot find symbol
+    [javac]                     newLeaderProposal.qvAcksetPairs.wait(end - cur);
+    [javac]                                      ^
+    [javac]   symbol:   variable qvAcksetPairs
+    [javac]   location: variable newLeaderProposal of type Proposal
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:85: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     protected LinkedList<Proposal> committedLog = new LinkedList<Proposal>();
+    [javac]                          ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class LinkedList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:85: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     protected LinkedList<Proposal> committedLog = new LinkedList<Proposal>();
+    [javac]                                                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class LinkedList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:170: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     public synchronized List<Proposal> getCommittedLog() {
+    [javac]                              ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:176: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                 return new LinkedList<Proposal>(this.committedLog);
+    [javac]                                       ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class LinkedList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:292: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     public Iterator<Proposal> getProposalsFromTxnLog(long startZxid,
+    [javac]                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:710: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                 Iterator<Proposal> itr = db.getCommittedLog().iterator();
+    [javac]                          ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:721: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                 Iterator<Proposal> txnLogItr = db.getProposalsFromTxnLog(
+    [javac]                          ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:729: error: type argument Proposal is not within bounds of type-variable E
+    [javac]                     Iterator<Proposal> committedLogItr = db.getCommittedLog().iterator();
+    [javac]                              ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:771: error: type argument Proposal is not within bounds of type-variable E
+    [javac]     protected long queueCommittedProposals(Iterator<Proposal> itr,
+    [javac]                                                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/TxnLogProposalIterator.java:43: error: type argument Proposal is not within bounds of type-variable E
+    [javac] public class TxnLogProposalIterator implements Iterator<Proposal> {
+    [javac]                                                         ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/util/KerberosUtil.java:39: warning: [rawtypes] found raw type: Class
+    [javac]     getInstanceMethod = classRef.getMethod("getInstance", new Class[0]);
+    [javac]                                                               ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/util/KerberosUtil.java:42: warning: [rawtypes] found raw type: Class
+    [javac]          new Class[0]);
+    [javac]              ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/util/OSMXBean.java:89: warning: [rawtypes] found raw type: Class
+    [javac]                 new Class[0]);
+    [javac]                     ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] 45 errors
+    [javac] 5 warnings
+ant compile || ant -DlastRevision=1
+0.370s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-zookeeper a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/package/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/test/lib
+
+ivy-download:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/lib/ivy-2.2.0.jar
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.5.0-SNAPSHOT
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found jline#jline;2.11 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.7.5 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.7.5 in maven2
+[ivy:retrieve] 	found commons-cli#commons-cli;1.2 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.16 in maven2
+[ivy:retrieve] 	found io.netty#netty;3.7.0.Final in maven2
+[ivy:retrieve] 	found net.java.dev.javacc#javacc;5.0 in maven2
+[ivy:retrieve] :: resolution report :: resolve 186ms :: artifacts dl 8ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   7   |   0   |   0   |   0   ||   7   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	7 artifacts copied, 0 already retrieved (2220kB/10ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+generate_jute_parser:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/jute_compiler/org/apache/jute/compiler/generated
+[ivy:artifactproperty] DEPRECATED: 'ivy.conf.file' is deprecated, use 'ivy.settings.file' instead
+[ivy:artifactproperty] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+     [move] Moving 1 file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+   [javacc] Java Compiler Compiler Version 5.0 (Parser Generator)
+   [javacc] (type "javacc" with no arguments for help)
+   [javacc] Reading from file /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/jute/compiler/generated/rcc.jj . . .
+   [javacc] File "TokenMgrError.java" does not exist.  Will create one.
+   [javacc] File "ParseException.java" does not exist.  Will create one.
+   [javacc] File "Token.java" does not exist.  Will create one.
+   [javacc] File "SimpleCharStream.java" does not exist.  Will create one.
+   [javacc] Parser generated successfully.
+
+jute:
+    [javac] Compiling 39 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/generated/.generated
+
+ver-gen:
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+process-template:
+
+build-generated:
+    [javac] Compiling 60 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+
+compile:
+    [javac] Compiling 185 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:65: cannot find symbol
+    [javac] symbol  : class SyncedLearnerTracker
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader
+    [javac]     static public class Proposal  extends SyncedLearnerTracker {
+    [javac]                                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:69: method does not override or implement a method from a supertype
+    [javac]         @Override
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:329: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     final ConcurrentMap<Long, Proposal> outstandingProposals = new ConcurrentHashMap<Long, Proposal>();
+    [javac]                               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:329: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     final ConcurrentMap<Long, Proposal> outstandingProposals = new ConcurrentHashMap<Long, Proposal>();
+    [javac]                                                                                            ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:331: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     private final ConcurrentLinkedQueue<Proposal> toBeApplied = new ConcurrentLinkedQueue<Proposal>();
+    [javac]                                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:331: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     private final ConcurrentLinkedQueue<Proposal> toBeApplied = new ConcurrentLinkedQueue<Proposal>();
+    [javac]                                                                                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:460: cannot find symbol
+    [javac] symbol  : method addQuorumVerifier(org.apache.zookeeper.server.quorum.flexible.QuorumVerifier)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             newLeaderProposal.addQuorumVerifier(self.getQuorumVerifier());
+    [javac]                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:462: cannot find symbol
+    [javac] symbol  : method addQuorumVerifier(org.apache.zookeeper.server.quorum.flexible.QuorumVerifier)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                newLeaderProposal.addQuorumVerifier(self.getLastSeenQuorumVerifier());
+    [javac]                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:476: cannot find symbol
+    [javac] symbol  : method ackSetsToString()
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                          + newLeaderProposal.ackSetsToString() + " ]");
+    [javac]                                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:485: cannot find symbol
+    [javac] symbol  : class QuorumVerifierAcksetPair
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                  for (Proposal.QuorumVerifierAcksetPair qvAckset:newLeaderProposal.qvAcksetPairs) {
+    [javac]                               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:485: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                  for (Proposal.QuorumVerifierAcksetPair qvAckset:newLeaderProposal.qvAcksetPairs) {
+    [javac]                                                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:549: cannot find symbol
+    [javac] symbol  : class SyncedLearnerTracker
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader
+    [javac]                     SyncedLearnerTracker syncedAckSet = new SyncedLearnerTracker();
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:549: cannot find symbol
+    [javac] symbol  : class SyncedLearnerTracker
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader
+    [javac]                     SyncedLearnerTracker syncedAckSet = new SyncedLearnerTracker();
+    [javac]                                                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: cannot find symbol
+    [javac] symbol  : class QuorumVerifierAcksetPair
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                                                                                                               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                                                                            ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:662: operator != cannot be applied to org.apache.zookeeper.server.quorum.Leader.Proposal,<nulltype>
+    [javac]        while (p!=null && !candidates.isEmpty()) {                              
+    [javac]                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:663: cannot find symbol
+    [javac] symbol  : class QuorumVerifierAcksetPair
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]            for (Proposal.QuorumVerifierAcksetPair qvAckset: p.qvAcksetPairs){ 
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:663: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]            for (Proposal.QuorumVerifierAcksetPair qvAckset: p.qvAcksetPairs){ 
+    [javac]                                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:694: cannot find symbol
+    [javac] symbol  : method hasAllQuorums()
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]         if (!p.hasAllQuorums()) {
+    [javac]               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:726: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             QuorumVerifier newQV = p.qvAcksetPairs.get(p.qvAcksetPairs.size()-1).getQuorumVerifier();
+    [javac]                                                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:726: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             QuorumVerifier newQV = p.qvAcksetPairs.get(p.qvAcksetPairs.size()-1).getQuorumVerifier();
+    [javac]                                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:800: operator == cannot be applied to org.apache.zookeeper.server.quorum.Leader.Proposal,<nulltype>
+    [javac]         if (p == null) {
+    [javac]               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:806: cannot find symbol
+    [javac] symbol  : method addAck(long)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]         p.addAck(sid);        
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:825: operator != cannot be applied to org.apache.zookeeper.server.quorum.Leader.Proposal,<nulltype>
+    [javac]            while (allowedToCommit && hasCommitted && p!=null){
+    [javac]                                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:828: operator != cannot be applied to org.apache.zookeeper.server.quorum.Leader.Proposal,<nulltype>
+    [javac]                if (p !=null) hasCommitted = tryToCommit(p, curZxid, null);             
+    [javac]                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:874: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                 Iterator<Proposal> iter = leader.toBeApplied.iterator();
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1034: cannot find symbol
+    [javac] symbol  : method addQuorumVerifier(org.apache.zookeeper.server.quorum.flexible.QuorumVerifier)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]            p.addQuorumVerifier(self.getQuorumVerifier());
+    [javac]             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1041: cannot find symbol
+    [javac] symbol  : method addQuorumVerifier(org.apache.zookeeper.server.quorum.flexible.QuorumVerifier)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                p.addQuorumVerifier(self.getLastSeenQuorumVerifier());
+    [javac]                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1221: cannot find symbol
+    [javac] symbol  : method ackSetsToString()
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                 + newLeaderProposal.ackSetsToString()
+    [javac]                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1265: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]         synchronized (newLeaderProposal.qvAcksetPairs) {
+    [javac]                                        ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1284: cannot find symbol
+    [javac] symbol  : method addAck(long)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             newLeaderProposal.addAck(sid);
+    [javac]                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1286: cannot find symbol
+    [javac] symbol  : method hasAllQuorums()
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             if (newLeaderProposal.hasAllQuorums()) {
+    [javac]                                  ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1288: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                 newLeaderProposal.qvAcksetPairs.notifyAll();
+    [javac]                                  ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1294: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                     newLeaderProposal.qvAcksetPairs.wait(end - cur);
+    [javac]                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:85: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     protected LinkedList<Proposal> committedLog = new LinkedList<Proposal>();
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:85: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     protected LinkedList<Proposal> committedLog = new LinkedList<Proposal>();
+    [javac]                                                                  ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:170: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     public synchronized List<Proposal> getCommittedLog() {
+    [javac]                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:176: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                 return new LinkedList<Proposal>(this.committedLog);
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:292: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     public Iterator<Proposal> getProposalsFromTxnLog(long startZxid,
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:710: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                 Iterator<Proposal> itr = db.getCommittedLog().iterator();
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:721: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                 Iterator<Proposal> txnLogItr = db.getProposalsFromTxnLog(
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:729: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                     Iterator<Proposal> committedLogItr = db.getCommittedLog().iterator();
+    [javac]                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:771: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     protected long queueCommittedProposals(Iterator<Proposal> itr,
+    [javac]                                                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/TxnLogProposalIterator.java:43: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac] public class TxnLogProposalIterator implements Iterator<Proposal> {
+    [javac]                                                         ^
+    [javac] 45 errors
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build.xml
+
+init:
+
+ivy-download:
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.5.0-SNAPSHOT
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found jline#jline;2.11 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.7.5 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.7.5 in maven2
+[ivy:retrieve] 	found commons-cli#commons-cli;1.2 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.16 in maven2
+[ivy:retrieve] 	found io.netty#netty;3.7.0.Final in maven2
+[ivy:retrieve] 	found net.java.dev.javacc#javacc;5.0 in maven2
+[ivy:retrieve] :: resolution report :: resolve 178ms :: artifacts dl 8ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   7   |   0   |   0   |   0   ||   7   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	1 artifacts copied, 6 already retrieved (291kB/7ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+generate_jute_parser:
+[ivy:artifactproperty] DEPRECATED: 'ivy.conf.file' is deprecated, use 'ivy.settings.file' instead
+[ivy:artifactproperty] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/ivysettings.xml
+     [move] Moving 1 file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/lib
+   [javacc] Java Compiler Compiler Version 5.0 (Parser Generator)
+   [javacc] (type "javacc" with no arguments for help)
+   [javacc] Reading from file /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/jute/compiler/generated/rcc.jj . . .
+   [javacc] File "TokenMgrError.java" is being rebuilt.
+   [javacc] File "ParseException.java" is being rebuilt.
+   [javacc] File "Token.java" is being rebuilt.
+   [javacc] File "SimpleCharStream.java" is being rebuilt.
+   [javacc] Parser generated successfully.
+
+jute:
+    [javac] Compiling 7 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+
+svn-revision:
+
+version-info:
+
+process-template:
+
+build-generated:
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+
+compile:
+    [javac] Compiling 185 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:65: cannot find symbol
+    [javac] symbol  : class SyncedLearnerTracker
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader
+    [javac]     static public class Proposal  extends SyncedLearnerTracker {
+    [javac]                                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:69: method does not override or implement a method from a supertype
+    [javac]         @Override
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:329: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     final ConcurrentMap<Long, Proposal> outstandingProposals = new ConcurrentHashMap<Long, Proposal>();
+    [javac]                               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:329: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     final ConcurrentMap<Long, Proposal> outstandingProposals = new ConcurrentHashMap<Long, Proposal>();
+    [javac]                                                                                            ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:331: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     private final ConcurrentLinkedQueue<Proposal> toBeApplied = new ConcurrentLinkedQueue<Proposal>();
+    [javac]                                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:331: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     private final ConcurrentLinkedQueue<Proposal> toBeApplied = new ConcurrentLinkedQueue<Proposal>();
+    [javac]                                                                                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:460: cannot find symbol
+    [javac] symbol  : method addQuorumVerifier(org.apache.zookeeper.server.quorum.flexible.QuorumVerifier)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             newLeaderProposal.addQuorumVerifier(self.getQuorumVerifier());
+    [javac]                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:462: cannot find symbol
+    [javac] symbol  : method addQuorumVerifier(org.apache.zookeeper.server.quorum.flexible.QuorumVerifier)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                newLeaderProposal.addQuorumVerifier(self.getLastSeenQuorumVerifier());
+    [javac]                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:476: cannot find symbol
+    [javac] symbol  : method ackSetsToString()
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                          + newLeaderProposal.ackSetsToString() + " ]");
+    [javac]                                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:485: cannot find symbol
+    [javac] symbol  : class QuorumVerifierAcksetPair
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                  for (Proposal.QuorumVerifierAcksetPair qvAckset:newLeaderProposal.qvAcksetPairs) {
+    [javac]                               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:485: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                  for (Proposal.QuorumVerifierAcksetPair qvAckset:newLeaderProposal.qvAcksetPairs) {
+    [javac]                                                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:549: cannot find symbol
+    [javac] symbol  : class SyncedLearnerTracker
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader
+    [javac]                     SyncedLearnerTracker syncedAckSet = new SyncedLearnerTracker();
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:549: cannot find symbol
+    [javac] symbol  : class SyncedLearnerTracker
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader
+    [javac]                     SyncedLearnerTracker syncedAckSet = new SyncedLearnerTracker();
+    [javac]                                                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: cannot find symbol
+    [javac] symbol  : class QuorumVerifierAcksetPair
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                                                                                                               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:641: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]        Proposal.QuorumVerifierAcksetPair newQVAcksetPair = reconfigProposal.qvAcksetPairs.get(reconfigProposal.qvAcksetPairs.size()-1);        
+    [javac]                                                                            ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:662: operator != cannot be applied to org.apache.zookeeper.server.quorum.Leader.Proposal,<nulltype>
+    [javac]        while (p!=null && !candidates.isEmpty()) {                              
+    [javac]                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:663: cannot find symbol
+    [javac] symbol  : class QuorumVerifierAcksetPair
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]            for (Proposal.QuorumVerifierAcksetPair qvAckset: p.qvAcksetPairs){ 
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:663: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]            for (Proposal.QuorumVerifierAcksetPair qvAckset: p.qvAcksetPairs){ 
+    [javac]                                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:694: cannot find symbol
+    [javac] symbol  : method hasAllQuorums()
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]         if (!p.hasAllQuorums()) {
+    [javac]               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:726: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             QuorumVerifier newQV = p.qvAcksetPairs.get(p.qvAcksetPairs.size()-1).getQuorumVerifier();
+    [javac]                                                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:726: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             QuorumVerifier newQV = p.qvAcksetPairs.get(p.qvAcksetPairs.size()-1).getQuorumVerifier();
+    [javac]                                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:800: operator == cannot be applied to org.apache.zookeeper.server.quorum.Leader.Proposal,<nulltype>
+    [javac]         if (p == null) {
+    [javac]               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:806: cannot find symbol
+    [javac] symbol  : method addAck(long)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]         p.addAck(sid);        
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:825: operator != cannot be applied to org.apache.zookeeper.server.quorum.Leader.Proposal,<nulltype>
+    [javac]            while (allowedToCommit && hasCommitted && p!=null){
+    [javac]                                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:828: operator != cannot be applied to org.apache.zookeeper.server.quorum.Leader.Proposal,<nulltype>
+    [javac]                if (p !=null) hasCommitted = tryToCommit(p, curZxid, null);             
+    [javac]                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:874: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                 Iterator<Proposal> iter = leader.toBeApplied.iterator();
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1034: cannot find symbol
+    [javac] symbol  : method addQuorumVerifier(org.apache.zookeeper.server.quorum.flexible.QuorumVerifier)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]            p.addQuorumVerifier(self.getQuorumVerifier());
+    [javac]             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1041: cannot find symbol
+    [javac] symbol  : method addQuorumVerifier(org.apache.zookeeper.server.quorum.flexible.QuorumVerifier)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                p.addQuorumVerifier(self.getLastSeenQuorumVerifier());
+    [javac]                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1221: cannot find symbol
+    [javac] symbol  : method ackSetsToString()
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                 + newLeaderProposal.ackSetsToString()
+    [javac]                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1265: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]         synchronized (newLeaderProposal.qvAcksetPairs) {
+    [javac]                                        ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1284: cannot find symbol
+    [javac] symbol  : method addAck(long)
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             newLeaderProposal.addAck(sid);
+    [javac]                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1286: cannot find symbol
+    [javac] symbol  : method hasAllQuorums()
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]             if (newLeaderProposal.hasAllQuorums()) {
+    [javac]                                  ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1288: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                 newLeaderProposal.qvAcksetPairs.notifyAll();
+    [javac]                                  ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/Leader.java:1294: cannot find symbol
+    [javac] symbol  : variable qvAcksetPairs
+    [javac] location: class org.apache.zookeeper.server.quorum.Leader.Proposal
+    [javac]                     newLeaderProposal.qvAcksetPairs.wait(end - cur);
+    [javac]                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:85: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     protected LinkedList<Proposal> committedLog = new LinkedList<Proposal>();
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:85: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     protected LinkedList<Proposal> committedLog = new LinkedList<Proposal>();
+    [javac]                                                                  ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:170: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     public synchronized List<Proposal> getCommittedLog() {
+    [javac]                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:176: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                 return new LinkedList<Proposal>(this.committedLog);
+    [javac]                                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/ZKDatabase.java:292: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     public Iterator<Proposal> getProposalsFromTxnLog(long startZxid,
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:710: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                 Iterator<Proposal> itr = db.getCommittedLog().iterator();
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:721: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                 Iterator<Proposal> txnLogItr = db.getProposalsFromTxnLog(
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:729: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]                     Iterator<Proposal> committedLogItr = db.getCommittedLog().iterator();
+    [javac]                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java:771: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac]     protected long queueCommittedProposals(Iterator<Proposal> itr,
+    [javac]                                                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/a8e0d7ba7d9797be3aa021fe23d5aef52ef39b91/src/java/main/org/apache/zookeeper/server/TxnLogProposalIterator.java:43: type parameter org.apache.zookeeper.server.quorum.Leader.Proposal is not within its bound
+    [javac] public class TxnLogProposalIterator implements Iterator<Proposal> {
+    [javac]                                                         ^
+    [javac] 45 errors
+ant compile || ant -DlastRevision=1
+0.344s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

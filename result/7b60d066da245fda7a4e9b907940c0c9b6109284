@@ -1,0 +1,411 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile Netflix-astyanax 7b60d066da245fda7a4e9b907940c0c9b6109284:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building astyanax 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ astyanax ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ astyanax ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ astyanax ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ astyanax ---
+[INFO] Compiling 320 source files to /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.837 s
+[INFO] Finished at: 2019-12-04T10:19:06+00:00
+[INFO] Final Memory: 19M/258M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project astyanax: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building astyanax 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ astyanax ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ astyanax ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ astyanax ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ astyanax ---
+[INFO] Compiling 320 source files to /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.843 s
+[INFO] Finished at: 2019-12-04T10:19:12+00:00
+[INFO] Final Memory: 19M/255M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project astyanax: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+mvn clean compile -DskipTests=true || (sed -i -- 's/<\/dependencies>/<dependency><groupId>javax.persistence<\/groupId><artifactId>persistence-api<\/artifactId><version>1.0<\/version><scope>compile<\/scope><\/dependency><\/dependencies>/g' pom.xml ; mvn clean compile -DskipTests=true) || (./gradlew clean :astyanax-core:compileJava -x test) ||  (./gradlew clean :astyanax-core:compileJava -x test -PcommonsIOVersion=2.1)
+0.203s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile Netflix-astyanax 7b60d066da245fda7a4e9b907940c0c9b6109284:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building astyanax 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ astyanax ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ astyanax ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ astyanax ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ astyanax ---
+[INFO] Compiling 320 source files to /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.824 s
+[INFO] Finished at: 2019-12-04T10:19:18+00:00
+[INFO] Final Memory: 19M/256M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project astyanax: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building astyanax 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ astyanax ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ astyanax ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ astyanax ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ astyanax ---
+[INFO] Compiling 320 source files to /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.817 s
+[INFO] Finished at: 2019-12-04T10:19:23+00:00
+[INFO] Final Memory: 18M/254M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project astyanax: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+mvn clean compile -DskipTests=true || (sed -i -- 's/<\/dependencies>/<dependency><groupId>javax.persistence<\/groupId><artifactId>persistence-api<\/artifactId><version>1.0<\/version><scope>compile<\/scope><\/dependency><\/dependencies>/g' pom.xml ; mvn clean compile -DskipTests=true) || (./gradlew clean :astyanax-core:compileJava -x test) ||  (./gradlew clean :astyanax-core:compileJava -x test -PcommonsIOVersion=2.1)
+0.185s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile Netflix-astyanax 7b60d066da245fda7a4e9b907940c0c9b6109284:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building astyanax 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ astyanax ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ astyanax ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ astyanax ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ astyanax ---
+[INFO] Compiling 320 source files to /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.580 s
+[INFO] Finished at: 2019-12-04T10:19:33+00:00
+[INFO] Final Memory: 18M/341M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project astyanax: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building astyanax 1.0.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ astyanax ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ astyanax ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ astyanax ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ astyanax ---
+[INFO] Compiling 320 source files to /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.408 s
+[INFO] Finished at: 2019-12-04T10:19:41+00:00
+[INFO] Final Memory: 17M/209M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project astyanax: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/Netflix-astyanax/download/7b60d066da245fda7a4e9b907940c0c9b6109284/src/main/java/com/netflix/astyanax/thrift/AbstractThriftMutationBatchImpl.java:[300,4] error: method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+mvn clean compile -DskipTests=true || (sed -i -- 's/<\/dependencies>/<dependency><groupId>javax.persistence<\/groupId><artifactId>persistence-api<\/artifactId><version>1.0<\/version><scope>compile<\/scope><\/dependency><\/dependencies>/g' pom.xml ; mvn clean compile -DskipTests=true) || (./gradlew clean :astyanax-core:compileJava -x test) ||  (./gradlew clean :astyanax-core:compileJava -x test -PcommonsIOVersion=2.1)
+0.282s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile Netflix-astyanax 7b60d066da245fda7a4e9b907940c0c9b6109284:
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+mvn clean compile -DskipTests=true || (sed -i -- 's/<\/dependencies>/<dependency><groupId>javax.persistence<\/groupId><artifactId>persistence-api<\/artifactId><version>1.0<\/version><scope>compile<\/scope><\/dependency><\/dependencies>/g' pom.xml ; mvn clean compile -DskipTests=true) || (./gradlew clean :astyanax-core:compileJava -x test) ||  (./gradlew clean :astyanax-core:compileJava -x test -PcommonsIOVersion=2.1)
+0.147s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,680 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-flume 78604c95a42a1ff088da945a590b1e8579ded4f9:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 68 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR]  class PollingRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.685 s]
+[INFO] Flume NG Core ...................................... FAILURE [  2.272 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.440 s
+[INFO] Finished at: 2019-12-04T06:52:07+00:00
+[INFO] Final Memory: 21M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR] class PollingRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+No local changes to save
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 68 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR]  class PollingRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.575 s]
+[INFO] Flume NG Core ...................................... FAILURE [  2.268 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.333 s
+[INFO] Finished at: 2019-12-04T06:52:12+00:00
+[INFO] Final Memory: 21M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR] class PollingRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.130s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-flume 78604c95a42a1ff088da945a590b1e8579ded4f9:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 68 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR]  class PollingRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.568 s]
+[INFO] Flume NG Core ...................................... FAILURE [  2.294 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.311 s
+[INFO] Finished at: 2019-12-04T06:52:18+00:00
+[INFO] Final Memory: 21M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR] class PollingRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+No local changes to save
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 68 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR]  class PollingRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.654 s]
+[INFO] Flume NG Core ...................................... FAILURE [  2.243 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.362 s
+[INFO] Finished at: 2019-12-04T06:52:23+00:00
+[INFO] Final Memory: 21M/255M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR] class PollingRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.53s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-flume 78604c95a42a1ff088da945a590b1e8579ded4f9:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ flume-ng-core ---
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 68 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR]  class PollingRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.924 s]
+[INFO] Flume NG Core ...................................... FAILURE [  3.964 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.445 s
+[INFO] Finished at: 2019-12-04T06:52:31+00:00
+[INFO] Final Memory: 28M/336M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR] class PollingRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+No local changes to save
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Flume
+[INFO] Flume NG Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Flume 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Flume NG Core 1.1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- avro-maven-plugin:1.6.1:idl-protocol (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ flume-ng-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ flume-ng-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ flume-ng-core ---
+[INFO] Compiling 68 source files to /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR]  class SinkRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR]  class PollingRunner
+/home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Flume ....................................... SUCCESS [  0.806 s]
+[INFO] Flume NG Core ...................................... FAILURE [  3.614 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.996 s
+[INFO] Finished at: 2019-12-04T06:52:38+00:00
+[INFO] Final Memory: 23M/335M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project flume-ng-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[41,10] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[48,20] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[53,9] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[57,22] error: cannot find symbol
+[ERROR] class SinkRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[117,12] error: cannot find symbol
+[ERROR] class PollingRunner
+[ERROR] /home/ubuntu/ATLAS/apps/apache-flume/download/78604c95a42a1ff088da945a590b1e8579ded4f9/flume-ng-core/src/main/java/org/apache/flume/SinkRunner.java:[63,4] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :flume-ng-core
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.294s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-flume 78604c95a42a1ff088da945a590b1e8579ded4f9:
+No local changes to save
+(sed -i -- 's/0.20.2-CDH3B4/0.20.2-cdh3u0/g' pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl flume-ng-core -am) || ( git stash; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><classifier>tests<\/classifier><scope>compile<\/scope><\/dependency>/g' pom.xml ; sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>org.apache.flume<\/groupId><artifactId>flume-ng-sdk<\/artifactId><version>1.8.0<\/version><\/dependency>/g' pom.xml ;   mvn compile -DskipTests -Dmaven.test.skip=true -pl flume-ng-core -am)
+0.57s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

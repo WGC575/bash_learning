@@ -1,0 +1,1876 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 13918f716c236aba55b81d913547ff9de42c47cb:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-env.sh.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-env.sh
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/slaves.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/slaves
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/subcollections.xml
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/bin
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/webapps
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 155 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.4
+    [javac] warning: [options] source value 1.4 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.4 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:37: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:28: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:27: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:118: error: cannot find symbol
+    [javac]             e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                               ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:218: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:249: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:277: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:290: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:134: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParserFactory
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:92: error: cannot find symbol
+    [javac]     writer.setInfoStream(LogUtil.getDebugStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class IndexMerger
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:100: error: cannot find symbol
+    [javac]       writer.setInfoStream(LogUtil.getInfoStream(LOG));
+    [javac]                            ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class OutputFormat
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:66: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class BasicUrlNormalizer
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParseSegment.java:80: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:110: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:125: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:261: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:271: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:281: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:291: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:301: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:311: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:240: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:249: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:257: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:295: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:314: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:64: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:66: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:68: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:91: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:93: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:95: error: cannot find symbol
+    [javac]       e2.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:97: error: cannot find symbol
+    [javac]       ex.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:132: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:138: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:144: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 39 errors
+    [javac] 4 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml
+
+init:
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/bin
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 155 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.4
+    [javac] warning: [options] source value 1.4 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.4 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:37: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:28: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:27: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:118: error: cannot find symbol
+    [javac]             e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                               ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:218: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:249: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:277: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:290: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:134: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParserFactory
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:92: error: cannot find symbol
+    [javac]     writer.setInfoStream(LogUtil.getDebugStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class IndexMerger
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:100: error: cannot find symbol
+    [javac]       writer.setInfoStream(LogUtil.getInfoStream(LOG));
+    [javac]                            ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class OutputFormat
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:66: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class BasicUrlNormalizer
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParseSegment.java:80: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:110: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:125: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:261: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:271: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:281: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:291: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:301: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:311: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:240: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:249: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:257: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:295: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:314: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:64: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:66: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:68: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:91: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:93: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:95: error: cannot find symbol
+    [javac]       e2.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:97: error: cannot find symbol
+    [javac]       ex.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:132: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:138: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:144: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 39 errors
+    [javac] 4 warnings
+(ant compile-core) || (ant compile)
+0.145s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 13918f716c236aba55b81d913547ff9de42c47cb:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-env.sh.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-env.sh
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/slaves.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/slaves
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/subcollections.xml
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/bin
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/webapps
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 155 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.4
+    [javac] warning: [options] source value 1.4 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.4 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:37: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:28: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:27: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:118: error: cannot find symbol
+    [javac]             e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                               ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:218: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:249: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:277: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:290: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:134: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParserFactory
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:92: error: cannot find symbol
+    [javac]     writer.setInfoStream(LogUtil.getDebugStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class IndexMerger
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:100: error: cannot find symbol
+    [javac]       writer.setInfoStream(LogUtil.getInfoStream(LOG));
+    [javac]                            ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class OutputFormat
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:66: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class BasicUrlNormalizer
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParseSegment.java:80: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:110: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:125: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:261: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:271: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:281: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:291: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:301: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:311: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:240: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:249: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:257: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:295: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:314: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:64: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:66: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:68: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:91: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:93: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:95: error: cannot find symbol
+    [javac]       e2.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:97: error: cannot find symbol
+    [javac]       ex.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:132: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:138: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:144: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 39 errors
+    [javac] 4 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml
+
+init:
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/bin
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 155 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.4
+    [javac] warning: [options] source value 1.4 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.4 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:37: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:28: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:27: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:118: error: cannot find symbol
+    [javac]             e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                               ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:218: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:249: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:277: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:290: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:134: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParserFactory
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:92: error: cannot find symbol
+    [javac]     writer.setInfoStream(LogUtil.getDebugStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class IndexMerger
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:100: error: cannot find symbol
+    [javac]       writer.setInfoStream(LogUtil.getInfoStream(LOG));
+    [javac]                            ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class OutputFormat
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:66: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class BasicUrlNormalizer
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParseSegment.java:80: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:110: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:125: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:261: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:271: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:281: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:291: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:301: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:311: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:240: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:249: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:257: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:295: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:314: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:64: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:66: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:68: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:91: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:93: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:95: error: cannot find symbol
+    [javac]       e2.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:97: error: cannot find symbol
+    [javac]       ex.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:132: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:138: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:144: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 39 errors
+    [javac] 4 warnings
+(ant compile-core) || (ant compile)
+0.456s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 13918f716c236aba55b81d913547ff9de42c47cb:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-env.sh.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-env.sh
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/slaves.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/slaves
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/subcollections.xml
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/bin
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/webapps
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 155 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.4
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:37: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:28: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:27: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:118: error: cannot find symbol
+    [javac]             e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                               ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:218: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:249: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:277: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:290: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:134: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParserFactory
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:92: error: cannot find symbol
+    [javac]     writer.setInfoStream(LogUtil.getDebugStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class IndexMerger
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:100: error: cannot find symbol
+    [javac]       writer.setInfoStream(LogUtil.getInfoStream(LOG));
+    [javac]                            ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class OutputFormat
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:66: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class BasicUrlNormalizer
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParseSegment.java:80: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:110: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:125: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:261: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:271: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:281: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:291: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:301: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:311: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:240: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:249: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:257: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:295: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:314: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:64: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:66: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:68: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:91: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:93: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:95: error: cannot find symbol
+    [javac]       e2.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:97: error: cannot find symbol
+    [javac]       ex.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:132: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:138: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:144: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 39 errors
+    [javac] 1 warning
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml
+
+init:
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/bin
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 155 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.4
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:37: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:28: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:27: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:35: error: cannot find symbol
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac]   symbol:   class LogUtil
+    [javac]   location: package org.apache.nutch.util
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:118: error: cannot find symbol
+    [javac]             e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                               ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:218: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:249: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:277: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:290: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:134: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParserFactory
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:92: error: cannot find symbol
+    [javac]     writer.setInfoStream(LogUtil.getDebugStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class IndexMerger
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:100: error: cannot find symbol
+    [javac]       writer.setInfoStream(LogUtil.getInfoStream(LOG));
+    [javac]                            ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class OutputFormat
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:66: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class BasicUrlNormalizer
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParseSegment.java:80: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:110: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:125: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class SegmentReader
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:261: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:271: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:281: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:291: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:301: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:311: error: cannot find symbol
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac]   symbol: variable LogUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:240: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:249: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:257: error: cannot find symbol
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser.RDFProcessor
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:295: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:314: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DmozParser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:64: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:66: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:68: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:91: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:93: error: cannot find symbol
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:95: error: cannot find symbol
+    [javac]       e2.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:97: error: cannot find symbol
+    [javac]       ex.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class DomUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:132: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:138: error: cannot find symbol
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:144: error: cannot find symbol
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac]   symbol:   variable LogUtil
+    [javac]   location: class GZIPUtils
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 39 errors
+    [javac] 1 warning
+(ant compile-core) || (ant compile)
+0.79s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 13918f716c236aba55b81d913547ff9de42c47cb:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-env.sh.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-env.sh
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/hadoop-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/slaves.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/slaves
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/conf/subcollections.xml
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/bin
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/webapps
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 155 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:37: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:28: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:35: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:27: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:35: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:35: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:118: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]             e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:218: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:249: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:277: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:290: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:134: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.parse.ParserFactory
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:92: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.indexer.IndexMerger
+    [javac]     writer.setInfoStream(LogUtil.getDebugStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:100: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.indexer.Indexer.OutputFormat
+    [javac]       writer.setInfoStream(LogUtil.getInfoStream(LOG));
+    [javac]                            ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:66: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.net.BasicUrlNormalizer
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParseSegment.java:80: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.parse.ParseSegment
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:110: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.segment.SegmentReader
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:125: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.segment.SegmentReader
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:261: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:271: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:281: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:291: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:301: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:311: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:240: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser.RDFProcessor
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:249: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser.RDFProcessor
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:257: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser.RDFProcessor
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:295: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:314: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:64: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:66: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:68: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:91: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:93: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:95: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e2.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:97: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       ex.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:132: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.GZIPUtils
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:138: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.GZIPUtils
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:144: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.GZIPUtils
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 39 errors
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml
+
+init:
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/bin
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/lib/hadoop-0.3.2.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build.xml:88: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 155 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:37: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:28: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:35: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:27: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:35: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:35: cannot find symbol
+    [javac] symbol  : class LogUtil
+    [javac] location: package org.apache.nutch.util
+    [javac] import org.apache.nutch.util.LogUtil;
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:118: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]             e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                               ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:218: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:249: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:277: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/fetcher/Fetcher.java:290: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]         e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParserFactory.java:134: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.parse.ParserFactory
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/IndexMerger.java:92: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.indexer.IndexMerger
+    [javac]     writer.setInfoStream(LogUtil.getDebugStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/indexer/Indexer.java:100: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.indexer.Indexer.OutputFormat
+    [javac]       writer.setInfoStream(LogUtil.getInfoStream(LOG));
+    [javac]                            ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/net/BasicUrlNormalizer.java:66: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.net.BasicUrlNormalizer
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/parse/ParseSegment.java:80: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.parse.ParseSegment
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:110: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.segment.SegmentReader
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:125: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.segment.SegmentReader
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:261: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:271: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:281: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:291: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:301: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/segment/SegmentReader.java:311: cannot find symbol
+    [javac] symbol: variable LogUtil
+    [javac]           e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:240: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser.RDFProcessor
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:249: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser.RDFProcessor
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:257: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser.RDFProcessor
+    [javac]       spe.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:295: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/tools/DmozParser.java:314: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.tools.DmozParser
+    [javac]       e.printStackTrace(LogUtil.getFatalStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:64: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:66: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:68: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:91: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:93: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e1.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:95: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       e2.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/DomUtil.java:97: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.DomUtil
+    [javac]       ex.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:132: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.GZIPUtils
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:138: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.GZIPUtils
+    [javac]         e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/13918f716c236aba55b81d913547ff9de42c47cb/src/java/org/apache/nutch/util/GZIPUtils.java:144: cannot find symbol
+    [javac] symbol  : variable LogUtil
+    [javac] location: class org.apache.nutch.util.GZIPUtils
+    [javac]       e.printStackTrace(LogUtil.getWarnStream(LOG));
+    [javac]                         ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 39 errors
+(ant compile-core) || (ant compile)
+0.458s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

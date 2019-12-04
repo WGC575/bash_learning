@@ -1,0 +1,696 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 48ce6978f372744f6894b5f683f4d5b813918b55:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/hbase-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/hbase-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/suffix-urlfilter.txt
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.1.0 - 20090925235825 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/ivy/ivysettings.xml
+[ivy:resolve] downloading http://repo1.maven.org/maven2/com/healthmarketscience/sqlbuilder/sqlbuilder/2.0.6/sqlbuilder-2.0.6.jar ...
+[ivy:resolve] ............ (142kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] com.healthmarketscience.sqlbuilder#sqlbuilder;2.0.6!sqlbuilder.jar (45ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/jdom/jdom/1.1/jdom-1.1.jar ...
+[ivy:resolve] .... (149kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.jdom#jdom;1.1!jdom.jar (31ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.0.0/hsqldb-2.0.0.jar ...
+[ivy:resolve] ............................... (1226kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.hsqldb#hsqldb;2.0.0!hsqldb.jar (52ms)
+[ivy:resolve] downloading http://maven.restlet.org/org/restlet/jse/org.restlet/2.0.1/org.restlet-2.0.1.jar ...
+[ivy:resolve] ....................................................................................................... (645kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.restlet.jse#org.restlet;2.0.1!org.restlet.jar (47ms)
+[ivy:resolve] downloading http://maven.restlet.org/org/restlet/jse/org.restlet.ext.jackson/2.0.1/org.restlet.ext.jackson-2.0.1.jar ...
+[ivy:resolve] .. (5kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.restlet.jse#org.restlet.ext.jackson;2.0.1!org.restlet.ext.jackson.jar (20ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/com/healthmarketscience/common/common-util/1.0.2/common-util-1.0.2.jar ...
+[ivy:resolve] .. (32kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] com.healthmarketscience.common#common-util;1.0.2!common-util.jar (30ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.0.0/org.osgi.core-4.0.0.jar ...
+[ivy:resolve] ........ (434kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.osgi#org.osgi.core;4.0.0!org.osgi.core.jar (34ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.4.3/jackson-core-asl-1.4.3.jar ...
+[ivy:resolve] .... (147kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.4.3!jackson-core-asl.jar (31ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.4.3/jackson-mapper-asl-1.4.3.jar ...
+[ivy:resolve] ....... (377kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.4.3!jackson-mapper-asl.jar (32ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/tika/tika-parsers/0.7/tika-parsers-0.7.jar ...
+[ivy:resolve] ..... (210kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.tika#tika-parsers;0.7!tika-parsers.jar(bundle) (32ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.0/commons-compress-1.0.jar ...
+[ivy:resolve] .... (140kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.0!commons-compress.jar (31ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.1.0/pdfbox-1.1.0.jar ...
+[ivy:resolve] ............................................................................................................... (4599kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.pdfbox#pdfbox;1.1.0!pdfbox.jar(bundle) (71ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.jar ...
+[ivy:resolve] ..... (223kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.bouncycastle#bcmail-jdk15;1.45!bcmail-jdk15.jar (31ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.jar ...
+[ivy:resolve] ............................... (1624kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.bouncycastle#bcprov-jdk15;1.45!bcprov-jdk15.jar (44ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/poi/poi/3.6/poi-3.6.jar ...
+[ivy:resolve] ......................... (1503kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.poi#poi;3.6!poi.jar (40ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/3.6/poi-scratchpad-3.6.jar ...
+[ivy:resolve] .............. (777kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.poi#poi-scratchpad;3.6!poi-scratchpad.jar (35ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.6/poi-ooxml-3.6.jar ...
+[ivy:resolve] ........ (403kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.poi#poi-ooxml;3.6!poi-ooxml.jar (32ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.jar ...
+[ivy:resolve] ... (87kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.ccil.cowan.tagsoup#tagsoup;1.2!tagsoup.jar (30ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.4.0-beta-1/metadata-extractor-2.4.0-beta-1.jar ...
+[ivy:resolve] ... (88kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] com.drewnoakes#metadata-extractor;2.4.0-beta-1!metadata-extractor.jar (30ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.1.0/fontbox-1.1.0.jar ...
+[ivy:resolve] .... (149kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.pdfbox#fontbox;1.1.0!fontbox.jar(bundle) (31ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.1.0/jempbox-1.1.0.jar ...
+[ivy:resolve] .. (50kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.pdfbox#jempbox;1.1.0!jempbox.jar(bundle) (30ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/javax/mail/mail/1.4/mail-1.4.jar ...
+[ivy:resolve] ....... (379kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] javax.mail#mail;1.4!mail.jar (33ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.6/poi-ooxml-schemas-3.6.jar ...
+[ivy:resolve] ................................................................................................................... (3685kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.poi#poi-ooxml-schemas;3.6!poi-ooxml-schemas.jar (64ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar ...
+[ivy:resolve] ....................................................... (2604kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.xmlbeans#xmlbeans;2.3.0!xmlbeans.jar (50ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar ...
+[ivy:resolve] ... (106kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] xml-apis#xml-apis;1.0.b2!xml-apis.jar (37ms)
+[ivy:resolve] 
+[ivy:resolve] :: problems summary ::
+[ivy:resolve] :::: WARNINGS
+[ivy:resolve] 		module not found: org.apache.gora#gora-core;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-core;0.1!gora-core.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/jars/gora-core.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-sql;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-sql;0.1!gora-sql.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/jars/gora-sql.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-solr;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-solr;0.1!gora-solr.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/jars/gora-solr.jar
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		::          UNRESOLVED DEPENDENCIES         ::
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		:: org.apache.gora#gora-core;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-sql;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-solr;0.1: not found
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 
+[ivy:resolve] :: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.1.0 - 20090925235825 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/ivy/ivysettings.xml
+[ivy:resolve] 
+[ivy:resolve] :: problems summary ::
+[ivy:resolve] :::: WARNINGS
+[ivy:resolve] 		module not found: org.apache.gora#gora-core;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-core;0.1!gora-core.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/jars/gora-core.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-sql;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-sql;0.1!gora-sql.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/jars/gora-sql.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-solr;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-solr;0.1!gora-solr.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/jars/gora-solr.jar
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		::          UNRESOLVED DEPENDENCIES         ::
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		:: org.apache.gora#gora-core;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-sql;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-solr;0.1: not found
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 
+[ivy:resolve] :: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+(ant compile-core) || (ant compile)
+0.311s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 48ce6978f372744f6894b5f683f4d5b813918b55:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/hbase-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/hbase-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/suffix-urlfilter.txt
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.1.0 - 20090925235825 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/ivy/ivysettings.xml
+[ivy:resolve] 
+[ivy:resolve] :: problems summary ::
+[ivy:resolve] :::: WARNINGS
+[ivy:resolve] 		module not found: org.apache.gora#gora-core;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-core;0.1!gora-core.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/jars/gora-core.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-sql;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-sql;0.1!gora-sql.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/jars/gora-sql.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-solr;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-solr;0.1!gora-solr.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/jars/gora-solr.jar
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		::          UNRESOLVED DEPENDENCIES         ::
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		:: org.apache.gora#gora-core;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-sql;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-solr;0.1: not found
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 
+[ivy:resolve] :: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.1.0 - 20090925235825 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/ivy/ivysettings.xml
+[ivy:resolve] 
+[ivy:resolve] :: problems summary ::
+[ivy:resolve] :::: WARNINGS
+[ivy:resolve] 		module not found: org.apache.gora#gora-core;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-core;0.1!gora-core.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/jars/gora-core.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-sql;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-sql;0.1!gora-sql.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/jars/gora-sql.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-solr;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-solr;0.1!gora-solr.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/jars/gora-solr.jar
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		::          UNRESOLVED DEPENDENCIES         ::
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		:: org.apache.gora#gora-core;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-sql;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-solr;0.1: not found
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 
+[ivy:resolve] :: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+(ant compile-core) || (ant compile)
+0.176s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 48ce6978f372744f6894b5f683f4d5b813918b55:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/hbase-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/hbase-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/suffix-urlfilter.txt
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.1.0 - 20090925235825 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/ivy/ivysettings.xml
+[ivy:resolve] 
+[ivy:resolve] :: problems summary ::
+[ivy:resolve] :::: WARNINGS
+[ivy:resolve] 		module not found: org.apache.gora#gora-core;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-core;0.1!gora-core.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/jars/gora-core.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-sql;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-sql;0.1!gora-sql.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/jars/gora-sql.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-solr;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-solr;0.1!gora-solr.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/jars/gora-solr.jar
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		::          UNRESOLVED DEPENDENCIES         ::
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		:: org.apache.gora#gora-core;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-sql;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-solr;0.1: not found
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 
+[ivy:resolve] :: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.1.0 - 20090925235825 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/ivy/ivysettings.xml
+[ivy:resolve] 
+[ivy:resolve] :: problems summary ::
+[ivy:resolve] :::: WARNINGS
+[ivy:resolve] 		module not found: org.apache.gora#gora-core;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-core;0.1!gora-core.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/jars/gora-core.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-sql;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-sql;0.1!gora-sql.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/jars/gora-sql.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-solr;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-solr;0.1!gora-solr.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/jars/gora-solr.jar
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		::          UNRESOLVED DEPENDENCIES         ::
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		:: org.apache.gora#gora-core;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-sql;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-solr;0.1: not found
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 
+[ivy:resolve] :: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+(ant compile-core) || (ant compile)
+0.142s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 48ce6978f372744f6894b5f683f4d5b813918b55:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/hbase-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/hbase-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/conf/suffix-urlfilter.txt
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.1.0 - 20090925235825 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/ivy/ivysettings.xml
+[ivy:resolve] 
+[ivy:resolve] :: problems summary ::
+[ivy:resolve] :::: WARNINGS
+[ivy:resolve] 		module not found: org.apache.gora#gora-core;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-core;0.1!gora-core.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/jars/gora-core.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-sql;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-sql;0.1!gora-sql.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/jars/gora-sql.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-solr;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-solr;0.1!gora-solr.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/jars/gora-solr.jar
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		::          UNRESOLVED DEPENDENCIES         ::
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		:: org.apache.gora#gora-core;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-sql;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-solr;0.1: not found
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 
+[ivy:resolve] :: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.1.0 - 20090925235825 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/48ce6978f372744f6894b5f683f4d5b813918b55/ivy/ivysettings.xml
+[ivy:resolve] 
+[ivy:resolve] :: problems summary ::
+[ivy:resolve] :::: WARNINGS
+[ivy:resolve] 		module not found: org.apache.gora#gora-core;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-core;0.1!gora-core.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-core/0.1/jars/gora-core.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-sql;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-sql;0.1!gora-sql.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-sql/0.1/jars/gora-sql.jar
+[ivy:resolve] 		module not found: org.apache.gora#gora-solr;0.1
+[ivy:resolve] 	==== local: tried
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/ivys/ivy.xml
+[ivy:resolve] 	  -- artifact org.apache.gora#gora-solr;0.1!gora-solr.jar:
+[ivy:resolve] 	  /home/ubuntu/.ivy2/local/org.apache.gora/gora-solr/0.1/jars/gora-solr.jar
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		::          UNRESOLVED DEPENDENCIES         ::
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 		:: org.apache.gora#gora-core;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-sql;0.1: not found
+[ivy:resolve] 		:: org.apache.gora#gora-solr;0.1: not found
+[ivy:resolve] 		::::::::::::::::::::::::::::::::::::::::::::::
+[ivy:resolve] 
+[ivy:resolve] :: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+(ant compile-core) || (ant compile)
+0.305s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

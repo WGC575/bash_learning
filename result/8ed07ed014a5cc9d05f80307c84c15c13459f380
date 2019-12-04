@@ -1,0 +1,604 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 8ed07ed014a5cc9d05f80307c84c15c13459f380:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/release
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/test/classes
+     [copy] Copying 8 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/suffix-urlfilter.txt
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/ivy/ivysettings.xml
+
+copy-libs:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml:96: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 170 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:38: error: cannot find symbol
+    [javac]     if (job.getBoolean(SolrConstants.USE_AUTH, false)) {
+    [javac]                                     ^
+    [javac]   symbol:   variable USE_AUTH
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:39: error: cannot find symbol
+    [javac]       String username = job.get(SolrConstants.USERNAME);
+    [javac]                                              ^
+    [javac]   symbol:   variable USERNAME
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:45: error: cannot find symbol
+    [javac]       client.getState().setCredentials(scope, new UsernamePasswordCredentials(username, job.get(SolrConstants.PASSWORD)));
+    [javac]                                                                                                              ^
+    [javac]   symbol:   variable PASSWORD
+    [javac]   location: interface SolrConstants
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 errors
+    [javac] 1 warning
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-lib:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/lib
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/ivy/ivysettings.xml
+
+copy-libs:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml:96: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 75 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:38: error: cannot find symbol
+    [javac]     if (job.getBoolean(SolrConstants.USE_AUTH, false)) {
+    [javac]                                     ^
+    [javac]   symbol:   variable USE_AUTH
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:39: error: cannot find symbol
+    [javac]       String username = job.get(SolrConstants.USERNAME);
+    [javac]                                              ^
+    [javac]   symbol:   variable USERNAME
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:45: error: cannot find symbol
+    [javac]       client.getState().setCredentials(scope, new UsernamePasswordCredentials(username, job.get(SolrConstants.PASSWORD)));
+    [javac]                                                                                                              ^
+    [javac]   symbol:   variable PASSWORD
+    [javac]   location: interface SolrConstants
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 errors
+    [javac] 1 warning
+(ant compile-core) || (ant compile)
+0.2s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 8ed07ed014a5cc9d05f80307c84c15c13459f380:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/release
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/test/classes
+     [copy] Copying 8 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/suffix-urlfilter.txt
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/ivy/ivysettings.xml
+
+copy-libs:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml:96: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 170 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:38: error: cannot find symbol
+    [javac]     if (job.getBoolean(SolrConstants.USE_AUTH, false)) {
+    [javac]                                     ^
+    [javac]   symbol:   variable USE_AUTH
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:39: error: cannot find symbol
+    [javac]       String username = job.get(SolrConstants.USERNAME);
+    [javac]                                              ^
+    [javac]   symbol:   variable USERNAME
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:45: error: cannot find symbol
+    [javac]       client.getState().setCredentials(scope, new UsernamePasswordCredentials(username, job.get(SolrConstants.PASSWORD)));
+    [javac]                                                                                                              ^
+    [javac]   symbol:   variable PASSWORD
+    [javac]   location: interface SolrConstants
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 errors
+    [javac] 1 warning
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-lib:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/lib
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/ivy/ivysettings.xml
+
+copy-libs:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml:96: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 75 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:38: error: cannot find symbol
+    [javac]     if (job.getBoolean(SolrConstants.USE_AUTH, false)) {
+    [javac]                                     ^
+    [javac]   symbol:   variable USE_AUTH
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:39: error: cannot find symbol
+    [javac]       String username = job.get(SolrConstants.USERNAME);
+    [javac]                                              ^
+    [javac]   symbol:   variable USERNAME
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:45: error: cannot find symbol
+    [javac]       client.getState().setCredentials(scope, new UsernamePasswordCredentials(username, job.get(SolrConstants.PASSWORD)));
+    [javac]                                                                                                              ^
+    [javac]   symbol:   variable PASSWORD
+    [javac]   location: interface SolrConstants
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 errors
+    [javac] 1 warning
+(ant compile-core) || (ant compile)
+0.34s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 8ed07ed014a5cc9d05f80307c84c15c13459f380:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/release
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/test/classes
+     [copy] Copying 8 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/suffix-urlfilter.txt
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/ivy/ivysettings.xml
+
+copy-libs:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml:96: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 170 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:38: error: cannot find symbol
+    [javac]     if (job.getBoolean(SolrConstants.USE_AUTH, false)) {
+    [javac]                                     ^
+    [javac]   symbol:   variable USE_AUTH
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:39: error: cannot find symbol
+    [javac]       String username = job.get(SolrConstants.USERNAME);
+    [javac]                                              ^
+    [javac]   symbol:   variable USERNAME
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:45: error: cannot find symbol
+    [javac]       client.getState().setCredentials(scope, new UsernamePasswordCredentials(username, job.get(SolrConstants.PASSWORD)));
+    [javac]                                                                                                              ^
+    [javac]   symbol:   variable PASSWORD
+    [javac]   location: interface SolrConstants
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 errors
+    [javac] 1 warning
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-lib:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/lib
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/ivy/ivysettings.xml
+
+copy-libs:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml:96: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 75 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:38: error: cannot find symbol
+    [javac]     if (job.getBoolean(SolrConstants.USE_AUTH, false)) {
+    [javac]                                     ^
+    [javac]   symbol:   variable USE_AUTH
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:39: error: cannot find symbol
+    [javac]       String username = job.get(SolrConstants.USERNAME);
+    [javac]                                              ^
+    [javac]   symbol:   variable USERNAME
+    [javac]   location: interface SolrConstants
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:45: error: cannot find symbol
+    [javac]       client.getState().setCredentials(scope, new UsernamePasswordCredentials(username, job.get(SolrConstants.PASSWORD)));
+    [javac]                                                                                                              ^
+    [javac]   symbol:   variable PASSWORD
+    [javac]   location: interface SolrConstants
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 errors
+    [javac] 1 warning
+(ant compile-core) || (ant compile)
+0.144s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 8ed07ed014a5cc9d05f80307c84c15c13459f380:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/release
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/test/classes
+     [copy] Copying 8 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/conf/suffix-urlfilter.txt
+
+clean-lib:
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/ivy/ivysettings.xml
+
+copy-libs:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml:96: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 170 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:38: cannot find symbol
+    [javac] symbol  : variable USE_AUTH
+    [javac] location: interface org.apache.nutch.indexer.solr.SolrConstants
+    [javac]     if (job.getBoolean(SolrConstants.USE_AUTH, false)) {
+    [javac]                                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:39: cannot find symbol
+    [javac] symbol  : variable USERNAME
+    [javac] location: interface org.apache.nutch.indexer.solr.SolrConstants
+    [javac]       String username = job.get(SolrConstants.USERNAME);
+    [javac]                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:45: cannot find symbol
+    [javac] symbol  : variable PASSWORD
+    [javac] location: interface org.apache.nutch.indexer.solr.SolrConstants
+    [javac]       client.getState().setCredentials(scope, new UsernamePasswordCredentials(username, job.get(SolrConstants.PASSWORD)));
+    [javac]                                                                                                              ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 errors
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml
+
+ivy-probe-antlib:
+
+ivy-download:
+
+-ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-lib:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/lib
+
+resolve-default:
+[ivy:resolve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/ivy/ivysettings.xml
+
+copy-libs:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build.xml:96: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 78 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:38: cannot find symbol
+    [javac] symbol  : variable USE_AUTH
+    [javac] location: interface org.apache.nutch.indexer.solr.SolrConstants
+    [javac]     if (job.getBoolean(SolrConstants.USE_AUTH, false)) {
+    [javac]                                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:39: cannot find symbol
+    [javac] symbol  : variable USERNAME
+    [javac] location: interface org.apache.nutch.indexer.solr.SolrConstants
+    [javac]       String username = job.get(SolrConstants.USERNAME);
+    [javac]                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/8ed07ed014a5cc9d05f80307c84c15c13459f380/src/java/org/apache/nutch/indexer/solr/SolrUtils.java:45: cannot find symbol
+    [javac] symbol  : variable PASSWORD
+    [javac] location: interface org.apache.nutch.indexer.solr.SolrConstants
+    [javac]       client.getState().setCredentials(scope, new UsernamePasswordCredentials(username, job.get(SolrConstants.PASSWORD)));
+    [javac]                                                                                                              ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 errors
+(ant compile-core) || (ant compile)
+0.132s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

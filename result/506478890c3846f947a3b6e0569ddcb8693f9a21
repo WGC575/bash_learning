@@ -1,0 +1,361 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-io 506478890c3846f947a3b6e0569ddcb8693f9a21:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.108 s
+[INFO] Finished at: 2019-12-04T04:38:26+00:00
+[INFO] Final Memory: 7M/147M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/build.xml
+
+clean:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib
+
+get-deps:
+      [get] Getting: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Can't get http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Getting: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Can't get http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Getting: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Can't get http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-1.5.jar
+      [get] Getting: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Can't get http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-optional-1.5.jar
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/build.xml:34: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+(mvn clean compile) || (ant clean compile)
+0.477s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-io 506478890c3846f947a3b6e0569ddcb8693f9a21:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.101 s
+[INFO] Finished at: 2019-12-04T04:38:29+00:00
+[INFO] Final Memory: 7M/147M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/build.xml
+
+clean:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib
+
+get-deps:
+      [get] Getting: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Can't get http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Getting: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Can't get http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Getting: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Can't get http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-1.5.jar
+      [get] Getting: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Can't get http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-optional-1.5.jar
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/build.xml:34: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+(mvn clean compile) || (ant clean compile)
+0.285s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-io 506478890c3846f947a3b6e0569ddcb8693f9a21:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.109 s
+[INFO] Finished at: 2019-12-04T04:38:32+00:00
+[INFO] Final Memory: 5M/145M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/build.xml
+
+clean:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib
+
+get-deps:
+      [get] Getting: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Can't get http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Getting: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Can't get http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Getting: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Can't get http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-1.5.jar
+      [get] Getting: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Can't get http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-optional-1.5.jar
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/build.xml:34: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+(mvn clean compile) || (ant clean compile)
+0.86s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-io 506478890c3846f947a3b6e0569ddcb8693f9a21:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/build.xml
+
+clean:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib
+
+get-deps:
+      [get] Getting: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Can't get http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Getting: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar
+      [get] Can't get http://www.ibiblio.org/maven/junit/jars/junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/junit-3.8.1.jar
+      [get] Getting: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar
+      [get] Can't get http://www.ibiblio.org/maven/ant/jars/ant-1.5.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-1.5.jar
+      [get] Getting: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Error opening connection java.io.FileNotFoundException: http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar
+      [get] Can't get http://www.ibiblio.org/maven/ant/jars/ant-optional-1.5.jar to /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/lib/ant-optional-1.5.jar
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/506478890c3846f947a3b6e0569ddcb8693f9a21/build.xml:34: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+(mvn clean compile) || (ant clean compile)
+0.444s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,937 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-configuration ba2ab0e45dc906dac749e5dcd258a3fae800ae74:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Configuration 2.0-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-configuration ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ commons-configuration ---
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-configuration ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-configuration ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434163023
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-configuration ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-configuration ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 252 source files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/tree/MergeCombiner.java: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/tree/MergeCombiner.java uses or overrides a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/tree/MergeCombiner.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/ConfigurationConverter.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/ConfigurationConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[6,40] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[7,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[417,44] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[502,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[524,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[599,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[645,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[685,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateTimeZoneParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[8,40] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[9,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[89,16] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[97,16] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[135,16] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,9] cannot find symbol
+  symbol:   class PropertyListParser
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,41] cannot find symbol
+  symbol:   class PropertyListParser
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[209,16] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[529,27] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[611,27] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[650,27] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[86,16] cannot find symbol
+  symbol:   variable PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[90,5] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,54] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[99,5] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[113,45] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,17] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,43] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,22] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,48] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[119,17] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,30] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,71] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[131,31] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,51] package ImmutableNode does not exist
+[INFO] 35 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.571 s
+[INFO] Finished at: 2019-12-04T04:36:05+00:00
+[INFO] Final Memory: 23M/343M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project commons-configuration: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[6,40] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[7,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[417,44] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[502,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[524,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[599,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[645,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[685,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateTimeZoneParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[8,40] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[9,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[89,16] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[97,16] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[135,16] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,9] cannot find symbol
+[ERROR] symbol:   class PropertyListParser
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,41] cannot find symbol
+[ERROR] symbol:   class PropertyListParser
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[209,16] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[529,27] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[611,27] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[650,27] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[86,16] cannot find symbol
+[ERROR] symbol:   variable PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[90,5] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,54] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[99,5] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[113,45] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,17] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,43] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,22] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,48] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[119,17] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,30] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,71] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[131,31] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,51] package ImmutableNode does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests
+0.17s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-configuration ba2ab0e45dc906dac749e5dcd258a3fae800ae74:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Configuration 2.0-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-configuration ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ commons-configuration ---
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-configuration ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-configuration ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434169664
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-configuration ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-configuration ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 252 source files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/tree/MergeCombiner.java: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/tree/MergeCombiner.java uses or overrides a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/tree/MergeCombiner.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/ConfigurationConverter.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/ConfigurationConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[6,40] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[7,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[417,44] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[502,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[524,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[599,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[645,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[685,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateTimeZoneParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[8,40] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[9,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[89,16] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[97,16] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[135,16] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,9] cannot find symbol
+  symbol:   class PropertyListParser
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,41] cannot find symbol
+  symbol:   class PropertyListParser
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[209,16] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[529,27] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[611,27] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[650,27] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[86,16] cannot find symbol
+  symbol:   variable PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[90,5] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,54] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[99,5] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[113,45] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,17] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,43] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,22] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,48] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[119,17] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,30] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,71] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[131,31] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,51] package ImmutableNode does not exist
+[INFO] 35 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.600 s
+[INFO] Finished at: 2019-12-04T04:36:12+00:00
+[INFO] Final Memory: 24M/350M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project commons-configuration: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[6,40] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[7,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[417,44] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[502,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[524,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[599,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[645,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[685,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateTimeZoneParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[8,40] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[9,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[89,16] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[97,16] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[135,16] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,9] cannot find symbol
+[ERROR] symbol:   class PropertyListParser
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,41] cannot find symbol
+[ERROR] symbol:   class PropertyListParser
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[209,16] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[529,27] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[611,27] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[650,27] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[86,16] cannot find symbol
+[ERROR] symbol:   variable PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[90,5] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,54] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[99,5] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[113,45] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,17] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,43] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,22] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,48] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[119,17] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,30] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,71] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[131,31] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,51] package ImmutableNode does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests
+0.88s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-configuration ba2ab0e45dc906dac749e5dcd258a3fae800ae74:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Configuration 2.0-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-configuration ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ commons-configuration ---
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/javacc/PropertyListParser.jj . . .
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 1 grammar
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-configuration ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-configuration ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434178447
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-configuration ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-configuration ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 252 source files to /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/tree/MergeCombiner.java: /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/tree/MergeCombiner.java uses or overrides a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/tree/MergeCombiner.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/MapConfiguration.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/MapConfiguration.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[417,44] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[502,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[524,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[599,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[645,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[685,24] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateTimeZoneParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[8,40] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[9,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[89,16] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[97,16] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[135,16] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[6,40] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[7,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,9] cannot find symbol
+  symbol:   class PropertyListParser
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,41] cannot find symbol
+  symbol:   class PropertyListParser
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[209,16] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[529,27] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[611,27] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[650,27] cannot find symbol
+  symbol:   class ParseException
+  location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[86,16] cannot find symbol
+  symbol:   variable PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[90,5] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,54] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[99,5] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[113,45] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,17] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,43] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,22] cannot find symbol
+  symbol:   class HierarchicalConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,48] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[119,17] cannot find symbol
+  symbol:   class ImmutableNode
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,30] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,71] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[131,31] cannot find symbol
+  symbol:   class PropertyListConfiguration
+  location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,51] package ImmutableNode does not exist
+[INFO] 35 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.005 s
+[INFO] Finished at: 2019-12-04T04:36:23+00:00
+[INFO] Final Memory: 23M/328M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project commons-configuration: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[417,44] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[502,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[524,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[599,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[645,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[685,24] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateTimeZoneParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[8,40] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[9,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[89,16] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[97,16] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[135,16] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[6,40] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: package org.apache.commons.configuration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParserTokenManager.java:[7,45] package org.apache.commons.configuration.tree does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,9] cannot find symbol
+[ERROR] symbol:   class PropertyListParser
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[202,41] cannot find symbol
+[ERROR] symbol:   class PropertyListParser
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[209,16] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[529,27] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateComponentParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[611,27] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateFieldParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/src/main/java/org/apache/commons/configuration2/plist/PropertyListConfiguration.java:[650,27] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class org.apache.commons.configuration2.plist.PropertyListConfiguration.DateSeparatorParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[86,16] cannot find symbol
+[ERROR] symbol:   variable PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[90,5] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[98,54] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[99,5] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[113,45] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,17] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[117,43] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,22] cannot find symbol
+[ERROR] symbol:   class HierarchicalConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[118,48] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[119,17] cannot find symbol
+[ERROR] symbol:   class ImmutableNode
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,30] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[120,71] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[131,31] cannot find symbol
+[ERROR] symbol:   class PropertyListConfiguration
+[ERROR] location: class org.apache.commons.configuration.plist.PropertyListParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,18] package ImmutableNode does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-configuration/download/ba2ab0e45dc906dac749e5dcd258a3fae800ae74/target/generated-sources/javacc/org/apache/commons/configuration/plist/PropertyListParser.java:[138,51] package ImmutableNode does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests
+0.433s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-configuration ba2ab0e45dc906dac749e5dcd258a3fae800ae74:
+mvn clean compile -DskipTests
+0.496s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

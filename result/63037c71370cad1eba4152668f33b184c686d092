@@ -1,0 +1,544 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 63037c71370cad1eba4152668f33b184c686d092:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build.xml
+Trying to override old definition of task javac
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-probe-antlib:
+
+ivy-download:
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-download-unchecked:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivy-2.4.0.jar
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/release
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test/lib
+     [copy] Copying 12 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/contenttype-mapping.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/contenttype-mapping.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-train.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-train.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-wordlist.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-wordlist.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/stopwords.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/stopwords.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/suffix-urlfilter.txt
+
+clean-default-lib:
+
+resolve-default:
+[ivy:resolve] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivysettings.xml
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar ...
+[ivy:resolve] .......................... (719kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.5.2!httpclient.jar (74ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar ...
+[ivy:resolve] ...... (319kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.4.4!httpcore.jar (39ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/com/github/crawler-commons/crawler-commons/0.8/crawler-commons-0.8.jar ...
+[ivy:resolve] .... (129kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] com.github.crawler-commons#crawler-commons;0.8!crawler-commons.jar (163ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar ...
+[ivy:resolve] ....... (347kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.httpcomponents#httpcore-nio;4.4.4!httpcore-nio.jar (37ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/org/apache/tika/tika-core/1.15/tika-core-1.15.jar ...
+[ivy:resolve] ........... (620kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] org.apache.tika#tika-core;1.15!tika-core.jar(bundle) (38ms)
+[ivy:resolve] downloading http://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar ...
+[ivy:resolve] .. (60kB)
+[ivy:resolve] .. (0kB)
+[ivy:resolve] 	[SUCCESSFUL ] commons-logging#commons-logging;1.2!commons-logging.jar (34ms)
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+copy-libs:
+
+compile-core:
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/src/java/org/apache/nutch/crawl/URLPartitioner.java:96: error: variable hashCode might not have been initialized
+    [javac]     hashCode ^= seed;
+    [javac]     ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build.xml
+Trying to override old definition of task javac
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-probe-antlib:
+
+ivy-download:
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-default-lib:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/lib
+
+resolve-default:
+[ivy:resolve] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivysettings.xml
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+copy-libs:
+
+compile-core:
+    [javac] Compiling 220 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/src/java/org/apache/nutch/crawl/URLPartitioner.java:96: error: variable hashCode might not have been initialized
+    [javac]     hashCode ^= seed;
+    [javac]     ^
+    [javac] Note: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/src/java/org/apache/nutch/indexer/IndexingJob.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+(ant compile-core) || (ant compile)
+0.96s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 63037c71370cad1eba4152668f33b184c686d092:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build.xml
+Trying to override old definition of task javac
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-probe-antlib:
+
+ivy-download:
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-download-unchecked:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivy-2.4.0.jar
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/release
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test/lib
+     [copy] Copying 12 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/contenttype-mapping.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/contenttype-mapping.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-train.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-train.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-wordlist.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-wordlist.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/stopwords.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/stopwords.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/suffix-urlfilter.txt
+
+clean-default-lib:
+
+resolve-default:
+[ivy:resolve] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivysettings.xml
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+copy-libs:
+
+compile-core:
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/src/java/org/apache/nutch/crawl/URLPartitioner.java:96: error: variable hashCode might not have been initialized
+    [javac]     hashCode ^= seed;
+    [javac]     ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build.xml
+Trying to override old definition of task javac
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-probe-antlib:
+
+ivy-download:
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-default-lib:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/lib
+
+resolve-default:
+[ivy:resolve] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivysettings.xml
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+copy-libs:
+
+compile-core:
+    [javac] Compiling 220 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/src/java/org/apache/nutch/crawl/URLPartitioner.java:96: error: variable hashCode might not have been initialized
+    [javac]     hashCode ^= seed;
+    [javac]     ^
+    [javac] Note: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/src/java/org/apache/nutch/indexer/IndexingJob.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+(ant compile-core) || (ant compile)
+0.276s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 63037c71370cad1eba4152668f33b184c686d092:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build.xml
+Trying to override old definition of task javac
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-probe-antlib:
+
+ivy-download:
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-download-unchecked:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivy-2.4.0.jar
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/release
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test/lib
+     [copy] Copying 12 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/contenttype-mapping.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/contenttype-mapping.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-train.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-train.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-wordlist.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-wordlist.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/stopwords.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/stopwords.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/suffix-urlfilter.txt
+
+clean-default-lib:
+
+resolve-default:
+[ivy:resolve] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivysettings.xml
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+copy-libs:
+
+compile-core:
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build.xml
+Trying to override old definition of task javac
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-probe-antlib:
+
+ivy-download:
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-default-lib:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/lib
+
+resolve-default:
+[ivy:resolve] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivysettings.xml
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+copy-libs:
+
+compile-core:
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+(ant compile-core) || (ant compile)
+0.10s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 63037c71370cad1eba4152668f33b184c686d092:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build.xml
+Trying to override old definition of task javac
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-probe-antlib:
+
+ivy-download:
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-download-unchecked:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivy-2.4.0.jar
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/release
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/test/lib
+     [copy] Copying 12 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/contenttype-mapping.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/contenttype-mapping.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/httpclient-auth.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/httpclient-auth.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-train.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-train.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-wordlist.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/naivebayes-wordlist.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/prefix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/prefix-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/stopwords.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/stopwords.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/subcollections.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/suffix-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/conf/suffix-urlfilter.txt
+
+clean-default-lib:
+
+resolve-default:
+[ivy:resolve] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivysettings.xml
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+copy-libs:
+
+compile-core:
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build.xml
+Trying to override old definition of task javac
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-probe-antlib:
+
+ivy-download:
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+ivy-download-unchecked:
+
+ivy-init-antlib:
+
+ivy-init:
+
+init:
+
+clean-default-lib:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/lib
+
+resolve-default:
+[ivy:resolve] :: Apache Ivy 2.4.0 - 20141213170938 :: http://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/ivy/ivysettings.xml
+  [taskdef] Could not load definitions from resource org/sonar/ant/antlib.xml. It could not be found.
+
+copy-libs:
+
+compile-core:
+    [javac] Compiling 285 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/63037c71370cad1eba4152668f33b184c686d092/build/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+(ant compile-core) || (ant compile)
+0.96s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

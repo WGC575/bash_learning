@@ -1,0 +1,715 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-gson 410b4a8c62de693d38a0ee9a566a4a4c0863f934:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.code.gson:gson:jar:2.8.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.google.code.gson:gson:[unknown-version], /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/pom.xml, line 46, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Gson Parent
+[INFO] Gson
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson Parent 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ gson-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/pom.xml to /home/ubuntu/.m2/repository/com/google/code/gson/gson-parent/2.8.1-SNAPSHOT/gson-parent-2.8.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-maven-plugin/3.1.0/bnd-maven-plugin-3.1.0.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-maven-plugin/3.1.0/bnd-maven-plugin-3.1.0.pom (3 KB at 5.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-plugin-parent/3.1.0/bnd-plugin-parent-3.1.0.pom
+3/8 KB   5/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-plugin-parent/3.1.0/bnd-plugin-parent-3.1.0.pom (8 KB at 259.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-maven-plugin/3.1.0/bnd-maven-plugin-3.1.0.jar
+3/12 KB   5/12 KB   8/12 KB   11/12 KB   12/12 KB              Downloaded: https://repo.maven.apache.org/maven2/biz/aQute/bnd/bnd-maven-plugin/3.1.0/bnd-maven-plugin-3.1.0.jar (12 KB at 413.0 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+  symbol:   variable initialLength
+  location: class com.google.gson.stream.JsonReader
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Gson Parent ........................................ SUCCESS [  0.620 s]
+[INFO] Gson ............................................... FAILURE [  2.869 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.685 s
+[INFO] Finished at: 2019-12-04T09:52:17+00:00
+[INFO] Final Memory: 20M/282M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project gson: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+[ERROR] symbol:   variable initialLength
+[ERROR] location: class com.google.gson.stream.JsonReader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :gson
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.code.gson:gson:jar:2.8.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.google.code.gson:gson:[unknown-version], /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/pom.xml, line 46, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+  symbol:   variable initialLength
+  location: class com.google.gson.stream.JsonReader
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.966 s
+[INFO] Finished at: 2019-12-04T09:52:21+00:00
+[INFO] Final Memory: 16M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project gson: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+[ERROR] symbol:   variable initialLength
+[ERROR] location: class com.google.gson.stream.JsonReader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.code.gson:gson:jar:2.8.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.google.code.gson:gson:[unknown-version], /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/pom.xml, line 46, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+  symbol:   variable initialLength
+  location: class com.google.gson.stream.JsonReader
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.795 s
+[INFO] Finished at: 2019-12-04T09:52:26+00:00
+[INFO] Final Memory: 15M/261M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project gson: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+[ERROR] symbol:   variable initialLength
+[ERROR] location: class com.google.gson.stream.JsonReader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.329s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-gson 410b4a8c62de693d38a0ee9a566a4a4c0863f934:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.code.gson:gson:jar:2.8.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.google.code.gson:gson:[unknown-version], /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/pom.xml, line 46, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Gson Parent
+[INFO] Gson
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson Parent 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ gson-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/pom.xml to /home/ubuntu/.m2/repository/com/google/code/gson/gson-parent/2.8.1-SNAPSHOT/gson-parent-2.8.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+  symbol:   variable initialLength
+  location: class com.google.gson.stream.JsonReader
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Gson Parent ........................................ SUCCESS [  0.726 s]
+[INFO] Gson ............................................... FAILURE [  2.054 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.999 s
+[INFO] Finished at: 2019-12-04T09:52:31+00:00
+[INFO] Final Memory: 16M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project gson: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+[ERROR] symbol:   variable initialLength
+[ERROR] location: class com.google.gson.stream.JsonReader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :gson
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.code.gson:gson:jar:2.8.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.google.code.gson:gson:[unknown-version], /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/pom.xml, line 46, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+  symbol:   variable initialLength
+  location: class com.google.gson.stream.JsonReader
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.688 s
+[INFO] Finished at: 2019-12-04T09:52:35+00:00
+[INFO] Final Memory: 16M/260M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project gson: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+[ERROR] symbol:   variable initialLength
+[ERROR] location: class com.google.gson.stream.JsonReader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.code.gson:gson:jar:2.8.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.google.code.gson:gson:[unknown-version], /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/pom.xml, line 46, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+  symbol:   variable initialLength
+  location: class com.google.gson.stream.JsonReader
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.533 s
+[INFO] Finished at: 2019-12-04T09:52:39+00:00
+[INFO] Final Memory: 15M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project gson: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+[ERROR] symbol:   variable initialLength
+[ERROR] location: class com.google.gson.stream.JsonReader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.430s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-gson 410b4a8c62de693d38a0ee9a566a4a4c0863f934:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.code.gson:gson:jar:2.8.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.google.code.gson:gson:[unknown-version], /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/pom.xml, line 46, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Gson Parent
+[INFO] Gson
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson Parent 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ gson-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/pom.xml to /home/ubuntu/.m2/repository/com/google/code/gson/gson-parent/2.8.1-SNAPSHOT/gson-parent-2.8.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+  symbol:   variable initialLength
+  location: class com.google.gson.stream.JsonReader
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Gson Parent ........................................ SUCCESS [  0.979 s]
+[INFO] Gson ............................................... FAILURE [  3.157 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.313 s
+[INFO] Finished at: 2019-12-04T09:52:46+00:00
+[INFO] Final Memory: 14M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project gson: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+[ERROR] symbol:   variable initialLength
+[ERROR] location: class com.google.gson.stream.JsonReader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :gson
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.code.gson:gson:jar:2.8.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.google.code.gson:gson:[unknown-version], /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/pom.xml, line 46, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+  symbol:   variable initialLength
+  location: class com.google.gson.stream.JsonReader
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.835 s
+[INFO] Finished at: 2019-12-04T09:52:52+00:00
+[INFO] Final Memory: 13M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project gson: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+[ERROR] symbol:   variable initialLength
+[ERROR] location: class com.google.gson.stream.JsonReader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.code.gson:gson:jar:2.8.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.google.code.gson:gson:[unknown-version], /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/pom.xml, line 46, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.8.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+  symbol:   variable initialLength
+  location: class com.google.gson.stream.JsonReader
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.820 s
+[INFO] Finished at: 2019-12-04T09:52:58+00:00
+[INFO] Final Memory: 16M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project gson: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/410b4a8c62de693d38a0ee9a566a4a4c0863f934/gson/src/main/java/com/google/gson/stream/JsonReader.java:[1027,9] cannot find symbol
+[ERROR] symbol:   variable initialLength
+[ERROR] location: class com.google.gson.stream.JsonReader
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.55s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-gson 410b4a8c62de693d38a0ee9a566a4a4c0863f934:
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.208s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

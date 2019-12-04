@@ -1,0 +1,526 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-httpcore 43714ada233de6a7a82291d55e5df2fcc32b2ebb:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache HttpComponents Core Parent
+[INFO] Apache HttpComponents Core HTTP/1.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache HttpComponents Core Parent 5.0-alpha4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-main) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-test) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-examples) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.12:parse-version (parse-version) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ httpcore5-parent ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575443783599
+[INFO] Storing buildScmBranch: master
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache HttpComponents Core HTTP/1.1 5.0-alpha4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-main) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-test) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-examples) @ httpcore5 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.12:parse-version (parse-version) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ httpcore5 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ httpcore5 ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575443783909
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ httpcore5 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ httpcore5 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 415 source files to /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/http/protocol/ChainBuilder.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/http/protocol/ChainBuilder.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,19] cannot find symbol
+  symbol:   class SelectableChannel
+  location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,68] cannot find symbol
+  symbol:   class ClosedChannelException
+  location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache HttpComponents Core Parent .................. SUCCESS [  1.442 s]
+[INFO] Apache HttpComponents Core HTTP/1.1 ................ FAILURE [  2.606 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.021 s
+[INFO] Finished at: 2019-12-04T07:16:26+00:00
+[INFO] Final Memory: 31M/349M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project httpcore5: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,19] cannot find symbol
+[ERROR] symbol:   class SelectableChannel
+[ERROR] location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,68] cannot find symbol
+[ERROR] symbol:   class ClosedChannelException
+[ERROR] location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :httpcore5
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: httpcore @ 
+[ERROR] Could not find the selected project in the reactor: httpcore -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+(mvn clean compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpcore5 -am) || (mvn clean compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpcore -am)
+0.331s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-httpcore 43714ada233de6a7a82291d55e5df2fcc32b2ebb:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache HttpComponents Core Parent
+[INFO] Apache HttpComponents Core HTTP/1.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache HttpComponents Core Parent 5.0-alpha4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-main) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-test) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-examples) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.12:parse-version (parse-version) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ httpcore5-parent ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575443793539
+[INFO] Storing buildScmBranch: master
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache HttpComponents Core HTTP/1.1 5.0-alpha4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-main) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-test) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-examples) @ httpcore5 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.12:parse-version (parse-version) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ httpcore5 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ httpcore5 ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575443793880
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ httpcore5 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ httpcore5 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 415 source files to /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/http/protocol/ChainBuilder.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/http/protocol/ChainBuilder.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,19] cannot find symbol
+  symbol:   class SelectableChannel
+  location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,68] cannot find symbol
+  symbol:   class ClosedChannelException
+  location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache HttpComponents Core Parent .................. SUCCESS [  1.453 s]
+[INFO] Apache HttpComponents Core HTTP/1.1 ................ FAILURE [  2.530 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.090 s
+[INFO] Finished at: 2019-12-04T07:16:36+00:00
+[INFO] Final Memory: 31M/347M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project httpcore5: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,19] cannot find symbol
+[ERROR] symbol:   class SelectableChannel
+[ERROR] location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,68] cannot find symbol
+[ERROR] symbol:   class ClosedChannelException
+[ERROR] location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :httpcore5
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: httpcore @ 
+[ERROR] Could not find the selected project in the reactor: httpcore -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+(mvn clean compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpcore5 -am) || (mvn clean compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpcore -am)
+0.340s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-httpcore 43714ada233de6a7a82291d55e5df2fcc32b2ebb:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache HttpComponents Core Parent
+[INFO] Apache HttpComponents Core HTTP/1.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache HttpComponents Core Parent 5.0-alpha4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-main) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-test) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-examples) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.12:parse-version (parse-version) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ httpcore5-parent ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ httpcore5-parent ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575443804987
+[INFO] Storing buildScmBranch: master
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache HttpComponents Core HTTP/1.1 5.0-alpha4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-main) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-test) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.9.1:checkstyle (validate-examples) @ httpcore5 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.12:parse-version (parse-version) @ httpcore5 ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ httpcore5 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ httpcore5 ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575443805386
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ httpcore5 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ httpcore5 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 415 source files to /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/http/impl/io/DefaultHttpResponseParserFactory.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/http/impl/io/DefaultHttpResponseParserFactory.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,19] cannot find symbol
+  symbol:   class SelectableChannel
+  location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,68] cannot find symbol
+  symbol:   class ClosedChannelException
+  location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache HttpComponents Core Parent .................. SUCCESS [  2.294 s]
+[INFO] Apache HttpComponents Core HTTP/1.1 ................ FAILURE [  4.002 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.808 s
+[INFO] Finished at: 2019-12-04T07:16:49+00:00
+[INFO] Final Memory: 39M/338M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project httpcore5: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,19] cannot find symbol
+[ERROR] symbol:   class SelectableChannel
+[ERROR] location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpcore/download/43714ada233de6a7a82291d55e5df2fcc32b2ebb/httpcore5/src/main/java/org/apache/hc/core5/reactor/AbstractMultiworkerIOReactor.java:[355,68] cannot find symbol
+[ERROR] symbol:   class ClosedChannelException
+[ERROR] location: class org.apache.hc.core5.reactor.AbstractMultiworkerIOReactor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :httpcore5
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: httpcore @ 
+[ERROR] Could not find the selected project in the reactor: httpcore -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+(mvn clean compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpcore5 -am) || (mvn clean compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpcore -am)
+0.234s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-httpcore 43714ada233de6a7a82291d55e5df2fcc32b2ebb:
+(mvn clean compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpcore5 -am) || (mvn clean compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpcore -am)
+0.25s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,448 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-gson 67af0dd8f860b3997ed039e00062e3eb8ddd5a3c:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: gson @ 
+[ERROR] Could not find the selected project in the reactor: gson -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.468 s
+[INFO] Finished at: 2019-12-04T09:54:22+00:00
+[INFO] Final Memory: 17M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.373 s
+[INFO] Finished at: 2019-12-04T09:54:26+00:00
+[INFO] Final Memory: 17M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.242s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-gson 67af0dd8f860b3997ed039e00062e3eb8ddd5a3c:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: gson @ 
+[ERROR] Could not find the selected project in the reactor: gson -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.525 s
+[INFO] Finished at: 2019-12-04T09:54:32+00:00
+[INFO] Final Memory: 17M/260M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.380 s
+[INFO] Finished at: 2019-12-04T09:54:36+00:00
+[INFO] Final Memory: 17M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.193s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-gson 67af0dd8f860b3997ed039e00062e3eb8ddd5a3c:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: gson @ 
+[ERROR] Could not find the selected project in the reactor: gson -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.875 s
+[INFO] Finished at: 2019-12-04T09:54:44+00:00
+[INFO] Final Memory: 19M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.965 s
+[INFO] Finished at: 2019-12-04T09:54:50+00:00
+[INFO] Final Memory: 15M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[25,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/67af0dd8f860b3997ed039e00062e3eb8ddd5a3c/gson/src/main/java/com/google/gson/annotations/JsonAdapter.java:[26,68] package com.google.gson.functional.JsonAdapterAnnotationOnFieldsTest does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.340s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-gson 67af0dd8f860b3997ed039e00062e3eb8ddd5a3c:
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.234s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

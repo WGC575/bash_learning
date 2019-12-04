@@ -1,0 +1,1364 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-zookeeper eb51de49f723542a17e722fa817d81605a04c74c:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/test/lib
+
+ivy-download:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/lib/ivy-2.2.0.jar
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.0
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found jline#jline;0.9.94 in maven2
+[ivy:retrieve] 	found org.jboss.netty#netty;3.2.2.Final in maven2
+[ivy:retrieve] :: resolution report :: resolve 132ms :: artifacts dl 7ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   5   |   0   |   0   |   0   ||   5   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	5 artifacts copied, 0 already retrieved (1269kB/12ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:217: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 39 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 4 warnings
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/generated/.generated
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:285: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 47 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 129 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:40: error: cannot find symbol
+    [javac] import org.apache.zookeeper.txn.CreateTxnV0;
+    [javac]                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: package org.apache.zookeeper.txn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/JLineZNodeCompletor.java:33: warning: [rawtypes] found raw type: List
+    [javac]     public int complete(String buffer, int cursor, List candidates) {
+    [javac]                                                    ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:298: warning: [rawtypes] found raw type: Class
+    [javac]                 Class consoleC = Class.forName("jline.ConsoleReader");
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:299: warning: [rawtypes] found raw type: Class
+    [javac]                 Class completorC =
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:63: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java:499: warning: [rawtypes] found raw type: ArrayList
+    [javac]                     acl == null ? new ArrayList<ACL>() : new ArrayList(acl));
+    [javac]                                                              ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/DataTree.java:775: error: cannot find symbol
+    [javac]                             createTxn.getParentCVersion(),
+    [javac]                                      ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: variable createTxn of type CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java:218: error: cannot find symbol
+    [javac]                 ((CreateTxn)txn).getParentCVersion() == -1) {
+    [javac]                                 ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: class CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:260: error: no suitable constructor found for CreateTxn(String,byte[],List<ACL>,boolean,int)
+    [javac]                 txn = new CreateTxn(path, createRequest.getData(),
+    [javac]                       ^
+    [javac]     constructor CreateTxn.CreateTxn() is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor CreateTxn.CreateTxn(String,byte[],List<ACL>,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                     ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:98: error: cannot find symbol
+    [javac]                     create.setParentCVersion(-1);
+    [javac]                           ^
+    [javac]   symbol:   method setParentCVersion(int)
+    [javac]   location: variable create of type CreateTxn
+    [javac] 7 errors
+    [javac] 9 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml
+
+init:
+
+ivy-download:
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.0
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found jline#jline;0.9.94 in maven2
+[ivy:retrieve] 	found org.jboss.netty#netty;3.2.2.Final in maven2
+[ivy:retrieve] :: resolution report :: resolve 190ms :: artifacts dl 14ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   5   |   0   |   0   |   0   ||   5   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	0 artifacts copied, 5 already retrieved (0kB/5ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:217: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+svn-revision:
+
+version-info:
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:285: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 129 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:40: error: cannot find symbol
+    [javac] import org.apache.zookeeper.txn.CreateTxnV0;
+    [javac]                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: package org.apache.zookeeper.txn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/JLineZNodeCompletor.java:33: warning: [rawtypes] found raw type: List
+    [javac]     public int complete(String buffer, int cursor, List candidates) {
+    [javac]                                                    ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:298: warning: [rawtypes] found raw type: Class
+    [javac]                 Class consoleC = Class.forName("jline.ConsoleReader");
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:299: warning: [rawtypes] found raw type: Class
+    [javac]                 Class completorC =
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:63: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java:499: warning: [rawtypes] found raw type: ArrayList
+    [javac]                     acl == null ? new ArrayList<ACL>() : new ArrayList(acl));
+    [javac]                                                              ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/DataTree.java:775: error: cannot find symbol
+    [javac]                             createTxn.getParentCVersion(),
+    [javac]                                      ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: variable createTxn of type CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java:218: error: cannot find symbol
+    [javac]                 ((CreateTxn)txn).getParentCVersion() == -1) {
+    [javac]                                 ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: class CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:260: error: no suitable constructor found for CreateTxn(String,byte[],List<ACL>,boolean,int)
+    [javac]                 txn = new CreateTxn(path, createRequest.getData(),
+    [javac]                       ^
+    [javac]     constructor CreateTxn.CreateTxn() is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor CreateTxn.CreateTxn(String,byte[],List<ACL>,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                     ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:98: error: cannot find symbol
+    [javac]                     create.setParentCVersion(-1);
+    [javac]                           ^
+    [javac]   symbol:   method setParentCVersion(int)
+    [javac]   location: variable create of type CreateTxn
+    [javac] 7 errors
+    [javac] 9 warnings
+ant compile || ant -DlastRevision=1
+0.168s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-zookeeper eb51de49f723542a17e722fa817d81605a04c74c:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/test/lib
+
+ivy-download:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/lib/ivy-2.2.0.jar
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.0
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found jline#jline;0.9.94 in maven2
+[ivy:retrieve] 	found org.jboss.netty#netty;3.2.2.Final in maven2
+[ivy:retrieve] :: resolution report :: resolve 172ms :: artifacts dl 5ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   5   |   0   |   0   |   0   ||   5   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	5 artifacts copied, 0 already retrieved (1269kB/7ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:217: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 39 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 4 warnings
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/generated/.generated
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:285: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 47 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 129 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:40: error: cannot find symbol
+    [javac] import org.apache.zookeeper.txn.CreateTxnV0;
+    [javac]                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: package org.apache.zookeeper.txn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/JLineZNodeCompletor.java:33: warning: [rawtypes] found raw type: List
+    [javac]     public int complete(String buffer, int cursor, List candidates) {
+    [javac]                                                    ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:298: warning: [rawtypes] found raw type: Class
+    [javac]                 Class consoleC = Class.forName("jline.ConsoleReader");
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:299: warning: [rawtypes] found raw type: Class
+    [javac]                 Class completorC =
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:63: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java:499: warning: [rawtypes] found raw type: ArrayList
+    [javac]                     acl == null ? new ArrayList<ACL>() : new ArrayList(acl));
+    [javac]                                                              ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/DataTree.java:775: error: cannot find symbol
+    [javac]                             createTxn.getParentCVersion(),
+    [javac]                                      ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: variable createTxn of type CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java:218: error: cannot find symbol
+    [javac]                 ((CreateTxn)txn).getParentCVersion() == -1) {
+    [javac]                                 ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: class CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:260: error: no suitable constructor found for CreateTxn(String,byte[],List<ACL>,boolean,int)
+    [javac]                 txn = new CreateTxn(path, createRequest.getData(),
+    [javac]                       ^
+    [javac]     constructor CreateTxn.CreateTxn() is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor CreateTxn.CreateTxn(String,byte[],List<ACL>,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                     ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:98: error: cannot find symbol
+    [javac]                     create.setParentCVersion(-1);
+    [javac]                           ^
+    [javac]   symbol:   method setParentCVersion(int)
+    [javac]   location: variable create of type CreateTxn
+    [javac] 7 errors
+    [javac] 9 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml
+
+init:
+
+ivy-download:
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.0
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found jline#jline;0.9.94 in maven2
+[ivy:retrieve] 	found org.jboss.netty#netty;3.2.2.Final in maven2
+[ivy:retrieve] :: resolution report :: resolve 197ms :: artifacts dl 4ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   5   |   0   |   0   |   0   ||   5   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	0 artifacts copied, 5 already retrieved (0kB/5ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:217: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+svn-revision:
+
+version-info:
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:285: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 129 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:40: error: cannot find symbol
+    [javac] import org.apache.zookeeper.txn.CreateTxnV0;
+    [javac]                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: package org.apache.zookeeper.txn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/JLineZNodeCompletor.java:33: warning: [rawtypes] found raw type: List
+    [javac]     public int complete(String buffer, int cursor, List candidates) {
+    [javac]                                                    ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:298: warning: [rawtypes] found raw type: Class
+    [javac]                 Class consoleC = Class.forName("jline.ConsoleReader");
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:299: warning: [rawtypes] found raw type: Class
+    [javac]                 Class completorC =
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:63: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java:499: warning: [rawtypes] found raw type: ArrayList
+    [javac]                     acl == null ? new ArrayList<ACL>() : new ArrayList(acl));
+    [javac]                                                              ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/DataTree.java:775: error: cannot find symbol
+    [javac]                             createTxn.getParentCVersion(),
+    [javac]                                      ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: variable createTxn of type CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java:218: error: cannot find symbol
+    [javac]                 ((CreateTxn)txn).getParentCVersion() == -1) {
+    [javac]                                 ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: class CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:260: error: no suitable constructor found for CreateTxn(String,byte[],List<ACL>,boolean,int)
+    [javac]                 txn = new CreateTxn(path, createRequest.getData(),
+    [javac]                       ^
+    [javac]     constructor CreateTxn.CreateTxn() is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor CreateTxn.CreateTxn(String,byte[],List<ACL>,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                     ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:98: error: cannot find symbol
+    [javac]                     create.setParentCVersion(-1);
+    [javac]                           ^
+    [javac]   symbol:   method setParentCVersion(int)
+    [javac]   location: variable create of type CreateTxn
+    [javac] 7 errors
+    [javac] 9 warnings
+ant compile || ant -DlastRevision=1
+0.429s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-zookeeper eb51de49f723542a17e722fa817d81605a04c74c:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/test/lib
+
+ivy-download:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/lib/ivy-2.2.0.jar
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.0
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found jline#jline;0.9.94 in maven2
+[ivy:retrieve] 	found org.jboss.netty#netty;3.2.2.Final in maven2
+[ivy:retrieve] :: resolution report :: resolve 195ms :: artifacts dl 7ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   5   |   0   |   0   |   0   ||   5   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	5 artifacts copied, 0 already retrieved (1269kB/9ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:217: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 39 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.7 in JDK 1.7.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/generated/.generated
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.7 in JDK 1.7.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:285: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 47 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.7 in JDK 1.7.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 129 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.7 in JDK 1.7.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:40: error: cannot find symbol
+    [javac] import org.apache.zookeeper.txn.CreateTxnV0;
+    [javac]                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: package org.apache.zookeeper.txn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/JLineZNodeCompletor.java:33: warning: [rawtypes] found raw type: List
+    [javac]     public int complete(String buffer, int cursor, List candidates) {
+    [javac]                                                    ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:298: warning: [rawtypes] found raw type: Class
+    [javac]                 Class consoleC = Class.forName("jline.ConsoleReader");
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:299: warning: [rawtypes] found raw type: Class
+    [javac]                 Class completorC =
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:63: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java:499: warning: [rawtypes] found raw type: ArrayList
+    [javac]                     acl == null ? new ArrayList<ACL>() : new ArrayList(acl));
+    [javac]                                                              ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/DataTree.java:775: error: cannot find symbol
+    [javac]                             createTxn.getParentCVersion(),
+    [javac]                                      ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: variable createTxn of type CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java:218: error: cannot find symbol
+    [javac]                 ((CreateTxn)txn).getParentCVersion() == -1) {
+    [javac]                                 ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: class CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:260: error: no suitable constructor found for CreateTxn(String,byte[],List<ACL>,boolean,int)
+    [javac]                 txn = new CreateTxn(path, createRequest.getData(),
+    [javac]                       ^
+    [javac]     constructor CreateTxn.CreateTxn(String,byte[],List<ACL>,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor CreateTxn.CreateTxn() is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                     ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:98: error: cannot find symbol
+    [javac]                     create.setParentCVersion(-1);
+    [javac]                           ^
+    [javac]   symbol:   method setParentCVersion(int)
+    [javac]   location: variable create of type CreateTxn
+    [javac] 7 errors
+    [javac] 6 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml
+
+init:
+
+ivy-download:
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.0
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found jline#jline;0.9.94 in maven2
+[ivy:retrieve] 	found org.jboss.netty#netty;3.2.2.Final in maven2
+[ivy:retrieve] :: resolution report :: resolve 181ms :: artifacts dl 7ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   5   |   0   |   0   |   0   ||   5   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	0 artifacts copied, 5 already retrieved (0kB/7ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:217: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+svn-revision:
+
+version-info:
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:285: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.7 in JDK 1.7.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] 1 warning
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 129 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] 
+    [javac]           WARNING
+    [javac] 
+    [javac] The -source switch defaults to 1.7 in JDK 1.7.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:40: error: cannot find symbol
+    [javac] import org.apache.zookeeper.txn.CreateTxnV0;
+    [javac]                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: package org.apache.zookeeper.txn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/JLineZNodeCompletor.java:33: warning: [rawtypes] found raw type: List
+    [javac]     public int complete(String buffer, int cursor, List candidates) {
+    [javac]                                                    ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:298: warning: [rawtypes] found raw type: Class
+    [javac]                 Class consoleC = Class.forName("jline.ConsoleReader");
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/ZooKeeperMain.java:299: warning: [rawtypes] found raw type: Class
+    [javac]                 Class completorC =
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java:63: warning: [rawtypes] found raw type: Enumeration
+    [javac]         Enumeration enumer = r.getCurrentLoggers();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Enumeration<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Enumeration
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java:499: warning: [rawtypes] found raw type: ArrayList
+    [javac]                     acl == null ? new ArrayList<ACL>() : new ArrayList(acl));
+    [javac]                                                              ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/DataTree.java:775: error: cannot find symbol
+    [javac]                             createTxn.getParentCVersion(),
+    [javac]                                      ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: variable createTxn of type CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java:218: error: cannot find symbol
+    [javac]                 ((CreateTxn)txn).getParentCVersion() == -1) {
+    [javac]                                 ^
+    [javac]   symbol:   method getParentCVersion()
+    [javac]   location: class CreateTxn
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:260: error: no suitable constructor found for CreateTxn(String,byte[],List<ACL>,boolean,int)
+    [javac]                 txn = new CreateTxn(path, createRequest.getData(),
+    [javac]                       ^
+    [javac]     constructor CreateTxn.CreateTxn(String,byte[],List<ACL>,boolean) is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac]     constructor CreateTxn.CreateTxn() is not applicable
+    [javac]       (actual and formal argument lists differ in length)
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                     ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: error: cannot find symbol
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                                                ^
+    [javac]   symbol:   class CreateTxnV0
+    [javac]   location: class SerializeUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:98: error: cannot find symbol
+    [javac]                     create.setParentCVersion(-1);
+    [javac]                           ^
+    [javac]   symbol:   method setParentCVersion(int)
+    [javac]   location: variable create of type CreateTxn
+    [javac] 7 errors
+    [javac] 6 warnings
+ant compile || ant -DlastRevision=1
+0.85s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-zookeeper eb51de49f723542a17e722fa817d81605a04c74c:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/lib
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/test/lib
+
+ivy-download:
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.2.0/ivy-2.2.0.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/lib/ivy-2.2.0.jar
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.0
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found jline#jline;0.9.94 in maven2
+[ivy:retrieve] 	found org.jboss.netty#netty;3.2.2.Final in maven2
+[ivy:retrieve] :: resolution report :: resolve 177ms :: artifacts dl 7ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   5   |   0   |   0   |   0   ||   5   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	5 artifacts copied, 0 already retrieved (1269kB/9ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:217: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 39 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/generated/.generated
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:285: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 47 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 129 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:40: cannot find symbol
+    [javac] symbol  : class CreateTxnV0
+    [javac] location: package org.apache.zookeeper.txn
+    [javac] import org.apache.zookeeper.txn.CreateTxnV0;
+    [javac]                                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/DataTree.java:775: cannot find symbol
+    [javac] symbol  : method getParentCVersion()
+    [javac] location: class org.apache.zookeeper.txn.CreateTxn
+    [javac]                             createTxn.getParentCVersion(),
+    [javac]                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java:218: cannot find symbol
+    [javac] symbol  : method getParentCVersion()
+    [javac] location: class org.apache.zookeeper.txn.CreateTxn
+    [javac]                 ((CreateTxn)txn).getParentCVersion() == -1) {
+    [javac]                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:260: cannot find symbol
+    [javac] symbol  : constructor CreateTxn(java.lang.String,byte[],java.util.List<org.apache.zookeeper.data.ACL>,boolean,int)
+    [javac] location: class org.apache.zookeeper.txn.CreateTxn
+    [javac]                 txn = new CreateTxn(path, createRequest.getData(),
+    [javac]                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: cannot find symbol
+    [javac] symbol  : class CreateTxnV0
+    [javac] location: class org.apache.zookeeper.server.util.SerializeUtils
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: cannot find symbol
+    [javac] symbol  : class CreateTxnV0
+    [javac] location: class org.apache.zookeeper.server.util.SerializeUtils
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                                                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:98: cannot find symbol
+    [javac] symbol  : method setParentCVersion(int)
+    [javac] location: class org.apache.zookeeper.txn.CreateTxn
+    [javac]                     create.setParentCVersion(-1);
+    [javac]                           ^
+    [javac] 7 errors
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml
+
+init:
+
+ivy-download:
+
+ivy-taskdef:
+
+ivy-init:
+
+ivy-retrieve:
+[ivy:retrieve] :: Ivy 2.2.0 - 20100923230623 :: http://ant.apache.org/ivy/ ::
+[ivy:retrieve] :: loading settings :: file = /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/ivysettings.xml
+[ivy:retrieve] :: resolving dependencies :: org.apache.zookeeper#zookeeper;3.4.0
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	found org.slf4j#slf4j-api;1.6.1 in maven2
+[ivy:retrieve] 	found org.slf4j#slf4j-log4j12;1.6.1 in maven2
+[ivy:retrieve] 	found log4j#log4j;1.2.15 in maven2
+[ivy:retrieve] 	found jline#jline;0.9.94 in maven2
+[ivy:retrieve] 	found org.jboss.netty#netty;3.2.2.Final in maven2
+[ivy:retrieve] :: resolution report :: resolve 177ms :: artifacts dl 7ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   5   |   0   |   0   |   0   ||   5   |   0   |
+	---------------------------------------------------------------------
+[ivy:retrieve] :: retrieving :: org.apache.zookeeper#zookeeper
+[ivy:retrieve] 	confs: [default]
+[ivy:retrieve] 	0 artifacts copied, 5 already retrieved (0kB/6ms)
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:217: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:252: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+svn-revision:
+
+version-info:
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:285: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build.xml:330: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 129 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:40: cannot find symbol
+    [javac] symbol  : class CreateTxnV0
+    [javac] location: package org.apache.zookeeper.txn
+    [javac] import org.apache.zookeeper.txn.CreateTxnV0;
+    [javac]                                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/DataTree.java:775: cannot find symbol
+    [javac] symbol  : method getParentCVersion()
+    [javac] location: class org.apache.zookeeper.txn.CreateTxn
+    [javac]                             createTxn.getParentCVersion(),
+    [javac]                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java:218: cannot find symbol
+    [javac] symbol  : method getParentCVersion()
+    [javac] location: class org.apache.zookeeper.txn.CreateTxn
+    [javac]                 ((CreateTxn)txn).getParentCVersion() == -1) {
+    [javac]                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:260: cannot find symbol
+    [javac] symbol  : constructor CreateTxn(java.lang.String,byte[],java.util.List<org.apache.zookeeper.data.ACL>,boolean,int)
+    [javac] location: class org.apache.zookeeper.txn.CreateTxn
+    [javac]                 txn = new CreateTxn(path, createRequest.getData(),
+    [javac]                       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: cannot find symbol
+    [javac] symbol  : class CreateTxnV0
+    [javac] location: class org.apache.zookeeper.server.util.SerializeUtils
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:90: cannot find symbol
+    [javac] symbol  : class CreateTxnV0
+    [javac] location: class org.apache.zookeeper.server.util.SerializeUtils
+    [javac]                     CreateTxnV0 createv0 = new CreateTxnV0();
+    [javac]                                                ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/eb51de49f723542a17e722fa817d81605a04c74c/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java:98: cannot find symbol
+    [javac] symbol  : method setParentCVersion(int)
+    [javac] location: class org.apache.zookeeper.txn.CreateTxn
+    [javac]                     create.setParentCVersion(-1);
+    [javac]                           ^
+    [javac] 7 errors
+ant compile || ant -DlastRevision=1
+0.386s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,980 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch f12d0442ebcf6a028f7ff007bbf9cbca312945f1:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-env.sh.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-env.sh
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/slaves.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/slaves
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/subcollections.xml
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/bin
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/webapps
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml:106: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 165 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:191: error: cannot find symbol
+    [javac]   public ParseResult getEmptyParseResult(String url, Configuration conf) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:65: error: cannot find symbol
+    [javac]   public ParseResult parse(Content content) throws ParseException {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:115: error: cannot find symbol
+    [javac]   public ParseResult parseByExtensionId(String extId, Content content)
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/Parser.java:55: error: cannot find symbol
+    [javac]    ParseResult getParse(Content c);
+    [javac]    ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: interface Parser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]                                              ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:192: error: cannot find symbol
+    [javac]     return ParseResult.createParseResult(url, getEmptyParse(conf));
+    [javac]            ^
+    [javac]   symbol:   variable ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher.java:307: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:79: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:129: error: cannot find symbol
+    [javac]     ParseResult parseResult = p.getParse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher2.java:669: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher2.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]                                           ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseSegment.java:74: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParserChecker.java:97: error: cannot find symbol
+    [javac]     ParseResult parseResult = new ParseUtil(conf).parse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParserChecker
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 15 errors
+    [javac] 4 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml
+
+init:
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/bin
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml:106: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 165 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:191: error: cannot find symbol
+    [javac]   public ParseResult getEmptyParseResult(String url, Configuration conf) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:65: error: cannot find symbol
+    [javac]   public ParseResult parse(Content content) throws ParseException {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:115: error: cannot find symbol
+    [javac]   public ParseResult parseByExtensionId(String extId, Content content)
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/Parser.java:55: error: cannot find symbol
+    [javac]    ParseResult getParse(Content c);
+    [javac]    ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: interface Parser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]                                              ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:192: error: cannot find symbol
+    [javac]     return ParseResult.createParseResult(url, getEmptyParse(conf));
+    [javac]            ^
+    [javac]   symbol:   variable ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher.java:307: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:79: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:129: error: cannot find symbol
+    [javac]     ParseResult parseResult = p.getParse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher2.java:669: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher2.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]                                           ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseSegment.java:74: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParserChecker.java:97: error: cannot find symbol
+    [javac]     ParseResult parseResult = new ParseUtil(conf).parse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParserChecker
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 15 errors
+    [javac] 4 warnings
+(ant compile-core) || (ant compile)
+0.358s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch f12d0442ebcf6a028f7ff007bbf9cbca312945f1:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-env.sh.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-env.sh
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/slaves.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/slaves
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/subcollections.xml
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/bin
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/webapps
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml:106: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 165 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:191: error: cannot find symbol
+    [javac]   public ParseResult getEmptyParseResult(String url, Configuration conf) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:65: error: cannot find symbol
+    [javac]   public ParseResult parse(Content content) throws ParseException {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:115: error: cannot find symbol
+    [javac]   public ParseResult parseByExtensionId(String extId, Content content)
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/Parser.java:55: error: cannot find symbol
+    [javac]    ParseResult getParse(Content c);
+    [javac]    ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: interface Parser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]                                              ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:192: error: cannot find symbol
+    [javac]     return ParseResult.createParseResult(url, getEmptyParse(conf));
+    [javac]            ^
+    [javac]   symbol:   variable ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher.java:307: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:79: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:129: error: cannot find symbol
+    [javac]     ParseResult parseResult = p.getParse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher2.java:669: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher2.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]                                           ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseSegment.java:74: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParserChecker.java:97: error: cannot find symbol
+    [javac]     ParseResult parseResult = new ParseUtil(conf).parse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParserChecker
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 15 errors
+    [javac] 4 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml
+
+init:
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/bin
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml:106: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 165 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:191: error: cannot find symbol
+    [javac]   public ParseResult getEmptyParseResult(String url, Configuration conf) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:65: error: cannot find symbol
+    [javac]   public ParseResult parse(Content content) throws ParseException {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:115: error: cannot find symbol
+    [javac]   public ParseResult parseByExtensionId(String extId, Content content)
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/Parser.java:55: error: cannot find symbol
+    [javac]    ParseResult getParse(Content c);
+    [javac]    ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: interface Parser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]                                              ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:192: error: cannot find symbol
+    [javac]     return ParseResult.createParseResult(url, getEmptyParse(conf));
+    [javac]            ^
+    [javac]   symbol:   variable ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher.java:307: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:79: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:129: error: cannot find symbol
+    [javac]     ParseResult parseResult = p.getParse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher2.java:669: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher2.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]                                           ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseSegment.java:74: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParserChecker.java:97: error: cannot find symbol
+    [javac]     ParseResult parseResult = new ParseUtil(conf).parse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParserChecker
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 15 errors
+    [javac] 4 warnings
+(ant compile-core) || (ant compile)
+0.128s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch f12d0442ebcf6a028f7ff007bbf9cbca312945f1:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-env.sh.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-env.sh
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/slaves.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/slaves
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/subcollections.xml
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/bin
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/webapps
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml:106: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 165 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:191: error: cannot find symbol
+    [javac]   public ParseResult getEmptyParseResult(String url, Configuration conf) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:65: error: cannot find symbol
+    [javac]   public ParseResult parse(Content content) throws ParseException {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:115: error: cannot find symbol
+    [javac]   public ParseResult parseByExtensionId(String extId, Content content)
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/Parser.java:55: error: cannot find symbol
+    [javac]    ParseResult getParse(Content c);
+    [javac]    ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: interface Parser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]                                              ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:192: error: cannot find symbol
+    [javac]     return ParseResult.createParseResult(url, getEmptyParse(conf));
+    [javac]            ^
+    [javac]   symbol:   variable ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher.java:307: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:79: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:129: error: cannot find symbol
+    [javac]     ParseResult parseResult = p.getParse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher2.java:669: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher2.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]                                           ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseSegment.java:74: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParserChecker.java:97: error: cannot find symbol
+    [javac]     ParseResult parseResult = new ParseUtil(conf).parse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParserChecker
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 15 errors
+    [javac] 1 warning
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml
+
+init:
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/bin
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml:106: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 165 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:191: error: cannot find symbol
+    [javac]   public ParseResult getEmptyParseResult(String url, Configuration conf) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:65: error: cannot find symbol
+    [javac]   public ParseResult parse(Content content) throws ParseException {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:115: error: cannot find symbol
+    [javac]   public ParseResult parseByExtensionId(String extId, Content content)
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/Parser.java:55: error: cannot find symbol
+    [javac]    ParseResult getParse(Content c);
+    [javac]    ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: interface Parser
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]                                              ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: error: cannot find symbol
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]          ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:192: error: cannot find symbol
+    [javac]     return ParseResult.createParseResult(url, getEmptyParse(conf));
+    [javac]            ^
+    [javac]   symbol:   variable ParseResult
+    [javac]   location: class ParseStatus
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher.java:307: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:79: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:129: error: cannot find symbol
+    [javac]     ParseResult parseResult = p.getParse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseUtil
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher2.java:669: error: cannot find symbol
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class Fetcher2.FetcherThread
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: error: cannot find symbol
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]                                           ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class HtmlParseFilters
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseSegment.java:74: error: cannot find symbol
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParseSegment
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParserChecker.java:97: error: cannot find symbol
+    [javac]     ParseResult parseResult = new ParseUtil(conf).parse(content);
+    [javac]     ^
+    [javac]   symbol:   class ParseResult
+    [javac]   location: class ParserChecker
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 15 errors
+    [javac] 1 warning
+(ant compile-core) || (ant compile)
+0.80s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch f12d0442ebcf6a028f7ff007bbf9cbca312945f1:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/test/classes
+     [copy] Copying 9 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/automaton-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/automaton-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-env.sh.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-env.sh
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/hadoop-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/regex-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/slaves.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/slaves
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/subcollections.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/conf/subcollections.xml
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/bin
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/webapps
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml:106: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 165 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:191: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseStatus
+    [javac]   public ParseResult getEmptyParseResult(String url, Configuration conf) {
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:65: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseUtil
+    [javac]   public ParseResult parse(Content content) throws ParseException {
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:115: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseUtil
+    [javac]   public ParseResult parseByExtensionId(String extId, Content content)
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/Parser.java:55: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: interface org.apache.nutch.parse.Parser
+    [javac]    ParseResult getParse(Content c);
+    [javac]    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.HtmlParseFilters
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.HtmlParseFilters
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:192: cannot find symbol
+    [javac] symbol  : variable ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseStatus
+    [javac]     return ParseResult.createParseResult(url, getEmptyParse(conf));
+    [javac]            ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher.java:307: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:79: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseUtil
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:129: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseUtil
+    [javac]     ParseResult parseResult = p.getParse(content);
+    [javac]     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher2.java:669: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.fetcher.Fetcher2.FetcherThread
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.HtmlParseFilters
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.HtmlParseFilters
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]                                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseSegment.java:74: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseSegment
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParserChecker.java:97: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParserChecker
+    [javac]     ParseResult parseResult = new ParseUtil(conf).parse(content);
+    [javac]     ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 15 errors
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml
+
+init:
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop
+    [untar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/hadoop/bin.tgz into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/bin
+    [unjar] Expanding: /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/lib/hadoop-0.12.2-core.jar into /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build.xml:106: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 165 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:191: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseStatus
+    [javac]   public ParseResult getEmptyParseResult(String url, Configuration conf) {
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:65: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseUtil
+    [javac]   public ParseResult parse(Content content) throws ParseException {
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:115: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseUtil
+    [javac]   public ParseResult parseByExtensionId(String extId, Content content)
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/Parser.java:55: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: interface org.apache.nutch.parse.Parser
+    [javac]    ParseResult getParse(Content c);
+    [javac]    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.HtmlParseFilters
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:60: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.HtmlParseFilters
+    [javac]   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+    [javac]          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseStatus.java:192: cannot find symbol
+    [javac] symbol  : variable ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseStatus
+    [javac]     return ParseResult.createParseResult(url, getEmptyParse(conf));
+    [javac]            ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher.java:307: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.fetcher.Fetcher.FetcherThread
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:79: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseUtil
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseUtil.java:129: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseUtil
+    [javac]     ParseResult parseResult = p.getParse(content);
+    [javac]     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/fetcher/Fetcher2.java:669: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.fetcher.Fetcher2.FetcherThread
+    [javac]       ParseResult parseResult = null;
+    [javac]       ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.HtmlParseFilters
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/HtmlParseFilters.java:62: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.HtmlParseFilters
+    [javac]     ParseResult filteredParseResult = new ParseResult(content.getUrl());
+    [javac]                                           ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParseSegment.java:74: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParseSegment
+    [javac]     ParseResult parseResult = null;
+    [javac]     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/f12d0442ebcf6a028f7ff007bbf9cbca312945f1/src/java/org/apache/nutch/parse/ParserChecker.java:97: cannot find symbol
+    [javac] symbol  : class ParseResult
+    [javac] location: class org.apache.nutch.parse.ParserChecker
+    [javac]     ParseResult parseResult = new ParseUtil(conf).parse(content);
+    [javac]     ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 15 errors
+(ant compile-core) || (ant compile)
+0.11s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

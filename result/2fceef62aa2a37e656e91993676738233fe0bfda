@@ -1,0 +1,469 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-guava 2fceef62aa2a37e656e91993676738233fe0bfda:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.guava:guava:jar:14.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-javadoc-plugin @ com.google.guava:guava:[unknown-version], /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/pom.xml, line 104, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Guava Maven Parent
+[INFO] Guava: Google Core Libraries for Java
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Guava Maven Parent 14.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/1.4/maven-gpg-plugin-1.4.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/1.4/maven-gpg-plugin-1.4.pom (5 KB at 11.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/1.4/maven-gpg-plugin-1.4.jar
+3/37 KB   5/37 KB   8/37 KB   11/37 KB   13/37 KB   16/37 KB   19/37 KB   21/37 KB   24/37 KB   27/37 KB   29/37 KB   32/37 KB   35/37 KB   37/37 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/1.4/maven-gpg-plugin-1.4.jar (37 KB at 1023.4 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ guava-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ guava-parent ---
+[INFO] 
+[INFO] --- maven-gpg-plugin:1.4:sign (sign-artifacts) @ guava-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ guava-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/pom.xml to /home/ubuntu/.m2/repository/com/google/guava/guava-parent/14.0-SNAPSHOT/guava-parent-14.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Guava: Google Core Libraries for Java 14.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.7/animal-sniffer-maven-plugin-1.7.pom
+3/5 KB     5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.7/animal-sniffer-maven-plugin-1.7.pom (5 KB at 203.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.7/animal-sniffer-parent-1.7.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.7/animal-sniffer-parent-1.7.pom (5 KB at 189.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.7/animal-sniffer-maven-plugin-1.7.jar
+3/26 KB   5/26 KB   8/26 KB   11/26 KB   13/26 KB   16/26 KB   19/26 KB   21/26 KB   24/26 KB   26/26 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.7/animal-sniffer-maven-plugin-1.7.jar (26 KB at 948.9 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ guava ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ guava ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ guava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ guava ---
+[INFO] Compiling 407 source files to /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[25,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] 
+    K extends Object declared in class ManualSerializationProxy
+/home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[323,19] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[329,21] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[334,28] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[103,37] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[300,33] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[323,27] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[325,27] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[330,56] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[331,39] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[333,32] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[335,44] Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 12 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/base/Splitter.java:[387,15] error: method spliterator in interface Iterable<T> cannot be applied to given types;
+[ERROR] 
+    T extends Object declared in interface Iterable
+/home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/LocalCache.java:[4668,26] error: incompatible types: inferred type does not conform to upper bound(s)
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/reflect/Types.java:[338,23] error: TypeVariableImpl is not abstract and does not override abstract method getAnnotatedBounds() in TypeVariable
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Guava Maven Parent ................................. SUCCESS [  1.289 s]
+[INFO] Guava: Google Core Libraries for Java .............. FAILURE [  5.021 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.561 s
+[INFO] Finished at: 2019-12-04T09:56:40+00:00
+[INFO] Final Memory: 22M/385M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project guava: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/base/Splitter.java:[387,15] error: method spliterator in interface Iterable<T> cannot be applied to given types;
+[ERROR] 
+[ERROR] T extends Object declared in interface Iterable
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/LocalCache.java:[4668,26] error: incompatible types: inferred type does not conform to upper bound(s)
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/reflect/Types.java:[338,23] error: TypeVariableImpl is not abstract and does not override abstract method getAnnotatedBounds() in TypeVariable
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :guava
+mvn clean install -DskipTests  -pl guava -am
+0.341s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-guava 2fceef62aa2a37e656e91993676738233fe0bfda:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.guava:guava:jar:14.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-javadoc-plugin @ com.google.guava:guava:[unknown-version], /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/pom.xml, line 104, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Guava Maven Parent
+[INFO] Guava: Google Core Libraries for Java
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Guava Maven Parent 14.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ guava-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ guava-parent ---
+[INFO] 
+[INFO] --- maven-gpg-plugin:1.4:sign (sign-artifacts) @ guava-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ guava-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/pom.xml to /home/ubuntu/.m2/repository/com/google/guava/guava-parent/14.0-SNAPSHOT/guava-parent-14.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Guava: Google Core Libraries for Java 14.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ guava ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ guava ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ guava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ guava ---
+[INFO] Compiling 407 source files to /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[25,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] 
+    K extends Object declared in class ManualSerializationProxy
+/home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[323,19] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[329,21] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[334,28] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[103,37] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[300,33] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[323,27] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[325,27] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[330,56] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[331,39] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[333,32] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[335,44] Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 12 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/base/Splitter.java:[387,15] error: method spliterator in interface Iterable<T> cannot be applied to given types;
+[ERROR] 
+    T extends Object declared in interface Iterable
+/home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/LocalCache.java:[4668,26] error: incompatible types: inferred type does not conform to upper bound(s)
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/reflect/Types.java:[338,23] error: TypeVariableImpl is not abstract and does not override abstract method getAnnotatedBounds() in TypeVariable
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Guava Maven Parent ................................. SUCCESS [  0.775 s]
+[INFO] Guava: Google Core Libraries for Java .............. FAILURE [  4.980 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.979 s
+[INFO] Finished at: 2019-12-04T09:56:48+00:00
+[INFO] Final Memory: 21M/383M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project guava: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/base/Splitter.java:[387,15] error: method spliterator in interface Iterable<T> cannot be applied to given types;
+[ERROR] 
+[ERROR] T extends Object declared in interface Iterable
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/LocalCache.java:[4668,26] error: incompatible types: inferred type does not conform to upper bound(s)
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/reflect/Types.java:[338,23] error: TypeVariableImpl is not abstract and does not override abstract method getAnnotatedBounds() in TypeVariable
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :guava
+mvn clean install -DskipTests  -pl guava -am
+0.498s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-guava 2fceef62aa2a37e656e91993676738233fe0bfda:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.guava:guava:jar:14.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-javadoc-plugin @ com.google.guava:guava:[unknown-version], /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/pom.xml, line 104, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Guava Maven Parent
+[INFO] Guava: Google Core Libraries for Java
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Guava Maven Parent 14.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ guava-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ guava-parent ---
+[INFO] 
+[INFO] --- maven-gpg-plugin:1.4:sign (sign-artifacts) @ guava-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ guava-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/pom.xml to /home/ubuntu/.m2/repository/com/google/guava/guava-parent/14.0-SNAPSHOT/guava-parent-14.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Guava: Google Core Libraries for Java 14.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ guava ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ guava ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ guava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ guava ---
+[INFO] Compiling 407 source files to /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[25,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[323,19] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[329,21] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/primitives/UnsignedBytes.java:[334,28] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[103,37] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[300,33] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[323,27] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[325,27] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[330,56] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[331,39] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[333,32] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/Striped64.java:[335,44] Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 12 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/LocalCache.java:[4668,26] error: incompatible types; no instance(s) of type variable(s) K1,V1 exist so that CacheBuilder<K1,V1> conforms to CacheBuilder<Object,Object>
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Guava Maven Parent ................................. SUCCESS [  0.962 s]
+[INFO] Guava: Google Core Libraries for Java .............. FAILURE [ 10.480 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.682 s
+[INFO] Finished at: 2019-12-04T09:57:03+00:00
+[INFO] Final Memory: 19M/344M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project guava: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/google-guava/download/2fceef62aa2a37e656e91993676738233fe0bfda/guava/src/com/google/common/cache/LocalCache.java:[4668,26] error: incompatible types; no instance(s) of type variable(s) K1,V1 exist so that CacheBuilder<K1,V1> conforms to CacheBuilder<Object,Object>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :guava
+mvn clean install -DskipTests  -pl guava -am
+0.103s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-guava 2fceef62aa2a37e656e91993676738233fe0bfda:
+mvn clean install -DskipTests  -pl guava -am
+0.229s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

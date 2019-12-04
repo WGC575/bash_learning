@@ -1,0 +1,904 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina-sshd fa0af69af1ce04d13c7872c8435ff41948d901dc:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd-core ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd-core/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd-core ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd-core ---
+[INFO] 51 implicit excludes (use -debug for more details).
+[INFO] Exclude: **/*.iml
+[INFO] Exclude: src/docs/**
+[INFO] Exclude: src/test/resources/**
+[INFO] Exclude: **/stty-output-*.txt
+[INFO] Exclude: **/big-msg.txt
+[INFO] Exclude: .metadata/**
+[INFO] Exclude: .recommenders/**
+[INFO] Exclude: RemoteSystemsTempFiles/**
+[INFO] Exclude: .project
+[INFO] Exclude: .classpath
+[INFO] Exclude: .springBeans
+[INFO] Exclude: .settings/**
+[INFO] 733 resources included (use -debug for more details)
+[INFO] Rat check: Summary of files. Unapproved: 0 unknown: 0 generated: 0 approved: 733 licence.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd-core ---
+[INFO] There are 3 errors reported by Checkstyle 6.11.2 with /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target/checkstyle-rules.xml ruleset.
+[ERROR] src/main/java/org/apache/sshd/common/session/AbstractConnectionService.java:[87,5] (coding) DeclarationOrder: Variable access definition in wrong order.
+[ERROR] src/main/java/org/apache/sshd/common/session/AbstractConnectionService.java:[88,5] (coding) DeclarationOrder: Variable access definition in wrong order.
+[ERROR] src/main/java/org/apache/sshd/common/session/AbstractConnectionService.java:[89,5] (coding) DeclarationOrder: Variable access definition in wrong order.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.711 s
+[INFO] Finished at: 2019-12-04T07:36:21+00:00
+[INFO] Final Memory: 24M/391M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (verify-style) on project sshd-core: You have 3 Checkstyle violations. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (check-java-api) @ sshd ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd-core ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd-core/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd-core ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sshd-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 563 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+  required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  1.972 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  4.700 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.636 s
+[INFO] Finished at: 2019-12-04T07:36:30+00:00
+[INFO] Final Memory: 26M/324M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project sshd-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+[ERROR] required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (check-java-api) @ sshd ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ sshd ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-site-plugin:3.4:attach-descriptor (attach-descriptor) @ sshd ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ sshd ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/pom.xml to /home/ubuntu/.m2/repository/org/apache/sshd/sshd/1.0.1-SNAPSHOT/sshd-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd-core ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd-core/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd-core ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sshd-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 563 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+  required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  2.498 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  5.052 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.499 s
+[INFO] Finished at: 2019-12-04T07:36:41+00:00
+[INFO] Final Memory: 29M/445M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project sshd-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+[ERROR] required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.309s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina-sshd fa0af69af1ce04d13c7872c8435ff41948d901dc:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd-core ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd-core/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd-core ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd-core ---
+[INFO] 51 implicit excludes (use -debug for more details).
+[INFO] Exclude: **/*.iml
+[INFO] Exclude: src/docs/**
+[INFO] Exclude: src/test/resources/**
+[INFO] Exclude: **/stty-output-*.txt
+[INFO] Exclude: **/big-msg.txt
+[INFO] Exclude: .metadata/**
+[INFO] Exclude: .recommenders/**
+[INFO] Exclude: RemoteSystemsTempFiles/**
+[INFO] Exclude: .project
+[INFO] Exclude: .classpath
+[INFO] Exclude: .springBeans
+[INFO] Exclude: .settings/**
+[INFO] 733 resources included (use -debug for more details)
+[INFO] Rat check: Summary of files. Unapproved: 0 unknown: 0 generated: 0 approved: 733 licence.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd-core ---
+[INFO] There are 3 errors reported by Checkstyle 6.11.2 with /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target/checkstyle-rules.xml ruleset.
+[ERROR] src/main/java/org/apache/sshd/common/session/AbstractConnectionService.java:[87,5] (coding) DeclarationOrder: Variable access definition in wrong order.
+[ERROR] src/main/java/org/apache/sshd/common/session/AbstractConnectionService.java:[88,5] (coding) DeclarationOrder: Variable access definition in wrong order.
+[ERROR] src/main/java/org/apache/sshd/common/session/AbstractConnectionService.java:[89,5] (coding) DeclarationOrder: Variable access definition in wrong order.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.215 s
+[INFO] Finished at: 2019-12-04T07:36:50+00:00
+[INFO] Final Memory: 24M/384M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (verify-style) on project sshd-core: You have 3 Checkstyle violations. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (check-java-api) @ sshd ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd-core ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd-core/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd-core ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sshd-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 563 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+  required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  1.906 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  4.509 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.362 s
+[INFO] Finished at: 2019-12-04T07:36:59+00:00
+[INFO] Final Memory: 27M/332M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project sshd-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+[ERROR] required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (check-java-api) @ sshd ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ sshd ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-site-plugin:3.4:attach-descriptor (attach-descriptor) @ sshd ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ sshd ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/pom.xml to /home/ubuntu/.m2/repository/org/apache/sshd/sshd/1.0.1-SNAPSHOT/sshd-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd-core ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd-core/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd-core ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sshd-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 563 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+  required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  2.283 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  5.362 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.662 s
+[INFO] Finished at: 2019-12-04T07:37:10+00:00
+[INFO] Final Memory: 30M/461M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project sshd-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+[ERROR] required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.374s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina-sshd fa0af69af1ce04d13c7872c8435ff41948d901dc:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd-core ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd-core/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd-core ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd-core ---
+[INFO] 51 implicit excludes (use -debug for more details).
+[INFO] Exclude: **/*.iml
+[INFO] Exclude: src/docs/**
+[INFO] Exclude: src/test/resources/**
+[INFO] Exclude: **/stty-output-*.txt
+[INFO] Exclude: **/big-msg.txt
+[INFO] Exclude: .metadata/**
+[INFO] Exclude: .recommenders/**
+[INFO] Exclude: RemoteSystemsTempFiles/**
+[INFO] Exclude: .project
+[INFO] Exclude: .classpath
+[INFO] Exclude: .springBeans
+[INFO] Exclude: .settings/**
+[INFO] 733 resources included (use -debug for more details)
+[INFO] Rat check: Summary of files. Unapproved: 0 unknown: 0 generated: 0 approved: 733 licence.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd-core ---
+[INFO] There are 3 errors reported by Checkstyle 6.11.2 with /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target/checkstyle-rules.xml ruleset.
+[ERROR] src/main/java/org/apache/sshd/common/session/AbstractConnectionService.java:[87,5] (coding) DeclarationOrder: Variable access definition in wrong order.
+[ERROR] src/main/java/org/apache/sshd/common/session/AbstractConnectionService.java:[88,5] (coding) DeclarationOrder: Variable access definition in wrong order.
+[ERROR] src/main/java/org/apache/sshd/common/session/AbstractConnectionService.java:[89,5] (coding) DeclarationOrder: Variable access definition in wrong order.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.249 s
+[INFO] Finished at: 2019-12-04T07:37:22+00:00
+[INFO] Final Memory: 25M/473M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (verify-style) on project sshd-core: You have 3 Checkstyle violations. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (check-java-api) @ sshd ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd-core ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd-core/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd-core ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sshd-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 563 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+  required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  2.964 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  8.616 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.985 s
+[INFO] Finished at: 2019-12-04T07:37:37+00:00
+[INFO] Final Memory: 28M/464M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project sshd-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+[ERROR] required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Mina SSHD
+[INFO] Apache Mina SSHD :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (check-java-api) @ sshd ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ sshd ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-site-plugin:3.4:attach-descriptor (attach-descriptor) @ sshd ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ sshd ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/pom.xml to /home/ubuntu/.m2/repository/org/apache/sshd/sshd/1.0.1-SNAPSHOT/sshd-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Mina SSHD :: Core 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sshd-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:remove-project-artifact (remove-previous-artifact) @ sshd-core ---
+[INFO] /home/ubuntu/.m2/repository/org/apache/sshd/sshd-core/1.0.1-SNAPSHOT removed.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ sshd-core ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.11:check (check-apache-license-header) @ sshd-core ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:check (verify-style) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ sshd-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sshd-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sshd-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 563 source files to /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+  required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Mina SSHD ................................... SUCCESS [  3.404 s]
+[INFO] Apache Mina SSHD :: Core ........................... FAILURE [  8.806 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.553 s
+[INFO] Finished at: 2019-12-04T07:37:53+00:00
+[INFO] Final Memory: 30M/434M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project sshd-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina-sshd/download/fa0af69af1ce04d13c7872c8435ff41948d901dc/sshd-core/src/main/java/org/apache/sshd/server/scp/ScpCommand.java:[247,28] constructor ScpHelper in class org.apache.sshd.common.scp.ScpHelper cannot be applied to given types;
+[ERROR] required: java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] found: org.apache.sshd.server.session.ServerSession,java.io.InputStream,java.io.OutputStream,java.nio.file.FileSystem,org.apache.sshd.common.scp.ScpTransferEventListener
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :sshd-core
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.492s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina-sshd fa0af69af1ce04d13c7872c8435ff41948d901dc:
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.456s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,1234 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-cxf-fediz 6b6798feb5ee965288e0f6b57a60867e1a550a86:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb is not found and thus excluded from the dependency check
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] the last modified time of the inputs is  1575419169000
+[INFO] the last modified time of the outputs is -9223372036854775808
+[INFO] Compiling file:/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Writing output to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fediz-core ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:compile (default-compile) @ fediz-core ---
+[INFO] Compiling 57 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: package org.apache.cxf.fediz.core.spi
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: class FederationProcessorImpl
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.272 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  2.660 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.401 s
+[INFO] Finished at: 2019-12-04T04:50:45+00:00
+[INFO] Final Memory: 27M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.4:compile (default-compile) on project fediz-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: package org.apache.cxf.fediz.core.spi
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: class FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.ws.security:wss4j:jar:2.0.0-rc1 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.141 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.141 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.682 s
+[INFO] Finished at: 2019-12-04T04:50:48+00:00
+[INFO] Final Memory: 19M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:jar:1.0.2-SNAPSHOT: Failure to find org.apache.ws.security:wss4j:jar:2.0.0-rc1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.ws.security:wss4j:jar:2.0.0 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.333 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.148 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.946 s
+[INFO] Finished at: 2019-12-04T04:50:52+00:00
+[INFO] Final Memory: 19M/254M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:jar:1.0.2-SNAPSHOT: Failure to find org.apache.ws.security:wss4j:jar:2.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.ws.security:wss4j:jar:2.1.8 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.311 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.150 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.889 s
+[INFO] Finished at: 2019-12-04T04:50:55+00:00
+[INFO] Final Memory: 19M/255M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:jar:1.0.2-SNAPSHOT: Failure to find org.apache.ws.security:wss4j:jar:2.1.8 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ArgumentType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/AudienceUris.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CallbackType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertificateStores.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimTypesRequested.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ContextConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FederationProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FedizConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ObjectFactory.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TokenValidators.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuerType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuers.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ValidationType.java
+[INFO] the last modified time of the inputs is  1575435055000
+[INFO] the last modified time of the outputs is 1575435043000
+[INFO] Compiling file:/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Writing output to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fediz-core ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:compile (default-compile) @ fediz-core ---
+[INFO] Compiling 57 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: package org.apache.cxf.fediz.core.spi
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: class FederationProcessorImpl
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.297 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  2.414 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.129 s
+[INFO] Finished at: 2019-12-04T04:51:01+00:00
+[INFO] Final Memory: 28M/391M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.4:compile (default-compile) on project fediz-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: package org.apache.cxf.fediz.core.spi
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: class FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.67s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-cxf-fediz 6b6798feb5ee965288e0f6b57a60867e1a550a86:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb is not found and thus excluded from the dependency check
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] the last modified time of the inputs is  1575435039000
+[INFO] the last modified time of the outputs is -9223372036854775808
+[INFO] Compiling file:/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Writing output to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fediz-core ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:compile (default-compile) @ fediz-core ---
+[INFO] Compiling 57 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: package org.apache.cxf.fediz.core.spi
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: class FederationProcessorImpl
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.210 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  2.570 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.235 s
+[INFO] Finished at: 2019-12-04T04:51:08+00:00
+[INFO] Final Memory: 28M/392M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.4:compile (default-compile) on project fediz-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: package org.apache.cxf.fediz.core.spi
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: class FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.ws.security:wss4j:jar:2.0.0-rc1 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.232 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.155 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.816 s
+[INFO] Finished at: 2019-12-04T04:51:11+00:00
+[INFO] Final Memory: 19M/255M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:jar:1.0.2-SNAPSHOT: Failure to find org.apache.ws.security:wss4j:jar:2.0.0-rc1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.ws.security:wss4j:jar:2.0.0 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.253 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.105 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.823 s
+[INFO] Finished at: 2019-12-04T04:51:15+00:00
+[INFO] Final Memory: 19M/256M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:jar:1.0.2-SNAPSHOT: Failure to find org.apache.ws.security:wss4j:jar:2.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.ws.security:wss4j:jar:2.1.8 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.261 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.130 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.830 s
+[INFO] Finished at: 2019-12-04T04:51:18+00:00
+[INFO] Final Memory: 19M/261M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:jar:1.0.2-SNAPSHOT: Failure to find org.apache.ws.security:wss4j:jar:2.1.8 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ArgumentType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/AudienceUris.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CallbackType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertificateStores.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimTypesRequested.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ContextConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FederationProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FedizConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ObjectFactory.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TokenValidators.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuerType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuers.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ValidationType.java
+[INFO] the last modified time of the inputs is  1575435078000
+[INFO] the last modified time of the outputs is 1575435066000
+[INFO] Compiling file:/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Writing output to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fediz-core ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:compile (default-compile) @ fediz-core ---
+[INFO] Compiling 57 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: package org.apache.cxf.fediz.core.spi
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: class FederationProcessorImpl
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.302 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  2.310 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.019 s
+[INFO] Finished at: 2019-12-04T04:51:24+00:00
+[INFO] Final Memory: 27M/262M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.4:compile (default-compile) on project fediz-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: package org.apache.cxf.fediz.core.spi
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: class FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.480s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-cxf-fediz 6b6798feb5ee965288e0f6b57a60867e1a550a86:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb is not found and thus excluded from the dependency check
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] the last modified time of the inputs is  1575435062000
+[INFO] the last modified time of the outputs is -9223372036854775808
+[INFO] Compiling file:/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Writing output to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fediz-core ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:compile (default-compile) @ fediz-core ---
+[INFO] Compiling 57 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: package org.apache.cxf.fediz.core.spi
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: class FederationProcessorImpl
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  2.038 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  3.800 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.487 s
+[INFO] Finished at: 2019-12-04T04:51:33+00:00
+[INFO] Final Memory: 31M/334M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.4:compile (default-compile) on project fediz-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: package org.apache.cxf.fediz.core.spi
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: class FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.ws.security:wss4j:jar:2.0.0-rc1 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  2.007 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.257 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.893 s
+[INFO] Finished at: 2019-12-04T04:51:38+00:00
+[INFO] Final Memory: 20M/213M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:jar:1.0.2-SNAPSHOT: Failure to find org.apache.ws.security:wss4j:jar:2.0.0-rc1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.ws.security:wss4j:jar:2.0.0 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.819 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.450 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.888 s
+[INFO] Finished at: 2019-12-04T04:51:43+00:00
+[INFO] Final Memory: 20M/213M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:jar:1.0.2-SNAPSHOT: Failure to find org.apache.ws.security:wss4j:jar:2.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.ws.security:wss4j:jar:2.1.8 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.946 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  0.276 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.821 s
+[INFO] Finished at: 2019-12-04T04:51:48+00:00
+[INFO] Final Memory: 20M/213M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project fediz-core: Could not resolve dependencies for project org.apache.cxf.fediz:fediz-core:jar:1.0.2-SNAPSHOT: Failure to find org.apache.ws.security:wss4j:jar:2.1.8 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Fediz
+[INFO] Apache Fediz Plugin Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ fediz ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fediz ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/pom.xml to /home/ubuntu/.m2/repository/org/apache/cxf/fediz/fediz/1.0.2-SNAPSHOT/fediz-1.0.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Fediz Plugin Core 1.0.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-jaxb-plugin:1.1.1:generate (default) @ fediz-core ---
+[INFO] schemaDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources
+[INFO] includeSchemas: [**/FedizConfig.xsd]
+[INFO] excludeSchemas: [test*.xsd]
+[INFO] includeBindings: [*.xjb]
+[INFO] excludeBindings: null
+[INFO] generatePackage: org.apache.cxf.fediz.core.config.jaxb
+[INFO] generateDirectory: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] readOnly: false
+[INFO] extension: false
+[INFO] catalog: null
+[INFO] removeOldOutput: false
+[INFO] strict: true
+[INFO] verbose: true
+[INFO] pom dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] Schema dependency: /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] XJC compile
+[INFO] build id of XJC is hudson-jaxb-ri-2.1-833
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/fediz-ehcache.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/pom.xml
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ArgumentType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/AudienceUris.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CallbackType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/CertificateStores.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ClaimTypesRequested.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ContextConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FederationProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/FedizConfig.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/KeyStoreType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ObjectFactory.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ProtocolType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TokenValidators.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustManagersType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuerType.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/TrustedIssuers.java
+[INFO] Checking timestamp of /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc/org/apache/cxf/fediz/core/config/jaxb/ValidationType.java
+[INFO] the last modified time of the inputs is  1575435108000
+[INFO] the last modified time of the outputs is 1575435090000
+[INFO] Compiling file:/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/resources/schemas/FedizConfig.xsd
+[INFO] Writing output to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/generated-sources/xjc
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ fediz-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ fediz-core ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.4:compile (default-compile) @ fediz-core ---
+[INFO] Compiling 57 source files to /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: package org.apache.cxf.fediz.core.spi
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR]   symbol:   class FreshnessCallback
+  location: class FederationProcessorImpl
+/home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Fediz ....................................... SUCCESS [  1.975 s]
+[INFO] Apache Fediz Plugin Core ........................... FAILURE [  3.984 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.561 s
+[INFO] Finished at: 2019-12-04T04:51:56+00:00
+[INFO] Final Memory: 32M/334M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.4:compile (default-compile) on project fediz-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[42,36] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: package org.apache.cxf.fediz.core.spi
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,20] error: cannot find symbol
+[ERROR] symbol:   class FreshnessCallback
+[ERROR] location: class FederationProcessorImpl
+[ERROR] /home/ubuntu/ATLAS/apps/apache-cxf-fediz/download/6b6798feb5ee965288e0f6b57a60867e1a550a86/plugins/core/src/main/java/org/apache/cxf/fediz/core/FederationProcessorImpl.java:[327,53] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :fediz-core
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.360s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-cxf-fediz 6b6798feb5ee965288e0f6b57a60867e1a550a86:
+(mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0-rc1) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.0.0) || (mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am -Dwss4j.version=2.1.8) || (sed -i -- 's/>3.0.5-SNAPSHOT</>3.0.5</g' plugins/core/pom.xml; mvn -Pfastinstall -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl plugins/core/ -am)
+0.3s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

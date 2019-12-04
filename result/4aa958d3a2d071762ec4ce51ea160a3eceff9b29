@@ -1,0 +1,1279 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-closure-templates 4aa958d3a2d071762ec4ce51ea160a3eceff9b29:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.template:soy:jar:2.5.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 274, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Closure Templates 2.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ soy ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ soy ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce) @ soy ---
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ soy ---
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprparse/ExpressionParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soyparse/TemplateParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated with 0 errors and 8 warnings.
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soyparse/SoyFileParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/types/parse/TypeParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 4 grammars
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ soy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ soy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 545 source files to /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateDelegateNode.java:[141,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprtree/VarRefNode.java:[35,47] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprtree/GlobalNode.java:[32,80] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/SoyFileSetNode.java:[38,66] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[305,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[310,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[327,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[352,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[356,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[394,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[412,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[479,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[484,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[103,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[112,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[126,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[140,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[146,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgPluralNode.java:[157,54] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[37,49] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[160,40] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[169,40] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[206,35] isKnown() in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgPluralCaseNode.java:[81,51] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgSelectCaseNode.java:[79,54] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgHtmlTagNode.java:[229,89] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgHtmlTagNode.java:[230,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/XidNode.java:[120,71] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/LetValueNode.java:[107,57] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/LetContentNode.java:[182,69] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallBasicNode.java:[172,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallDelegateNode.java:[124,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallParamValueNode.java:[116,60] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallParamContentNode.java:[187,53] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SlicedRawTextNode.java:[154,30] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SlicedRawTextNode.java:[246,51] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SlicedRawTextNode.java:[285,39] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SoyAutoescapeException.java:[40,40] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SoyAutoescapeException.java:[52,40] createCausedWithoutMetaInfo(java.lang.String,java.lang.Throwable) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SoyAutoescapeException.java:[149,46] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/restricted/CollectionData.java:[57,38] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/SoyListData.java:[150,20] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/SoyMapData.java:[72,29] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/sharedpasses/ReportSyntaxVersionErrorsVisitor.java:[109,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/GenJsCodeVisitorAssistantForMsgs.java:[469,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/JsExprTranslator.java:[93,27] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/RewriteRemaindersVisitor.java:[109,84] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/InferenceEngine.java:[302,27] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/InferenceEngine.java:[769,22] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/InferenceEngine.java:[900,38] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[60,72] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[62,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[66,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[68,70] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[70,41] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[131,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/SoySyntaxExceptionUtils.java:[47,44] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/SoySyntaxExceptionUtils.java:[64,44] createCausedWithoutMetaInfo(java.lang.String,java.lang.Throwable) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/RequirecssUtils.java:[54,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprtree/VarNode.java:[35,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/sharedpasses/RenameCssVisitor.java:[95,92] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/sharedpasses/RenameCssVisitor.java:[99,55] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/DerivedTemplateUtils.java:[81,28] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/i18ndirectives/FormatNumDirective.java:[149,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/i18ndirectives/FormatNumDirective.java:[196,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[117,43] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[158,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[160,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[162,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[164,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[330,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[338,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[345,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/ContentSecurityPolicyPass.java:[571,23] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/ContentSecurityPolicyPass.java:[585,23] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/PerformDeprecatedNonContextualAutoescapeVisitor.java:[132,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/ErrorReporterImpl.java:[78,37] SoySyntaxException(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[312,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[323,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[328,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[332,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/exprparse/ExpressionParser.java:[267,46] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/exprparse/ExpressionParser.java:[830,64] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/exprparse/ExpressionParser.java:[905,82] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[INFO] 84 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyExpression.java:[546,27] method tryUnbox() is already defined in class com.google.template.soy.jbcsrc.SoyExpression
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[48,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[69,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[87,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[102,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[136,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[306,16] cannot find symbol
+  symbol:   class AutoValue_MethodRef
+  location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[320,16] cannot find symbol
+  symbol:   class AutoValue_MethodRef
+  location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[395,16] cannot find symbol
+  symbol:   class AutoValue_MethodRef
+  location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/LazyClosureCompiler.java:[431,18] cannot find symbol
+  symbol:   class AutoValue_LazyClosureCompiler_ParentCapture
+  location: class com.google.template.soy.jbcsrc.LazyClosureCompiler.ParentCapture
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[34,16] cannot find symbol
+  symbol:   class AutoValue_TypeInfo
+  location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[45,16] cannot find symbol
+  symbol:   class AutoValue_TypeInfo
+  location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[64,16] cannot find symbol
+  symbol:   class AutoValue_TypeInfo
+  location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/CompiledTemplateMetadata.java:[67,16] cannot find symbol
+  symbol:   class AutoValue_CompiledTemplateMetadata
+  location: class com.google.template.soy.jbcsrc.CompiledTemplateMetadata
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateDelegateNode.java:[67,18] cannot find symbol
+  symbol:   class AutoValue_TemplateDelegateNode_DelTemplateKey
+  location: class com.google.template.soy.soytree.TemplateDelegateNode.DelTemplateKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[49,16] cannot find symbol
+  symbol:   class AutoValue_ConstructorRef
+  location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[75,16] cannot find symbol
+  symbol:   class AutoValue_ConstructorRef
+  location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/ForNode.java:[64,18] cannot find symbol
+  symbol:   class AutoValue_ForNode_RangeArgs
+  location: class com.google.template.soy.soytree.ForNode.RangeArgs
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[128,18] cannot find symbol
+  symbol:   class AutoValue_VariableSet_VarKey
+  location: class com.google.template.soy.jbcsrc.VariableSet.VarKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[494,16] cannot find symbol
+  symbol:   class AutoValue_VariableSet_SaveRestoreState
+  location: class com.google.template.soy.jbcsrc.VariableSet
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[121,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[124,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[127,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[144,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/conformance/ConformanceInput.java:[32,16] cannot find symbol
+  symbol:   class AutoValue_ConformanceInput
+  location: class com.google.template.soy.conformance.ConformanceInput
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/restricted/SoyMsgPart.java:[35,18] cannot find symbol
+  symbol:   class AutoValue_SoyMsgPart_Case
+  location: class com.google.template.soy.msgs.restricted.SoyMsgPart.Case<T>
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/HelperFunctions.java:[181,18] cannot find symbol
+  symbol:   class AutoValue_HelperFunctions_FieldAccessStrategy
+  location: class com.google.template.soy.jssrc.internal.HelperFunctions.FieldAccessStrategy
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/DetachState.java:[330,18] cannot find symbol
+  symbol:   class AutoValue_DetachState_ReattachState
+  location: class com.google.template.soy.jbcsrc.DetachState.ReattachState
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[51,18] cannot find symbol
+  symbol:   class AutoValue_SoyAstCache_VersionedFile
+  location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[61,18] cannot find symbol
+  symbol:   class AutoValue_SoyAstCache_VersionedFile
+  location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ControlFlow.java:[39,18] cannot find symbol
+  symbol:   class AutoValue_ControlFlow_IfBlock
+  location: class com.google.template.soy.jbcsrc.ControlFlow.IfBlock
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyNodeCompiler.java:[387,16] cannot find symbol
+  symbol:   class AutoValue_SoyNodeCompiler_CompiledRangeArgs
+  location: class com.google.template.soy.jbcsrc.SoyNodeCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/BytecodeCompiler.java:[190,16] cannot find symbol
+  symbol:   class AutoValue_BytecodeCompiler_CompilationResult
+  location: class com.google.template.soy.jbcsrc.BytecodeCompiler
+[INFO] 33 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.498 s
+[INFO] Finished at: 2019-12-04T09:49:30+00:00
+[INFO] Final Memory: 22M/495M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project soy: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyExpression.java:[546,27] method tryUnbox() is already defined in class com.google.template.soy.jbcsrc.SoyExpression
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[48,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[69,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[87,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[102,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[136,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[306,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_MethodRef
+[ERROR] location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[320,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_MethodRef
+[ERROR] location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[395,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_MethodRef
+[ERROR] location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/LazyClosureCompiler.java:[431,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_LazyClosureCompiler_ParentCapture
+[ERROR] location: class com.google.template.soy.jbcsrc.LazyClosureCompiler.ParentCapture
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[34,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_TypeInfo
+[ERROR] location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[45,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_TypeInfo
+[ERROR] location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[64,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_TypeInfo
+[ERROR] location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/CompiledTemplateMetadata.java:[67,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_CompiledTemplateMetadata
+[ERROR] location: class com.google.template.soy.jbcsrc.CompiledTemplateMetadata
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateDelegateNode.java:[67,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_TemplateDelegateNode_DelTemplateKey
+[ERROR] location: class com.google.template.soy.soytree.TemplateDelegateNode.DelTemplateKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[49,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_ConstructorRef
+[ERROR] location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[75,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_ConstructorRef
+[ERROR] location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/ForNode.java:[64,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_ForNode_RangeArgs
+[ERROR] location: class com.google.template.soy.soytree.ForNode.RangeArgs
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[128,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_VariableSet_VarKey
+[ERROR] location: class com.google.template.soy.jbcsrc.VariableSet.VarKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[494,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_VariableSet_SaveRestoreState
+[ERROR] location: class com.google.template.soy.jbcsrc.VariableSet
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[121,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[124,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[127,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[144,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/conformance/ConformanceInput.java:[32,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_ConformanceInput
+[ERROR] location: class com.google.template.soy.conformance.ConformanceInput
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/restricted/SoyMsgPart.java:[35,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyMsgPart_Case
+[ERROR] location: class com.google.template.soy.msgs.restricted.SoyMsgPart.Case<T>
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/HelperFunctions.java:[181,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_HelperFunctions_FieldAccessStrategy
+[ERROR] location: class com.google.template.soy.jssrc.internal.HelperFunctions.FieldAccessStrategy
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/DetachState.java:[330,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_DetachState_ReattachState
+[ERROR] location: class com.google.template.soy.jbcsrc.DetachState.ReattachState
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[51,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyAstCache_VersionedFile
+[ERROR] location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[61,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyAstCache_VersionedFile
+[ERROR] location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ControlFlow.java:[39,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_ControlFlow_IfBlock
+[ERROR] location: class com.google.template.soy.jbcsrc.ControlFlow.IfBlock
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyNodeCompiler.java:[387,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyNodeCompiler_CompiledRangeArgs
+[ERROR] location: class com.google.template.soy.jbcsrc.SoyNodeCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/BytecodeCompiler.java:[190,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_BytecodeCompiler_CompilationResult
+[ERROR] location: class com.google.template.soy.jbcsrc.BytecodeCompiler
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests
+0.135s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-closure-templates 4aa958d3a2d071762ec4ce51ea160a3eceff9b29:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.template:soy:jar:2.5.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 274, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Closure Templates 2.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ soy ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ soy ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce) @ soy ---
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ soy ---
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprparse/ExpressionParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soyparse/TemplateParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated with 0 errors and 8 warnings.
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soyparse/SoyFileParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/types/parse/TypeParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 4 grammars
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ soy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ soy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 545 source files to /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateDelegateNode.java:[141,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprtree/VarRefNode.java:[35,47] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprtree/GlobalNode.java:[32,80] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/SoyFileSetNode.java:[38,66] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[305,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[310,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[327,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[352,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[356,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[394,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[412,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[479,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[484,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[103,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[112,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[126,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[140,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[146,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgPluralNode.java:[157,54] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[37,49] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[160,40] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[169,40] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[206,35] isKnown() in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgPluralCaseNode.java:[81,51] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgSelectCaseNode.java:[79,54] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgHtmlTagNode.java:[229,89] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgHtmlTagNode.java:[230,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/XidNode.java:[120,71] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/LetValueNode.java:[107,57] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/LetContentNode.java:[182,69] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallBasicNode.java:[172,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallDelegateNode.java:[124,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallParamValueNode.java:[116,60] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallParamContentNode.java:[187,53] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SlicedRawTextNode.java:[154,30] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SlicedRawTextNode.java:[246,51] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SlicedRawTextNode.java:[285,39] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SoyAutoescapeException.java:[40,40] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SoyAutoescapeException.java:[52,40] createCausedWithoutMetaInfo(java.lang.String,java.lang.Throwable) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SoyAutoescapeException.java:[149,46] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/restricted/CollectionData.java:[57,38] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/SoyListData.java:[150,20] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/SoyMapData.java:[72,29] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/sharedpasses/ReportSyntaxVersionErrorsVisitor.java:[109,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/GenJsCodeVisitorAssistantForMsgs.java:[469,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/JsExprTranslator.java:[93,27] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/RewriteRemaindersVisitor.java:[109,84] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/InferenceEngine.java:[302,27] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/InferenceEngine.java:[769,22] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/InferenceEngine.java:[900,38] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[60,72] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[62,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[66,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[68,70] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[70,41] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[131,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/SoySyntaxExceptionUtils.java:[47,44] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/SoySyntaxExceptionUtils.java:[64,44] createCausedWithoutMetaInfo(java.lang.String,java.lang.Throwable) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/RequirecssUtils.java:[54,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprtree/VarNode.java:[35,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/sharedpasses/RenameCssVisitor.java:[95,92] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/sharedpasses/RenameCssVisitor.java:[99,55] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/DerivedTemplateUtils.java:[81,28] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/i18ndirectives/FormatNumDirective.java:[149,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/i18ndirectives/FormatNumDirective.java:[196,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[117,43] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[158,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[160,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[162,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[164,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[330,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[338,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[345,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/ContentSecurityPolicyPass.java:[571,23] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/ContentSecurityPolicyPass.java:[585,23] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/PerformDeprecatedNonContextualAutoescapeVisitor.java:[132,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/ErrorReporterImpl.java:[78,37] SoySyntaxException(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[312,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[323,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[328,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[332,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/exprparse/ExpressionParser.java:[267,46] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/exprparse/ExpressionParser.java:[830,64] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/exprparse/ExpressionParser.java:[905,82] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[INFO] 84 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyExpression.java:[546,27] method tryUnbox() is already defined in class com.google.template.soy.jbcsrc.SoyExpression
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[48,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[69,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[87,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[102,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[136,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[306,16] cannot find symbol
+  symbol:   class AutoValue_MethodRef
+  location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[320,16] cannot find symbol
+  symbol:   class AutoValue_MethodRef
+  location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[395,16] cannot find symbol
+  symbol:   class AutoValue_MethodRef
+  location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/LazyClosureCompiler.java:[431,18] cannot find symbol
+  symbol:   class AutoValue_LazyClosureCompiler_ParentCapture
+  location: class com.google.template.soy.jbcsrc.LazyClosureCompiler.ParentCapture
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[34,16] cannot find symbol
+  symbol:   class AutoValue_TypeInfo
+  location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[45,16] cannot find symbol
+  symbol:   class AutoValue_TypeInfo
+  location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[64,16] cannot find symbol
+  symbol:   class AutoValue_TypeInfo
+  location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/CompiledTemplateMetadata.java:[67,16] cannot find symbol
+  symbol:   class AutoValue_CompiledTemplateMetadata
+  location: class com.google.template.soy.jbcsrc.CompiledTemplateMetadata
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateDelegateNode.java:[67,18] cannot find symbol
+  symbol:   class AutoValue_TemplateDelegateNode_DelTemplateKey
+  location: class com.google.template.soy.soytree.TemplateDelegateNode.DelTemplateKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[49,16] cannot find symbol
+  symbol:   class AutoValue_ConstructorRef
+  location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[75,16] cannot find symbol
+  symbol:   class AutoValue_ConstructorRef
+  location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/ForNode.java:[64,18] cannot find symbol
+  symbol:   class AutoValue_ForNode_RangeArgs
+  location: class com.google.template.soy.soytree.ForNode.RangeArgs
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[128,18] cannot find symbol
+  symbol:   class AutoValue_VariableSet_VarKey
+  location: class com.google.template.soy.jbcsrc.VariableSet.VarKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[494,16] cannot find symbol
+  symbol:   class AutoValue_VariableSet_SaveRestoreState
+  location: class com.google.template.soy.jbcsrc.VariableSet
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[121,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[124,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[127,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[144,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/conformance/ConformanceInput.java:[32,16] cannot find symbol
+  symbol:   class AutoValue_ConformanceInput
+  location: class com.google.template.soy.conformance.ConformanceInput
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/restricted/SoyMsgPart.java:[35,18] cannot find symbol
+  symbol:   class AutoValue_SoyMsgPart_Case
+  location: class com.google.template.soy.msgs.restricted.SoyMsgPart.Case<T>
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/HelperFunctions.java:[181,18] cannot find symbol
+  symbol:   class AutoValue_HelperFunctions_FieldAccessStrategy
+  location: class com.google.template.soy.jssrc.internal.HelperFunctions.FieldAccessStrategy
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/DetachState.java:[330,18] cannot find symbol
+  symbol:   class AutoValue_DetachState_ReattachState
+  location: class com.google.template.soy.jbcsrc.DetachState.ReattachState
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[51,18] cannot find symbol
+  symbol:   class AutoValue_SoyAstCache_VersionedFile
+  location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[61,18] cannot find symbol
+  symbol:   class AutoValue_SoyAstCache_VersionedFile
+  location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ControlFlow.java:[39,18] cannot find symbol
+  symbol:   class AutoValue_ControlFlow_IfBlock
+  location: class com.google.template.soy.jbcsrc.ControlFlow.IfBlock
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyNodeCompiler.java:[387,16] cannot find symbol
+  symbol:   class AutoValue_SoyNodeCompiler_CompiledRangeArgs
+  location: class com.google.template.soy.jbcsrc.SoyNodeCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/BytecodeCompiler.java:[190,16] cannot find symbol
+  symbol:   class AutoValue_BytecodeCompiler_CompilationResult
+  location: class com.google.template.soy.jbcsrc.BytecodeCompiler
+[INFO] 33 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.267 s
+[INFO] Finished at: 2019-12-04T09:49:38+00:00
+[INFO] Final Memory: 22M/490M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project soy: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyExpression.java:[546,27] method tryUnbox() is already defined in class com.google.template.soy.jbcsrc.SoyExpression
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[48,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[69,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[87,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[102,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[136,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[306,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_MethodRef
+[ERROR] location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[320,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_MethodRef
+[ERROR] location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[395,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_MethodRef
+[ERROR] location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/LazyClosureCompiler.java:[431,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_LazyClosureCompiler_ParentCapture
+[ERROR] location: class com.google.template.soy.jbcsrc.LazyClosureCompiler.ParentCapture
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[34,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_TypeInfo
+[ERROR] location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[45,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_TypeInfo
+[ERROR] location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[64,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_TypeInfo
+[ERROR] location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/CompiledTemplateMetadata.java:[67,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_CompiledTemplateMetadata
+[ERROR] location: class com.google.template.soy.jbcsrc.CompiledTemplateMetadata
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateDelegateNode.java:[67,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_TemplateDelegateNode_DelTemplateKey
+[ERROR] location: class com.google.template.soy.soytree.TemplateDelegateNode.DelTemplateKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[49,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_ConstructorRef
+[ERROR] location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[75,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_ConstructorRef
+[ERROR] location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/ForNode.java:[64,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_ForNode_RangeArgs
+[ERROR] location: class com.google.template.soy.soytree.ForNode.RangeArgs
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[128,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_VariableSet_VarKey
+[ERROR] location: class com.google.template.soy.jbcsrc.VariableSet.VarKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[494,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_VariableSet_SaveRestoreState
+[ERROR] location: class com.google.template.soy.jbcsrc.VariableSet
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[121,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[124,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[127,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[144,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/conformance/ConformanceInput.java:[32,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_ConformanceInput
+[ERROR] location: class com.google.template.soy.conformance.ConformanceInput
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/restricted/SoyMsgPart.java:[35,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyMsgPart_Case
+[ERROR] location: class com.google.template.soy.msgs.restricted.SoyMsgPart.Case<T>
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/HelperFunctions.java:[181,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_HelperFunctions_FieldAccessStrategy
+[ERROR] location: class com.google.template.soy.jssrc.internal.HelperFunctions.FieldAccessStrategy
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/DetachState.java:[330,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_DetachState_ReattachState
+[ERROR] location: class com.google.template.soy.jbcsrc.DetachState.ReattachState
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[51,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyAstCache_VersionedFile
+[ERROR] location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[61,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyAstCache_VersionedFile
+[ERROR] location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ControlFlow.java:[39,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_ControlFlow_IfBlock
+[ERROR] location: class com.google.template.soy.jbcsrc.ControlFlow.IfBlock
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyNodeCompiler.java:[387,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyNodeCompiler_CompiledRangeArgs
+[ERROR] location: class com.google.template.soy.jbcsrc.SoyNodeCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/BytecodeCompiler.java:[190,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_BytecodeCompiler_CompilationResult
+[ERROR] location: class com.google.template.soy.jbcsrc.BytecodeCompiler
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests
+0.121s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-closure-templates 4aa958d3a2d071762ec4ce51ea160a3eceff9b29:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.google.template:soy:jar:2.5.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 274, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Closure Templates 2.5.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ soy ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven) @ soy ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce) @ soy ---
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ soy ---
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprparse/ExpressionParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soyparse/TemplateParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated with 0 errors and 8 warnings.
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soyparse/SoyFileParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+Java Compiler Compiler Version 5.0 (Parser Generator)
+(type "javacc" with no arguments for help)
+Reading from file /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/types/parse/TypeParser.jj . . .
+Note: UNICODE_INPUT option is specified. Please make sure you create the parser/lexer using a Reader with the correct character encoding.
+File "TokenMgrError.java" does not exist.  Will create one.
+File "ParseException.java" does not exist.  Will create one.
+File "Token.java" does not exist.  Will create one.
+File "SimpleCharStream.java" does not exist.  Will create one.
+Parser generated successfully.
+[INFO] Processed 4 grammars
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ soy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ soy ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 545 source files to /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/JsExprTranslator.java:[93,27] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprtree/VarRefNode.java:[35,47] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprtree/GlobalNode.java:[32,80] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[305,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[310,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[327,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[352,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[356,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[394,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[412,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[479,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateNodeBuilder.java:[484,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/SoyFileSetNode.java:[38,66] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallBasicNode.java:[172,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallDelegateNode.java:[124,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallParamContentNode.java:[187,53] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgPluralNode.java:[157,54] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateDelegateNode.java:[141,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgPluralCaseNode.java:[81,51] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgSelectCaseNode.java:[79,54] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgHtmlTagNode.java:[229,89] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/MsgHtmlTagNode.java:[230,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/XidNode.java:[120,71] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/LetValueNode.java:[107,57] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/LetContentNode.java:[182,69] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallParamValueNode.java:[116,60] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[37,49] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[160,40] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[169,40] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/base/SoySyntaxException.java:[206,35] isKnown() in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[103,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[112,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[126,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[140,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateBasicNodeBuilder.java:[146,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[60,72] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[62,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[66,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[68,70] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[70,41] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/internalutils/InternalValueUtils.java:[131,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SlicedRawTextNode.java:[154,30] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SlicedRawTextNode.java:[246,51] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SlicedRawTextNode.java:[285,39] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SoyAutoescapeException.java:[40,40] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SoyAutoescapeException.java:[52,40] createCausedWithoutMetaInfo(java.lang.String,java.lang.Throwable) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/SoyAutoescapeException.java:[149,46] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/GenJsCodeVisitorAssistantForMsgs.java:[469,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[117,43] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[158,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[160,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[162,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[164,44] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[330,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[338,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/soyparse/SoyFileParser.java:[345,25] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/exprparse/ExpressionParser.java:[267,46] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/exprparse/ExpressionParser.java:[830,64] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/target/generated-sources/javacc/com/google/template/soy/exprparse/ExpressionParser.java:[905,82] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/exprtree/VarNode.java:[35,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/RewriteRemaindersVisitor.java:[109,84] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/sharedpasses/RenameCssVisitor.java:[95,92] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/sharedpasses/RenameCssVisitor.java:[99,55] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[312,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[323,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[328,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/internal/IcuSyntaxUtils.java:[332,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/restricted/CollectionData.java:[57,38] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/SoyMapData.java:[72,29] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/data/SoyListData.java:[150,20] createFromExistingData(java.lang.Object) in com.google.template.soy.data.SoyData has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/SoySyntaxExceptionUtils.java:[47,44] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/SoySyntaxExceptionUtils.java:[64,44] createCausedWithoutMetaInfo(java.lang.String,java.lang.Throwable) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/DerivedTemplateUtils.java:[81,28] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/sharedpasses/ReportSyntaxVersionErrorsVisitor.java:[109,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/RequirecssUtils.java:[54,33] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/i18ndirectives/FormatNumDirective.java:[149,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/i18ndirectives/FormatNumDirective.java:[196,31] createWithoutMetaInfo(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/ContentSecurityPolicyPass.java:[571,23] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/ContentSecurityPolicyPass.java:[585,23] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/InferenceEngine.java:[302,27] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/InferenceEngine.java:[769,22] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/InferenceEngine.java:[900,38] equals(java.lang.Object) in com.google.template.soy.parsepasses.contextautoesc.Context has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/parsepasses/contextautoesc/PerformDeprecatedNonContextualAutoescapeVisitor.java:[132,74] UNKNOWN in com.google.template.soy.base.SourceLocation has been deprecated
+[WARNING] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/ErrorReporterImpl.java:[78,37] SoySyntaxException(java.lang.String) in com.google.template.soy.base.SoySyntaxException has been deprecated
+[INFO] 84 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyExpression.java:[546,27] method tryUnbox() is already defined in class com.google.template.soy.jbcsrc.SoyExpression
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[121,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[124,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[127,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[144,18] cannot find symbol
+  symbol:   class AutoValue_CallNode_DataAttribute
+  location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[34,16] cannot find symbol
+  symbol:   class AutoValue_TypeInfo
+  location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[45,16] cannot find symbol
+  symbol:   class AutoValue_TypeInfo
+  location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[64,16] cannot find symbol
+  symbol:   class AutoValue_TypeInfo
+  location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/restricted/SoyMsgPart.java:[35,18] cannot find symbol
+  symbol:   class AutoValue_SoyMsgPart_Case
+  location: class com.google.template.soy.msgs.restricted.SoyMsgPart.Case<T>
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateDelegateNode.java:[67,18] cannot find symbol
+  symbol:   class AutoValue_TemplateDelegateNode_DelTemplateKey
+  location: class com.google.template.soy.soytree.TemplateDelegateNode.DelTemplateKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/ForNode.java:[64,18] cannot find symbol
+  symbol:   class AutoValue_ForNode_RangeArgs
+  location: class com.google.template.soy.soytree.ForNode.RangeArgs
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[128,18] cannot find symbol
+  symbol:   class AutoValue_VariableSet_VarKey
+  location: class com.google.template.soy.jbcsrc.VariableSet.VarKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[494,16] cannot find symbol
+  symbol:   class AutoValue_VariableSet_SaveRestoreState
+  location: class com.google.template.soy.jbcsrc.VariableSet
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ControlFlow.java:[39,18] cannot find symbol
+  symbol:   class AutoValue_ControlFlow_IfBlock
+  location: class com.google.template.soy.jbcsrc.ControlFlow.IfBlock
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyNodeCompiler.java:[387,16] cannot find symbol
+  symbol:   class AutoValue_SoyNodeCompiler_CompiledRangeArgs
+  location: class com.google.template.soy.jbcsrc.SoyNodeCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[48,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[69,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[87,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[102,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[136,16] cannot find symbol
+  symbol:   class AutoValue_FieldRef
+  location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/DetachState.java:[330,18] cannot find symbol
+  symbol:   class AutoValue_DetachState_ReattachState
+  location: class com.google.template.soy.jbcsrc.DetachState.ReattachState
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[306,16] cannot find symbol
+  symbol:   class AutoValue_MethodRef
+  location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[320,16] cannot find symbol
+  symbol:   class AutoValue_MethodRef
+  location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[395,16] cannot find symbol
+  symbol:   class AutoValue_MethodRef
+  location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/LazyClosureCompiler.java:[431,18] cannot find symbol
+  symbol:   class AutoValue_LazyClosureCompiler_ParentCapture
+  location: class com.google.template.soy.jbcsrc.LazyClosureCompiler.ParentCapture
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/CompiledTemplateMetadata.java:[67,16] cannot find symbol
+  symbol:   class AutoValue_CompiledTemplateMetadata
+  location: class com.google.template.soy.jbcsrc.CompiledTemplateMetadata
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[49,16] cannot find symbol
+  symbol:   class AutoValue_ConstructorRef
+  location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[75,16] cannot find symbol
+  symbol:   class AutoValue_ConstructorRef
+  location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[51,18] cannot find symbol
+  symbol:   class AutoValue_SoyAstCache_VersionedFile
+  location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[61,18] cannot find symbol
+  symbol:   class AutoValue_SoyAstCache_VersionedFile
+  location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/conformance/ConformanceInput.java:[32,16] cannot find symbol
+  symbol:   class AutoValue_ConformanceInput
+  location: class com.google.template.soy.conformance.ConformanceInput
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/HelperFunctions.java:[181,18] cannot find symbol
+  symbol:   class AutoValue_HelperFunctions_FieldAccessStrategy
+  location: class com.google.template.soy.jssrc.internal.HelperFunctions.FieldAccessStrategy
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/BytecodeCompiler.java:[190,16] cannot find symbol
+  symbol:   class AutoValue_BytecodeCompiler_CompilationResult
+  location: class com.google.template.soy.jbcsrc.BytecodeCompiler
+[INFO] 33 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.803 s
+[INFO] Finished at: 2019-12-04T09:49:51+00:00
+[INFO] Final Memory: 18M/393M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project soy: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyExpression.java:[546,27] method tryUnbox() is already defined in class com.google.template.soy.jbcsrc.SoyExpression
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[121,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[124,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[127,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/CallNode.java:[144,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_CallNode_DataAttribute
+[ERROR] location: class com.google.template.soy.soytree.CallNode.DataAttribute
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[34,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_TypeInfo
+[ERROR] location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[45,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_TypeInfo
+[ERROR] location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/TypeInfo.java:[64,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_TypeInfo
+[ERROR] location: class com.google.template.soy.jbcsrc.TypeInfo
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/msgs/restricted/SoyMsgPart.java:[35,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyMsgPart_Case
+[ERROR] location: class com.google.template.soy.msgs.restricted.SoyMsgPart.Case<T>
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/TemplateDelegateNode.java:[67,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_TemplateDelegateNode_DelTemplateKey
+[ERROR] location: class com.google.template.soy.soytree.TemplateDelegateNode.DelTemplateKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/soytree/ForNode.java:[64,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_ForNode_RangeArgs
+[ERROR] location: class com.google.template.soy.soytree.ForNode.RangeArgs
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[128,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_VariableSet_VarKey
+[ERROR] location: class com.google.template.soy.jbcsrc.VariableSet.VarKey
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/VariableSet.java:[494,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_VariableSet_SaveRestoreState
+[ERROR] location: class com.google.template.soy.jbcsrc.VariableSet
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ControlFlow.java:[39,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_ControlFlow_IfBlock
+[ERROR] location: class com.google.template.soy.jbcsrc.ControlFlow.IfBlock
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/SoyNodeCompiler.java:[387,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyNodeCompiler_CompiledRangeArgs
+[ERROR] location: class com.google.template.soy.jbcsrc.SoyNodeCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[48,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[69,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[87,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[102,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/FieldRef.java:[136,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_FieldRef
+[ERROR] location: class com.google.template.soy.jbcsrc.FieldRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/DetachState.java:[330,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_DetachState_ReattachState
+[ERROR] location: class com.google.template.soy.jbcsrc.DetachState.ReattachState
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[306,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_MethodRef
+[ERROR] location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[320,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_MethodRef
+[ERROR] location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/MethodRef.java:[395,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_MethodRef
+[ERROR] location: class com.google.template.soy.jbcsrc.MethodRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/LazyClosureCompiler.java:[431,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_LazyClosureCompiler_ParentCapture
+[ERROR] location: class com.google.template.soy.jbcsrc.LazyClosureCompiler.ParentCapture
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/CompiledTemplateMetadata.java:[67,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_CompiledTemplateMetadata
+[ERROR] location: class com.google.template.soy.jbcsrc.CompiledTemplateMetadata
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[49,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_ConstructorRef
+[ERROR] location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/ConstructorRef.java:[75,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_ConstructorRef
+[ERROR] location: class com.google.template.soy.jbcsrc.ConstructorRef
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[51,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyAstCache_VersionedFile
+[ERROR] location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/shared/SoyAstCache.java:[61,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_SoyAstCache_VersionedFile
+[ERROR] location: class com.google.template.soy.shared.SoyAstCache.VersionedFile
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/conformance/ConformanceInput.java:[32,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_ConformanceInput
+[ERROR] location: class com.google.template.soy.conformance.ConformanceInput
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jssrc/internal/HelperFunctions.java:[181,18] cannot find symbol
+[ERROR] symbol:   class AutoValue_HelperFunctions_FieldAccessStrategy
+[ERROR] location: class com.google.template.soy.jssrc.internal.HelperFunctions.FieldAccessStrategy
+[ERROR] /home/ubuntu/ATLAS/apps/google-closure-templates/download/4aa958d3a2d071762ec4ce51ea160a3eceff9b29/java/src/com/google/template/soy/jbcsrc/BytecodeCompiler.java:[190,16] cannot find symbol
+[ERROR] symbol:   class AutoValue_BytecodeCompiler_CompilationResult
+[ERROR] location: class com.google.template.soy.jbcsrc.BytecodeCompiler
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests
+0.34s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-closure-templates 4aa958d3a2d071762ec4ce51ea160a3eceff9b29:
+mvn clean compile -DskipTests
+0.372s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

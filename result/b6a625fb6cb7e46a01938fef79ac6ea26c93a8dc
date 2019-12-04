@@ -1,0 +1,496 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-gson b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: gson @ 
+[ERROR] Could not find the selected project in the reactor: gson -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: class com.google.gson.Gson
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.586 s
+[INFO] Finished at: 2019-12-04T09:53:47+00:00
+[INFO] Final Memory: 18M/265M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: class com.google.gson.Gson
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: class com.google.gson.Gson
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.549 s
+[INFO] Finished at: 2019-12-04T09:53:51+00:00
+[INFO] Final Memory: 17M/263M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: class com.google.gson.Gson
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.338s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-gson b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: gson @ 
+[ERROR] Could not find the selected project in the reactor: gson -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: class com.google.gson.Gson
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.408 s
+[INFO] Finished at: 2019-12-04T09:53:57+00:00
+[INFO] Final Memory: 18M/262M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: class com.google.gson.Gson
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: class com.google.gson.Gson
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.443 s
+[INFO] Finished at: 2019-12-04T09:54:01+00:00
+[INFO] Final Memory: 17M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: class com.google.gson.Gson
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.463s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-gson b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: gson @ 
+[ERROR] Could not find the selected project in the reactor: gson -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: class com.google.gson.Gson
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.828 s
+[INFO] Finished at: 2019-12-04T09:54:09+00:00
+[INFO] Final Memory: 18M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: class com.google.gson.Gson
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Gson 2.3.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gson ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ gson ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 66 source files to /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+  symbol:   class ThrowableTypeAdapterFactory
+  location: class com.google.gson.Gson
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.725 s
+[INFO] Finished at: 2019-12-04T09:54:15+00:00
+[INFO] Final Memory: 15M/212M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project gson: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[26,37] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: package com.google.gson.internal.bind
+[ERROR] /home/ubuntu/ATLAS/apps/google-gson/download/b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc/gson/src/main/java/com/google/gson/Gson.java:[243,23] cannot find symbol
+[ERROR] symbol:   class ThrowableTypeAdapterFactory
+[ERROR] location: class com.google.gson.Gson
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.41s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-gson b6a625fb6cb7e46a01938fef79ac6ea26c93a8dc:
+mvn clean install -DskipTests -pl gson -am || mvn clean install -DskipTests -f gson/pom.xml || mvn clean compile  -DskipTests=true -f gson/pom.xml
+0.294s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

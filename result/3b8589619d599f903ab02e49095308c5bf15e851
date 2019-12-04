@@ -1,0 +1,895 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-auto 3b8589619d599f903ab02e49095308c5bf15e851:
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/com/google/auto/auto-parent/1.0-rc1/auto-parent-1.0-rc1.pom
+3/7 KB   6/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/com/google/auto/auto-parent/1.0-rc1/auto-parent-1.0-rc1.pom (7 KB at 12.7 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AutoValue 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service/1.0-rc1/auto-service-1.0-rc1.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service/1.0-rc1/auto-service-1.0-rc1.pom (3 KB at 105.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/15.0/guava-testlib-15.0.pom
+3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/15.0/guava-testlib-15.0.pom (3 KB at 21.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/com/google/testing/compile/compile-testing/0.3/compile-testing-0.3.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/com/google/testing/compile/compile-testing/0.3/compile-testing-0.3.pom (5 KB at 164.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service/1.0-rc1/auto-service-1.0-rc1.jar
+Downloading: https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0/guava-16.0.jar
+Downloading: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/15.0/guava-testlib-15.0.jar
+Downloading: https://repo.maven.apache.org/maven2/com/google/testing/compile/compile-testing/0.3/compile-testing-0.3.jar
+3/11 KB   5/11 KB   8/11 KB   11/11 KB   11/11 KB   11/11 KB   3/2174 KB   11/11 KB   5/2174 KB                          Downloaded: https://repo.maven.apache.org/maven2/com/google/auto/service/auto-service/1.0-rc1/auto-service-1.0-rc1.jar (11 KB at 328.5 KB/sec)
+8/2174 KB              11/2174 KB   13/2174 KB   16/2174 KB   19/2174 KB   21/2174 KB   24/2174 KB   27/2174 KB   29/2174 KB   32/2174 KB   36/2174 KB   40/2174 KB   44/2174 KB   48/2174 KB   52/2174 KB   56/2174 KB   60/2174 KB   64/2174 KB   68/2174 KB   72/2174 KB   76/2174 KB   80/2174 KB   84/2174 KB   88/2174 KB   92/2174 KB   96/2174 KB   100/2174 KB   104/2174 KB   108/2174 KB   112/2174 KB   116/2174 KB   120/2174 KB   124/2174 KB   128/2174 KB   132/2174 KB   136/2174 KB   140/2174 KB   144/2174 KB   148/2174 KB   152/2174 KB   156/2174 KB   160/2174 KB   164/2174 KB   168/2174 KB   172/2174 KB   176/2174 KB   180/2174 KB   184/2174 KB   188/2174 KB   192/2174 KB   196/2174 KB   200/2174 KB   204/2174 KB   208/2174 KB   212/2174 KB   216/2174 KB   220/2174 KB   224/2174 KB   228/2174 KB   232/2174 KB   236/2174 KB   240/2174 KB   244/2174 KB   248/2174 KB   252/2174 KB   256/2174 KB   260/2174 KB   264/2174 KB   268/2174 KB   272/2174 KB   276/2174 KB   280/2174 KB   284/2174 KB   288/2174 KB   292/2174 KB   296/2174 KB   300/2174 KB   304/2174 KB   308/2174 KB   312/2174 KB   316/2174 KB   320/2174 KB   324/2174 KB   328/2174 KB   332/2174 KB   336/2174 KB   340/2174 KB   344/2174 KB   348/2174 KB   352/2174 KB   356/2174 KB   360/2174 KB   364/2174 KB   368/2174 KB   372/2174 KB   376/2174 KB   380/2174 KB   384/2174 KB   388/2174 KB   392/2174 KB   396/2174 KB   400/2174 KB   404/2174 KB   408/2174 KB   412/2174 KB   416/2174 KB   420/2174 KB   424/2174 KB   428/2174 KB   432/2174 KB   436/2174 KB   440/2174 KB   444/2174 KB   448/2174 KB   452/2174 KB   456/2174 KB   460/2174 KB   464/2174 KB   468/2174 KB   472/2174 KB   476/2174 KB   480/2174 KB   484/2174 KB   488/2174 KB   492/2174 KB   496/2174 KB   500/2174 KB   504/2174 KB   508/2174 KB   512/2174 KB   516/2174 KB   520/2174 KB   524/2174 KB   528/2174 KB   532/2174 KB   536/2174 KB   540/2174 KB   544/2174 KB   548/2174 KB   552/2174 KB   556/2174 KB   560/2174 KB   564/2174 KB   568/2174 KB   572/2174 KB   576/2174 KB   580/2174 KB   584/2174 KB   588/2174 KB   592/2174 KB   596/2174 KB   600/2174 KB   604/2174 KB   608/2174 KB   612/2174 KB   616/2174 KB   620/2174 KB   624/2174 KB   628/2174 KB   632/2174 KB   636/2174 KB   640/2174 KB   644/2174 KB   648/2174 KB   652/2174 KB   656/2174 KB   660/2174 KB   664/2174 KB   668/2174 KB   672/2174 KB   676/2174 KB   680/2174 KB   684/2174 KB   688/2174 KB   692/2174 KB   696/2174 KB   700/2174 KB   704/2174 KB   708/2174 KB   712/2174 KB   716/2174 KB   720/2174 KB   724/2174 KB   728/2174 KB   732/2174 KB   736/2174 KB   740/2174 KB   744/2174 KB   748/2174 KB   752/2174 KB   752/2174 KB   3/726 KB   752/2174 KB   5/726 KB   752/2174 KB   8/726 KB   752/2174 KB   11/726 KB   752/2174 KB   13/726 KB   756/2174 KB   13/726 KB   760/2174 KB   13/726 KB   764/2174 KB   13/726 KB   768/2174 KB   13/726 KB   772/2174 KB   13/726 KB   772/2174 KB   16/726 KB   772/2174 KB   19/726 KB   772/2174 KB   21/726 KB   772/2174 KB   24/726 KB   772/2174 KB   27/726 KB   772/2174 KB   29/726 KB   772/2174 KB   32/726 KB   776/2174 KB   32/726 KB   780/2174 KB   32/726 KB   784/2174 KB   32/726 KB   788/2174 KB   32/726 KB   792/2174 KB   32/726 KB   796/2174 KB   32/726 KB   800/2174 KB   32/726 KB   800/2174 KB   36/726 KB   800/2174 KB   40/726 KB   800/2174 KB   44/726 KB   800/2174 KB   48/726 KB   800/2174 KB   52/726 KB   800/2174 KB   56/726 KB   800/2174 KB   60/726 KB   800/2174 KB   64/726 KB   800/2174 KB   68/726 KB   800/2174 KB   72/726 KB   804/2174 KB   72/726 KB   808/2174 KB   72/726 KB   812/2174 KB   72/726 KB   816/2174 KB   72/726 KB   820/2174 KB   72/726 KB   824/2174 KB   72/726 KB   828/2174 KB   72/726 KB   832/2174 KB   72/726 KB   832/2174 KB   76/726 KB   832/2174 KB   80/726 KB   832/2174 KB   84/726 KB   832/2174 KB   84/726 KB   3/57 KB   832/2174 KB   84/726 KB   5/57 KB   832/2174 KB   84/726 KB   8/57 KB   832/2174 KB   84/726 KB   11/57 KB   832/2174 KB   84/726 KB   13/57 KB   832/2174 KB   88/726 KB   13/57 KB   832/2174 KB   92/726 KB   13/57 KB   832/2174 KB   96/726 KB   13/57 KB   832/2174 KB   96/726 KB   16/57 KB   832/2174 KB   96/726 KB   19/57 KB   832/2174 KB   96/726 KB   21/57 KB   832/2174 KB   96/726 KB   24/57 KB   832/2174 KB   96/726 KB   27/57 KB   832/2174 KB   96/726 KB   29/57 KB   832/2174 KB   96/726 KB   32/57 KB   832/2174 KB   100/726 KB   32/57 KB   832/2174 KB   104/726 KB   32/57 KB   832/2174 KB   108/726 KB   32/57 KB   832/2174 KB   112/726 KB   32/57 KB   836/2174 KB   112/726 KB   32/57 KB   840/2174 KB   112/726 KB   32/57 KB   844/2174 KB   112/726 KB   32/57 KB   848/2174 KB   112/726 KB   32/57 KB   848/2174 KB   112/726 KB   36/57 KB   848/2174 KB   112/726 KB   40/57 KB   848/2174 KB   112/726 KB   44/57 KB   848/2174 KB   112/726 KB   48/57 KB   848/2174 KB   116/726 KB   48/57 KB   848/2174 KB   120/726 KB   48/57 KB   848/2174 KB   124/726 KB   48/57 KB   848/2174 KB   128/726 KB   48/57 KB   852/2174 KB   128/726 KB   48/57 KB   856/2174 KB   128/726 KB   48/57 KB   860/2174 KB   128/726 KB   48/57 KB   864/2174 KB   128/726 KB   48/57 KB   868/2174 KB   128/726 KB   48/57 KB   872/2174 KB   128/726 KB   48/57 KB   876/2174 KB   128/726 KB   48/57 KB   880/2174 KB   128/726 KB   48/57 KB   884/2174 KB   128/726 KB   48/57 KB   888/2174 KB   128/726 KB   48/57 KB   892/2174 KB   128/726 KB   48/57 KB   896/2174 KB   128/726 KB   48/57 KB   896/2174 KB   128/726 KB   52/57 KB   896/2174 KB   128/726 KB   56/57 KB   896/2174 KB   128/726 KB   57/57 KB   896/2174 KB   132/726 KB   57/57 KB   896/2174 KB   136/726 KB   57/57 KB   896/2174 KB   140/726 KB   57/57 KB   896/2174 KB   144/726 KB   57/57 KB   896/2174 KB   148/726 KB   57/57 KB   896/2174 KB   152/726 KB   57/57 KB   896/2174 KB   156/726 KB   57/57 KB   896/2174 KB   160/726 KB   57/57 KB   896/2174 KB   164/726 KB   57/57 KB   900/2174 KB   164/726 KB   57/57 KB   900/2174 KB   168/726 KB   57/57 KB   904/2174 KB   168/726 KB   57/57 KB   904/2174 KB   172/726 KB   57/57 KB   908/2174 KB   172/726 KB   57/57 KB   908/2174 KB   176/726 KB   57/57 KB   912/2174 KB   176/726 KB   57/57 KB                                         Downloaded: https://repo.maven.apache.org/maven2/com/google/testing/compile/compile-testing/0.3/compile-testing-0.3.jar (57 KB at 219.9 KB/sec)
+912/2174 KB   180/726 KB              912/2174 KB   184/726 KB   912/2174 KB   188/726 KB   912/2174 KB   192/726 KB   916/2174 KB   192/726 KB   920/2174 KB   192/726 KB   924/2174 KB   192/726 KB   928/2174 KB   192/726 KB   928/2174 KB   196/726 KB   928/2174 KB   200/726 KB   928/2174 KB   204/726 KB   928/2174 KB   208/726 KB   932/2174 KB   208/726 KB   936/2174 KB   208/726 KB   940/2174 KB   208/726 KB   940/2174 KB   212/726 KB   940/2174 KB   216/726 KB   940/2174 KB   220/726 KB   940/2174 KB   224/726 KB   940/2174 KB   228/726 KB   944/2174 KB   232/726 KB   944/2174 KB   236/726 KB   944/2174 KB   240/726 KB   944/2174 KB   228/726 KB   944/2174 KB   244/726 KB   944/2174 KB   248/726 KB   944/2174 KB   252/726 KB   944/2174 KB   256/726 KB   948/2174 KB   256/726 KB   952/2174 KB   256/726 KB   956/2174 KB   256/726 KB   960/2174 KB   256/726 KB   960/2174 KB   260/726 KB   960/2174 KB   264/726 KB   960/2174 KB   268/726 KB   960/2174 KB   272/726 KB   964/2174 KB   272/726 KB   968/2174 KB   272/726 KB   972/2174 KB   272/726 KB   976/2174 KB   272/726 KB   976/2174 KB   276/726 KB   976/2174 KB   280/726 KB   976/2174 KB   284/726 KB   976/2174 KB   288/726 KB   976/2174 KB   292/726 KB   976/2174 KB   296/726 KB   976/2174 KB   300/726 KB   976/2174 KB   304/726 KB   980/2174 KB   304/726 KB   984/2174 KB   304/726 KB   988/2174 KB   304/726 KB   992/2174 KB   304/726 KB   992/2174 KB   308/726 KB   992/2174 KB   312/726 KB   992/2174 KB   316/726 KB   992/2174 KB   320/726 KB   996/2174 KB   320/726 KB   1000/2174 KB   320/726 KB   1004/2174 KB   320/726 KB   1008/2174 KB   320/726 KB   1008/2174 KB   324/726 KB   1008/2174 KB   328/726 KB   1008/2174 KB   332/726 KB   1008/2174 KB   336/726 KB   1008/2174 KB   340/726 KB   1008/2174 KB   344/726 KB   1008/2174 KB   348/726 KB   1008/2174 KB   352/726 KB   1008/2174 KB   356/726 KB   1008/2174 KB   360/726 KB   1008/2174 KB   364/726 KB   1008/2174 KB   368/726 KB   1012/2174 KB   368/726 KB   1016/2174 KB   368/726 KB   1020/2174 KB   368/726 KB   1024/2174 KB   368/726 KB   1024/2174 KB   372/726 KB   1024/2174 KB   376/726 KB   1024/2174 KB   380/726 KB   1024/2174 KB   384/726 KB   1028/2174 KB   384/726 KB   1032/2174 KB   384/726 KB   1036/2174 KB   384/726 KB   1040/2174 KB   384/726 KB   1040/2174 KB   388/726 KB   1040/2174 KB   392/726 KB   1040/2174 KB   396/726 KB   1040/2174 KB   400/726 KB   1044/2174 KB   400/726 KB   1048/2174 KB   400/726 KB   1052/2174 KB   400/726 KB   1056/2174 KB   400/726 KB   1056/2174 KB   404/726 KB   1056/2174 KB   408/726 KB   1056/2174 KB   412/726 KB   1056/2174 KB   416/726 KB   1056/2174 KB   420/726 KB   1056/2174 KB   424/726 KB   1056/2174 KB   428/726 KB   1056/2174 KB   432/726 KB   1056/2174 KB   436/726 KB   1056/2174 KB   440/726 KB   1056/2174 KB   444/726 KB   1056/2174 KB   448/726 KB   1056/2174 KB   452/726 KB   1056/2174 KB   456/726 KB   1056/2174 KB   460/726 KB   1056/2174 KB   464/726 KB   1060/2174 KB   464/726 KB   1064/2174 KB   464/726 KB   1068/2174 KB   464/726 KB   1072/2174 KB   464/726 KB   1072/2174 KB   468/726 KB   1072/2174 KB   472/726 KB   1072/2174 KB   476/726 KB   1072/2174 KB   480/726 KB   1076/2174 KB   480/726 KB   1080/2174 KB   480/726 KB   1084/2174 KB   480/726 KB   1088/2174 KB   480/726 KB   1088/2174 KB   484/726 KB   1088/2174 KB   488/726 KB   1088/2174 KB   492/726 KB   1088/2174 KB   496/726 KB   1092/2174 KB   496/726 KB   1096/2174 KB   496/726 KB   1100/2174 KB   496/726 KB   1104/2174 KB   496/726 KB   1104/2174 KB   500/726 KB   1104/2174 KB   504/726 KB   1104/2174 KB   508/726 KB   1104/2174 KB   512/726 KB   1104/2174 KB   516/726 KB   1104/2174 KB   520/726 KB   1104/2174 KB   524/726 KB   1104/2174 KB   528/726 KB   1104/2174 KB   532/726 KB   1104/2174 KB   536/726 KB   1104/2174 KB   540/726 KB   1104/2174 KB   544/726 KB   1104/2174 KB   548/726 KB   1104/2174 KB   552/726 KB   1104/2174 KB   556/726 KB   1104/2174 KB   560/726 KB   1108/2174 KB   560/726 KB   1112/2174 KB   560/726 KB   1116/2174 KB   560/726 KB   1120/2174 KB   560/726 KB   1120/2174 KB   564/726 KB   1120/2174 KB   568/726 KB   1120/2174 KB   572/726 KB   1120/2174 KB   576/726 KB   1124/2174 KB   576/726 KB   1128/2174 KB   576/726 KB   1132/2174 KB   576/726 KB   1136/2174 KB   576/726 KB   1136/2174 KB   580/726 KB   1136/2174 KB   584/726 KB   1136/2174 KB   588/726 KB   1136/2174 KB   592/726 KB   1140/2174 KB   592/726 KB   1144/2174 KB   592/726 KB   1148/2174 KB   592/726 KB   1152/2174 KB   592/726 KB   1152/2174 KB   596/726 KB   1152/2174 KB   600/726 KB   1152/2174 KB   604/726 KB   1152/2174 KB   608/726 KB   1152/2174 KB   612/726 KB   1152/2174 KB   616/726 KB   1152/2174 KB   620/726 KB   1152/2174 KB   624/726 KB   1152/2174 KB   628/726 KB   1152/2174 KB   632/726 KB   1152/2174 KB   636/726 KB   1152/2174 KB   640/726 KB   1152/2174 KB   644/726 KB   1152/2174 KB   648/726 KB   1152/2174 KB   652/726 KB   1152/2174 KB   656/726 KB   1156/2174 KB   656/726 KB   1160/2174 KB   656/726 KB   1164/2174 KB   656/726 KB   1168/2174 KB   656/726 KB   1168/2174 KB   660/726 KB   1168/2174 KB   664/726 KB   1168/2174 KB   668/726 KB   1168/2174 KB   672/726 KB   1172/2174 KB   672/726 KB   1176/2174 KB   672/726 KB   1180/2174 KB   672/726 KB   1184/2174 KB   672/726 KB   1184/2174 KB   676/726 KB   1184/2174 KB   680/726 KB   1184/2174 KB   684/726 KB   1184/2174 KB   688/726 KB   1188/2174 KB   688/726 KB   1192/2174 KB   688/726 KB   1196/2174 KB   688/726 KB   1200/2174 KB   688/726 KB   1200/2174 KB   692/726 KB   1200/2174 KB   696/726 KB   1200/2174 KB   700/726 KB   1200/2174 KB   704/726 KB   1200/2174 KB   708/726 KB   1200/2174 KB   712/726 KB   1200/2174 KB   716/726 KB   1200/2174 KB   720/726 KB   1200/2174 KB   724/726 KB   1200/2174 KB   726/726 KB   1204/2174 KB   726/726 KB   1208/2174 KB   726/726 KB   1212/2174 KB   726/726 KB   1216/2174 KB   726/726 KB   1220/2174 KB   726/726 KB   1224/2174 KB   726/726 KB   1228/2174 KB   726/726 KB   1232/2174 KB   726/726 KB   1236/2174 KB   726/726 KB   1240/2174 KB   726/726 KB   1244/2174 KB   726/726 KB   1248/2174 KB   726/726 KB   1252/2174 KB   726/726 KB   1256/2174 KB   726/726 KB   1260/2174 KB   726/726 KB   1264/2174 KB   726/726 KB                               Downloaded: https://repo.maven.apache.org/maven2/com/google/guava/guava-testlib/15.0/guava-testlib-15.0.jar (726 KB at 1960.7 KB/sec)
+1268/2174 KB                1272/2174 KB   1276/2174 KB   1280/2174 KB   1284/2174 KB   1288/2174 KB   1292/2174 KB   1296/2174 KB   1300/2174 KB   1304/2174 KB   1308/2174 KB   1312/2174 KB   1316/2174 KB   1320/2174 KB   1324/2174 KB   1328/2174 KB   1332/2174 KB   1336/2174 KB   1340/2174 KB   1344/2174 KB   1348/2174 KB   1352/2174 KB   1356/2174 KB   1360/2174 KB   1364/2174 KB   1368/2174 KB   1372/2174 KB   1376/2174 KB   1380/2174 KB   1384/2174 KB   1388/2174 KB   1392/2174 KB   1396/2174 KB   1400/2174 KB   1404/2174 KB   1408/2174 KB   1412/2174 KB   1416/2174 KB   1420/2174 KB   1424/2174 KB   1428/2174 KB   1432/2174 KB   1436/2174 KB   1440/2174 KB   1444/2174 KB   1448/2174 KB   1452/2174 KB   1456/2174 KB   1460/2174 KB   1464/2174 KB   1468/2174 KB   1472/2174 KB   1476/2174 KB   1480/2174 KB   1484/2174 KB   1488/2174 KB   1492/2174 KB   1496/2174 KB   1500/2174 KB   1504/2174 KB   1508/2174 KB   1512/2174 KB   1516/2174 KB   1520/2174 KB   1524/2174 KB   1528/2174 KB   1532/2174 KB   1536/2174 KB   1540/2174 KB   1544/2174 KB   1548/2174 KB   1552/2174 KB   1556/2174 KB   1560/2174 KB   1564/2174 KB   1568/2174 KB   1572/2174 KB   1576/2174 KB   1580/2174 KB   1584/2174 KB   1588/2174 KB   1592/2174 KB   1596/2174 KB   1600/2174 KB   1604/2174 KB   1608/2174 KB   1612/2174 KB   1616/2174 KB   1620/2174 KB   1624/2174 KB   1628/2174 KB   1632/2174 KB   1636/2174 KB   1640/2174 KB   1644/2174 KB   1648/2174 KB   1652/2174 KB   1656/2174 KB   1660/2174 KB   1664/2174 KB   1668/2174 KB   1672/2174 KB   1676/2174 KB   1680/2174 KB   1684/2174 KB   1688/2174 KB   1692/2174 KB   1696/2174 KB   1700/2174 KB   1704/2174 KB   1708/2174 KB   1712/2174 KB   1716/2174 KB   1720/2174 KB   1724/2174 KB   1728/2174 KB   1732/2174 KB   1736/2174 KB   1740/2174 KB   1744/2174 KB   1748/2174 KB   1752/2174 KB   1756/2174 KB   1760/2174 KB   1764/2174 KB   1768/2174 KB   1772/2174 KB   1776/2174 KB   1780/2174 KB   1784/2174 KB   1788/2174 KB   1792/2174 KB   1796/2174 KB   1800/2174 KB   1804/2174 KB   1808/2174 KB   1812/2174 KB   1816/2174 KB   1820/2174 KB   1824/2174 KB   1828/2174 KB   1832/2174 KB   1836/2174 KB   1840/2174 KB   1844/2174 KB   1848/2174 KB   1852/2174 KB   1856/2174 KB   1860/2174 KB   1864/2174 KB   1868/2174 KB   1872/2174 KB   1876/2174 KB   1880/2174 KB   1884/2174 KB   1888/2174 KB   1891/2174 KB   1895/2174 KB   1899/2174 KB   1903/2174 KB   1907/2174 KB   1911/2174 KB   1915/2174 KB   1919/2174 KB   1923/2174 KB   1927/2174 KB   1931/2174 KB   1935/2174 KB   1939/2174 KB   1943/2174 KB   1947/2174 KB   1951/2174 KB   1955/2174 KB   1959/2174 KB   1963/2174 KB   1967/2174 KB   1971/2174 KB   1975/2174 KB   1979/2174 KB   1983/2174 KB   1987/2174 KB   1991/2174 KB   1995/2174 KB   1999/2174 KB   2003/2174 KB   2007/2174 KB   2011/2174 KB   2015/2174 KB   2019/2174 KB   2023/2174 KB   2027/2174 KB   2031/2174 KB   2035/2174 KB   2039/2174 KB   2043/2174 KB   2047/2174 KB   2051/2174 KB   2055/2174 KB   2059/2174 KB   2063/2174 KB   2067/2174 KB   2071/2174 KB   2075/2174 KB   2079/2174 KB   2083/2174 KB   2087/2174 KB   2091/2174 KB   2095/2174 KB   2099/2174 KB   2103/2174 KB   2107/2174 KB   2111/2174 KB   2115/2174 KB   2119/2174 KB   2123/2174 KB   2127/2174 KB   2131/2174 KB   2135/2174 KB   2139/2174 KB   2143/2174 KB   2147/2174 KB   2151/2174 KB   2155/2174 KB   2159/2174 KB   2163/2174 KB   2167/2174 KB   2171/2174 KB   2174/2174 KB                  Downloaded: https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0/guava-16.0.jar (2174 KB at 4417.2 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ auto-value ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ auto-value ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ auto-value ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ auto-value ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[INFO] 11 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.123 s
+[INFO] Finished at: 2019-12-04T09:39:23+00:00
+[INFO] Final Memory: 20M/243M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project auto-value: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AutoValue 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/google/auto/auto-common/1.0-SNAPSHOT/maven-metadata.xml
+986/986 B               Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/google/auto/auto-common/1.0-SNAPSHOT/maven-metadata.xml (986 B at 1.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/google/auto/auto-common/1.0-SNAPSHOT/auto-common-1.0-20170323.212829-75.pom
+3/3 KB      3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/google/auto/auto-common/1.0-SNAPSHOT/auto-common-1.0-20170323.212829-75.pom (3 KB at 17.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/google/auto/auto-common/1.0-SNAPSHOT/auto-common-1.0-20170323.212829-75.jar
+3/82 KB   4/82 KB   7/82 KB   10/82 KB   13/82 KB   14/82 KB   18/82 KB   19/82 KB   23/82 KB   23/82 KB   27/82 KB   28/82 KB   32/82 KB   33/82 KB   36/82 KB   40/82 KB   41/82 KB   43/82 KB   45/82 KB   46/82 KB   48/82 KB   51/82 KB   52/82 KB   53/82 KB   57/82 KB   58/82 KB   59/82 KB   60/82 KB   62/82 KB   66/82 KB   70/82 KB   74/82 KB   76/82 KB   80/82 KB   82/82 KB              Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/google/auto/auto-common/1.0-SNAPSHOT/auto-common-1.0-20170323.212829-75.jar (82 KB at 161.5 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ auto-value ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ auto-value ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ auto-value ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ auto-value ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[INFO] 11 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.412 s
+[INFO] Finished at: 2019-12-04T09:39:29+00:00
+[INFO] Final Memory: 21M/189M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project auto-value: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -f value/pom.xml clean compile -DskipTests=true -Dcheckstyle.skip=true || (sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>com.google.auto<\/groupId><artifactId>auto-common<\/artifactId><version>1.0-SNAPSHOT<\/version><\/dependency>/g' value/pom.xml ; sed -i -- 's/.6-SNAPSHOT/.6/g' value/pom.xml ; mvn -f value/pom.xml clean compile -DskipTests=true -Dcheckstyle.skip=true)
+0.184s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-auto 3b8589619d599f903ab02e49095308c5bf15e851:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AutoValue 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ auto-value ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ auto-value ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ auto-value ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ auto-value ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[INFO] 11 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.942 s
+[INFO] Finished at: 2019-12-04T09:39:32+00:00
+[INFO] Final Memory: 17M/258M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project auto-value: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AutoValue 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ auto-value ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ auto-value ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ auto-value ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ auto-value ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[INFO] 11 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.691 s
+[INFO] Finished at: 2019-12-04T09:39:36+00:00
+[INFO] Final Memory: 17M/260M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project auto-value: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -f value/pom.xml clean compile -DskipTests=true -Dcheckstyle.skip=true || (sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>com.google.auto<\/groupId><artifactId>auto-common<\/artifactId><version>1.0-SNAPSHOT<\/version><\/dependency>/g' value/pom.xml ; sed -i -- 's/.6-SNAPSHOT/.6/g' value/pom.xml ; mvn -f value/pom.xml clean compile -DskipTests=true -Dcheckstyle.skip=true)
+0.229s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-auto 3b8589619d599f903ab02e49095308c5bf15e851:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AutoValue 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ auto-value ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ auto-value ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ auto-value ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ auto-value ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,70] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[89,5] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[91,5] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[102,5] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[102,43] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[126,14] cannot find symbol
+  symbol:   class ParseException
+  location: class com.google.auto.value.processor.TemplateVars
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.603 s
+[INFO] Finished at: 2019-12-04T09:39:41+00:00
+[INFO] Final Memory: 17M/206M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project auto-value: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,70] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[89,5] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[91,5] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[102,5] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[102,43] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[126,14] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AutoValue 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ auto-value ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ auto-value ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ auto-value ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ auto-value ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,70] cannot find symbol
+  symbol:   class RuntimeInstance
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[89,5] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[91,5] cannot find symbol
+  symbol:   class SimpleNode
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[102,5] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[102,43] cannot find symbol
+  symbol:   class VelocityContext
+  location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[126,14] cannot find symbol
+  symbol:   class ParseException
+  location: class com.google.auto.value.processor.TemplateVars
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.626 s
+[INFO] Finished at: 2019-12-04T09:39:45+00:00
+[INFO] Final Memory: 17M/206M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project auto-value: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[18,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[18,27] package org.apache.velocity does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[19,35] package org.apache.velocity.runtime does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[20,42] package org.apache.velocity.runtime.parser does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[21,47] package org.apache.velocity.runtime.parser.node does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[81,24] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/AutoValueTemplateVars.java:[84,3] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.AutoValueTemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[49,12] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,24] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[101,11] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[116,10] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[51,70] cannot find symbol
+[ERROR] symbol:   class RuntimeInstance
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[89,5] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[91,5] cannot find symbol
+[ERROR] symbol:   class SimpleNode
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[102,5] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[102,43] cannot find symbol
+[ERROR] symbol:   class VelocityContext
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] /home/ubuntu/ATLAS/apps/google-auto/download/3b8589619d599f903ab02e49095308c5bf15e851/value/src/main/java/com/google/auto/value/processor/TemplateVars.java:[126,14] cannot find symbol
+[ERROR] symbol:   class ParseException
+[ERROR] location: class com.google.auto.value.processor.TemplateVars
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -f value/pom.xml clean compile -DskipTests=true -Dcheckstyle.skip=true || (sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>com.google.auto<\/groupId><artifactId>auto-common<\/artifactId><version>1.0-SNAPSHOT<\/version><\/dependency>/g' value/pom.xml ; sed -i -- 's/.6-SNAPSHOT/.6/g' value/pom.xml ; mvn -f value/pom.xml clean compile -DskipTests=true -Dcheckstyle.skip=true)
+0.335s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-auto 3b8589619d599f903ab02e49095308c5bf15e851:
+mvn -f value/pom.xml clean compile -DskipTests=true -Dcheckstyle.skip=true || (sed -i -- 's/<dependencies>/<dependencies><dependency><groupId>com.google.auto<\/groupId><artifactId>auto-common<\/artifactId><version>1.0-SNAPSHOT<\/version><\/dependency>/g' value/pom.xml ; sed -i -- 's/.6-SNAPSHOT/.6/g' value/pom.xml ; mvn -f value/pom.xml clean compile -DskipTests=true -Dcheckstyle.skip=true)
+0.238s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

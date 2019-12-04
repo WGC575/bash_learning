@@ -1,0 +1,425 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-jcs 6b70a706e2d339ff3b689dfef7441c28d290f725:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JCS :: Core 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jcs-core ---
+[INFO] Skipping Antrun execution
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-jcs-core ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : 
+Exception while executing SCM command.
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434447872
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+Exception while executing SCM command.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jcs-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-jcs-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 231 source files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[27,44] package org.apache.commons.dbcp2.cpdsadapter does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[28,44] package org.apache.commons.dbcp2.datasources does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[29,44] package org.apache.commons.dbcp2.datasources does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[51,13] cannot find symbol
+  symbol:   class SharedPoolDataSource
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[142,38] cannot find symbol
+  symbol:   class InstanceKeyDataSource
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[79,9] cannot find symbol
+  symbol:   class SharedPoolDataSource
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[79,47] cannot find symbol
+  symbol:   class SharedPoolDataSource
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[116,9] cannot find symbol
+  symbol:   class DriverAdapterCPDS
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[116,38] cannot find symbol
+  symbol:   class DriverAdapterCPDS
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[INFO] 9 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.300 s
+[INFO] Finished at: 2019-12-04T04:40:50+00:00
+[INFO] Final Memory: 29M/498M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-jcs-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[27,44] package org.apache.commons.dbcp2.cpdsadapter does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[28,44] package org.apache.commons.dbcp2.datasources does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[29,44] package org.apache.commons.dbcp2.datasources does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[51,13] cannot find symbol
+[ERROR] symbol:   class SharedPoolDataSource
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[142,38] cannot find symbol
+[ERROR] symbol:   class InstanceKeyDataSource
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[79,9] cannot find symbol
+[ERROR] symbol:   class SharedPoolDataSource
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[79,47] cannot find symbol
+[ERROR] symbol:   class SharedPoolDataSource
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[116,9] cannot find symbol
+[ERROR] symbol:   class DriverAdapterCPDS
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[116,38] cannot find symbol
+[ERROR] symbol:   class DriverAdapterCPDS
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.209s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-jcs 6b70a706e2d339ff3b689dfef7441c28d290f725:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JCS :: Core 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jcs-core ---
+[INFO] Skipping Antrun execution
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-jcs-core ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : 
+Exception while executing SCM command.
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434455053
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+Exception while executing SCM command.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jcs-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-jcs-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 231 source files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[27,44] package org.apache.commons.dbcp2.cpdsadapter does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[28,44] package org.apache.commons.dbcp2.datasources does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[29,44] package org.apache.commons.dbcp2.datasources does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[51,13] cannot find symbol
+  symbol:   class SharedPoolDataSource
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[142,38] cannot find symbol
+  symbol:   class InstanceKeyDataSource
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[79,9] cannot find symbol
+  symbol:   class SharedPoolDataSource
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[79,47] cannot find symbol
+  symbol:   class SharedPoolDataSource
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[116,9] cannot find symbol
+  symbol:   class DriverAdapterCPDS
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[116,38] cannot find symbol
+  symbol:   class DriverAdapterCPDS
+  location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[INFO] 9 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.007 s
+[INFO] Finished at: 2019-12-04T04:40:57+00:00
+[INFO] Final Memory: 28M/484M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-jcs-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[27,44] package org.apache.commons.dbcp2.cpdsadapter does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[28,44] package org.apache.commons.dbcp2.datasources does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[29,44] package org.apache.commons.dbcp2.datasources does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[51,13] cannot find symbol
+[ERROR] symbol:   class SharedPoolDataSource
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[142,38] cannot find symbol
+[ERROR] symbol:   class InstanceKeyDataSource
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[79,9] cannot find symbol
+[ERROR] symbol:   class SharedPoolDataSource
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[79,47] cannot find symbol
+[ERROR] symbol:   class SharedPoolDataSource
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[116,9] cannot find symbol
+[ERROR] symbol:   class DriverAdapterCPDS
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java:[116,38] cannot find symbol
+[ERROR] symbol:   class DriverAdapterCPDS
+[ERROR] location: class org.apache.commons.jcs.auxiliary.disk.jdbc.dsfactory.SharedPoolDataSourceFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.147s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-jcs 6b70a706e2d339ff3b689dfef7441c28d290f725:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JCS :: Core 3.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jcs-core ---
+[INFO] Skipping Antrun execution
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-jcs-core ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : 
+Exception while executing SCM command.
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434464020
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+Exception while executing SCM command.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jcs-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-jcs-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 231 source files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/6b70a706e2d339ff3b689dfef7441c28d290f725/commons-jcs-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.678 s
+[INFO] Finished at: 2019-12-04T04:41:04+00:00
+[INFO] Final Memory: 24M/335M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-jcs-core: Fatal error compiling: invalid target release: 1.8 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.16s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-jcs 6b70a706e2d339ff3b689dfef7441c28d290f725:
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.495s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,1165 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-csv 3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ commons-csv ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434246524
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-csv ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 6 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,19] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[154,23] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[INFO] 29 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.443 s
+[INFO] Finished at: 2019-12-04T04:37:27+00:00
+[INFO] Final Memory: 20M/279M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,19] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[154,23] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-csv ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ commons-csv ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434250595
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-csv ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 6 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,19] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[154,23] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[INFO] 29 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.325 s
+[INFO] Finished at: 2019-12-04T04:37:31+00:00
+[INFO] Final Memory: 21M/264M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,19] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[154,23] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests || mvn clean install -DskipTests
+0.498s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-csv 3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ commons-csv ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434255238
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-csv ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 6 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,19] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[154,23] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[INFO] 29 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.311 s
+[INFO] Finished at: 2019-12-04T04:37:35+00:00
+[INFO] Final Memory: 20M/277M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,19] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[154,23] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-csv ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ commons-csv ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434259035
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-csv ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 6 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,19] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[154,23] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[INFO] 29 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.213 s
+[INFO] Finished at: 2019-12-04T04:37:39+00:00
+[INFO] Final Memory: 21M/269M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,19] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[154,23] error: illegal start of type
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests || mvn clean install -DskipTests
+0.137s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-csv 3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ commons-csv ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434263958
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-csv ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 6 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,33] error: strings in switch are not supported in -source 1.5
+[ERROR]   (use -source 7 or higher to enable strings in switch)
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.873 s
+[INFO] Finished at: 2019-12-04T04:37:44+00:00
+[INFO] Final Memory: 20M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,33] error: strings in switch are not supported in -source 1.5
+[ERROR] (use -source 7 or higher to enable strings in switch)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ commons-csv ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ commons-csv ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434268862
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-csv ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 6 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR]  class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,33] error: strings in switch are not supported in -source 1.5
+[ERROR]   (use -source 7 or higher to enable strings in switch)
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR]  class CSVParser
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[INFO] 28 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.061 s
+[INFO] Finished at: 2019-12-04T04:37:49+00:00
+[INFO] Final Memory: 21M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[22,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,20] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[51,4] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,35] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[152,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,41] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[208,12] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[31,42] error: package org.apache.commons.csv.Token does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,18] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[78,31] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[86,23] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[91,43] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[108,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[113,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[121,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[156,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[161,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[166,27] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[228,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[232,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVLexer.java:[237,39] error: cannot find symbol
+[ERROR] class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[72,44] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[146,33] error: strings in switch are not supported in -source 1.5
+[ERROR] (use -source 7 or higher to enable strings in switch)
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[147,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[150,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[153,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[160,21] error: cannot find symbol
+[ERROR] class CSVParser
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e/src/main/java/org/apache/commons/csv/CSVParser.java:[163,39] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests || mvn clean install -DskipTests
+0.406s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-csv 3ea8118ff3793cc32fcf6d2c93d4f5eda73b374e:
+mvn clean compile -DskipTests || mvn clean install -DskipTests
+0.496s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

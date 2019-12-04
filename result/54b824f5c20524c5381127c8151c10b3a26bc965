@@ -1,0 +1,865 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-vfs 54b824f5c20524c5381127c8151c10b3a26bc965:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Commons VFS
+[INFO] Commons VFS Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2-project ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434934478
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS Core 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434935136
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-vfs2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-vfs2 ---
+[INFO] Compiling 234 source files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Commons VFS ........................................ SUCCESS [  1.407 s]
+[INFO] Commons VFS Core ................................... FAILURE [  1.453 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.224 s
+[INFO] Finished at: 2019-12-04T04:48:56+00:00
+[INFO] Final Memory: 19M/268M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-vfs2: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :commons-vfs2
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Commons VFS
+[INFO] Commons VFS Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2-project ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2-project ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434939468
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ commons-vfs2-project ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-site-plugin:3.1:attach-descriptor (attach-descriptor) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ commons-vfs2-project ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/pom.xml to /home/ubuntu/.m2/repository/org/apache/commons/commons-vfs2-project/2.1-SNAPSHOT/commons-vfs2-project-2.1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/commons-vfs2-project-2.1-SNAPSHOT-site.xml to /home/ubuntu/.m2/repository/org/apache/commons/commons-vfs2-project/2.1-SNAPSHOT/commons-vfs2-project-2.1-SNAPSHOT-site.xml
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS Core 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2 ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434940870
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-vfs2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-vfs2 ---
+[INFO] Compiling 234 source files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Commons VFS ........................................ SUCCESS [  2.443 s]
+[INFO] Commons VFS Core ................................... FAILURE [  0.986 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.788 s
+[INFO] Finished at: 2019-12-04T04:49:01+00:00
+[INFO] Final Memory: 26M/264M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-vfs2: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :commons-vfs2
+(mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.471s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-vfs 54b824f5c20524c5381127c8151c10b3a26bc965:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Commons VFS
+[INFO] Commons VFS Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2-project ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434945643
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS Core 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434946069
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-vfs2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-vfs2 ---
+[INFO] Compiling 234 source files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Commons VFS ........................................ SUCCESS [  1.451 s]
+[INFO] Commons VFS Core ................................... FAILURE [  1.192 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.001 s
+[INFO] Finished at: 2019-12-04T04:49:06+00:00
+[INFO] Final Memory: 19M/261M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-vfs2: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :commons-vfs2
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Commons VFS
+[INFO] Commons VFS Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2-project ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2-project ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434950475
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ commons-vfs2-project ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-site-plugin:3.1:attach-descriptor (attach-descriptor) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ commons-vfs2-project ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/pom.xml to /home/ubuntu/.m2/repository/org/apache/commons/commons-vfs2-project/2.1-SNAPSHOT/commons-vfs2-project-2.1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/commons-vfs2-project-2.1-SNAPSHOT-site.xml to /home/ubuntu/.m2/repository/org/apache/commons/commons-vfs2-project/2.1-SNAPSHOT/commons-vfs2-project-2.1-SNAPSHOT-site.xml
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS Core 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2 ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434951620
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-vfs2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-vfs2 ---
+[INFO] Compiling 234 source files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Commons VFS ........................................ SUCCESS [  2.400 s]
+[INFO] Commons VFS Core ................................... FAILURE [  0.984 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.749 s
+[INFO] Finished at: 2019-12-04T04:49:12+00:00
+[INFO] Final Memory: 26M/264M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-vfs2: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :commons-vfs2
+(mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.173s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-vfs 54b824f5c20524c5381127c8151c10b3a26bc965:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Commons VFS
+[INFO] Commons VFS Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2-project ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434957126
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS Core 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434958062
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-vfs2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-vfs2 ---
+[INFO] Compiling 234 source files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Commons VFS ........................................ SUCCESS [  2.127 s]
+[INFO] Commons VFS Core ................................... FAILURE [  2.164 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.674 s
+[INFO] Finished at: 2019-12-04T04:49:19+00:00
+[INFO] Final Memory: 20M/211M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-vfs2: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :commons-vfs2
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Commons VFS
+[INFO] Commons VFS Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2-project ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2-project ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2-project ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434964022
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ commons-vfs2-project ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-site-plugin:3.1:attach-descriptor (attach-descriptor) @ commons-vfs2-project ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ commons-vfs2-project ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/pom.xml to /home/ubuntu/.m2/repository/org/apache/commons/commons-vfs2-project/2.1-SNAPSHOT/commons-vfs2-project-2.1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/target/commons-vfs2-project-2.1-SNAPSHOT-site.xml to /home/ubuntu/.m2/repository/org/apache/commons/commons-vfs2-project/2.1-SNAPSHOT/commons-vfs2-project-2.1-SNAPSHOT-site.xml
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons VFS Core 2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-vfs2 ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (vfs-jar-manifest) @ commons-vfs2 ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/osgi/MANIFEST.MF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-vfs2 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-vfs2 ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434966410
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-vfs2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-vfs2 ---
+[INFO] Compiling 234 source files to /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Commons VFS ........................................ SUCCESS [  3.919 s]
+[INFO] Commons VFS Core ................................... FAILURE [  1.638 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.980 s
+[INFO] Finished at: 2019-12-04T04:49:27+00:00
+[INFO] Final Memory: 28M/332M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-vfs2: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-vfs/download/54b824f5c20524c5381127c8151c10b3a26bc965/core/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java:[120,82] error: ')' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :commons-vfs2
+(mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.314s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-vfs 54b824f5c20524c5381127c8151c10b3a26bc965:
+(mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.213s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

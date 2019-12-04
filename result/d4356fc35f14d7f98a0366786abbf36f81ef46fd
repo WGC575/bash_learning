@@ -1,0 +1,467 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-binnavi d4356fc35f14d7f98a0366786abbf36f81ef46fd:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building binnavi 6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (default-cli) @ binnavi ---
+[INFO] Copying postgresql-9.4-1201-jdbc41.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/postgresql-9.4-1201-jdbc41.jar
+[INFO] Copying proguard-base-5.2.1.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/proguard-base-5.2.1.jar
+[INFO] Copying batik-xml-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-xml-1.8.jar
+[INFO] Copying javax.inject-1.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/javax.inject-1.jar
+[INFO] Copying sac-1.3.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/sac-1.3.jar
+[INFO] Copying xalan-2.7.0.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/xalan-2.7.0.jar
+[INFO] Copying antlr-runtime-3.2.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/antlr-runtime-3.2.jar
+[INFO] Copying batik-awt-util-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-awt-util-1.8.jar
+[INFO] Copying yfileswrap-obfuscated-6.0.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/yfileswrap-obfuscated-6.0.jar
+[INFO] Copying batik-svggen-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-svggen-1.8.jar
+[INFO] Copying stringtemplate-3.2.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/stringtemplate-3.2.jar
+[INFO] Copying guava-18.0.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/guava-18.0.jar
+[INFO] Copying junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/junit-3.8.1.jar
+[INFO] Copying batik-dom-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-dom-1.8.jar
+[INFO] Copying batik-util-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-util-1.8.jar
+[INFO] Copying batik-ext-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-ext-1.8.jar
+[INFO] Copying jython-standalone-2.5.3.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/jython-standalone-2.5.3.jar
+[INFO] Copying batik-css-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-css-1.8.jar
+[INFO] Copying jide-oss-3.6.9.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/jide-oss-3.6.9.jar
+[INFO] Copying antlr-3.2.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/antlr-3.2.jar
+[INFO] Copying antlr-2.7.7.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/antlr-2.7.7.jar
+[INFO] Copying xml-apis-1.4.01.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/xml-apis-1.4.01.jar
+[INFO] Copying xml-apis-ext-1.3.04.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/xml-apis-ext-1.3.04.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.318 s
+[INFO] Finished at: 2019-12-04T09:43:53+00:00
+[INFO] Final Memory: 14M/208M
+[INFO] ------------------------------------------------------------------------
+Buildfile: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/build.xml
+
+clean:
+
+build-revision:
+
+build-zylib-jar:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] Compiling 375 source files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+     [copy] Copying 14 files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes/com/google/security/zynamics/zylib/resources
+      [jar] Building jar: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/zylib.jar
+
+build-reil-jar:
+    [javac] Compiling 1149 source files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+      [jar] Building jar: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/reil.jar
+
+build-binnavi-jar:
+    [javac] Compiling 2449 source files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/binnavi/Database/PostgreSQL/Creators/PostgreSQLProjectCreator.java:103: error: ';' expected
+    [javac]         ResultSet resultSet = statement.executeQuery()
+    [javac]                                                       ^
+    [javac] 1 error
+(mvn dependency:copy-dependencies && ant build-binnavi-fat-jar)
+0.180s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile google-binnavi d4356fc35f14d7f98a0366786abbf36f81ef46fd:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building binnavi 6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (default-cli) @ binnavi ---
+[INFO] Copying postgresql-9.4-1201-jdbc41.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/postgresql-9.4-1201-jdbc41.jar
+[INFO] Copying proguard-base-5.2.1.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/proguard-base-5.2.1.jar
+[INFO] Copying batik-xml-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-xml-1.8.jar
+[INFO] Copying javax.inject-1.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/javax.inject-1.jar
+[INFO] Copying sac-1.3.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/sac-1.3.jar
+[INFO] Copying xalan-2.7.0.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/xalan-2.7.0.jar
+[INFO] Copying antlr-runtime-3.2.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/antlr-runtime-3.2.jar
+[INFO] Copying batik-awt-util-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-awt-util-1.8.jar
+[INFO] Copying yfileswrap-obfuscated-6.0.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/yfileswrap-obfuscated-6.0.jar
+[INFO] Copying batik-svggen-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-svggen-1.8.jar
+[INFO] Copying stringtemplate-3.2.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/stringtemplate-3.2.jar
+[INFO] Copying guava-18.0.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/guava-18.0.jar
+[INFO] Copying junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/junit-3.8.1.jar
+[INFO] Copying batik-dom-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-dom-1.8.jar
+[INFO] Copying batik-util-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-util-1.8.jar
+[INFO] Copying batik-ext-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-ext-1.8.jar
+[INFO] Copying jython-standalone-2.5.3.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/jython-standalone-2.5.3.jar
+[INFO] Copying batik-css-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-css-1.8.jar
+[INFO] Copying jide-oss-3.6.9.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/jide-oss-3.6.9.jar
+[INFO] Copying antlr-3.2.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/antlr-3.2.jar
+[INFO] Copying antlr-2.7.7.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/antlr-2.7.7.jar
+[INFO] Copying xml-apis-1.4.01.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/xml-apis-1.4.01.jar
+[INFO] Copying xml-apis-ext-1.3.04.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/xml-apis-ext-1.3.04.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.297 s
+[INFO] Finished at: 2019-12-04T09:44:06+00:00
+[INFO] Final Memory: 14M/208M
+[INFO] ------------------------------------------------------------------------
+Buildfile: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/build.xml
+
+clean:
+
+build-revision:
+
+build-zylib-jar:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] Compiling 375 source files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+     [copy] Copying 14 files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes/com/google/security/zynamics/zylib/resources
+      [jar] Building jar: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/zylib.jar
+
+build-reil-jar:
+    [javac] Compiling 1149 source files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+      [jar] Building jar: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/reil.jar
+
+build-binnavi-jar:
+    [javac] Compiling 2449 source files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/binnavi/Database/PostgreSQL/Creators/PostgreSQLProjectCreator.java:103: error: ';' expected
+    [javac]         ResultSet resultSet = statement.executeQuery()
+    [javac]                                                       ^
+    [javac] 1 error
+(mvn dependency:copy-dependencies && ant build-binnavi-fat-jar)
+0.489s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-binnavi d4356fc35f14d7f98a0366786abbf36f81ef46fd:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building binnavi 6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (default-cli) @ binnavi ---
+[INFO] Copying jide-oss-3.6.9.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/jide-oss-3.6.9.jar
+[INFO] Copying xml-apis-1.4.01.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/xml-apis-1.4.01.jar
+[INFO] Copying guava-18.0.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/guava-18.0.jar
+[INFO] Copying stringtemplate-3.2.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/stringtemplate-3.2.jar
+[INFO] Copying antlr-runtime-3.2.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/antlr-runtime-3.2.jar
+[INFO] Copying batik-svggen-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-svggen-1.8.jar
+[INFO] Copying xalan-2.7.0.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/xalan-2.7.0.jar
+[INFO] Copying javax.inject-1.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/javax.inject-1.jar
+[INFO] Copying batik-dom-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-dom-1.8.jar
+[INFO] Copying sac-1.3.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/sac-1.3.jar
+[INFO] Copying batik-awt-util-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-awt-util-1.8.jar
+[INFO] Copying jython-standalone-2.5.3.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/jython-standalone-2.5.3.jar
+[INFO] Copying batik-css-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-css-1.8.jar
+[INFO] Copying junit-3.8.1.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/junit-3.8.1.jar
+[INFO] Copying antlr-3.2.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/antlr-3.2.jar
+[INFO] Copying antlr-2.7.7.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/antlr-2.7.7.jar
+[INFO] Copying batik-xml-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-xml-1.8.jar
+[INFO] Copying postgresql-9.4-1201-jdbc41.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/postgresql-9.4-1201-jdbc41.jar
+[INFO] Copying batik-ext-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-ext-1.8.jar
+[INFO] Copying yfileswrap-obfuscated-6.0.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/yfileswrap-obfuscated-6.0.jar
+[INFO] Copying xml-apis-ext-1.3.04.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/xml-apis-ext-1.3.04.jar
+[INFO] Copying proguard-base-5.2.1.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/proguard-base-5.2.1.jar
+[INFO] Copying batik-util-1.8.jar to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/dependency/batik-util-1.8.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.073 s
+[INFO] Finished at: 2019-12-04T09:44:19+00:00
+[INFO] Final Memory: 13M/208M
+[INFO] ------------------------------------------------------------------------
+Buildfile: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/build.xml
+
+clean:
+
+build-revision:
+
+build-zylib-jar:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] Compiling 375 source files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/settings/ILayoutSettings.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/AbstractZyGraph.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/realizers/IZyNodeRealizer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/ZyEditMode.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/edges/ZyGraphEdge.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/actions/CDefaultEdgeEnterAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/actions/CDefaultEdgeExitAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/actions/CDefaultEdgeLabelEnterAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/actions/CDefaultEdgeLabelExitAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/actions/CDefaultNodeClickedLeftAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/actions/CDefaultNodeClickedRightAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/actions/CDefaultNodeDraggedLeftAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/actions/CDefaultNodeEnterAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/actions/CDefaultNodeExitAction.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CBendClickedLeftState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CBendEnterState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CBendExitState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CBendHoverState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CBendPressedLeftState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgeClickedLeftState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgeClickedRightState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgeEnterState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgeExitState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgeHoverState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgeLabelEnterState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgeLabelExitState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgeLabelHoverState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgePressedLeftState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CEdgePressedRightState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeClickedLeftState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeClickedMiddleState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeClickedRightState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeDraggedLeftState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeEditEnterState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeEditExitState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeEditState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeEnterState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeExitState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodeHoverState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodePressedLeftState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodePressedMiddleState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/states/CNodePressedRightState.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/nodes/ZyGraphNode.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/helpers/IYNode.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/CStateFactory.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/transformations/CHitBackgroundTransformer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/helpers/CMousePressedHandler.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/helpers/CEditNodeHelper.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/editmode/helpers/CEdgeClickHandler.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/IZyEditModeListener.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/edges/ZyInfoEdge.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/grouping/GroupHelpers.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/proximity/ZyProximityNode.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/zylib/yfileswrap/gui/zygraph/realizers/ZyEdgeRealizer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 54 warnings
+     [copy] Copying 14 files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes/com/google/security/zynamics/zylib/resources
+      [jar] Building jar: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/zylib.jar
+
+build-reil-jar:
+    [javac] Compiling 1149 source files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] warning: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/lib/yfileswrap-obfuscated.jar(com/google/security/zynamics/reil/yfileswrap/algorithms/mono2/common/instructiongraph/CReilInstructionGraph.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] 1 warning
+      [jar] Building jar: /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/reil.jar
+
+build-binnavi-jar:
+    [javac] Compiling 2449 source files to /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/google-binnavi/download/d4356fc35f14d7f98a0366786abbf36f81ef46fd/src/main/java/com/google/security/zynamics/binnavi/Database/PostgreSQL/Creators/PostgreSQLProjectCreator.java:103: error: ';' expected
+    [javac]         ResultSet resultSet = statement.executeQuery()
+    [javac]                                                       ^
+    [javac] 1 error
+(mvn dependency:copy-dependencies && ant build-binnavi-fat-jar)
+0.18s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile google-binnavi d4356fc35f14d7f98a0366786abbf36f81ef46fd:
+(mvn dependency:copy-dependencies && ant build-binnavi-fat-jar)
+0.35s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

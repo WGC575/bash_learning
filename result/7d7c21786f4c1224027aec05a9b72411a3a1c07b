@@ -1,0 +1,1982 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-phoenix 7d7c21786f4c1224027aec05a9b72411a3a1c07b:
+No local changes to save
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.026 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 16.191 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.640 s
+[INFO] Finished at: 2019-12-04T09:12:04+00:00
+[INFO] Final Memory: 51M/798M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  0.995 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 17.322 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.719 s
+[INFO] Finished at: 2019-12-04T09:12:24+00:00
+[INFO] Final Memory: 51M/777M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.115 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 16.829 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.349 s
+[INFO] Finished at: 2019-12-04T09:12:45+00:00
+[INFO] Final Memory: 51M/802M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.018 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 16.892 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.311 s
+[INFO] Finished at: 2019-12-04T09:13:05+00:00
+[INFO] Final Memory: 51M/815M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+(git stash; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.98.0-hadoop1) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0) || (sed -i -- 's/<hbase.version>1.0.1-SNAPSHOT<\/hbase.version>/<hbase.version>1.0.0<\/hbase.version>/g'  pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0)
+0.264s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-phoenix 7d7c21786f4c1224027aec05a9b72411a3a1c07b:
+No local changes to save
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.109 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 16.609 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.152 s
+[INFO] Finished at: 2019-12-04T09:13:25+00:00
+[INFO] Final Memory: 51M/805M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.107 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 17.068 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.609 s
+[INFO] Finished at: 2019-12-04T09:13:46+00:00
+[INFO] Final Memory: 51M/810M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.150 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 17.204 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.767 s
+[INFO] Finished at: 2019-12-04T09:14:07+00:00
+[INFO] Final Memory: 51M/753M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/query/ConnectionQueryServices.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/jdbc/PhoenixStatement.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.145 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 17.565 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 19.151 s
+[INFO] Finished at: 2019-12-04T09:14:28+00:00
+[INFO] Final Memory: 51M/803M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+(git stash; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.98.0-hadoop1) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0) || (sed -i -- 's/<hbase.version>1.0.1-SNAPSHOT<\/hbase.version>/<hbase.version>1.0.0<\/hbase.version>/g'  pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0)
+0.47s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-phoenix 7d7c21786f4c1224027aec05a9b72411a3a1c07b:
+No local changes to save
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/expression/function/SingleAggregateFunction.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/expression/function/SingleAggregateFunction.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  1.818 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 24.393 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.764 s
+[INFO] Finished at: 2019-12-04T09:14:57+00:00
+[INFO] Final Memory: 49M/722M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/expression/function/SingleAggregateFunction.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/expression/function/SingleAggregateFunction.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  2.117 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 24.308 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.991 s
+[INFO] Finished at: 2019-12-04T09:15:27+00:00
+[INFO] Final Memory: 49M/729M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/expression/function/SingleAggregateFunction.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/expression/function/SingleAggregateFunction.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  2.282 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 24.125 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.960 s
+[INFO] Finished at: 2019-12-04T09:15:56+00:00
+[INFO] Final Memory: 49M/742M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.phoenix:phoenix-core:jar:4.6.0-HBase-1.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-dependency-plugin @ org.apache.phoenix:phoenix-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/pom.xml, line 208, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Phoenix
+[INFO] Phoenix Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Phoenix 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Phoenix Core 4.6.0-HBase-1.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ phoenix-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (validate) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-source (add-test-source) @ phoenix-core ---
+[INFO] Test Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/it/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-test-resource (add-test-resource) @ phoenix-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:add-source (add-source) @ phoenix-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3 added.
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3 added.
+[INFO] 
+[INFO] --- antlr3-maven-plugin:3.5:antlr (default) @ phoenix-core ---
+[INFO] ANTLR: Processing source directory /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3
+Output file /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/generated-sources/antlr3/org/apache/phoenix/parse/PhoenixSQLParser.java does not exist: must build /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/antlr3/PhoenixSQL.g
+PhoenixSQL.g
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (create-phoenix-generated-classpath) @ phoenix-core ---
+[INFO] Wrote classpath file '/home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/cached_classpath.txt'.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ phoenix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ phoenix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to META-INF/services
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ phoenix-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 876 source files to /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[116,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[122,30] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/execute/DescVarLengthFastByteComparisons.java:[126,39] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/hbase/index/write/recovery/TrackingParallelWriterIndexCommitter.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/expression/function/SingleAggregateFunction.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/expression/function/SingleAggregateFunction.java: Recompile with -Xlint:unchecked for details.
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+  symbol:   class CloneNonDeterministicExpressionVisitor
+  location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+  symbol:   class ReplaceArrayFunctionExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+  symbol:   class ProjectedColumnExpressionVisitor
+  location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Phoenix ..................................... SUCCESS [  2.031 s]
+[INFO] Phoenix Core ....................................... FAILURE [ 24.467 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 27.077 s
+[INFO] Finished at: 2019-12-04T09:16:25+00:00
+[INFO] Final Memory: 49M/712M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project phoenix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[27,45] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[52,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[53,45] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: package org.apache.phoenix.expression.visitor
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,17] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/RowProjector.java:[121,70] cannot find symbol
+[ERROR] symbol:   class CloneNonDeterministicExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.RowProjector
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,13] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[451,65] cannot find symbol
+[ERROR] symbol:   class ReplaceArrayFunctionExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler
+[ERROR] /home/ubuntu/ATLAS/apps/apache-phoenix/download/7d7c21786f4c1224027aec05a9b72411a3a1c07b/phoenix-core/src/main/java/org/apache/phoenix/compile/ProjectionCompiler.java:[692,45] cannot find symbol
+[ERROR] symbol:   class ProjectedColumnExpressionVisitor
+[ERROR] location: class org.apache.phoenix.compile.ProjectionCompiler.SelectClauseVisitor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :phoenix-core
+(git stash; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.98.0-hadoop1) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0) || (sed -i -- 's/<hbase.version>1.0.1-SNAPSHOT<\/hbase.version>/<hbase.version>1.0.0<\/hbase.version>/g'  pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0)
+0.69s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-phoenix 7d7c21786f4c1224027aec05a9b72411a3a1c07b:
+No local changes to save
+(git stash; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.98.0-hadoop1) || (mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0) || (sed -i -- 's/<hbase.version>1.0.1-SNAPSHOT<\/hbase.version>/<hbase.version>1.0.0<\/hbase.version>/g'  pom.xml ; mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl phoenix-core -am -Dhbase-hadoop1.version=0.99.0)
+0.441s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

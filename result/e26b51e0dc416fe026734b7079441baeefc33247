@@ -1,0 +1,445 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-giraph e26b51e0dc416fe026734b7079441baeefc33247:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Giraph Parent
+[INFO] Apache Giraph Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Parent 1.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Core 1.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0.1:enforce (enforce-maven) @ giraph-core ---
+[INFO] 
+[INFO] --- munge-maven-plugin:1.0:munge (munge) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ giraph-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ giraph-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 587 source files to /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayInputStream.java:[34,32] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayInputStream.java:[37,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayInputStream.java:[39,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[33,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[35,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[66,32] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/netty/handler/SaslServerHandler.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/netty/handler/SaslServerHandler.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/graph/VertexMutations.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/graph/VertexMutations.java: Recompile with -Xlint:unchecked for details.
+[INFO] 10 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendDataCache.java:[66,53] variable conf is already defined in class org.apache.giraph.comm.SendDataCache
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendMessageCache.java:[112,12] method addData in class org.apache.giraph.comm.SendVertexIdDataCache<I,T,B> cannot be applied to given types;
+  required: org.apache.giraph.worker.WorkerInfo,int,I,M
+  found: org.apache.giraph.worker.WorkerInfo,int,byte[],int,M
+  reason: actual and formal argument lists differ in length
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Giraph Parent ............................... SUCCESS [  0.575 s]
+[INFO] Apache Giraph Core ................................. FAILURE [  4.585 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.487 s
+[INFO] Finished at: 2019-12-04T06:54:52+00:00
+[INFO] Final Memory: 33M/483M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project giraph-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendDataCache.java:[66,53] variable conf is already defined in class org.apache.giraph.comm.SendDataCache
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendMessageCache.java:[112,12] method addData in class org.apache.giraph.comm.SendVertexIdDataCache<I,T,B> cannot be applied to given types;
+[ERROR] required: org.apache.giraph.worker.WorkerInfo,int,I,M
+[ERROR] found: org.apache.giraph.worker.WorkerInfo,int,byte[],int,M
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :giraph-core
+mvn clean compile -DskipTests -pl giraph-core -am
+0.372s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-giraph e26b51e0dc416fe026734b7079441baeefc33247:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Giraph Parent
+[INFO] Apache Giraph Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Parent 1.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Core 1.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0.1:enforce (enforce-maven) @ giraph-core ---
+[INFO] 
+[INFO] --- munge-maven-plugin:1.0:munge (munge) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ giraph-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ giraph-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 587 source files to /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayInputStream.java:[34,32] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayInputStream.java:[37,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayInputStream.java:[39,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[33,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[35,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[66,32] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/netty/handler/SaslServerHandler.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/netty/handler/SaslServerHandler.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/graph/VertexMutations.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/graph/VertexMutations.java: Recompile with -Xlint:unchecked for details.
+[INFO] 10 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendDataCache.java:[66,53] variable conf is already defined in class org.apache.giraph.comm.SendDataCache
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendMessageCache.java:[112,12] method addData in class org.apache.giraph.comm.SendVertexIdDataCache<I,T,B> cannot be applied to given types;
+  required: org.apache.giraph.worker.WorkerInfo,int,I,M
+  found: org.apache.giraph.worker.WorkerInfo,int,byte[],int,M
+  reason: actual and formal argument lists differ in length
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Giraph Parent ............................... SUCCESS [  0.421 s]
+[INFO] Apache Giraph Core ................................. FAILURE [  4.216 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.977 s
+[INFO] Finished at: 2019-12-04T06:55:00+00:00
+[INFO] Final Memory: 33M/478M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project giraph-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendDataCache.java:[66,53] variable conf is already defined in class org.apache.giraph.comm.SendDataCache
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendMessageCache.java:[112,12] method addData in class org.apache.giraph.comm.SendVertexIdDataCache<I,T,B> cannot be applied to given types;
+[ERROR] required: org.apache.giraph.worker.WorkerInfo,int,I,M
+[ERROR] found: org.apache.giraph.worker.WorkerInfo,int,byte[],int,M
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :giraph-core
+mvn clean compile -DskipTests -pl giraph-core -am
+0.245s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-giraph e26b51e0dc416fe026734b7079441baeefc33247:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Giraph Parent
+[INFO] Apache Giraph Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Parent 1.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-parent ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Giraph Core 1.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:branch (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- mavanagaiata:0.5.0:commit (git-commit) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0.1:enforce (enforce-maven) @ giraph-core ---
+[INFO] 
+[INFO] --- munge-maven-plugin:1.0:munge (munge) @ giraph-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ giraph-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ giraph-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 587 source files to /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[33,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[35,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java:[66,32] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayInputStream.java:[34,32] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayInputStream.java:[37,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/utils/UnsafeByteArrayInputStream.java:[39,25] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/master/BspServiceMaster.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/master/BspServiceMaster.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/conf/ClassConfOption.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/conf/ClassConfOption.java: Recompile with -Xlint:unchecked for details.
+[INFO] 10 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendDataCache.java:[66,53] variable conf is already defined in class org.apache.giraph.comm.SendDataCache
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendMessageCache.java:[112,12] method addData in class org.apache.giraph.comm.SendVertexIdDataCache<I,T,B> cannot be applied to given types;
+  required: org.apache.giraph.worker.WorkerInfo,int,I,M
+  found: org.apache.giraph.worker.WorkerInfo,int,byte[],int,M
+  reason: actual and formal argument lists differ in length
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Giraph Parent ............................... SUCCESS [  0.666 s]
+[INFO] Apache Giraph Core ................................. FAILURE [  7.783 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.937 s
+[INFO] Finished at: 2019-12-04T06:55:11+00:00
+[INFO] Final Memory: 32M/489M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project giraph-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendDataCache.java:[66,53] variable conf is already defined in class org.apache.giraph.comm.SendDataCache
+[ERROR] /home/ubuntu/ATLAS/apps/apache-giraph/download/e26b51e0dc416fe026734b7079441baeefc33247/giraph-core/target/munged/main/org/apache/giraph/comm/SendMessageCache.java:[112,12] method addData in class org.apache.giraph.comm.SendVertexIdDataCache<I,T,B> cannot be applied to given types;
+[ERROR] required: org.apache.giraph.worker.WorkerInfo,int,I,M
+[ERROR] found: org.apache.giraph.worker.WorkerInfo,int,byte[],int,M
+[ERROR] reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :giraph-core
+mvn clean compile -DskipTests -pl giraph-core -am
+0.412s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-giraph e26b51e0dc416fe026734b7079441baeefc33247:
+mvn clean compile -DskipTests -pl giraph-core -am
+0.118s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

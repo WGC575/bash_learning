@@ -1,0 +1,1307 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-hama 7088e5a59491d98764b6b81ab71f320f26321b68:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.695 s]
+[INFO] core ............................................... FAILURE [  4.130 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.268 s
+[INFO] Finished at: 2019-12-04T06:59:09+00:00
+[INFO] Final Memory: 28M/337M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.667 s]
+[INFO] core ............................................... FAILURE [  4.185 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.275 s
+[INFO] Finished at: 2019-12-04T06:59:16+00:00
+[INFO] Final Memory: 28M/327M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop1" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.8:check (default) @ hama-parent ---
+[INFO] Exclude: .idea/**
+[INFO] Exclude: .git/**
+[INFO] Exclude: .classpath/**
+[INFO] Exclude: .project
+[INFO] Exclude: **/*.asc
+[INFO] Exclude: **/logs/**
+[INFO] Exclude: **/docs/**
+[INFO] Exclude: CHANGES.txt
+[INFO] Exclude: conf/groomservers
+[INFO] Exclude: src/site/resources/files/hama-eclipse-formatter.xml
+[INFO] Exclude: **/src/test/resources/*.properties
+[INFO] Exclude: **dependency-reduced-pom.xml
+[INFO] Exclude: **/src/test/resources/*.txt
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.8.1:jar (default) @ hama-parent ---
+[INFO] Not executing Javadoc as the project is not a Java classpath-capable package
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ hama-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/pom.xml to /home/ubuntu/.m2/repository/org/apache/hama/hama-parent/0.7.0-SNAPSHOT/hama-parent-0.7.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+760/760 B               Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml (760 B at 2.0 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.705 s]
+[INFO] core ............................................... FAILURE [  4.701 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.817 s
+[INFO] Finished at: 2019-12-04T06:59:24+00:00
+[INFO] Final Memory: 37M/377M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop2" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+Buildfile: build.xml does not exist!
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO] graph
+[INFO] machine learning
+[INFO] examples
+[INFO] yarn
+[INFO] hama-dist
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.678 s]
+[INFO] core ............................................... FAILURE [  4.116 s]
+[INFO] graph .............................................. SKIPPED
+[INFO] machine learning ................................... SKIPPED
+[INFO] examples ........................................... SKIPPED
+[INFO] yarn ............................................... SKIPPED
+[INFO] hama-dist .......................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.210 s
+[INFO] Finished at: 2019-12-04T06:59:32+00:00
+[INFO] Final Memory: 28M/349M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+(mvn -DskipTests clean compile -pl core -am) || (mvn -DskipTests clean compile  -Phadoop1 -pl core -am) || (mvn -DskipTests clean install -Phadoop2 -U -pl core -am) || (ant clean compile) || (mvn -DskipTests clean compile)
+0.225s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-hama 7088e5a59491d98764b6b81ab71f320f26321b68:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.611 s]
+[INFO] core ............................................... FAILURE [  4.338 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.348 s
+[INFO] Finished at: 2019-12-04T06:59:39+00:00
+[INFO] Final Memory: 28M/338M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.774 s]
+[INFO] core ............................................... FAILURE [  4.111 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.331 s
+[INFO] Finished at: 2019-12-04T06:59:46+00:00
+[INFO] Final Memory: 28M/337M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop1" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.8:check (default) @ hama-parent ---
+[INFO] Exclude: .idea/**
+[INFO] Exclude: .git/**
+[INFO] Exclude: .classpath/**
+[INFO] Exclude: .project
+[INFO] Exclude: **/*.asc
+[INFO] Exclude: **/logs/**
+[INFO] Exclude: **/docs/**
+[INFO] Exclude: CHANGES.txt
+[INFO] Exclude: conf/groomservers
+[INFO] Exclude: src/site/resources/files/hama-eclipse-formatter.xml
+[INFO] Exclude: **/src/test/resources/*.properties
+[INFO] Exclude: **dependency-reduced-pom.xml
+[INFO] Exclude: **/src/test/resources/*.txt
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.8.1:jar (default) @ hama-parent ---
+[INFO] Not executing Javadoc as the project is not a Java classpath-capable package
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ hama-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/pom.xml to /home/ubuntu/.m2/repository/org/apache/hama/hama-parent/0.7.0-SNAPSHOT/hama-parent-0.7.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+760/760 B               Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml (760 B at 1.8 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.922 s]
+[INFO] core ............................................... FAILURE [  4.875 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.244 s
+[INFO] Finished at: 2019-12-04T06:59:55+00:00
+[INFO] Final Memory: 37M/389M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop2" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+Buildfile: build.xml does not exist!
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO] graph
+[INFO] machine learning
+[INFO] examples
+[INFO] yarn
+[INFO] hama-dist
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  0.741 s]
+[INFO] core ............................................... FAILURE [  4.356 s]
+[INFO] graph .............................................. SKIPPED
+[INFO] machine learning ................................... SKIPPED
+[INFO] examples ........................................... SKIPPED
+[INFO] yarn ............................................... SKIPPED
+[INFO] hama-dist .......................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.540 s
+[INFO] Finished at: 2019-12-04T07:00:03+00:00
+[INFO] Final Memory: 28M/329M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+(mvn -DskipTests clean compile -pl core -am) || (mvn -DskipTests clean compile  -Phadoop1 -pl core -am) || (mvn -DskipTests clean install -Phadoop2 -U -pl core -am) || (ant clean compile) || (mvn -DskipTests clean compile)
+0.379s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-hama 7088e5a59491d98764b6b81ab71f320f26321b68:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.331 s]
+[INFO] core ............................................... FAILURE [  6.980 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.822 s
+[INFO] Finished at: 2019-12-04T07:00:14+00:00
+[INFO] Final Memory: 27M/331M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.307 s]
+[INFO] core ............................................... FAILURE [  7.384 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.164 s
+[INFO] Finished at: 2019-12-04T07:00:25+00:00
+[INFO] Final Memory: 29M/332M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop1" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- apache-rat-plugin:0.8:check (default) @ hama-parent ---
+[INFO] Exclude: .idea/**
+[INFO] Exclude: .git/**
+[INFO] Exclude: .classpath/**
+[INFO] Exclude: .project
+[INFO] Exclude: **/*.asc
+[INFO] Exclude: **/logs/**
+[INFO] Exclude: **/docs/**
+[INFO] Exclude: CHANGES.txt
+[INFO] Exclude: conf/groomservers
+[INFO] Exclude: src/site/resources/files/hama-eclipse-formatter.xml
+[INFO] Exclude: **/src/test/resources/*.properties
+[INFO] Exclude: **dependency-reduced-pom.xml
+[INFO] Exclude: **/src/test/resources/*.txt
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.8.1:jar (default) @ hama-parent ---
+[INFO] Not executing Javadoc as the project is not a Java classpath-capable package
+[INFO] 
+[INFO] --- maven-install-plugin:2.3:install (default-install) @ hama-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/pom.xml to /home/ubuntu/.m2/repository/org/apache/hama/hama-parent/0.7.0-SNAPSHOT/hama-parent-0.7.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/maven-metadata.xml
+[WARNING] Could not transfer metadata org.codehaus.mojo:build-helper-maven-plugin/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): Received fatal alert: protocol_version
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  2.854 s]
+[INFO] core ............................................... FAILURE [  7.737 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.101 s
+[INFO] Finished at: 2019-12-04T07:00:38+00:00
+[INFO] Final Memory: 38M/485M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "hadoop2" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+Buildfile: build.xml does not exist!
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hama:hama-core:jar:0.7.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:build-helper-maven-plugin is missing. @ line 224, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Hama parent POM
+[INFO] core
+[INFO] graph
+[INFO] machine learning
+[INFO] examples
+[INFO] yarn
+[INFO] hama-dist
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hama parent POM 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68 (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building core 0.7.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ hama-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core (includes = [lib/**, logs/**, docs/apidocs/**], excludes = [])
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hama-core ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/java
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ hama-core ---
+[INFO] Source directory: /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/generated-sources/annotations added.
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ hama-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ hama-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hama-core ---
+[INFO] Compiling 194 source files to /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Hama parent POM ............................. SUCCESS [  1.301 s]
+[INFO] core ............................................... FAILURE [  7.420 s]
+[INFO] graph .............................................. SKIPPED
+[INFO] machine learning ................................... SKIPPED
+[INFO] examples ........................................... SKIPPED
+[INFO] yarn ............................................... SKIPPED
+[INFO] hama-dist .......................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.208 s
+[INFO] Finished at: 2019-12-04T07:00:50+00:00
+[INFO] Final Memory: 29M/331M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project hama-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-hama/download/7088e5a59491d98764b6b81ab71f320f26321b68/core/src/main/java/org/apache/hama/Constants.java:[72,29] error: variable COMBINER_CLASS is already defined in interface Constants
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :hama-core
+(mvn -DskipTests clean compile -pl core -am) || (mvn -DskipTests clean compile  -Phadoop1 -pl core -am) || (mvn -DskipTests clean install -Phadoop2 -U -pl core -am) || (ant clean compile) || (mvn -DskipTests clean compile)
+0.274s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-hama 7088e5a59491d98764b6b81ab71f320f26321b68:
+Buildfile: build.xml does not exist!
+(mvn -DskipTests clean compile -pl core -am) || (mvn -DskipTests clean compile  -Phadoop1 -pl core -am) || (mvn -DskipTests clean install -Phadoop2 -U -pl core -am) || (ant clean compile) || (mvn -DskipTests clean compile)
+0.330s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

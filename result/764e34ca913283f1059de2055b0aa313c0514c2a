@@ -1,0 +1,1278 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-zookeeper 764e34ca913283f1059de2055b0aa313c0514c2a:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:157: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 38 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/generated/.generated
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:192: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:225: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 44 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+compile-main:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:240: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 101 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:36: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:35: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:505: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:537: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:579: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:599: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:629: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:685: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:732: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:784: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:840: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:864: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:895: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:917: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:951: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:978: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1015: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1067: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1102: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:223: error: cannot find symbol
+    [javac]                     PathUtils.validatePath(path);
+    [javac]                     ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class PrepRequestProcessor
+    [javac] 20 errors
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+init:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:157: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:192: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+svn-revision:
+
+version-info:
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:225: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-main:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:240: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 101 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:36: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:35: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:505: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:537: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:579: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:599: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:629: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:685: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:732: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:784: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:840: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:864: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:895: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:917: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:951: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:978: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1015: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1067: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1102: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:223: error: cannot find symbol
+    [javac]                     PathUtils.validatePath(path);
+    [javac]                     ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class PrepRequestProcessor
+    [javac] 20 errors
+ant compile || ant -DlastRevision=1
+0.88s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-zookeeper 764e34ca913283f1059de2055b0aa313c0514c2a:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:157: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 38 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/generated/.generated
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:192: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:225: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 44 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+compile-main:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:240: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 101 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:36: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:35: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:505: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:537: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:579: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:599: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:629: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:685: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:732: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:784: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:840: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:864: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:895: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:917: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:951: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:978: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1015: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1067: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1102: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:223: error: cannot find symbol
+    [javac]                     PathUtils.validatePath(path);
+    [javac]                     ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class PrepRequestProcessor
+    [javac] 20 errors
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+init:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:157: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:192: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+svn-revision:
+
+version-info:
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:225: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile-main:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:240: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 101 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:36: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:35: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:505: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:537: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:579: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:599: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:629: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:685: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:732: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:784: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:840: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:864: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:895: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:917: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:951: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:978: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1015: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1067: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1102: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:223: error: cannot find symbol
+    [javac]                     PathUtils.validatePath(path);
+    [javac]                     ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class PrepRequestProcessor
+    [javac] 20 errors
+ant compile || ant -DlastRevision=1
+0.160s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-zookeeper 764e34ca913283f1059de2055b0aa313c0514c2a:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:157: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 38 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/generated/.generated
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:192: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:225: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 44 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+compile-main:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:240: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 101 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:36: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:35: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:505: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:537: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:579: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:599: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:629: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:685: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:732: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:784: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:840: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:864: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:895: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:917: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:951: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:978: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1015: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1067: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1102: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:223: error: cannot find symbol
+    [javac]                     PathUtils.validatePath(path);
+    [javac]                     ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class PrepRequestProcessor
+    [javac] 20 errors
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+init:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:157: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:192: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+svn-revision:
+
+version-info:
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:225: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+compile-main:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:240: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 101 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:36: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:35: error: cannot find symbol
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac]   symbol:   class PathUtils
+    [javac]   location: package org.apache.zookeeper.common
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:505: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:537: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:579: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:599: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:629: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:685: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:732: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:784: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:840: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:864: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:895: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:917: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:951: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:978: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1015: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1067: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1102: error: cannot find symbol
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class ZooKeeper
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:223: error: cannot find symbol
+    [javac]                     PathUtils.validatePath(path);
+    [javac]                     ^
+    [javac]   symbol:   variable PathUtils
+    [javac]   location: class PrepRequestProcessor
+    [javac] 20 errors
+ant compile || ant -DlastRevision=1
+0.440s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-zookeeper 764e34ca913283f1059de2055b0aa313c0514c2a:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:157: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 38 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+compile_jute_uptodate:
+
+compile_jute:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/generated
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/c/generated
+     [java] ../../zookeeper.jute Parsed Successfully
+     [java] ../../zookeeper.jute Parsed Successfully
+    [touch] Creating /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/generated/.generated
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:192: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+svn-revision:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/.revision
+     [exec] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/lastRevision.sh: 1: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/lastRevision.sh: svn: not found
+
+version-info:
+     [java] Unknown REVISION number, using -1
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:225: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 44 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+compile-main:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:240: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 101 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:36: cannot find symbol
+    [javac] symbol  : class PathUtils
+    [javac] location: package org.apache.zookeeper.common
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:35: cannot find symbol
+    [javac] symbol  : class PathUtils
+    [javac] location: package org.apache.zookeeper.common
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:505: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:537: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:579: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:599: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:629: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:685: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:732: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:784: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:840: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:864: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:895: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:917: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:951: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:978: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1015: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1067: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1102: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:223: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.server.PrepRequestProcessor
+    [javac]                     PathUtils.validatePath(path);
+    [javac]                     ^
+    [javac] 20 errors
+Buildfile: /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml
+
+clover.setup:
+
+clover.info:
+
+clover:
+
+init:
+
+jute:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:157: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+compile_jute_uptodate:
+
+compile_jute:
+
+ver-gen:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:192: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+svn-revision:
+
+version-info:
+
+build-generated:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:225: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+
+compile-main:
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build.xml:240: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 101 source files to /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:36: cannot find symbol
+    [javac] symbol  : class PathUtils
+    [javac] location: package org.apache.zookeeper.common
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:35: cannot find symbol
+    [javac] symbol  : class PathUtils
+    [javac] location: package org.apache.zookeeper.common
+    [javac] import org.apache.zookeeper.common.PathUtils;
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:505: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:537: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path, createMode.isSequential());
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:579: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:599: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:629: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:685: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:732: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:784: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:840: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:864: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:895: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:917: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:951: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:978: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1015: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1067: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/ZooKeeper.java:1102: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.ZooKeeper
+    [javac]         PathUtils.validatePath(path);
+    [javac]         ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-zookeeper/download/764e34ca913283f1059de2055b0aa313c0514c2a/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java:223: cannot find symbol
+    [javac] symbol  : variable PathUtils
+    [javac] location: class org.apache.zookeeper.server.PrepRequestProcessor
+    [javac]                     PathUtils.validatePath(path);
+    [javac]                     ^
+    [javac] 20 errors
+ant compile || ant -DlastRevision=1
+0.328s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

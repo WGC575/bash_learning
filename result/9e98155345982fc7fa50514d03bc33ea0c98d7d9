@@ -1,0 +1,568 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-validator 9e98155345982fc7fa50514d03bc33ea0c98d7d9:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for commons-validator:commons-validator:1.4-SNAPSHOT: Could not find artifact org.apache.commons:commons-parent:pom:5-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 22, column 13
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project commons-validator:commons-validator:1.4-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for commons-validator:commons-validator:1.4-SNAPSHOT: Could not find artifact org.apache.commons:commons-parent:pom:5-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 22, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-validator:commons-validator:jar:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.commons:commons-parent:5, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom, line 155, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:5, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom, line 180, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Validator 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-validator ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ commons-validator ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+
+compress:
+
+compressor-specified:
+
+download-compressor-check:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/lib
+
+download-compressor:
+     [echo] Downloading JavaScript Compressor....
+      [get] Getting: http://repo1.maven.org/maven2/org/dojotoolkit/custom_rhino/0.4.3/custom_rhino-0.4.3.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/lib/custom_rhino-0.4.3.jar
+
+compress-files:
+     [echo] Compressing JavaScript files using lib/custom_rhino-0.4.3.jar
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/target/classes/org/apache/commons/validator/javascript
+     [echo] Compressing commons-validator-1.4-SNAPSHOT.js
+
+compress-file:
+     [echo] Compressing validateByte.js
+
+compress-file:
+     [echo] Compressing validateCreditCard.js
+
+compress-file:
+     [echo] Compressing validateDate.js
+
+compress-file:
+     [echo] Compressing validateEmail.js
+
+compress-file:
+     [echo] Compressing validateFloat.js
+
+compress-file:
+     [echo] Compressing validateFloatRange.js
+
+compress-file:
+     [echo] Compressing validateInteger.js
+
+compress-file:
+     [echo] Compressing validateIntRange.js
+
+compress-file:
+     [echo] Compressing validateMask.js
+
+compress-file:
+     [echo] Compressing validateMaxLength.js
+
+compress-file:
+     [echo] Compressing validateMinLength.js
+
+compress-file:
+     [echo] Compressing validateRequired.js
+
+compress-file:
+     [echo] Compressing validateShort.js
+
+compress-file:
+     [echo] Compressing validateUtilities.js
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-validator ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 8 resources
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-validator ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 54 source files to /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,27] illegal start of expression
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,56] ';' expected
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.544 s
+[INFO] Finished at: 2019-12-04T04:48:15+00:00
+[INFO] Final Memory: 12M/242M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-validator: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,27] illegal start of expression
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,56] ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+(mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true) || (sed -i -- 's/5-SNAPSHOT/5/g' pom.xml ; mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true)
+0.112s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-validator 9e98155345982fc7fa50514d03bc33ea0c98d7d9:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for commons-validator:commons-validator:1.4-SNAPSHOT: Could not find artifact org.apache.commons:commons-parent:pom:5-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 22, column 13
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project commons-validator:commons-validator:1.4-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for commons-validator:commons-validator:1.4-SNAPSHOT: Could not find artifact org.apache.commons:commons-parent:pom:5-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 22, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-validator:commons-validator:jar:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.commons:commons-parent:5, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom, line 155, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:5, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom, line 180, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Validator 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-validator ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ commons-validator ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+
+compress:
+
+compressor-specified:
+
+download-compressor-check:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/lib
+
+download-compressor:
+     [echo] Downloading JavaScript Compressor....
+      [get] Getting: http://repo1.maven.org/maven2/org/dojotoolkit/custom_rhino/0.4.3/custom_rhino-0.4.3.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/lib/custom_rhino-0.4.3.jar
+
+compress-files:
+     [echo] Compressing JavaScript files using lib/custom_rhino-0.4.3.jar
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/target/classes/org/apache/commons/validator/javascript
+     [echo] Compressing commons-validator-1.4-SNAPSHOT.js
+
+compress-file:
+     [echo] Compressing validateByte.js
+
+compress-file:
+     [echo] Compressing validateCreditCard.js
+
+compress-file:
+     [echo] Compressing validateDate.js
+
+compress-file:
+     [echo] Compressing validateEmail.js
+
+compress-file:
+     [echo] Compressing validateFloat.js
+
+compress-file:
+     [echo] Compressing validateFloatRange.js
+
+compress-file:
+     [echo] Compressing validateInteger.js
+
+compress-file:
+     [echo] Compressing validateIntRange.js
+
+compress-file:
+     [echo] Compressing validateMask.js
+
+compress-file:
+     [echo] Compressing validateMaxLength.js
+
+compress-file:
+     [echo] Compressing validateMinLength.js
+
+compress-file:
+     [echo] Compressing validateRequired.js
+
+compress-file:
+     [echo] Compressing validateShort.js
+
+compress-file:
+     [echo] Compressing validateUtilities.js
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-validator ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 8 resources
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-validator ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 54 source files to /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,27] illegal start of expression
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,56] ';' expected
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.232 s
+[INFO] Finished at: 2019-12-04T04:48:30+00:00
+[INFO] Final Memory: 12M/240M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-validator: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,27] illegal start of expression
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,56] ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+(mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true) || (sed -i -- 's/5-SNAPSHOT/5/g' pom.xml ; mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true)
+0.296s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-validator 9e98155345982fc7fa50514d03bc33ea0c98d7d9:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for commons-validator:commons-validator:1.4-SNAPSHOT: Could not find artifact org.apache.commons:commons-parent:pom:5-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 22, column 13
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project commons-validator:commons-validator:1.4-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for commons-validator:commons-validator:1.4-SNAPSHOT: Could not find artifact org.apache.commons:commons-parent:pom:5-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 22, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-validator:commons-validator:jar:1.4-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:5, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom, line 180, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.apache.commons:commons-parent:5, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom, line 155, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Validator 1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-validator ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (default) @ commons-validator ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+
+compress:
+
+compressor-specified:
+
+download-compressor-check:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/lib
+
+download-compressor:
+     [echo] Downloading JavaScript Compressor....
+      [get] Getting: http://repo1.maven.org/maven2/org/dojotoolkit/custom_rhino/0.4.3/custom_rhino-0.4.3.jar
+      [get] To: /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/lib/custom_rhino-0.4.3.jar
+
+compress-files:
+     [echo] Compressing JavaScript files using lib/custom_rhino-0.4.3.jar
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/target/classes/org/apache/commons/validator/javascript
+     [echo] Compressing commons-validator-1.4-SNAPSHOT.js
+
+compress-file:
+     [echo] Compressing validateByte.js
+
+compress-file:
+     [echo] Compressing validateCreditCard.js
+
+compress-file:
+     [echo] Compressing validateDate.js
+
+compress-file:
+     [echo] Compressing validateEmail.js
+
+compress-file:
+     [echo] Compressing validateFloat.js
+
+compress-file:
+     [echo] Compressing validateFloatRange.js
+
+compress-file:
+     [echo] Compressing validateInteger.js
+
+compress-file:
+     [echo] Compressing validateIntRange.js
+
+compress-file:
+     [echo] Compressing validateMask.js
+
+compress-file:
+     [echo] Compressing validateMaxLength.js
+
+compress-file:
+     [echo] Compressing validateMinLength.js
+
+compress-file:
+     [echo] Compressing validateRequired.js
+
+compress-file:
+     [echo] Compressing validateShort.js
+
+compress-file:
+     [echo] Compressing validateUtilities.js
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-validator ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 8 resources
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-validator ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 54 source files to /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,27] illegal start of expression
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,56] ';' expected
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.266 s
+[INFO] Finished at: 2019-12-04T04:48:47+00:00
+[INFO] Final Memory: 13M/209M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project commons-validator: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,27] illegal start of expression
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-validator/download/9e98155345982fc7fa50514d03bc33ea0c98d7d9/src/main/java/org/apache/commons/validator/routines/UrlValidator.java:[399,56] ';' expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+(mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true) || (sed -i -- 's/5-SNAPSHOT/5/g' pom.xml ; mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true)
+0.126s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-validator 9e98155345982fc7fa50514d03bc33ea0c98d7d9:
+(mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true) || (sed -i -- 's/5-SNAPSHOT/5/g' pom.xml ; mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true)
+0.50s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

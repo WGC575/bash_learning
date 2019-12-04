@@ -1,0 +1,685 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-collections c340a74c7ecfdef96ee5e1407f40d026cc3f12f1:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Collections 4.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-collections ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ commons-collections ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-collections ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433678488
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-collections ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ commons-collections ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 307 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/ClosureUtils.java: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/ClosureUtils.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/ClosureUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[23,42] cannot find symbol
+  symbol:   class SynchronizedSet
+  location: package org.apache.commons.collections.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[116,38] cannot find symbol
+  symbol:   class SynchronizedSet
+  location: class org.apache.commons.collections.bag.SynchronizedBag<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MultiMap.java:[64,14] name clash: remove(K,V) in org.apache.commons.collections.MultiMap and remove(java.lang.Object,java.lang.Object) in java.util.Map have the same erasure, yet neither overrides the other
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[102,20] incompatible types: org.apache.commons.collections.bag.SynchronizedBag<E>.SynchronizedBagSet cannot be converted to java.util.Set<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiValueMap.java:[205,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections.map.MultiValueMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+  return type V is not compatible with boolean
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiKeyMap.java:[198,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections.map.MultiKeyMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+  return type V is not compatible with boolean
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.448 s
+[INFO] Finished at: 2019-12-04T04:28:01+00:00
+[INFO] Final Memory: 21M/281M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project commons-collections: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[23,42] cannot find symbol
+[ERROR] symbol:   class SynchronizedSet
+[ERROR] location: package org.apache.commons.collections.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[116,38] cannot find symbol
+[ERROR] symbol:   class SynchronizedSet
+[ERROR] location: class org.apache.commons.collections.bag.SynchronizedBag<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MultiMap.java:[64,14] name clash: remove(K,V) in org.apache.commons.collections.MultiMap and remove(java.lang.Object,java.lang.Object) in java.util.Map have the same erasure, yet neither overrides the other
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[102,20] incompatible types: org.apache.commons.collections.bag.SynchronizedBag<E>.SynchronizedBagSet cannot be converted to java.util.Set<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiValueMap.java:[205,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections.map.MultiValueMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+[ERROR] return type V is not compatible with boolean
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiKeyMap.java:[198,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections.map.MultiKeyMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+[ERROR] return type V is not compatible with boolean
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+init:
+     [echo] -------- commons-collections 4.0-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build/classes
+    [javac] Compiling 307 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:23: error: cannot find symbol
+    [javac] import org.apache.commons.collections.set.SynchronizedSet;
+    [javac]                                          ^
+    [javac]   symbol:   class SynchronizedSet
+    [javac]   location: package org.apache.commons.collections.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:116: error: cannot find symbol
+    [javac]     class SynchronizedBagSet extends SynchronizedSet<E> {
+    [javac]                                      ^
+    [javac]   symbol:   class SynchronizedSet
+    [javac]   location: class SynchronizedBag<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class SynchronizedBag
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:22: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac] import org.apache.commons.collections.ArrayStack;
+    [javac]                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/BufferUtils.java:37: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     public static final Buffer<Object> EMPTY_BUFFER = UnmodifiableBuffer.unmodifiableBuffer(new ArrayStack<Object>(1));
+    [javac]                                                                                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:920: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]         verbosePrintInternal(out, label, map, new ArrayStack<Map<?, ?>>(), false);
+    [javac]                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:942: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]         verbosePrintInternal(out, label, map, new ArrayStack<Map<?, ?>>(), true);
+    [javac]                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:971: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]                                              final ArrayStack<Map<?, ?>> lineage, final boolean debug) {
+    [javac]                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiValueMap.java:205: error: remove(Object,Object) in MultiValueMap cannot implement remove(Object,Object) in Map
+    [javac]     public V remove(final Object key, final Object value) {
+    [javac]              ^
+    [javac]   return type V is not compatible with boolean
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class MultiValueMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MultiMap.java:64: error: name clash: remove(K,V) in MultiMap and remove(Object,Object) in Map have the same erasure, yet neither overrides the other
+    [javac]     public V remove(K key, V item);
+    [javac]              ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface MultiMap
+    [javac]     V extends Object declared in interface MultiMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:102: error: incompatible types: SynchronizedBag<E>.SynchronizedBagSet cannot be converted to Set<E>
+    [javac]             return new SynchronizedBagSet(set, lock);
+    [javac]                    ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class SynchronizedBag
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:79: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     protected final ArrayStack<Iterator<? extends E>> stack = new ArrayStack<Iterator<? extends E>>(8);
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:79: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     protected final ArrayStack<Iterator<? extends E>> stack = new ArrayStack<Iterator<? extends E>>(8);
+    [javac]                                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiKeyMap.java:198: error: remove(Object,Object) in MultiKeyMap cannot implement remove(Object,Object) in Map
+    [javac]     public V remove(final Object key1, final Object key2) {
+    [javac]              ^
+    [javac]   return type V is not compatible with boolean
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class MultiKeyMap
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 6 errors
+    [javac] 7 warnings
+(mvn clean compile -DskipTests) || (ant compile)
+0.64s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-collections c340a74c7ecfdef96ee5e1407f40d026cc3f12f1:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Collections 4.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-collections ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ commons-collections ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-collections ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433688733
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-collections ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ commons-collections ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 307 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/ClosureUtils.java: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/ClosureUtils.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/ClosureUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[23,42] cannot find symbol
+  symbol:   class SynchronizedSet
+  location: package org.apache.commons.collections.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[116,38] cannot find symbol
+  symbol:   class SynchronizedSet
+  location: class org.apache.commons.collections.bag.SynchronizedBag<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MultiMap.java:[64,14] name clash: remove(K,V) in org.apache.commons.collections.MultiMap and remove(java.lang.Object,java.lang.Object) in java.util.Map have the same erasure, yet neither overrides the other
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[102,20] incompatible types: org.apache.commons.collections.bag.SynchronizedBag<E>.SynchronizedBagSet cannot be converted to java.util.Set<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiValueMap.java:[205,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections.map.MultiValueMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+  return type V is not compatible with boolean
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiKeyMap.java:[198,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections.map.MultiKeyMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+  return type V is not compatible with boolean
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.390 s
+[INFO] Finished at: 2019-12-04T04:28:11+00:00
+[INFO] Final Memory: 21M/281M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project commons-collections: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[23,42] cannot find symbol
+[ERROR] symbol:   class SynchronizedSet
+[ERROR] location: package org.apache.commons.collections.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[116,38] cannot find symbol
+[ERROR] symbol:   class SynchronizedSet
+[ERROR] location: class org.apache.commons.collections.bag.SynchronizedBag<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MultiMap.java:[64,14] name clash: remove(K,V) in org.apache.commons.collections.MultiMap and remove(java.lang.Object,java.lang.Object) in java.util.Map have the same erasure, yet neither overrides the other
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[102,20] incompatible types: org.apache.commons.collections.bag.SynchronizedBag<E>.SynchronizedBagSet cannot be converted to java.util.Set<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiValueMap.java:[205,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections.map.MultiValueMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+[ERROR] return type V is not compatible with boolean
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiKeyMap.java:[198,14] remove(java.lang.Object,java.lang.Object) in org.apache.commons.collections.map.MultiKeyMap cannot implement remove(java.lang.Object,java.lang.Object) in java.util.Map
+[ERROR] return type V is not compatible with boolean
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+init:
+     [echo] -------- commons-collections 4.0-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build/classes
+    [javac] Compiling 307 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:23: error: cannot find symbol
+    [javac] import org.apache.commons.collections.set.SynchronizedSet;
+    [javac]                                          ^
+    [javac]   symbol:   class SynchronizedSet
+    [javac]   location: package org.apache.commons.collections.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:116: error: cannot find symbol
+    [javac]     class SynchronizedBagSet extends SynchronizedSet<E> {
+    [javac]                                      ^
+    [javac]   symbol:   class SynchronizedSet
+    [javac]   location: class SynchronizedBag<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class SynchronizedBag
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:22: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac] import org.apache.commons.collections.ArrayStack;
+    [javac]                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/BufferUtils.java:37: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     public static final Buffer<Object> EMPTY_BUFFER = UnmodifiableBuffer.unmodifiableBuffer(new ArrayStack<Object>(1));
+    [javac]                                                                                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:920: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]         verbosePrintInternal(out, label, map, new ArrayStack<Map<?, ?>>(), false);
+    [javac]                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:942: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]         verbosePrintInternal(out, label, map, new ArrayStack<Map<?, ?>>(), true);
+    [javac]                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:971: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]                                              final ArrayStack<Map<?, ?>> lineage, final boolean debug) {
+    [javac]                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiValueMap.java:205: error: remove(Object,Object) in MultiValueMap cannot implement remove(Object,Object) in Map
+    [javac]     public V remove(final Object key, final Object value) {
+    [javac]              ^
+    [javac]   return type V is not compatible with boolean
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class MultiValueMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MultiMap.java:64: error: name clash: remove(K,V) in MultiMap and remove(Object,Object) in Map have the same erasure, yet neither overrides the other
+    [javac]     public V remove(K key, V item);
+    [javac]              ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface MultiMap
+    [javac]     V extends Object declared in interface MultiMap
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:102: error: incompatible types: SynchronizedBag<E>.SynchronizedBagSet cannot be converted to Set<E>
+    [javac]             return new SynchronizedBagSet(set, lock);
+    [javac]                    ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class SynchronizedBag
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:79: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     protected final ArrayStack<Iterator<? extends E>> stack = new ArrayStack<Iterator<? extends E>>(8);
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:79: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     protected final ArrayStack<Iterator<? extends E>> stack = new ArrayStack<Iterator<? extends E>>(8);
+    [javac]                                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/map/MultiKeyMap.java:198: error: remove(Object,Object) in MultiKeyMap cannot implement remove(Object,Object) in Map
+    [javac]     public V remove(final Object key1, final Object key2) {
+    [javac]              ^
+    [javac]   return type V is not compatible with boolean
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in class MultiKeyMap
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 6 errors
+    [javac] 7 warnings
+(mvn clean compile -DskipTests) || (ant compile)
+0.268s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-collections c340a74c7ecfdef96ee5e1407f40d026cc3f12f1:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Collections 4.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-collections ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-collections ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ commons-collections ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-collections ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433699601
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-collections ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ commons-collections ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 307 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/target/classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java: Some input files use or override a deprecated API.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/ClosureUtils.java: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/ClosureUtils.java uses unchecked or unsafe operations.
+[WARNING] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/ClosureUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[23,42] cannot find symbol
+  symbol:   class SynchronizedSet
+  location: package org.apache.commons.collections.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[116,38] cannot find symbol
+  symbol:   class SynchronizedSet
+  location: class org.apache.commons.collections.bag.SynchronizedBag<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[102,20] incompatible types
+  required: java.util.Set<E>
+  found:    org.apache.commons.collections.bag.SynchronizedBag<E>.SynchronizedBagSet
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.805 s
+[INFO] Finished at: 2019-12-04T04:28:25+00:00
+[INFO] Final Memory: 23M/342M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project commons-collections: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[23,42] cannot find symbol
+[ERROR] symbol:   class SynchronizedSet
+[ERROR] location: package org.apache.commons.collections.set
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[116,38] cannot find symbol
+[ERROR] symbol:   class SynchronizedSet
+[ERROR] location: class org.apache.commons.collections.bag.SynchronizedBag<E>
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:[102,20] incompatible types
+[ERROR] required: java.util.Set<E>
+[ERROR] found:    org.apache.commons.collections.bag.SynchronizedBag<E>.SynchronizedBagSet
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+init:
+     [echo] -------- commons-collections 4.0-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build/classes
+    [javac] Compiling 307 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:23: error: cannot find symbol
+    [javac] import org.apache.commons.collections.set.SynchronizedSet;
+    [javac]                                          ^
+    [javac]   symbol:   class SynchronizedSet
+    [javac]   location: package org.apache.commons.collections.set
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:116: error: cannot find symbol
+    [javac]     class SynchronizedBagSet extends SynchronizedSet<E> {
+    [javac]                                      ^
+    [javac]   symbol:   class SynchronizedSet
+    [javac]   location: class SynchronizedBag<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class SynchronizedBag
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:22: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac] import org.apache.commons.collections.ArrayStack;
+    [javac]                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/BufferUtils.java:37: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     public static final Buffer<Object> EMPTY_BUFFER = UnmodifiableBuffer.unmodifiableBuffer(new ArrayStack<Object>(1));
+    [javac]                                                                                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:920: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]         verbosePrintInternal(out, label, map, new ArrayStack<Map<?, ?>>(), false);
+    [javac]                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:942: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]         verbosePrintInternal(out, label, map, new ArrayStack<Map<?, ?>>(), true);
+    [javac]                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:971: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]                                              final ArrayStack<Map<?, ?>> lineage, final boolean debug) {
+    [javac]                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:102: error: incompatible types
+    [javac]             return new SynchronizedBagSet(set, lock);
+    [javac]                    ^
+    [javac]   required: Set<E>
+    [javac]   found:    SynchronizedBag<E>.SynchronizedBagSet
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class SynchronizedBag
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:79: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     protected final ArrayStack<Iterator<? extends E>> stack = new ArrayStack<Iterator<? extends E>>(8);
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:79: warning: [deprecation] ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     protected final ArrayStack<Iterator<? extends E>> stack = new ArrayStack<Iterator<? extends E>>(8);
+    [javac]                                                                   ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 errors
+    [javac] 7 warnings
+(mvn clean compile -DskipTests) || (ant compile)
+0.470s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-collections c340a74c7ecfdef96ee5e1407f40d026cc3f12f1:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+init:
+     [echo] -------- commons-collections 4.0-SNAPSHOT --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build
+
+compile:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build/classes
+    [javac] Compiling 307 source files to /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:971: warning: [deprecation] org.apache.commons.collections.ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]                                              final ArrayStack<Map<?, ?>> lineage, final boolean debug) {
+    [javac]                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:23: cannot find symbol
+    [javac] symbol  : class SynchronizedSet
+    [javac] location: package org.apache.commons.collections.set
+    [javac] import org.apache.commons.collections.set.SynchronizedSet;
+    [javac]                                          ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:116: cannot find symbol
+    [javac] symbol  : class SynchronizedSet
+    [javac] location: class org.apache.commons.collections.bag.SynchronizedBag<E>
+    [javac]     class SynchronizedBagSet extends SynchronizedSet<E> {
+    [javac]                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:116: a generic class may not extend java.lang.Throwable
+    [javac]     class SynchronizedBagSet extends SynchronizedSet<E> {
+    [javac]                                                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:22: warning: [deprecation] org.apache.commons.collections.ArrayStack in org.apache.commons.collections has been deprecated
+    [javac] import org.apache.commons.collections.ArrayStack;
+    [javac]                                      ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:79: warning: [deprecation] org.apache.commons.collections.ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     protected final ArrayStack<Iterator<? extends E>> stack = new ArrayStack<Iterator<? extends E>>(8);
+    [javac]                     ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/BufferUtils.java:37: warning: [deprecation] org.apache.commons.collections.ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     public static final Buffer<Object> EMPTY_BUFFER = UnmodifiableBuffer.unmodifiableBuffer(new ArrayStack<Object>(1));
+    [javac]                                                                                                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:920: warning: [deprecation] org.apache.commons.collections.ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]         verbosePrintInternal(out, label, map, new ArrayStack<Map<?, ?>>(), false);
+    [javac]                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/MapUtils.java:942: warning: [deprecation] org.apache.commons.collections.ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]         verbosePrintInternal(out, label, map, new ArrayStack<Map<?, ?>>(), true);
+    [javac]                                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/bag/SynchronizedBag.java:102: incompatible types
+    [javac] found   : org.apache.commons.collections.bag.SynchronizedBag<E>.SynchronizedBagSet
+    [javac] required: java.util.Set<E>
+    [javac]             return new SynchronizedBagSet(set, lock);
+    [javac]                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-collections/download/c340a74c7ecfdef96ee5e1407f40d026cc3f12f1/src/main/java/org/apache/commons/collections/iterators/ObjectGraphIterator.java:79: warning: [deprecation] org.apache.commons.collections.ArrayStack in org.apache.commons.collections has been deprecated
+    [javac]     protected final ArrayStack<Iterator<? extends E>> stack = new ArrayStack<Iterator<? extends E>>(8);
+    [javac]                                                                   ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 4 errors
+    [javac] 7 warnings
+(mvn clean compile -DskipTests) || (ant compile)
+0.334s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

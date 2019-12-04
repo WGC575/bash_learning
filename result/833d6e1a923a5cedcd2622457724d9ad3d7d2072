@@ -1,0 +1,1258 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina 833d6e1a923a5cedcd2622457724d9ad3d7d2072:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 23 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR]  class NioTcpClient
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.529 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  1.057 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.953 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.326 s
+[INFO] Finished at: 2019-12-04T07:21:48+00:00
+[INFO] Final Memory: 22M/261M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR] class NioTcpClient
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: mina-core @ 
+[ERROR] Could not find the selected project in the reactor: mina-core -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 23 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR]  class NioTcpClient
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.473 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  1.105 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.957 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.260 s
+[INFO] Finished at: 2019-12-04T07:21:55+00:00
+[INFO] Final Memory: 22M/261M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR] class NioTcpClient
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-parent >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-parent <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-parent/3.0.0-M1-SNAPSHOT/mina-parent-3.0.0-M1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 23 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mina-codec ---
+[INFO] Compiling 15 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mina-codec ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ mina-codec ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-codec >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-codec <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-codec ---
+[WARNING] NOT adding sources to artifacts with classifier as Maven only supports one classifier per artifact. Current artifact [org.apache.mina:mina-codec:bundle:3.0.0-M1-SNAPSHOT] has a [] classifier.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:test-jar (default) @ mina-codec ---
+[INFO] Building jar: /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/mina-codec-3.0.0-M1-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-codec ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/mina-codec-3.0.0-M1-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/mina-codec-3.0.0-M1-SNAPSHOT-tests.jar to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ mina-codec ---
+[INFO] Installing org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR]  class NioTcpClient
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.754 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  2.933 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.974 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.296 s
+[INFO] Finished at: 2019-12-04T07:22:02+00:00
+[INFO] Final Memory: 32M/424M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR] class NioTcpClient
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.247s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina 833d6e1a923a5cedcd2622457724d9ad3d7d2072:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 23 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR]  class NioTcpClient
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.467 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  1.074 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.056 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.366 s
+[INFO] Finished at: 2019-12-04T07:22:07+00:00
+[INFO] Final Memory: 22M/263M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR] class NioTcpClient
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: mina-core @ 
+[ERROR] Could not find the selected project in the reactor: mina-core -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 23 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR]  class NioTcpClient
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.604 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  1.161 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.888 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.361 s
+[INFO] Finished at: 2019-12-04T07:22:15+00:00
+[INFO] Final Memory: 22M/258M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR] class NioTcpClient
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-parent >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-parent <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-parent/3.0.0-M1-SNAPSHOT/mina-parent-3.0.0-M1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 23 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mina-codec ---
+[INFO] Compiling 15 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mina-codec ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ mina-codec ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-codec >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-codec <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-codec ---
+[WARNING] NOT adding sources to artifacts with classifier as Maven only supports one classifier per artifact. Current artifact [org.apache.mina:mina-codec:bundle:3.0.0-M1-SNAPSHOT] has a [] classifier.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:test-jar (default) @ mina-codec ---
+[INFO] Building jar: /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/mina-codec-3.0.0-M1-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-codec ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/mina-codec-3.0.0-M1-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/mina-codec-3.0.0-M1-SNAPSHOT-tests.jar to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ mina-codec ---
+[INFO] Installing org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR]  class NioTcpClient
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.718 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  2.977 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.903 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.308 s
+[INFO] Finished at: 2019-12-04T07:22:21+00:00
+[INFO] Final Memory: 32M/421M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR] class NioTcpClient
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.117s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina 833d6e1a923a5cedcd2622457724d9ad3d7d2072:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 23 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR]  class NioTcpClient
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.659 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  1.213 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.322 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.232 s
+[INFO] Finished at: 2019-12-04T07:22:28+00:00
+[INFO] Final Memory: 28M/340M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR] class NioTcpClient
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: mina-core @ 
+[ERROR] Could not find the selected project in the reactor: mina-core -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 23 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR]  class NioTcpClient
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.713 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  1.249 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.319 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.249 s
+[INFO] Finished at: 2019-12-04T07:22:37+00:00
+[INFO] Final Memory: 24M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR] class NioTcpClient
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-parent >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-parent <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-parent/3.0.0-M1-SNAPSHOT/mina-parent-3.0.0-M1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 23 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mina-codec ---
+[INFO] Compiling 15 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mina-codec ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ mina-codec ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-codec >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-codec <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-codec ---
+[WARNING] NOT adding sources to artifacts with classifier as Maven only supports one classifier per artifact. Current artifact [org.apache.mina:mina-codec:bundle:3.0.0-M1-SNAPSHOT] has a [] classifier.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.2:test-jar (default) @ mina-codec ---
+[INFO] Building jar: /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/mina-codec-3.0.0-M1-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-codec ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/mina-codec-3.0.0-M1-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.pom
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/codec/target/mina-codec-3.0.0-M1-SNAPSHOT-tests.jar to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ mina-codec ---
+[INFO] Installing org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR]  class NioTcpSession
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR]  package org.apache.mina.transport.nio
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR]  class NioTcpClient
+/home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  1.000 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  2.942 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.212 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.166 s
+[INFO] Finished at: 2019-12-04T07:22:45+00:00
+[INFO] Final Memory: 32M/333M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[61,12] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpSession.java:[81,26] error: cannot find symbol
+[ERROR] class NioTcpSession
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[34,36] error: cannot find symbol
+[ERROR] package org.apache.mina.transport.nio
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,8] error: cannot find symbol
+[ERROR] class NioTcpClient
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/833d6e1a923a5cedcd2622457724d9ad3d7d2072/core/src/main/java/org/apache/mina/transport/nio/tcp/NioTcpClient.java:[191,42] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.499s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina 833d6e1a923a5cedcd2622457724d9ad3d7d2072:
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.132s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

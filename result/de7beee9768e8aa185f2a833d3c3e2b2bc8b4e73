@@ -1,0 +1,398 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-shiro de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Shiro :: Core 1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.pom (2 KB at 3.8 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ shiro-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ shiro-core ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.jar
+3/10 KB   5/10 KB   8/10 KB   10/10 KB              Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.jar (10 KB at 337.5 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ shiro-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ shiro-core ---
+[INFO] Compiling 269 source files to /home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.585 s
+[INFO] Finished at: 2019-12-04T09:29:57+00:00
+[INFO] Final Memory: 20M/251M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project shiro-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/core/src/main/java/org/apache/shiro/config/IniSecurityManagerFactory.java:[73,22] error: <T>getBean(String,Class<T>) has private access in ReflectionBuilder
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-aspectj:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/aspectj/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 23, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-aspectj:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 23, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-ehcache:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/ehcache/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-ehcache:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-groovy:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/groovy/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-groovy:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-quartz:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/quartz/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-quartz:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-spring:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/spring/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-spring:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:dependency-maven-plugin is missing. @ org.apache.shiro.samples:samples-spring:[unknown-version], /home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/samples/spring/pom.xml, line 66, column 21
+ @ 
+[ERROR] The build could not read 5 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-aspectj:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/aspectj/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-aspectj:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 23, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-ehcache:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/ehcache/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-ehcache:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-groovy:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/groovy/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-groovy:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-quartz:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/quartz/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-quartz:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-spring:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/spring/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-spring:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+(mvn clean compile -DskipTests -f core/pom.xml) || (sed -i -- 's/1.0-beta-4/1.0/g' pom.xml ; mvn -DskipTests clean install -pl core -am)
+0.261s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-shiro de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Shiro :: Core 1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ shiro-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ shiro-core ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ shiro-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ shiro-core ---
+[INFO] Compiling 269 source files to /home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.235 s
+[INFO] Finished at: 2019-12-04T09:30:05+00:00
+[INFO] Final Memory: 17M/266M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project shiro-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/core/src/main/java/org/apache/shiro/config/IniSecurityManagerFactory.java:[73,22] error: <T>getBean(String,Class<T>) has private access in ReflectionBuilder
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-aspectj:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/aspectj/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 23, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-aspectj:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 23, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-ehcache:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/ehcache/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-ehcache:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-groovy:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/groovy/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-groovy:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-quartz:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/quartz/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-quartz:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-spring:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/spring/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-spring:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:dependency-maven-plugin is missing. @ org.apache.shiro.samples:samples-spring:[unknown-version], /home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/samples/spring/pom.xml, line 66, column 21
+ @ 
+[ERROR] The build could not read 5 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-aspectj:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/aspectj/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-aspectj:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 23, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-ehcache:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/ehcache/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-ehcache:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-groovy:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/groovy/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-groovy:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-quartz:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/quartz/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-quartz:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-spring:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/spring/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-spring:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+(mvn clean compile -DskipTests -f core/pom.xml) || (sed -i -- 's/1.0-beta-4/1.0/g' pom.xml ; mvn -DskipTests clean install -pl core -am)
+0.124s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-shiro de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Shiro :: Core 1.0-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.3:clean (default-clean) @ shiro-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ shiro-core ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ shiro-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ shiro-core ---
+[INFO] Compiling 269 source files to /home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.307 s
+[INFO] Finished at: 2019-12-04T09:30:13+00:00
+[INFO] Final Memory: 16M/211M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project shiro-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/core/src/main/java/org/apache/shiro/config/IniSecurityManagerFactory.java:[73,22] error: <T>getBean(String,Class<T>) has private access in ReflectionBuilder
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-aspectj:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/aspectj/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 23, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-aspectj:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 23, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-ehcache:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/ehcache/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-ehcache:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-groovy:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/groovy/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-groovy:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-quartz:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/quartz/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-quartz:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.shiro:shiro-spring:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/spring/pom.xml) points at org.apache.shiro:shiro-support instead of org.apache.shiro:shiro-root, please verify your project structure @ line 24, column 13
+[FATAL] Non-resolvable parent POM for org.apache.shiro:shiro-spring:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:dependency-maven-plugin is missing. @ org.apache.shiro.samples:samples-spring:[unknown-version], /home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/samples/spring/pom.xml, line 66, column 21
+ @ 
+[ERROR] The build could not read 5 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-aspectj:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/aspectj/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-aspectj:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 23, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-ehcache:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/ehcache/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-ehcache:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-groovy:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/groovy/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-groovy:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-quartz:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/quartz/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-quartz:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.shiro:shiro-spring:[unknown-version] (/home/ubuntu/ATLAS/apps/apache-shiro/download/de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73/support/spring/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.shiro:shiro-spring:[unknown-version]: Could not find artifact org.apache.shiro:shiro-root:pom:1.0-incubating-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 24, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+(mvn clean compile -DskipTests -f core/pom.xml) || (sed -i -- 's/1.0-beta-4/1.0/g' pom.xml ; mvn -DskipTests clean install -pl core -am)
+0.356s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-shiro de7beee9768e8aa185f2a833d3c3e2b2bc8b4e73:
+(mvn clean compile -DskipTests -f core/pom.xml) || (sed -i -- 's/1.0-beta-4/1.0/g' pom.xml ; mvn -DskipTests clean install -pl core -am)
+0.313s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

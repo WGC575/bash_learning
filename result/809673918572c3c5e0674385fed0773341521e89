@@ -1,0 +1,1247 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina 809673918572c3c5e0674385fed0773341521e89:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 9 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.623 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  0.992 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.892 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.185 s
+[INFO] Finished at: 2019-12-04T07:19:37+00:00
+[INFO] Final Memory: 22M/258M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: mina-core @ 
+[ERROR] Could not find the selected project in the reactor: mina-core -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 9 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.567 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  0.944 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.924 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.109 s
+[INFO] Finished at: 2019-12-04T07:19:43+00:00
+[INFO] Final Memory: 22M/260M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-parent >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-parent <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-parent ---
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.1:cobertura (default) > [cobertura]test @ mina-parent >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:instrument (default) @ mina-parent ---
+[INFO] Skipping cobertura mojo for project with packaging type 'pom'
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.1:cobertura (default) < [cobertura]test @ mina-parent <<<
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:cobertura (default) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-parent/3.0.0-M1-SNAPSHOT/mina-parent-3.0.0-M1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 9 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mina-codec ---
+[INFO] Compiling 6 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mina-codec ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.7.2/surefire-booter-2.7.2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.7.2/surefire-booter-2.7.2.pom (2 KB at 5.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.pom (2 KB at 95.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.7.2/maven-surefire-common-2.7.2.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.7.2/maven-surefire-common-2.7.2.pom (4 KB at 188.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.7.2/surefire-booter-2.7.2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.7.2/maven-surefire-common-2.7.2.jar
+3/32 KB   5/32 KB   8/32 KB   11/32 KB   13/32 KB   16/32 KB   19/32 KB   21/32 KB   24/32 KB   27/32 KB   29/32 KB   32/32 KB   32/32 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.7.2/surefire-booter-2.7.2.jar (32 KB at 556.3 KB/sec)
+3/60 KB    3/60 KB   3/119 KB   5/60 KB   3/119 KB   5/60 KB   5/119 KB   8/60 KB   5/119 KB   8/60 KB   8/119 KB   11/60 KB   8/119 KB   11/60 KB   11/119 KB   13/60 KB   11/119 KB   13/60 KB   13/119 KB   16/60 KB   13/119 KB   19/60 KB   13/119 KB   21/60 KB   13/119 KB   21/60 KB   16/119 KB   24/60 KB   16/119 KB   24/60 KB   19/119 KB   27/60 KB   19/119 KB   27/60 KB   21/119 KB   29/60 KB   21/119 KB   29/60 KB   24/119 KB   32/60 KB   24/119 KB   32/60 KB   27/119 KB   32/60 KB   29/119 KB   32/60 KB   32/119 KB   36/60 KB   32/119 KB   40/60 KB   32/119 KB   44/60 KB   32/119 KB   44/60 KB   36/119 KB   44/60 KB   40/119 KB   44/60 KB   44/119 KB   44/60 KB   48/119 KB   44/60 KB   52/119 KB   44/60 KB   56/119 KB   44/60 KB   60/119 KB   44/60 KB   64/119 KB   44/60 KB   68/119 KB   44/60 KB   72/119 KB   44/60 KB   76/119 KB   44/60 KB   80/119 KB   44/60 KB   84/119 KB   44/60 KB   88/119 KB   44/60 KB   92/119 KB   48/60 KB   92/119 KB   52/60 KB   92/119 KB   56/60 KB   92/119 KB   60/60 KB   92/119 KB   60/60 KB   96/119 KB   60/60 KB   100/119 KB   60/60 KB   104/119 KB   60/60 KB   108/119 KB   60/60 KB   112/119 KB   60/60 KB   116/119 KB   60/60 KB   119/119 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.7.2/maven-surefire-common-2.7.2.jar (60 KB at 602.9 KB/sec)
+                        Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.jar (119 KB at 1119.6 KB/sec)
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ mina-codec ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-codec >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-codec <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-codec ---
+[WARNING] NOT adding sources to artifacts with classifier as Maven only supports one classifier per artifact. Current artifact [org.apache.mina:mina-codec:bundle:3.0.0-M1-SNAPSHOT] has a [] classifier.
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.1:cobertura (default) > [cobertura]test @ mina-codec >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:instrument (default) @ mina-codec ---
+[INFO] Cobertura 1.9.4.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Instrumenting 15 files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/generated-classes/cobertura
+[cobertura] WARN  [main] net.sourceforge.cobertura.instrument.ClassInstrumenter - No line number information found for class org.apache.mina.codec.textline.TextLineDecoder$1.  Perhaps you need to compile with debug=true?
+[cobertura] WARN  [main] net.sourceforge.cobertura.instrument.ClassInstrumenter - No line number information found for class org.apache.mina.codec.IoBuffer$1.  Perhaps you need to compile with debug=true?
+Cobertura: Saved information on 15 classes.
+Instrument time: 157ms
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/test/resources
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mina-codec ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mina-codec ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.1:cobertura (default) < [cobertura]test @ mina-codec <<<
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:cobertura (default) @ mina-codec ---
+[INFO] Cobertura 1.9.4.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Cobertura: Loaded information on 15 classes.
+Report time: 379ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-codec ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/mina-codec-3.0.0-M1-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ mina-codec ---
+[INFO] Writing OBR metadata
+[INFO] Installing org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  1.311 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  3.920 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.991 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.985 s
+[INFO] Finished at: 2019-12-04T07:19:52+00:00
+[INFO] Final Memory: 38M/364M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.81s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina 809673918572c3c5e0674385fed0773341521e89:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 9 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.546 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  0.991 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.971 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.223 s
+[INFO] Finished at: 2019-12-04T07:19:58+00:00
+[INFO] Final Memory: 22M/259M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: mina-core @ 
+[ERROR] Could not find the selected project in the reactor: mina-core -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 9 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.560 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  0.966 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.033 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.291 s
+[INFO] Finished at: 2019-12-04T07:20:05+00:00
+[INFO] Final Memory: 22M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-parent >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-parent <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-parent ---
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.1:cobertura (default) > [cobertura]test @ mina-parent >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:instrument (default) @ mina-parent ---
+[INFO] Skipping cobertura mojo for project with packaging type 'pom'
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.1:cobertura (default) < [cobertura]test @ mina-parent <<<
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:cobertura (default) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-parent/3.0.0-M1-SNAPSHOT/mina-parent-3.0.0-M1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 9 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mina-codec ---
+[INFO] Compiling 6 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mina-codec ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ mina-codec ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-codec >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-codec <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-codec ---
+[WARNING] NOT adding sources to artifacts with classifier as Maven only supports one classifier per artifact. Current artifact [org.apache.mina:mina-codec:bundle:3.0.0-M1-SNAPSHOT] has a [] classifier.
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.1:cobertura (default) > [cobertura]test @ mina-codec >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:instrument (default) @ mina-codec ---
+[INFO] Cobertura 1.9.4.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Instrumenting 15 files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/generated-classes/cobertura
+[cobertura] WARN  [main] net.sourceforge.cobertura.instrument.ClassInstrumenter - No line number information found for class org.apache.mina.codec.textline.TextLineDecoder$1.  Perhaps you need to compile with debug=true?
+[cobertura] WARN  [main] net.sourceforge.cobertura.instrument.ClassInstrumenter - No line number information found for class org.apache.mina.codec.IoBuffer$1.  Perhaps you need to compile with debug=true?
+Cobertura: Saved information on 15 classes.
+Instrument time: 155ms
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/test/resources
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mina-codec ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mina-codec ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.1:cobertura (default) < [cobertura]test @ mina-codec <<<
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:cobertura (default) @ mina-codec ---
+[INFO] Cobertura 1.9.4.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Cobertura: Loaded information on 15 classes.
+Report time: 383ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-codec ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/mina-codec-3.0.0-M1-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ mina-codec ---
+[INFO] Installing org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  1.266 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  3.136 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  0.959 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.055 s
+[INFO] Finished at: 2019-12-04T07:20:13+00:00
+[INFO] Final Memory: 34M/406M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.279s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina 809673918572c3c5e0674385fed0773341521e89:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 9 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.793 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  1.030 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.283 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.976 s
+[INFO] Finished at: 2019-12-04T07:20:19+00:00
+[INFO] Final Memory: 24M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: mina-core @ 
+[ERROR] Could not find the selected project in the reactor: mina-core -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 9 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  0.791 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  1.081 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.347 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.109 s
+[INFO] Finished at: 2019-12-04T07:20:28+00:00
+[INFO] Final Memory: 22M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-parent ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-parent >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-parent <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-parent ---
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.1:cobertura (default) > [cobertura]test @ mina-parent >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-parent ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:instrument (default) @ mina-parent ---
+[INFO] Skipping cobertura mojo for project with packaging type 'pom'
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.1:cobertura (default) < [cobertura]test @ mina-parent <<<
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:cobertura (default) @ mina-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-parent/3.0.0-M1-SNAPSHOT/mina-parent-3.0.0-M1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Codec 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-codec ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Compiling 9 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/test/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mina-codec ---
+[INFO] Compiling 6 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mina-codec ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:bundle (default-bundle) @ mina-codec ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.1.2:jar (attach-source) > generate-sources @ mina-codec >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.1.2:jar (attach-source) < generate-sources @ mina-codec <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.1.2:jar (attach-source) @ mina-codec ---
+[WARNING] NOT adding sources to artifacts with classifier as Maven only supports one classifier per artifact. Current artifact [org.apache.mina:mina-codec:bundle:3.0.0-M1-SNAPSHOT] has a [] classifier.
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.1:cobertura (default) > [cobertura]test @ mina-codec >>>
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-codec ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/main/resources
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-codec ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:instrument (default) @ mina-codec ---
+[INFO] Cobertura 1.9.4.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Instrumenting 15 files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/generated-classes/cobertura
+[cobertura] WARN  [main] net.sourceforge.cobertura.instrument.ClassInstrumenter - No line number information found for class org.apache.mina.codec.textline.TextLineDecoder$1.  Perhaps you need to compile with debug=true?
+[cobertura] WARN  [main] net.sourceforge.cobertura.instrument.ClassInstrumenter - No line number information found for class org.apache.mina.codec.IoBuffer$1.  Perhaps you need to compile with debug=true?
+Cobertura: Saved information on 15 classes.
+Instrument time: 194ms
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ mina-codec ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/src/test/resources
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ mina-codec ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.7.2:test (default-test) @ mina-codec ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.1:cobertura (default) < [cobertura]test @ mina-codec <<<
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.5.1:cobertura (default) @ mina-codec ---
+[INFO] Cobertura 1.9.4.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Cobertura: Loaded information on 15 classes.
+Report time: 417ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ mina-codec ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/target/mina-codec-3.0.0-M1-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/codec/pom.xml to /home/ubuntu/.m2/repository/org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.5:install (default-install) @ mina-codec ---
+[INFO] Installing org/apache/mina/mina-codec/3.0.0-M1-SNAPSHOT/mina-codec-3.0.0-M1-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache MINA Core 3.0.0-M1-SNAPSHOT 3.0.0-M1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ mina-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ mina-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ mina-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ mina-core ---
+[INFO] Compiling 71 source files to /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache MINA 3.0.0-M1-SNAPSHOT ...................... SUCCESS [  1.680 s]
+[INFO] Apache MINA Codec 3.0.0-M1-SNAPSHOT ................ SUCCESS [  3.291 s]
+[INFO] Apache MINA Core 3.0.0-M1-SNAPSHOT ................. FAILURE [  1.275 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.178 s
+[INFO] Finished at: 2019-12-04T07:20:38+00:00
+[INFO] Final Memory: 31M/337M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project mina-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-mina/download/809673918572c3c5e0674385fed0773341521e89/core/src/main/java/org/apache/mina/util/ByteBufferDumper.java:[39,30] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :mina-core
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.115s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina 809673918572c3c5e0674385fed0773341521e89:
+(sed -i -- 's/mockito-all/mockito-core/g' codec/pom.xml; mvn clean compile -DskipTests -pl core -am) || (mvn clean compile -DskipTests -pl mina-core -am || mvn clean compile -DskipTests -pl core -am) || (mvn clean install -DskipTests -pl core -am)
+0.38s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

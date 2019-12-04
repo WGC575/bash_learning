@@ -1,0 +1,655 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-csv 8c3aaee61aef3b1ac7ab4507db78f9a37d285124:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434215660
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.769 s
+[INFO] Finished at: 2019-12-04T04:36:56+00:00
+[INFO] Final Memory: 22M/281M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-csv ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434220042
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.763 s
+[INFO] Finished at: 2019-12-04T04:37:01+00:00
+[INFO] Final Memory: 22M/270M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests || mvn clean install -DskipTests
+0.440s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-csv 8c3aaee61aef3b1ac7ab4507db78f9a37d285124:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434224851
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.553 s
+[INFO] Finished at: 2019-12-04T04:37:05+00:00
+[INFO] Final Memory: 21M/279M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-csv ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434229365
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.738 s
+[INFO] Finished at: 2019-12-04T04:37:10+00:00
+[INFO] Final Memory: 22M/268M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests || mvn clean install -DskipTests
+0.126s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-csv 8c3aaee61aef3b1ac7ab4507db78f9a37d285124:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-csv ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434234871
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.345 s
+[INFO] Finished at: 2019-12-04T04:37:15+00:00
+[INFO] Final Memory: 21M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons CSV 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ commons-csv ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-csv ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.3:process (default) @ commons-csv ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.1:create (default) @ commons-csv ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434240277
+[INFO] Executing: /bin/sh -c cd /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124 && svn --non-interactive info
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-csv ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ commons-csv ---
+[INFO] Compiling 10 source files to /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR]   symbol:   method isEndOfLine(int)
+  location: class CSVLexer
+/home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.405 s
+[INFO] Finished at: 2019-12-04T04:37:21+00:00
+[INFO] Final Memory: 24M/205M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project commons-csv: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[58,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[66,22] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[96,26] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[147,16] error: cannot find symbol
+[ERROR] symbol:   method isEndOfLine(int)
+[ERROR] location: class CSVLexer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-csv/download/8c3aaee61aef3b1ac7ab4507db78f9a37d285124/src/main/java/org/apache/commons/csv/CSVLexer.java:[218,35] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests || mvn clean install -DskipTests
+0.83s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-csv 8c3aaee61aef3b1ac7ab4507db78f9a37d285124:
+mvn clean compile -DskipTests || mvn clean install -DskipTests
+0.100s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,361 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-jcs 0e55dab80c10fdee37d2a07f664322fb774bd3ff:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JCS :: Core 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jcs-core ---
+[INFO] Skipping Antrun execution
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-jcs-core ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : 
+Exception while executing SCM command.
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434418775
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+Exception while executing SCM command.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jcs-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ commons-jcs-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 234 source files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheEventQueue.java:[100,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/PooledCacheEventQueue.java:[83,5] method does not override or implement a method from a supertype
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.884 s
+[INFO] Finished at: 2019-12-04T04:40:22+00:00
+[INFO] Final Memory: 28M/477M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project commons-jcs-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheEventQueue.java:[100,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/PooledCacheEventQueue.java:[83,5] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.163s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-jcs 0e55dab80c10fdee37d2a07f664322fb774bd3ff:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JCS :: Core 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jcs-core ---
+[INFO] Skipping Antrun execution
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-jcs-core ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : 
+Exception while executing SCM command.
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434426731
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+Exception while executing SCM command.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jcs-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ commons-jcs-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 234 source files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheEventQueue.java:[100,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/PooledCacheEventQueue.java:[83,5] method does not override or implement a method from a supertype
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.672 s
+[INFO] Finished at: 2019-12-04T04:40:29+00:00
+[INFO] Final Memory: 28M/484M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project commons-jcs-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheEventQueue.java:[100,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/PooledCacheEventQueue.java:[83,5] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.488s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-jcs 0e55dab80c10fdee37d2a07f664322fb774bd3ff:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons JCS :: Core 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-jcs-core ---
+[INFO] Skipping Antrun execution
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-jcs-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-jcs-core ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : 
+Exception while executing SCM command.
+[INFO] Storing buildNumber: ?????? at timestamp: 1575434436173
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+Exception while executing SCM command.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-jcs-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ commons-jcs-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 234 source files to /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/PooledCacheEventQueue.java:[83,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheEventQueue.java:[100,5] method does not override or implement a method from a supertype
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.090 s
+[INFO] Finished at: 2019-12-04T04:40:41+00:00
+[INFO] Final Memory: 25M/332M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project commons-jcs-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/PooledCacheEventQueue.java:[83,5] method does not override or implement a method from a supertype
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-jcs/download/0e55dab80c10fdee37d2a07f664322fb774bd3ff/commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheEventQueue.java:[100,5] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.246s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-jcs 0e55dab80c10fdee37d2a07f664322fb774bd3ff:
+mvn clean compile -DskipTests -pl commons-jcs-core
+0.103s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

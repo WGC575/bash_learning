@@ -1,0 +1,2155 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-bcel 8ddaf505ae033aae2ed71e900b53159ce640f37c:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons BCEL 6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ bcel ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ bcel ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ bcel ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ bcel ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ bcel ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ bcel ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : 
+Exception while executing SCM command.
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433536899
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+Exception while executing SCM command.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ bcel ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ bcel ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 376 source files to /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantValue.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Attribute.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantPool.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Constant.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Code.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/CodeException.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantClass.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantDouble.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFieldref.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantCP.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFloat.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInteger.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInvokeDynamic.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantLong.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodref.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantNameAndType.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantString.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantUtf8.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Deprecated.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ExceptionTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Field.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/FieldOrMethod.java:[25,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AccessFlags.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClass.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClasses.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/JavaClass.java:[32,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LineNumberTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Method.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Signature.java:[25,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/SourceFile.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Synthetic.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Unknown.java:[26,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMap.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationEntry.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationDefault.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTypeTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/EnclosingMethod.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethods.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameters.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodType.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodHandle.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Type.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapType.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ElementValuePair.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethod.java:[25,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameter.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/BasicType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[21,32] cannot find symbol
+  symbol:   class Repository
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[21,32] cannot find symbol
+  symbol:   class Repository
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArithmeticInstruction.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Instruction.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LocalVariableInstruction.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/FieldOrMethod.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConversionInstruction.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/InvokeInstruction.java:[22,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayInstruction.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITOREXIT.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/CHECKCAST.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ATHROW.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ARRAYLENGTH.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEW.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IDIV.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDC.java:[23,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IREM.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEWARRAY.java:[23,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MULTIANEWARRAY.java:[23,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INSTANCEOF.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITORENTER.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDIV.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LREM.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ANEWARRAY.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MethodGen.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.933 s
+[INFO] Finished at: 2019-12-04T04:25:38+00:00
+[INFO] Final Memory: 21M/252M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project bcel: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantValue.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Attribute.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantPool.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Constant.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Code.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/CodeException.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantClass.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantDouble.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFieldref.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantCP.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFloat.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInteger.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInvokeDynamic.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantLong.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodref.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantNameAndType.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantString.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantUtf8.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Deprecated.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ExceptionTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Field.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/FieldOrMethod.java:[25,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AccessFlags.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClass.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClasses.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/JavaClass.java:[32,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LineNumberTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Method.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Signature.java:[25,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/SourceFile.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Synthetic.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Unknown.java:[26,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMap.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationEntry.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationDefault.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTypeTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/EnclosingMethod.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethods.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameters.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodType.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodHandle.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Type.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapType.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ElementValuePair.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethod.java:[25,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameter.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/BasicType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[21,32] cannot find symbol
+[ERROR] symbol:   class Repository
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[21,32] cannot find symbol
+[ERROR] symbol:   class Repository
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArithmeticInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Instruction.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LocalVariableInstruction.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/FieldOrMethod.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConversionInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/InvokeInstruction.java:[22,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITOREXIT.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/CHECKCAST.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ATHROW.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ARRAYLENGTH.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEW.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IDIV.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDC.java:[23,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IREM.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEWARRAY.java:[23,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MULTIANEWARRAY.java:[23,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INSTANCEOF.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITORENTER.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDIV.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LREM.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ANEWARRAY.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MethodGen.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -DskipTests clean compile
+0.237s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-bcel 8ddaf505ae033aae2ed71e900b53159ce640f37c:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons BCEL 6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ bcel ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ bcel ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ bcel ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ bcel ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ bcel ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ bcel ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : 
+Exception while executing SCM command.
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433542729
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+Exception while executing SCM command.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ bcel ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ bcel ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 376 source files to /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantValue.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Attribute.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantPool.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Constant.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Code.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/CodeException.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantClass.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantDouble.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFieldref.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantCP.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFloat.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInteger.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInvokeDynamic.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantLong.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodref.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantNameAndType.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantString.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantUtf8.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Deprecated.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ExceptionTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Field.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/FieldOrMethod.java:[25,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AccessFlags.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClass.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClasses.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/JavaClass.java:[32,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LineNumberTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Method.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Signature.java:[25,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/SourceFile.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Synthetic.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Unknown.java:[26,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMap.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationEntry.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationDefault.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTypeTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/EnclosingMethod.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethods.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameters.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodType.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodHandle.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Type.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapType.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ElementValuePair.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethod.java:[25,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameter.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/BasicType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[21,32] cannot find symbol
+  symbol:   class Repository
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[21,32] cannot find symbol
+  symbol:   class Repository
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArithmeticInstruction.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Instruction.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LocalVariableInstruction.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/FieldOrMethod.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConversionInstruction.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/InvokeInstruction.java:[22,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayInstruction.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITOREXIT.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/CHECKCAST.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ATHROW.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ARRAYLENGTH.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEW.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IDIV.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDC.java:[23,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IREM.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEWARRAY.java:[23,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MULTIANEWARRAY.java:[23,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INSTANCEOF.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITORENTER.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDIV.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LREM.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ANEWARRAY.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MethodGen.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.557 s
+[INFO] Finished at: 2019-12-04T04:25:44+00:00
+[INFO] Final Memory: 21M/252M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project bcel: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantValue.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Attribute.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantPool.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Constant.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Code.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/CodeException.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantClass.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantDouble.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFieldref.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantCP.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFloat.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInteger.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInvokeDynamic.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantLong.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodref.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantNameAndType.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantString.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantUtf8.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Deprecated.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ExceptionTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Field.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/FieldOrMethod.java:[25,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AccessFlags.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClass.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClasses.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/JavaClass.java:[32,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LineNumberTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Method.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Signature.java:[25,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/SourceFile.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Synthetic.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Unknown.java:[26,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMap.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationEntry.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationDefault.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTypeTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/EnclosingMethod.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethods.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameters.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodType.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodHandle.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Type.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapType.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ElementValuePair.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethod.java:[25,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameter.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/BasicType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[21,32] cannot find symbol
+[ERROR] symbol:   class Repository
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[21,32] cannot find symbol
+[ERROR] symbol:   class Repository
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArithmeticInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Instruction.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LocalVariableInstruction.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/FieldOrMethod.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConversionInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/InvokeInstruction.java:[22,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITOREXIT.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/CHECKCAST.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ATHROW.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ARRAYLENGTH.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEW.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IDIV.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDC.java:[23,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IREM.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEWARRAY.java:[23,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MULTIANEWARRAY.java:[23,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INSTANCEOF.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITORENTER.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDIV.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LREM.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ANEWARRAY.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MethodGen.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -DskipTests clean compile
+0.267s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-bcel 8ddaf505ae033aae2ed71e900b53159ce640f37c:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons BCEL 6.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ bcel ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ bcel ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ bcel ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ bcel ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ bcel ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ bcel ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of ?????? : 
+Exception while executing SCM command.
+[INFO] Storing buildNumber: ?????? at timestamp: 1575433549808
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+Exception while executing SCM command.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ bcel ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ bcel ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 376 source files to /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LocalVariableInstruction.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Instruction.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Type.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantPool.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/FieldOrMethod.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConversionInstruction.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArithmeticInstruction.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/InvokeInstruction.java:[22,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayInstruction.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITOREXIT.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/CHECKCAST.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ATHROW.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ARRAYLENGTH.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEW.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IDIV.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDC.java:[23,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IREM.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEWARRAY.java:[23,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MULTIANEWARRAY.java:[23,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INSTANCEOF.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITORENTER.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[24,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDIV.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[21,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LREM.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ANEWARRAY.java:[20,32] cannot find symbol
+  symbol:   class ExceptionConst
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Constant.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[21,32] cannot find symbol
+  symbol:   class Repository
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[21,32] cannot find symbol
+  symbol:   class Repository
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MethodGen.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/FieldGenOrMethodGen.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AccessFlags.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/BasicType.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/InstructionList.java:[30,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LocalVariableGen.java:[20,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Attribute.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Method.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/FieldOrMethod.java:[25,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LineNumberTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/CodeException.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ExceptionTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationEntry.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Code.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantClass.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantDouble.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFieldref.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantCP.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFloat.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInteger.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInvokeDynamic.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantLong.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodref.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantNameAndType.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantString.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantUtf8.java:[27,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantValue.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Deprecated.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Field.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClass.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClasses.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/JavaClass.java:[32,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Signature.java:[25,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/SourceFile.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Synthetic.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Unknown.java:[26,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMap.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationDefault.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTypeTable.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/EnclosingMethod.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethods.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameters.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodType.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodHandle.java:[24,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ElementValuePair.java:[23,32] cannot find symbol
+  symbol:   class Const
+  location: package org.apache.commons.bcel6
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.035 s
+[INFO] Finished at: 2019-12-04T04:25:52+00:00
+[INFO] Final Memory: 22M/330M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project bcel: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LocalVariableInstruction.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Instruction.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConstantPoolGen.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/Type.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantPool.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/FieldOrMethod.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ConversionInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArithmeticInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/InvokeInstruction.java:[22,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReturnInstruction.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETSTATIC.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITOREXIT.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/CHECKCAST.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ATHROW.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ARRAYLENGTH.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESTATIC.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTFIELD.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEW.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IDIV.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDC.java:[23,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/IREM.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/NEWARRAY.java:[23,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MULTIANEWARRAY.java:[23,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/GETFIELD.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INSTANCEOF.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MONITORENTER.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java:[24,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LDIV.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/PUTSTATIC.java:[21,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LREM.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ANEWARRAY.java:[20,32] cannot find symbol
+[ERROR] symbol:   class ExceptionConst
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Constant.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ObjectType.java:[21,32] cannot find symbol
+[ERROR] symbol:   class Repository
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ReferenceType.java:[21,32] cannot find symbol
+[ERROR] symbol:   class Repository
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/ArrayType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/MethodGen.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/FieldGenOrMethodGen.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AccessFlags.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/BasicType.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/InstructionList.java:[30,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/generic/LocalVariableGen.java:[20,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Attribute.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Method.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/FieldOrMethod.java:[25,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LineNumberTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/CodeException.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ExceptionTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationEntry.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Code.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantClass.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantDouble.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFieldref.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantCP.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantFloat.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInteger.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantInvokeDynamic.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantLong.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodref.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantNameAndType.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantString.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantUtf8.java:[27,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantValue.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Deprecated.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Field.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClass.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/InnerClasses.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/JavaClass.java:[32,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Signature.java:[25,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/SourceFile.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Synthetic.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/Unknown.java:[26,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMap.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/StackMapEntry.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/AnnotationDefault.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/LocalVariableTypeTable.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/EnclosingMethod.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/BootstrapMethods.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/MethodParameters.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodType.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ConstantMethodHandle.java:[24,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-bcel/download/8ddaf505ae033aae2ed71e900b53159ce640f37c/src/main/java/org/apache/bcel/classfile/ElementValuePair.java:[23,32] cannot find symbol
+[ERROR] symbol:   class Const
+[ERROR] location: package org.apache.commons.bcel6
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn -DskipTests clean compile
+0.142s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-bcel 8ddaf505ae033aae2ed71e900b53159ce640f37c:
+mvn -DskipTests clean compile
+0.176s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,385 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-io 8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.101 s
+[INFO] Finished at: 2019-12-04T04:38:54+00:00
+[INFO] Final Memory: 7M/147M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/build.xml
+
+clean:
+
+init:
+     [echo] -------- io 1.0-dev --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/conf
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/tests
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/examples
+
+static:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/conf
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/build.xml:138: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 37 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:518: warning: [deprecation] toURL() in File has been deprecated
+    [javac]             urls[ i ] = files[ i ].toURL();
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:1082: error: cannot find symbol
+    [javac]                 FileUtil.forceDeleteOnExit( file );
+    [javac]                 ^
+    [javac]   symbol:   variable FileUtil
+    [javac]   location: class FileUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:1187: error: cannot find symbol
+    [javac]                 FileUtil.forceDelete( file );
+    [javac]                 ^
+    [javac]   symbol:   variable FileUtil
+    [javac]   location: class FileUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/compress/zip/ZipEntry.java:238: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]             c_setCompressedSizeMethod.invoke( entry, s );
+    [javac]                                                      ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 2 errors
+    [javac] 2 warnings
+(mvn clean compile) || (ant clean compile)
+0.107s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-io 8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.124 s
+[INFO] Finished at: 2019-12-04T04:38:58+00:00
+[INFO] Final Memory: 7M/147M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/build.xml
+
+clean:
+
+init:
+     [echo] -------- io 1.0-dev --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/conf
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/tests
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/examples
+
+static:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/conf
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/build.xml:138: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 37 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:518: warning: [deprecation] toURL() in File has been deprecated
+    [javac]             urls[ i ] = files[ i ].toURL();
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:1082: error: cannot find symbol
+    [javac]                 FileUtil.forceDeleteOnExit( file );
+    [javac]                 ^
+    [javac]   symbol:   variable FileUtil
+    [javac]   location: class FileUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:1187: error: cannot find symbol
+    [javac]                 FileUtil.forceDelete( file );
+    [javac]                 ^
+    [javac]   symbol:   variable FileUtil
+    [javac]   location: class FileUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/compress/zip/ZipEntry.java:238: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]             c_setCompressedSizeMethod.invoke( entry, s );
+    [javac]                                                      ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 2 errors
+    [javac] 2 warnings
+(mvn clean compile) || (ant clean compile)
+0.412s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-io 8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.107 s
+[INFO] Finished at: 2019-12-04T04:39:02+00:00
+[INFO] Final Memory: 5M/145M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/build.xml
+
+clean:
+
+init:
+     [echo] -------- io 1.0-dev --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/conf
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/tests
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/examples
+
+static:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/conf
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/build.xml:138: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 37 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:518: warning: [deprecation] toURL() in File has been deprecated
+    [javac]             urls[ i ] = files[ i ].toURL();
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:1082: error: cannot find symbol
+    [javac]                 FileUtil.forceDeleteOnExit( file );
+    [javac]                 ^
+    [javac]   symbol:   variable FileUtil
+    [javac]   location: class FileUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:1187: error: cannot find symbol
+    [javac]                 FileUtil.forceDelete( file );
+    [javac]                 ^
+    [javac]   symbol:   variable FileUtil
+    [javac]   location: class FileUtils
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/compress/zip/ZipEntry.java:238: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]             c_setCompressedSizeMethod.invoke( entry, s );
+    [javac]                                                      ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 2 errors
+    [javac] 2 warnings
+(mvn clean compile) || (ant clean compile)
+0.388s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-io 8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/build.xml
+
+clean:
+
+init:
+     [echo] -------- io 1.0-dev --------
+
+prepare:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/conf
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/tests
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/examples
+
+static:
+     [copy] Copying 1 file to /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/conf
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/build.xml:138: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 37 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:518: warning: [deprecation] toURL() in java.io.File has been deprecated
+    [javac]             urls[ i ] = files[ i ].toURL();
+    [javac]                                   ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:1082: cannot find symbol
+    [javac] symbol  : variable FileUtil
+    [javac] location: class org.apache.commons.io.FileUtils
+    [javac]                 FileUtil.forceDeleteOnExit( file );
+    [javac]                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/FileUtils.java:1187: cannot find symbol
+    [javac] symbol  : variable FileUtil
+    [javac] location: class org.apache.commons.io.FileUtils
+    [javac]                 FileUtil.forceDelete( file );
+    [javac]                 ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/8eeb52fc81c4e65c00839cfeef9f1cde8b1cc613/src/java/org/apache/commons/io/compress/zip/ZipEntry.java:238: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac] cast to java.lang.Object for a varargs call
+    [javac] cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+    [javac]             c_setCompressedSizeMethod.invoke( entry, s );
+    [javac]                                                      ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 2 errors
+    [javac] 2 warnings
+(mvn clean compile) || (ant clean compile)
+0.154s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

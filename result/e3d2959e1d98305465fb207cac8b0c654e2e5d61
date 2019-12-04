@@ -1,0 +1,352 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina-sshd e3d2959e1d98305465fb207cac8b0c654e2e5d61:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.305s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-mina-sshd e3d2959e1d98305465fb207cac8b0c654e2e5d61:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.348s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina-sshd e3d2959e1d98305465fb207cac8b0c654e2e5d61:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] 'parent.relativePath' of POM org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) points at org.apache.sshd:sshd instead of org.apache.sshd:sshd-parent, please verify your project structure @ line 25, column 13
+[FATAL] Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead. @ 
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-core:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-core/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-core:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR]   
+[ERROR]   The project org.apache.sshd:sshd-pam:1.0-SNAPSHOT (/home/ubuntu/ATLAS/apps/apache-mina-sshd/download/e3d2959e1d98305465fb207cac8b0c654e2e5d61/sshd-pam/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.sshd:sshd-pam:1.0-SNAPSHOT: Could not find artifact org.apache.sshd:sshd-parent:pom:1.0-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 25, column 13 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.363s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-mina-sshd e3d2959e1d98305465fb207cac8b0c654e2e5d61:
+mvn clean compile -f sshd-core/pom.xml ; mvn clean compile -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am || mvn clean install -DskipTests -Dpmd.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Denforcer.skip=true -pl sshd-core/ -am
+0.348s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

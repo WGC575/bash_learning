@@ -1,0 +1,184 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile Netflix-SimianArmy 0a36024e5865f2f1a9f12a1188adf0d4e4c41e0b:
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+./gradlew clean compileJava -x test || (sed -i -- 's/-Xlint/-Xlint:-deprecation/g' build.gradle  ; ./gradlew clean compileJava -x test) || (sed -i -- 's/org.mapdb:mapdb:latest.release/org.mapdb:mapdb:0.9.7/g' build.gradle; sed -i -- 's/github.com\/Netflix-Skunkworks\/build-repo\/raw/raw.github.com\/Netflix-Skunkworks\/build-repo/g' gradle/buildscript.gradle ; ./gradlew clean compileJava -x test)
+0.453s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile Netflix-SimianArmy 0a36024e5865f2f1a9f12a1188adf0d4e4c41e0b:
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+./gradlew clean compileJava -x test || (sed -i -- 's/-Xlint/-Xlint:-deprecation/g' build.gradle  ; ./gradlew clean compileJava -x test) || (sed -i -- 's/org.mapdb:mapdb:latest.release/org.mapdb:mapdb:0.9.7/g' build.gradle; sed -i -- 's/github.com\/Netflix-Skunkworks\/build-repo\/raw/raw.github.com\/Netflix-Skunkworks\/build-repo/g' gradle/buildscript.gradle ; ./gradlew clean compileJava -x test)
+0.444s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile Netflix-SimianArmy 0a36024e5865f2f1a9f12a1188adf0d4e4c41e0b:
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+./gradlew clean compileJava -x test || (sed -i -- 's/-Xlint/-Xlint:-deprecation/g' build.gradle  ; ./gradlew clean compileJava -x test) || (sed -i -- 's/org.mapdb:mapdb:latest.release/org.mapdb:mapdb:0.9.7/g' build.gradle; sed -i -- 's/github.com\/Netflix-Skunkworks\/build-repo\/raw/raw.github.com\/Netflix-Skunkworks\/build-repo/g' gradle/buildscript.gradle ; ./gradlew clean compileJava -x test)
+0.322s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile Netflix-SimianArmy 0a36024e5865f2f1a9f12a1188adf0d4e4c41e0b:
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+Unzipping /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr/gradle-1.1-bin.zip to /home/ubuntu/.gradle/wrapper/dists/gradle-1.1-bin/13d7lnhcrghv2i5e54el41jpgr
+./gradlew clean compileJava -x test || (sed -i -- 's/-Xlint/-Xlint:-deprecation/g' build.gradle  ; ./gradlew clean compileJava -x test) || (sed -i -- 's/org.mapdb:mapdb:latest.release/org.mapdb:mapdb:0.9.7/g' build.gradle; sed -i -- 's/github.com\/Netflix-Skunkworks\/build-repo\/raw/raw.github.com\/Netflix-Skunkworks\/build-repo/g' gradle/buildscript.gradle ; ./gradlew clean compileJava -x test)
+0.181s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

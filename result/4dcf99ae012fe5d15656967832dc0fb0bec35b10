@@ -1,0 +1,423 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-io 4dcf99ae012fe5d15656967832dc0fb0bec35b10:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-io:commons-io:jar:2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:15, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/15/commons-parent-15.pom, line 329, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons IO 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4:clean (default-clean) @ commons-io ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.3:run (javadoc.resources) @ commons-io ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ commons-io ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.1:resources (default-resources) @ commons-io ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ commons-io ---
+[INFO] Compiling 91 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:[387,50] error: cannot assign a value to final variable svnFilter
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.578 s
+[INFO] Finished at: 2019-12-04T04:39:12+00:00
+[INFO] Final Memory: 17M/270M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.1:compile (default-compile) on project commons-io: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:[387,50] error: cannot assign a value to final variable svnFilter
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/build.xml
+
+clean:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target
+
+init:
+     [echo] -------- Commons IO 1.5-SNAPSHOT --------
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/test-classes
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/build.xml:162: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 91 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:387: error: cannot assign a value to final variable svnFilter
+    [javac]     private static final IOFileFilter svnFilter = svnFilter = notFileFilter(
+    [javac]                                                   ^
+    [javac] 1 error
+    [javac] 4 warnings
+(mvn clean compile) || (ant clean compile)
+0.81s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-io 4dcf99ae012fe5d15656967832dc0fb0bec35b10:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-io:commons-io:jar:2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:15, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/15/commons-parent-15.pom, line 329, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons IO 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4:clean (default-clean) @ commons-io ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.3:run (javadoc.resources) @ commons-io ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ commons-io ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.1:resources (default-resources) @ commons-io ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ commons-io ---
+[INFO] Compiling 91 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:[387,50] error: cannot assign a value to final variable svnFilter
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.596 s
+[INFO] Finished at: 2019-12-04T04:39:19+00:00
+[INFO] Final Memory: 17M/269M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.1:compile (default-compile) on project commons-io: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:[387,50] error: cannot assign a value to final variable svnFilter
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/build.xml
+
+clean:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target
+
+init:
+     [echo] -------- Commons IO 1.5-SNAPSHOT --------
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/test-classes
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/build.xml:162: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 91 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:387: error: cannot assign a value to final variable svnFilter
+    [javac]     private static final IOFileFilter svnFilter = svnFilter = notFileFilter(
+    [javac]                                                   ^
+    [javac] 1 error
+    [javac] 4 warnings
+(mvn clean compile) || (ant clean compile)
+0.289s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-io 4dcf99ae012fe5d15656967832dc0fb0bec35b10:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for commons-io:commons-io:jar:2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-idea-plugin is missing. @ org.apache.commons:commons-parent:15, /home/ubuntu/.m2/repository/org/apache/commons/commons-parent/15/commons-parent-15.pom, line 329, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons IO 2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4:clean (default-clean) @ commons-io ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.3:run (javadoc.resources) @ commons-io ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.0:process (default) @ commons-io ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.1:resources (default-resources) @ commons-io ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ commons-io ---
+[INFO] Compiling 91 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:[387,50] error: cannot assign a value to final variable svnFilter
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.735 s
+[INFO] Finished at: 2019-12-04T04:39:27+00:00
+[INFO] Final Memory: 20M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.1:compile (default-compile) on project commons-io: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:[387,50] error: cannot assign a value to final variable svnFilter
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/build.xml
+
+clean:
+   [delete] Deleting directory /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target
+
+init:
+     [echo] -------- Commons IO 1.5-SNAPSHOT --------
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/test-classes
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/build.xml:162: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 91 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:387: error: cannot assign a value to final variable svnFilter
+    [javac]     private static final IOFileFilter svnFilter = svnFilter = notFileFilter(
+    [javac]                                                   ^
+    [javac] 1 error
+    [javac] 1 warning
+(mvn clean compile) || (ant clean compile)
+0.66s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-io 4dcf99ae012fe5d15656967832dc0fb0bec35b10:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/build.xml
+
+clean:
+
+init:
+     [echo] -------- Commons IO 1.5-SNAPSHOT --------
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/test-classes
+
+compile:
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/build.xml:162: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 91 source files to /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/target/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-commons-io/download/4dcf99ae012fe5d15656967832dc0fb0bec35b10/src/java/org/apache/commons/io/filefilter/FileFilterUtils.java:387: cannot assign a value to final variable svnFilter
+    [javac]     private static final IOFileFilter svnFilter = svnFilter = notFileFilter(
+    [javac]                                                   ^
+    [javac] 1 error
+(mvn clean compile) || (ant clean compile)
+0.129s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,398 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/test/classes
+     [copy] Copying 4 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-urlfilter.txt
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml:65: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 243 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/analysis/FastCharStream.java:105: warning: [deprecation] getLine() in CharStream has been deprecated
+    [javac]   public final int getLine() {
+    [javac]                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/analysis/FastCharStream.java:102: warning: [deprecation] getColumn() in CharStream has been deprecated
+    [javac]   public final int getColumn() {
+    [javac]                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:203: warning: [deprecation] toURL() in File has been deprecated
+    [javac]     URL url = new File(getPluginPath() + File.separator + pLibPath).toURL();
+    [javac]                                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:229: warning: [deprecation] toURL() in File has been deprecated
+    [javac]     URL url = new File(getPluginPath() + File.separator + pLibPath).toURL();
+    [javac]                                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:262: warning: [deprecation] toURL() in File has been deprecated
+    [javac]           arrayList.add(file2.getParentFile().toURL());
+    [javac]                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginManifestParser.java:150: warning: [deprecation] toURL() in File has been deprecated
+    [javac]         Document document = parseXML(new File(pManifestPath).toURL());
+    [javac]                                                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/searcher/DistributedSearch.java:201: error: incompatible types: Comparable cannot be converted to String
+    [javac]           if (minValue == null || h.getSite().compareTo(minValue) >= 0) {
+    [javac]                                                         ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 1 error
+    [javac] 6 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml
+
+init:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml:65: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 48 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/searcher/DistributedSearch.java:201: error: incompatible types: Comparable cannot be converted to String
+    [javac]           if (minValue == null || h.getSite().compareTo(minValue) >= 0) {
+    [javac]                                                         ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 1 error
+(ant compile-core) || (ant compile)
+0.174s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-nutch 45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/test/classes
+     [copy] Copying 4 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-urlfilter.txt
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml:65: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 243 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/analysis/FastCharStream.java:105: warning: [deprecation] getLine() in CharStream has been deprecated
+    [javac]   public final int getLine() {
+    [javac]                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/analysis/FastCharStream.java:102: warning: [deprecation] getColumn() in CharStream has been deprecated
+    [javac]   public final int getColumn() {
+    [javac]                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:203: warning: [deprecation] toURL() in File has been deprecated
+    [javac]     URL url = new File(getPluginPath() + File.separator + pLibPath).toURL();
+    [javac]                                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:229: warning: [deprecation] toURL() in File has been deprecated
+    [javac]     URL url = new File(getPluginPath() + File.separator + pLibPath).toURL();
+    [javac]                                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:262: warning: [deprecation] toURL() in File has been deprecated
+    [javac]           arrayList.add(file2.getParentFile().toURL());
+    [javac]                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginManifestParser.java:150: warning: [deprecation] toURL() in File has been deprecated
+    [javac]         Document document = parseXML(new File(pManifestPath).toURL());
+    [javac]                                                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/searcher/DistributedSearch.java:201: error: incompatible types: Comparable cannot be converted to String
+    [javac]           if (minValue == null || h.getSite().compareTo(minValue) >= 0) {
+    [javac]                                                         ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 1 error
+    [javac] 6 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml
+
+init:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml:65: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 48 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/searcher/DistributedSearch.java:201: error: incompatible types: Comparable cannot be converted to String
+    [javac]           if (minValue == null || h.getSite().compareTo(minValue) >= 0) {
+    [javac]                                                         ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 1 error
+(ant compile-core) || (ant compile)
+0.271s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/test/classes
+     [copy] Copying 4 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-urlfilter.txt
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml:65: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 243 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/analysis/FastCharStream.java:105: warning: [deprecation] getLine() in CharStream has been deprecated
+    [javac]   public final int getLine() {
+    [javac]                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/analysis/FastCharStream.java:102: warning: [deprecation] getColumn() in CharStream has been deprecated
+    [javac]   public final int getColumn() {
+    [javac]                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:203: warning: [deprecation] toURL() in File has been deprecated
+    [javac]     URL url = new File(getPluginPath() + File.separator + pLibPath).toURL();
+    [javac]                                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:229: warning: [deprecation] toURL() in File has been deprecated
+    [javac]     URL url = new File(getPluginPath() + File.separator + pLibPath).toURL();
+    [javac]                                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:262: warning: [deprecation] toURL() in File has been deprecated
+    [javac]           arrayList.add(file2.getParentFile().toURL());
+    [javac]                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginManifestParser.java:150: warning: [deprecation] toURL() in File has been deprecated
+    [javac]         Document document = parseXML(new File(pManifestPath).toURL());
+    [javac]                                                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/searcher/DistributedSearch.java:201: error: method compareTo in class String cannot be applied to given types;
+    [javac]           if (minValue == null || h.getSite().compareTo(minValue) >= 0) {
+    [javac]                                              ^
+    [javac]   required: String
+    [javac]   found: Comparable
+    [javac]   reason: actual argument Comparable cannot be converted to String by method invocation conversion
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+    [javac] 6 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml
+
+init:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml:65: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 48 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/searcher/DistributedSearch.java:201: error: method compareTo in class String cannot be applied to given types;
+    [javac]           if (minValue == null || h.getSite().compareTo(minValue) >= 0) {
+    [javac]                                              ^
+    [javac]   required: String
+    [javac]   found: Comparable
+    [javac]   reason: actual argument Comparable cannot be converted to String by method invocation conversion
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+(ant compile-core) || (ant compile)
+0.142s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-nutch 45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0:
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml
+
+init:
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/test
+    [mkdir] Created dir: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/test/classes
+     [copy] Copying 4 files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/crawl-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/crawl-urlfilter.txt
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/nutch-site.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/nutch-site.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-normalize.xml.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-normalize.xml
+     [copy] Copying /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-urlfilter.txt.template to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/conf/regex-urlfilter.txt
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml:65: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 243 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/analysis/FastCharStream.java:105: warning: [deprecation] getLine() in org.apache.nutch.analysis.CharStream has been deprecated
+    [javac]   public final int getLine() {
+    [javac]                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/analysis/FastCharStream.java:102: warning: [deprecation] getColumn() in org.apache.nutch.analysis.CharStream has been deprecated
+    [javac]   public final int getColumn() {
+    [javac]                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:203: warning: [deprecation] toURL() in java.io.File has been deprecated
+    [javac]     URL url = new File(getPluginPath() + File.separator + pLibPath).toURL();
+    [javac]                                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:229: warning: [deprecation] toURL() in java.io.File has been deprecated
+    [javac]     URL url = new File(getPluginPath() + File.separator + pLibPath).toURL();
+    [javac]                                                                    ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginDescriptor.java:262: warning: [deprecation] toURL() in java.io.File has been deprecated
+    [javac]           arrayList.add(file2.getParentFile().toURL());
+    [javac]                                              ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/plugin/PluginManifestParser.java:150: warning: [deprecation] toURL() in java.io.File has been deprecated
+    [javac]         Document document = parseXML(new File(pManifestPath).toURL());
+    [javac]                                                             ^
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/searcher/DistributedSearch.java:201: compareTo(java.lang.String) in java.lang.String cannot be applied to (java.lang.Comparable)
+    [javac]           if (minValue == null || h.getSite().compareTo(minValue) >= 0) {
+    [javac]                                              ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+    [javac] 6 warnings
+Buildfile: /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml
+
+init:
+
+compile-core:
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build.xml:65: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 53 source files to /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/build/classes
+    [javac] /home/ubuntu/ATLAS/apps/apache-nutch/download/45b5cf7f50a4ef5e0f904e8017e72ec014f76cb0/src/java/org/apache/nutch/searcher/DistributedSearch.java:201: compareTo(java.lang.String) in java.lang.String cannot be applied to (java.lang.Comparable)
+    [javac]           if (minValue == null || h.getSite().compareTo(minValue) >= 0) {
+    [javac]                                              ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 error
+(ant compile-core) || (ant compile)
+0.57s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

@@ -1,0 +1,499 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-helix c5a29ca41fcd822016eed6e7fe9e8af34531ce91:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Helix
+[INFO] Apache Helix :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Helix 0.6.2-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ helix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Helix :: Core 0.6.2-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ helix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ helix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ helix-core ---
+[INFO] Compiling 321 source files to /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[25,41] error: cannot find symbol
+[ERROR]   symbol:   class ResourceMapping
+  location: package org.apache.helix.controller.stages
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[67,2] error: cannot find symbol
+[ERROR]   symbol:   class ResourceMapping
+  location: interface Rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[25,45] error: cannot find symbol
+[ERROR]   symbol:   class AutoRebalancer
+  location: package org.apache.helix.controller.rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[26,45] error: cannot find symbol
+[ERROR]   symbol:   class CustomRebalancer
+  location: package org.apache.helix.controller.rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[28,45] error: cannot find symbol
+[ERROR]   symbol:   class SemiAutoRebalancer
+  location: package org.apache.helix.controller.rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[125,27] error: cannot find symbol
+[ERROR]   symbol:   class AutoRebalancer
+  location: class BestPossibleStateCalcStage
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[129,27] error: cannot find symbol
+[ERROR]   symbol:   class SemiAutoRebalancer
+  location: class BestPossibleStateCalcStage
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[133,27] error: cannot find symbol
+[ERROR]   symbol:   class CustomRebalancer
+  location: class BestPossibleStateCalcStage
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[137,6] error: cannot find symbol
+[INFO] 9 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Helix ....................................... SUCCESS [  0.528 s]
+[INFO] Apache Helix :: Core ............................... FAILURE [  3.430 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.808 s
+[INFO] Finished at: 2019-12-04T07:11:57+00:00
+[INFO] Final Memory: 23M/281M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project helix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[25,41] error: cannot find symbol
+[ERROR] symbol:   class ResourceMapping
+[ERROR] location: package org.apache.helix.controller.stages
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[67,2] error: cannot find symbol
+[ERROR] symbol:   class ResourceMapping
+[ERROR] location: interface Rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[25,45] error: cannot find symbol
+[ERROR] symbol:   class AutoRebalancer
+[ERROR] location: package org.apache.helix.controller.rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[26,45] error: cannot find symbol
+[ERROR] symbol:   class CustomRebalancer
+[ERROR] location: package org.apache.helix.controller.rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[28,45] error: cannot find symbol
+[ERROR] symbol:   class SemiAutoRebalancer
+[ERROR] location: package org.apache.helix.controller.rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[125,27] error: cannot find symbol
+[ERROR] symbol:   class AutoRebalancer
+[ERROR] location: class BestPossibleStateCalcStage
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[129,27] error: cannot find symbol
+[ERROR] symbol:   class SemiAutoRebalancer
+[ERROR] location: class BestPossibleStateCalcStage
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[133,27] error: cannot find symbol
+[ERROR] symbol:   class CustomRebalancer
+[ERROR] location: class BestPossibleStateCalcStage
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[137,6] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :helix-core
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.286s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-helix c5a29ca41fcd822016eed6e7fe9e8af34531ce91:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Helix
+[INFO] Apache Helix :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Helix 0.6.2-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ helix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Helix :: Core 0.6.2-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ helix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ helix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ helix-core ---
+[INFO] Compiling 321 source files to /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[25,41] error: cannot find symbol
+[ERROR]   symbol:   class ResourceMapping
+  location: package org.apache.helix.controller.stages
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[67,2] error: cannot find symbol
+[ERROR]   symbol:   class ResourceMapping
+  location: interface Rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[25,45] error: cannot find symbol
+[ERROR]   symbol:   class AutoRebalancer
+  location: package org.apache.helix.controller.rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[26,45] error: cannot find symbol
+[ERROR]   symbol:   class CustomRebalancer
+  location: package org.apache.helix.controller.rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[28,45] error: cannot find symbol
+[ERROR]   symbol:   class SemiAutoRebalancer
+  location: package org.apache.helix.controller.rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[125,27] error: cannot find symbol
+[ERROR]   symbol:   class AutoRebalancer
+  location: class BestPossibleStateCalcStage
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[129,27] error: cannot find symbol
+[ERROR]   symbol:   class SemiAutoRebalancer
+  location: class BestPossibleStateCalcStage
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[133,27] error: cannot find symbol
+[ERROR]   symbol:   class CustomRebalancer
+  location: class BestPossibleStateCalcStage
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[137,6] error: cannot find symbol
+[INFO] 9 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Helix ....................................... SUCCESS [  0.591 s]
+[INFO] Apache Helix :: Core ............................... FAILURE [  3.481 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.925 s
+[INFO] Finished at: 2019-12-04T07:12:04+00:00
+[INFO] Final Memory: 22M/278M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project helix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[25,41] error: cannot find symbol
+[ERROR] symbol:   class ResourceMapping
+[ERROR] location: package org.apache.helix.controller.stages
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[67,2] error: cannot find symbol
+[ERROR] symbol:   class ResourceMapping
+[ERROR] location: interface Rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[25,45] error: cannot find symbol
+[ERROR] symbol:   class AutoRebalancer
+[ERROR] location: package org.apache.helix.controller.rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[26,45] error: cannot find symbol
+[ERROR] symbol:   class CustomRebalancer
+[ERROR] location: package org.apache.helix.controller.rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[28,45] error: cannot find symbol
+[ERROR] symbol:   class SemiAutoRebalancer
+[ERROR] location: package org.apache.helix.controller.rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[125,27] error: cannot find symbol
+[ERROR] symbol:   class AutoRebalancer
+[ERROR] location: class BestPossibleStateCalcStage
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[129,27] error: cannot find symbol
+[ERROR] symbol:   class SemiAutoRebalancer
+[ERROR] location: class BestPossibleStateCalcStage
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[133,27] error: cannot find symbol
+[ERROR] symbol:   class CustomRebalancer
+[ERROR] location: class BestPossibleStateCalcStage
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[137,6] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :helix-core
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.333s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-helix c5a29ca41fcd822016eed6e7fe9e8af34531ce91:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Apache Helix
+[INFO] Apache Helix :: Core
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Helix 0.6.2-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ helix ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Helix :: Core 0.6.2-incubating-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ helix-core ---
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.4:process (default) @ helix-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ helix-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ helix-core ---
+[INFO] Compiling 321 source files to /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[25,41] error: cannot find symbol
+[ERROR]   symbol:   class ResourceMapping
+  location: package org.apache.helix.controller.stages
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[67,2] error: cannot find symbol
+[ERROR]   symbol:   class ResourceMapping
+  location: interface Rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[25,45] error: cannot find symbol
+[ERROR]   symbol:   class AutoRebalancer
+  location: package org.apache.helix.controller.rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[26,45] error: cannot find symbol
+[ERROR]   symbol:   class CustomRebalancer
+  location: package org.apache.helix.controller.rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[28,45] error: cannot find symbol
+[ERROR]   symbol:   class SemiAutoRebalancer
+  location: package org.apache.helix.controller.rebalancer
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[125,27] error: cannot find symbol
+[ERROR]   symbol:   class AutoRebalancer
+  location: class BestPossibleStateCalcStage
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[129,27] error: cannot find symbol
+[ERROR]   symbol:   class SemiAutoRebalancer
+  location: class BestPossibleStateCalcStage
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[133,27] error: cannot find symbol
+[ERROR]   symbol:   class CustomRebalancer
+  location: class BestPossibleStateCalcStage
+/home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[137,6] error: cannot find symbol
+[INFO] 9 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Apache Helix ....................................... SUCCESS [  0.618 s]
+[INFO] Apache Helix :: Core ............................... FAILURE [  6.544 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.395 s
+[INFO] Finished at: 2019-12-04T07:12:15+00:00
+[INFO] Final Memory: 24M/328M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project helix-core: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[25,41] error: cannot find symbol
+[ERROR] symbol:   class ResourceMapping
+[ERROR] location: package org.apache.helix.controller.stages
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/rebalancer/Rebalancer.java:[67,2] error: cannot find symbol
+[ERROR] symbol:   class ResourceMapping
+[ERROR] location: interface Rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[25,45] error: cannot find symbol
+[ERROR] symbol:   class AutoRebalancer
+[ERROR] location: package org.apache.helix.controller.rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[26,45] error: cannot find symbol
+[ERROR] symbol:   class CustomRebalancer
+[ERROR] location: package org.apache.helix.controller.rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[28,45] error: cannot find symbol
+[ERROR] symbol:   class SemiAutoRebalancer
+[ERROR] location: package org.apache.helix.controller.rebalancer
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[125,27] error: cannot find symbol
+[ERROR] symbol:   class AutoRebalancer
+[ERROR] location: class BestPossibleStateCalcStage
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[129,27] error: cannot find symbol
+[ERROR] symbol:   class SemiAutoRebalancer
+[ERROR] location: class BestPossibleStateCalcStage
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[133,27] error: cannot find symbol
+[ERROR] symbol:   class CustomRebalancer
+[ERROR] location: class BestPossibleStateCalcStage
+[ERROR] /home/ubuntu/ATLAS/apps/apache-helix/download/c5a29ca41fcd822016eed6e7fe9e8af34531ce91/helix-core/src/main/java/org/apache/helix/controller/stages/BestPossibleStateCalcStage.java:[137,6] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :helix-core
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.447s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-helix c5a29ca41fcd822016eed6e7fe9e8af34531ce91:
+mvn clean compile -DskipTests=true -pl helix-core -am
+0.288s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

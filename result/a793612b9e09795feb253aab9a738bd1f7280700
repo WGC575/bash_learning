@@ -1,0 +1,835 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-compress a793612b9e09795feb253aab9a738bd1f7280700:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.14-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575434040198
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+  symbol:   variable BrotliUtils
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+  symbol:   class BrotliCompressorInputStream
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.506 s
+[INFO] Finished at: 2019-12-04T04:34:02+00:00
+[INFO] Final Memory: 23M/338M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+[ERROR] symbol:   variable BrotliUtils
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+[ERROR] symbol:   class BrotliCompressorInputStream
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.14-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575434046429
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+  symbol:   variable BrotliUtils
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+  symbol:   class BrotliCompressorInputStream
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.692 s
+[INFO] Finished at: 2019-12-04T04:34:08+00:00
+[INFO] Final Memory: 24M/342M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+[ERROR] symbol:   variable BrotliUtils
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+[ERROR] symbol:   class BrotliCompressorInputStream
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.14-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575434052663
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+  symbol:   variable BrotliUtils
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+  symbol:   class BrotliCompressorInputStream
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.365 s
+[INFO] Finished at: 2019-12-04T04:34:14+00:00
+[INFO] Final Memory: 23M/341M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+[ERROR] symbol:   variable BrotliUtils
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+[ERROR] symbol:   class BrotliCompressorInputStream
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.173s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-commons-compress a793612b9e09795feb253aab9a738bd1f7280700:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.14-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575434059010
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+  symbol:   variable BrotliUtils
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+  symbol:   class BrotliCompressorInputStream
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.395 s
+[INFO] Finished at: 2019-12-04T04:34:21+00:00
+[INFO] Final Memory: 22M/252M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+[ERROR] symbol:   variable BrotliUtils
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+[ERROR] symbol:   class BrotliCompressorInputStream
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.14-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575434065202
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+  symbol:   variable BrotliUtils
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+  symbol:   class BrotliCompressorInputStream
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.664 s
+[INFO] Finished at: 2019-12-04T04:34:27+00:00
+[INFO] Final Memory: 24M/344M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+[ERROR] symbol:   variable BrotliUtils
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+[ERROR] symbol:   class BrotliCompressorInputStream
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.14-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575434071435
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+  symbol:   variable BrotliUtils
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+  symbol:   class BrotliCompressorInputStream
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.557 s
+[INFO] Finished at: 2019-12-04T04:34:33+00:00
+[INFO] Final Memory: 24M/337M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+[ERROR] symbol:   variable BrotliUtils
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+[ERROR] symbol:   class BrotliCompressorInputStream
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.261s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-compress a793612b9e09795feb253aab9a738bd1f7280700:
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.14-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575434079496
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+  symbol:   variable BrotliUtils
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+  symbol:   class BrotliCompressorInputStream
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.076 s
+[INFO] Finished at: 2019-12-04T04:34:43+00:00
+[INFO] Final Memory: 27M/335M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+[ERROR] symbol:   variable BrotliUtils
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+[ERROR] symbol:   class BrotliCompressorInputStream
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.14-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575434088608
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+  symbol:   variable BrotliUtils
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+  symbol:   class BrotliCompressorInputStream
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.742 s
+[INFO] Finished at: 2019-12-04T04:34:53+00:00
+[INFO] Final Memory: 24M/330M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+[ERROR] symbol:   variable BrotliUtils
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+[ERROR] symbol:   class BrotliCompressorInputStream
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.14-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ commons-compress ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-compress ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-compress ---
+[INFO] Executing: /bin/sh -c cd '/home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700
+[INFO] Storing buildNumber: caf9d34f56c87de36e8f5690a1842a464c4d7eea at timestamp: 1575434098388
+[INFO] Storing buildScmBranch: master
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-compress ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 191 source files to /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/utils/Sets.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+  symbol:   variable BrotliUtils
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+  symbol:   class BrotliCompressorInputStream
+  location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.123 s
+[INFO] Finished at: 2019-12-04T04:35:02+00:00
+[INFO] Final Memory: 23M/332M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.0:compile (default-compile) on project commons-compress: Compilation failure: Compilation failure:
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[34,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[35,54] package org.apache.commons.compress.compressors.brotli does not exist
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[545,22] cannot find symbol
+[ERROR] symbol:   variable BrotliUtils
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] /home/ubuntu/ATLAS/apps/apache-commons-compress/download/a793612b9e09795feb253aab9a738bd1f7280700/src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java:[548,28] cannot find symbol
+[ERROR] symbol:   class BrotliCompressorInputStream
+[ERROR] location: class org.apache.commons.compress.compressors.CompressorStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.52s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-commons-compress a793612b9e09795feb253aab9a738bd1f7280700:
+mvn clean compile -DskipTests=true || mvn clean install -DskipTests || (sed -i -- 's/1.4-SNAPSHOT/1.4/g' pom.xml; mvn clean compile -DskipTests=true)
+0.484s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

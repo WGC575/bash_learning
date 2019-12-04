@@ -1,0 +1,670 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-httpclient 9b97410b844f58af9c021521c875bfe9133acd83:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpmime:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-cache:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-osgi:bundle:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpcomponents-client:pom:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] HttpComponents Client
+[INFO] HttpClient
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpComponents Client 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-notice-plugin:0.0.2:generate (attach-notice-license) @ httpcomponents-client ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpClient 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.httpcomponents:httpcore:jar:4.2-alpha1-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] HttpComponents Client .............................. SUCCESS [  0.164 s]
+[INFO] HttpClient ......................................... FAILURE [  0.059 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.918 s
+[INFO] Finished at: 2019-12-04T07:14:37+00:00
+[INFO] Final Memory: 10M/208M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project httpclient: Could not resolve dependencies for project org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT: Could not find artifact org.apache.httpcomponents:httpcore:jar:4.2-alpha1-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :httpclient
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpmime:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-cache:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-osgi:bundle:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpcomponents-client:pom:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[ERROR] [ERROR] Could not find the selected project in the reactor: httpclient5 @ 
+[ERROR] Could not find the selected project in the reactor: httpclient5 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpmime:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-cache:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-osgi:bundle:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpcomponents-client:pom:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] HttpComponents Client
+[INFO] HttpClient
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpComponents Client 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-notice-plugin:0.0.2:generate (attach-notice-license) @ httpcomponents-client ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpClient 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-notice-plugin:0.0.2:generate (attach-notice-license) @ httpclient ---
+[INFO] Generating NOTICE and LICENSE resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ httpclient ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ httpclient ---
+[INFO] Compiling 263 source files to /home/ubuntu/ATLAS/apps/apache-httpclient/download/9b97410b844f58af9c021521c875bfe9133acd83/httpclient/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpclient/download/9b97410b844f58af9c021521c875bfe9133acd83/httpclient/src/main/java/org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.java:[46,32] error: cannot find symbol
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] HttpComponents Client .............................. SUCCESS [  0.124 s]
+[INFO] HttpClient ......................................... FAILURE [  1.913 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.680 s
+[INFO] Finished at: 2019-12-04T07:14:43+00:00
+[INFO] Final Memory: 16M/264M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.1:compile (default-compile) on project httpclient: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpclient/download/9b97410b844f58af9c021521c875bfe9133acd83/httpclient/src/main/java/org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.java:[46,32] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :httpclient
+(mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am) || (mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient5 -am) || (mvn compile -Dhttpcore.version=4.2-alpha1 -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am)
+0.424s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-httpclient 9b97410b844f58af9c021521c875bfe9133acd83:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpmime:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-cache:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-osgi:bundle:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpcomponents-client:pom:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] HttpComponents Client
+[INFO] HttpClient
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpComponents Client 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-notice-plugin:0.0.2:generate (attach-notice-license) @ httpcomponents-client ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpClient 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.httpcomponents:httpcore:jar:4.2-alpha1-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] HttpComponents Client .............................. SUCCESS [  0.114 s]
+[INFO] HttpClient ......................................... FAILURE [  0.064 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.732 s
+[INFO] Finished at: 2019-12-04T07:14:46+00:00
+[INFO] Final Memory: 10M/208M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project httpclient: Could not resolve dependencies for project org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT: Could not find artifact org.apache.httpcomponents:httpcore:jar:4.2-alpha1-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :httpclient
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpmime:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-cache:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-osgi:bundle:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpcomponents-client:pom:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[ERROR] [ERROR] Could not find the selected project in the reactor: httpclient5 @ 
+[ERROR] Could not find the selected project in the reactor: httpclient5 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpmime:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-cache:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-osgi:bundle:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpcomponents-client:pom:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] HttpComponents Client
+[INFO] HttpClient
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpComponents Client 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-notice-plugin:0.0.2:generate (attach-notice-license) @ httpcomponents-client ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpClient 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-notice-plugin:0.0.2:generate (attach-notice-license) @ httpclient ---
+[INFO] Generating NOTICE and LICENSE resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ httpclient ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ httpclient ---
+[INFO] Compiling 263 source files to /home/ubuntu/ATLAS/apps/apache-httpclient/download/9b97410b844f58af9c021521c875bfe9133acd83/httpclient/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpclient/download/9b97410b844f58af9c021521c875bfe9133acd83/httpclient/src/main/java/org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.java:[46,32] error: cannot find symbol
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] HttpComponents Client .............................. SUCCESS [  0.133 s]
+[INFO] HttpClient ......................................... FAILURE [  1.971 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.711 s
+[INFO] Finished at: 2019-12-04T07:14:52+00:00
+[INFO] Final Memory: 16M/263M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.1:compile (default-compile) on project httpclient: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpclient/download/9b97410b844f58af9c021521c875bfe9133acd83/httpclient/src/main/java/org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.java:[46,32] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :httpclient
+(mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am) || (mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient5 -am) || (mvn compile -Dhttpcore.version=4.2-alpha1 -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am)
+0.480s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-httpclient 9b97410b844f58af9c021521c875bfe9133acd83:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpmime:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-cache:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-osgi:bundle:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpcomponents-client:pom:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] HttpComponents Client
+[INFO] HttpClient
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpComponents Client 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-notice-plugin:0.0.2:generate (attach-notice-license) @ httpcomponents-client ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpClient 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for org.apache.httpcomponents:httpcore:jar:4.2-alpha1-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] HttpComponents Client .............................. SUCCESS [  0.264 s]
+[INFO] HttpClient ......................................... FAILURE [  0.079 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.146 s
+[INFO] Finished at: 2019-12-04T07:14:56+00:00
+[INFO] Final Memory: 9M/145M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project httpclient: Could not resolve dependencies for project org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT: Could not find artifact org.apache.httpcomponents:httpcore:jar:4.2-alpha1-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :httpclient
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpmime:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-cache:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-osgi:bundle:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpcomponents-client:pom:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[ERROR] [ERROR] Could not find the selected project in the reactor: httpclient5 @ 
+[ERROR] Could not find the selected project in the reactor: httpclient5 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpmime:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-cache:jar:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpclient-osgi:bundle:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.httpcomponents:httpcomponents-client:pom:4.2-alpha1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-resources-plugin @ org.apache.httpcomponents:project:4.1.1, /home/ubuntu/.m2/repository/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom, line 385, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] HttpComponents Client
+[INFO] HttpClient
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpComponents Client 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-notice-plugin:0.0.2:generate (attach-notice-license) @ httpcomponents-client ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building HttpClient 4.2-alpha1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-notice-plugin:0.0.2:generate (attach-notice-license) @ httpclient ---
+[INFO] Generating NOTICE and LICENSE resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ httpclient ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.1:compile (default-compile) @ httpclient ---
+[INFO] Compiling 263 source files to /home/ubuntu/ATLAS/apps/apache-httpclient/download/9b97410b844f58af9c021521c875bfe9133acd83/httpclient/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpclient/download/9b97410b844f58af9c021521c875bfe9133acd83/httpclient/src/main/java/org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.java:[46,32] error: cannot find symbol
+
+[INFO] 1error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] HttpComponents Client .............................. SUCCESS [  0.319 s]
+[INFO] HttpClient ......................................... FAILURE [  3.289 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.407 s
+[INFO] Finished at: 2019-12-04T07:15:05+00:00
+[INFO] Final Memory: 13M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.1:compile (default-compile) on project httpclient: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-httpclient/download/9b97410b844f58af9c021521c875bfe9133acd83/httpclient/src/main/java/org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.java:[46,32] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :httpclient
+(mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am) || (mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient5 -am) || (mvn compile -Dhttpcore.version=4.2-alpha1 -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am)
+0.51s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-httpclient 9b97410b844f58af9c021521c875bfe9133acd83:
+(mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am) || (mvn compile -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient5 -am) || (mvn compile -Dhttpcore.version=4.2-alpha1 -DskipTests -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -pl httpclient -am)
+0.108s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode

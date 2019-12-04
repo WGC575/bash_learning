@@ -1,0 +1,2037 @@
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-tiles 433468921b445774419660e5c16957b3b0e29937:
+[INFO] Scanning for projects...
+Downloading: http://people.apache.org/repo/m2-snapshot-repository/org/apache/tiles/tiles-master/1/tiles-master-1.pom
+Downloading: https://repo.maven.apache.org/maven2/org/apache/tiles/tiles-master/1/tiles-master-1.pom
+3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/tiles/tiles-master/1/tiles-master-1.pom (7 KB at 15.8 KB/sec)
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-api:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-core:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/pom.xml, line 171, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-template:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-servlet:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-servlet:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-servlet/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-jsp:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-jsp:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-jsp/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-freemarker:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-velocity:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-portlet:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-compat:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-test:war:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-assembly:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-assembly:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/assembly/pom.xml, line 239, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-parent:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tiles 2
+[INFO] Tiles - API
+[INFO] Tiles - Core Library
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles 2 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://people.apache.org/repo/m2-snapshot-repository/org/apache/maven/plugins/maven-compiler-plugin/maven-metadata.xml
+         Downloading: http://people.apache.org/repo/m2-snapshot-repository/org/apache/maven/plugins/maven-jar-plugin/maven-metadata.xml
+         [INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - API 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://people.apache.org/repo/m2-snapshot-repository/junit/junit/4.0/junit-4.0.pom
+         Downloading: https://repo.maven.apache.org/maven2/junit/junit/4.0/junit-4.0.pom
+210/210 B               Downloaded: https://repo.maven.apache.org/maven2/junit/junit/4.0/junit-4.0.pom (210 B at 10.3 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: Recompile with -Xlint:deprecation for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - Core Library 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://dtddoc.sf.net/maven2/javax/el/el-api/1.0/el-api-1.0.pom
+            Downloading: http://people.apache.org/repo/m2-snapshot-repository/javax/el/el-api/1.0/el-api-1.0.pom
+            Downloading: https://repo.maven.apache.org/maven2/javax/el/el-api/1.0/el-api-1.0.pom
+184/184 B               Downloaded: https://repo.maven.apache.org/maven2/javax/el/el-api/1.0/el-api-1.0.pom (184 B at 8.6 KB/sec)
+Downloading: http://dtddoc.sf.net/maven2/org/apache/tomcat/jasper-el/6.0.18/jasper-el-6.0.18.pom
+            Downloading: http://people.apache.org/repo/m2-snapshot-repository/org/apache/tomcat/jasper-el/6.0.18/jasper-el-6.0.18.pom
+            Downloading: https://repo.maven.apache.org/maven2/org/apache/tomcat/jasper-el/6.0.18/jasper-el-6.0.18.pom
+2/2 KB               Downloaded: https://repo.maven.apache.org/maven2/org/apache/tomcat/jasper-el/6.0.18/jasper-el-6.0.18.pom (2 KB at 63.3 KB/sec)
+Downloading: http://dtddoc.sf.net/maven2/org/apache/shale/shale-test/1.0.5/shale-test-1.0.5.pom
+         Downloading: http://people.apache.org/repo/m2-snapshot-repository/org/apache/shale/shale-test/1.0.5/shale-test-1.0.5.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/shale/shale-test/1.0.5/shale-test-1.0.5.pom
+3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/shale/shale-test/1.0.5/shale-test-1.0.5.pom (6 KB at 265.1 KB/sec)
+Downloading: http://dtddoc.sf.net/maven2/org/apache/shale/shale-parent/1.0.5/shale-parent-1.0.5.pom
+         Downloading: http://people.apache.org/repo/m2-snapshot-repository/org/apache/shale/shale-parent/1.0.5/shale-parent-1.0.5.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/shale/shale-parent/1.0.5/shale-parent-1.0.5.pom
+3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/shale/shale-parent/1.0.5/shale-parent-1.0.5.pom (17 KB at 627.5 KB/sec)
+Downloading: http://dtddoc.sf.net/maven2/org/apache/shale/shale-master/3/shale-master-3.pom
+           Downloading: http://people.apache.org/repo/m2-snapshot-repository/org/apache/shale/shale-master/3/shale-master-3.pom
+           Downloading: https://repo.maven.apache.org/maven2/org/apache/shale/shale-master/3/shale-master-3.pom
+3/14 KB    5/14 KB   8/14 KB   11/14 KB   13/14 KB   14/14 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/shale/shale-master/3/shale-master-3.pom (14 KB at 625.8 KB/sec)
+Downloading: http://dtddoc.sf.net/maven2/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar
+Downloading: http://dtddoc.sf.net/maven2/javax/el/el-api/1.0/el-api-1.0.jar
+Downloading: http://dtddoc.sf.net/maven2/org/apache/tomcat/jasper-el/6.0.18/jasper-el-6.0.18.jar
+                                 Downloading: http://people.apache.org/repo/m2-snapshot-repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar
+Downloading: http://people.apache.org/repo/m2-snapshot-repository/javax/el/el-api/1.0/el-api-1.0.jar
+Downloading: http://people.apache.org/repo/m2-snapshot-repository/org/apache/tomcat/jasper-el/6.0.18/jasper-el-6.0.18.jar
+                                 Downloading: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar
+Downloading: https://repo.maven.apache.org/maven2/javax/el/el-api/1.0/el-api-1.0.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/tomcat/jasper-el/6.0.18/jasper-el-6.0.18.jar
+3/226 KB   5/226 KB   8/226 KB   11/226 KB   13/226 KB   16/226 KB   19/226 KB   21/226 KB   24/226 KB   27/226 KB   29/226 KB   32/226 KB   36/226 KB   40/226 KB   44/226 KB   48/226 KB   52/226 KB   56/226 KB   60/226 KB   64/226 KB   68/226 KB   72/226 KB   76/226 KB   80/226 KB   84/226 KB   88/226 KB   92/226 KB   96/226 KB   100/226 KB   104/226 KB   108/226 KB   112/226 KB   116/226 KB   120/226 KB   124/226 KB   128/226 KB   128/226 KB   3/24 KB   132/226 KB   3/24 KB   136/226 KB   3/24 KB   136/226 KB   5/24 KB   140/226 KB   5/24 KB   144/226 KB   5/24 KB   144/226 KB   8/24 KB   144/226 KB   11/24 KB   144/226 KB   13/24 KB   148/226 KB   13/24 KB   152/226 KB   13/24 KB   156/226 KB   13/24 KB   160/226 KB   13/24 KB   3/100 KB   160/226 KB   13/24 KB   5/100 KB   160/226 KB   13/24 KB   8/100 KB   160/226 KB   13/24 KB   11/100 KB   160/226 KB   13/24 KB   13/100 KB   160/226 KB   13/24 KB   13/100 KB   164/226 KB   13/24 KB   13/100 KB   168/226 KB   13/24 KB   13/100 KB   172/226 KB   13/24 KB   13/100 KB   176/226 KB   13/24 KB   13/100 KB   176/226 KB   16/24 KB   13/100 KB   176/226 KB   19/24 KB   13/100 KB   180/226 KB   21/24 KB   13/100 KB   180/226 KB   21/24 KB   13/100 KB   184/226 KB   21/24 KB   13/100 KB   188/226 KB   24/24 KB   13/100 KB   188/226 KB   24/24 KB   13/100 KB   188/226 KB   24/24 KB   13/100 KB   192/226 KB   24/24 KB   16/100 KB   192/226 KB   24/24 KB   19/100 KB   192/226 KB   24/24 KB   21/100 KB   192/226 KB   24/24 KB   21/100 KB   196/226 KB   24/24 KB   21/100 KB   200/226 KB   24/24 KB   24/100 KB   200/226 KB   24/24 KB   24/100 KB   204/226 KB   24/24 KB   24/100 KB   208/226 KB   24/24 KB   27/100 KB   208/226 KB   24/24 KB   29/100 KB   208/226 KB   24/24 KB   32/100 KB   208/226 KB   24/24 KB   32/100 KB   212/226 KB   24/24 KB   32/100 KB   216/226 KB   24/24 KB   32/100 KB   220/226 KB   24/24 KB   32/100 KB   224/226 KB   24/24 KB   32/100 KB   226/226 KB   24/24 KB   36/100 KB   226/226 KB   24/24 KB   40/100 KB   226/226 KB   24/24 KB   44/100 KB   226/226 KB   24/24 KB   48/100 KB   226/226 KB   24/24 KB                                       Downloaded: https://repo.maven.apache.org/maven2/javax/el/el-api/1.0/el-api-1.0.jar (24 KB at 411.4 KB/sec)
+52/100 KB   226/226 KB              56/100 KB   226/226 KB   60/100 KB   226/226 KB   64/100 KB   226/226 KB   68/100 KB   226/226 KB   72/100 KB   226/226 KB   76/100 KB   226/226 KB   80/100 KB   226/226 KB   84/100 KB   226/226 KB   88/100 KB   226/226 KB   92/100 KB   226/226 KB   96/100 KB   226/226 KB   100/100 KB   226/226 KB   100/100 KB   226/226 KB                             Downloaded: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar (226 KB at 3371.6 KB/sec)
+                          Downloaded: https://repo.maven.apache.org/maven2/org/apache/tomcat/jasper-el/6.0.18/jasper-el-6.0.18.jar (100 KB at 1280.6 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Tiles 2 ............................................ SUCCESS [  0.822 s]
+[INFO] Tiles - API ........................................ SUCCESS [  1.567 s]
+[INFO] Tiles - Core Library ............................... FAILURE [  6.815 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.743 s
+[INFO] Finished at: 2019-12-04T09:30:30+00:00
+[INFO] Final Memory: 25M/248M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project tiles-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :tiles-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-api:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-core:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/pom.xml, line 171, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-template:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-servlet:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-servlet:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-servlet/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-jsp:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-jsp:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-jsp/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-freemarker:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-velocity:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-portlet:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-compat:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-test:war:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-assembly:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-assembly:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/assembly/pom.xml, line 239, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-parent:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tiles 2
+[INFO] Tiles - API
+[INFO] Tiles - Core Library
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles 2 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-parent ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-parent ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-parent/2.2.0-SNAPSHOT/tiles-parent-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - API 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://people.apache.org/repo/m2-snapshot-repository/junit/junit/4.0/junit-4.0.jar
+Downloading: https://repo.maven.apache.org/maven2/junit/junit/4.0/junit-4.0.jar
+3/104 KB   5/104 KB   8/104 KB   11/104 KB   13/104 KB   16/104 KB   19/104 KB   21/104 KB   24/104 KB   27/104 KB   29/104 KB   32/104 KB   36/104 KB   40/104 KB   44/104 KB   48/104 KB   52/104 KB   56/104 KB   60/104 KB   64/104 KB   68/104 KB   72/104 KB   76/104 KB   80/104 KB   84/104 KB   88/104 KB   92/104 KB   96/104 KB   100/104 KB   104/104 KB                Downloaded: https://repo.maven.apache.org/maven2/junit/junit/4.0/junit-4.0.jar (104 KB at 299.8 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-api ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tiles-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ tiles-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ tiles-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tiles-api ---
+[INFO] Building jar: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-api ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - Core Library 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://dtddoc.sf.net/maven2/org/apache/shale/shale-test/1.0.5/shale-test-1.0.5.jar
+             Downloading: http://people.apache.org/repo/m2-snapshot-repository/org/apache/shale/shale-test/1.0.5/shale-test-1.0.5.jar
+             Downloading: https://repo.maven.apache.org/maven2/org/apache/shale/shale-test/1.0.5/shale-test-1.0.5.jar
+3/102 KB     5/102 KB   8/102 KB   11/102 KB   13/102 KB   16/102 KB   19/102 KB   21/102 KB   24/102 KB   27/102 KB   29/102 KB   32/102 KB   36/102 KB   40/102 KB   44/102 KB   48/102 KB   52/102 KB   56/102 KB   60/102 KB   64/102 KB   68/102 KB   72/102 KB   76/102 KB   80/102 KB   84/102 KB   88/102 KB   92/102 KB   96/102 KB   100/102 KB   102/102 KB                Downloaded: https://repo.maven.apache.org/maven2/org/apache/shale/shale-test/1.0.5/shale-test-1.0.5.jar (102 KB at 2830.7 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Tiles 2 ............................................ SUCCESS [  0.608 s]
+[INFO] Tiles - API ........................................ SUCCESS [  2.524 s]
+[INFO] Tiles - Core Library ............................... FAILURE [  1.753 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.187 s
+[INFO] Finished at: 2019-12-04T09:30:37+00:00
+[INFO] Final Memory: 25M/255M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project tiles-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :tiles-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-api:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-core:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/pom.xml, line 171, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-template:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-servlet:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-servlet:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-servlet/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-jsp:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-jsp:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-jsp/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-freemarker:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-velocity:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-portlet:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-compat:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-test:war:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-assembly:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-assembly:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/assembly/pom.xml, line 239, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-parent:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tiles 2
+[INFO] Tiles - API
+[INFO] Tiles - Core Library
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles 2 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-parent ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-parent ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-parent/2.2.0-SNAPSHOT/tiles-parent-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - API 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-api ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tiles-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ tiles-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ tiles-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tiles-api ---
+[INFO] Building jar: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-api ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - Core Library 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Tiles 2 ............................................ SUCCESS [  0.651 s]
+[INFO] Tiles - API ........................................ SUCCESS [  1.538 s]
+[INFO] Tiles - Core Library ............................... FAILURE [  0.925 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.472 s
+[INFO] Finished at: 2019-12-04T09:30:43+00:00
+[INFO] Final Memory: 20M/254M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project tiles-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :tiles-core
+(mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am)  || (mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am) || (sed -i -- 's/1-SNAPSHOT/1/g' pom.xml ; sed -i -- 's/4-SNAPSHOT/4/g' pom.xml ; mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am)
+0.220s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: Compile apache-tiles 433468921b445774419660e5c16957b3b0e29937:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-api:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-core:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/pom.xml, line 171, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-template:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-servlet:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-servlet:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-servlet/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-jsp:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-jsp:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-jsp/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-freemarker:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-velocity:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-portlet:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-compat:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-test:war:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-assembly:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-assembly:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/assembly/pom.xml, line 239, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-parent:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tiles 2
+[INFO] Tiles - API
+[INFO] Tiles - Core Library
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles 2 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - API 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: Recompile with -Xlint:deprecation for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - Core Library 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Tiles 2 ............................................ SUCCESS [  0.231 s]
+[INFO] Tiles - API ........................................ SUCCESS [  1.371 s]
+[INFO] Tiles - Core Library ............................... FAILURE [  0.901 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.888 s
+[INFO] Finished at: 2019-12-04T09:30:47+00:00
+[INFO] Final Memory: 19M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project tiles-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :tiles-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-api:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-core:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/pom.xml, line 171, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-template:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-servlet:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-servlet:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-servlet/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-jsp:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-jsp:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-jsp/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-freemarker:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-velocity:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-portlet:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-compat:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-test:war:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-assembly:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-assembly:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/assembly/pom.xml, line 239, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-parent:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tiles 2
+[INFO] Tiles - API
+[INFO] Tiles - Core Library
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles 2 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-parent ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-parent ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-parent/2.2.0-SNAPSHOT/tiles-parent-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - API 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-api ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tiles-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ tiles-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ tiles-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tiles-api ---
+[INFO] Building jar: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-api ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - Core Library 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Tiles 2 ............................................ SUCCESS [  0.621 s]
+[INFO] Tiles - API ........................................ SUCCESS [  1.486 s]
+[INFO] Tiles - Core Library ............................... FAILURE [  0.950 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.423 s
+[INFO] Finished at: 2019-12-04T09:30:53+00:00
+[INFO] Final Memory: 20M/252M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project tiles-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :tiles-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-api:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-core:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/pom.xml, line 171, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-template:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-servlet:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-servlet:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-servlet/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-jsp:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-jsp:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-jsp/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-freemarker:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-velocity:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-portlet:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-compat:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-test:war:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-assembly:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-assembly:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/assembly/pom.xml, line 239, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-parent:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tiles 2
+[INFO] Tiles - API
+[INFO] Tiles - Core Library
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles 2 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-parent ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-parent ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-parent/2.2.0-SNAPSHOT/tiles-parent-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - API 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-api ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tiles-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ tiles-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ tiles-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tiles-api ---
+[INFO] Building jar: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-api ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - Core Library 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Tiles 2 ............................................ SUCCESS [  0.625 s]
+[INFO] Tiles - API ........................................ SUCCESS [  1.515 s]
+[INFO] Tiles - Core Library ............................... FAILURE [  0.942 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.477 s
+[INFO] Finished at: 2019-12-04T09:30:58+00:00
+[INFO] Final Memory: 20M/257M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project tiles-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,38] incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :tiles-core
+(mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am)  || (mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am) || (sed -i -- 's/1-SNAPSHOT/1/g' pom.xml ; sed -i -- 's/4-SNAPSHOT/4/g' pom.xml ; mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am)
+0.69s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+* 5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-tiles 433468921b445774419660e5c16957b3b0e29937:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-api:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-core:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/pom.xml, line 171, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-template:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-servlet:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-servlet:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-servlet/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-jsp:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-jsp:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-jsp/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-freemarker:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-velocity:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-portlet:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-compat:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-test:war:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-assembly:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-assembly:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/assembly/pom.xml, line 239, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-parent:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tiles 2
+[INFO] Tiles - API
+[INFO] Tiles - Core Library
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles 2 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - API 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: Recompile with -Xlint:deprecation for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - Core Library 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,31] method match in class org.apache.tiles.util.WildcardHelper cannot be applied to given types;
+  required: java.util.Map<java.lang.Integer,java.lang.String>,java.lang.String,int[]
+  found: java.util.List<java.lang.String>,java.lang.String,int[]
+  reason: actual argument java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String> by method invocation conversion
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Tiles 2 ............................................ SUCCESS [  0.444 s]
+[INFO] Tiles - API ........................................ SUCCESS [  1.468 s]
+[INFO] Tiles - Core Library ............................... FAILURE [  1.259 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.597 s
+[INFO] Finished at: 2019-12-04T09:31:04+00:00
+[INFO] Final Memory: 16M/210M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project tiles-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,31] method match in class org.apache.tiles.util.WildcardHelper cannot be applied to given types;
+[ERROR] required: java.util.Map<java.lang.Integer,java.lang.String>,java.lang.String,int[]
+[ERROR] found: java.util.List<java.lang.String>,java.lang.String,int[]
+[ERROR] reason: actual argument java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String> by method invocation conversion
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :tiles-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-api:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-core:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/pom.xml, line 171, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-template:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-servlet:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-servlet:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-servlet/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-jsp:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-jsp:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-jsp/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-freemarker:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-velocity:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-portlet:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-compat:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-test:war:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-assembly:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-assembly:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/assembly/pom.xml, line 239, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-parent:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tiles 2
+[INFO] Tiles - API
+[INFO] Tiles - Core Library
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles 2 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-parent ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-parent ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-parent/2.2.0-SNAPSHOT/tiles-parent-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - API 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-api ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tiles-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ tiles-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ tiles-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tiles-api ---
+[INFO] Building jar: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-api ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - Core Library 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,31] method match in class org.apache.tiles.util.WildcardHelper cannot be applied to given types;
+  required: java.util.Map<java.lang.Integer,java.lang.String>,java.lang.String,int[]
+  found: java.util.List<java.lang.String>,java.lang.String,int[]
+  reason: actual argument java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String> by method invocation conversion
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Tiles 2 ............................................ SUCCESS [  1.002 s]
+[INFO] Tiles - API ........................................ SUCCESS [  1.935 s]
+[INFO] Tiles - Core Library ............................... FAILURE [  1.184 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.573 s
+[INFO] Finished at: 2019-12-04T09:31:11+00:00
+[INFO] Final Memory: 28M/337M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project tiles-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,31] method match in class org.apache.tiles.util.WildcardHelper cannot be applied to given types;
+[ERROR] required: java.util.Map<java.lang.Integer,java.lang.String>,java.lang.String,int[]
+[ERROR] found: java.util.List<java.lang.String>,java.lang.String,int[]
+[ERROR] reason: actual argument java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String> by method invocation conversion
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :tiles-core
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-api:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-core:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-core:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/pom.xml, line 171, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-template:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-servlet:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-servlet:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-servlet/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-jsp:jar:2.2.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ org.apache.tiles:tiles-jsp:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-jsp/pom.xml, line 72, column 15
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-freemarker:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-velocity:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-portlet:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-compat:jar:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-test:war:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.groupId} is deprecated. Please use ${project.groupId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-assembly:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 'repositories.repository.layout' for java_net uses the unsupported value 'legacy', artifact resolution might fail. @ org.apache.tiles:tiles-assembly:[unknown-version], /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/assembly/pom.xml, line 239, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.tiles:tiles-parent:pom:2.2.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tiles 2
+[INFO] Tiles - API
+[INFO] Tiles - Core Library
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles 2 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-parent ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-parent ---
+[WARNING] Ignoring project type pom - supportedProjectTypes = [jar, bundle]
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-parent ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-parent/2.2.0-SNAPSHOT/tiles-parent-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - API 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-api ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/src/main/java/org/apache/tiles/BasicAttributeContext.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:1.4.3:manifest (bundle-manifest) @ tiles-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tiles-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ tiles-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ tiles-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ tiles-api ---
+[INFO] Building jar: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ tiles-api ---
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/target/tiles-api-2.2.0-SNAPSHOT.jar to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.jar
+[INFO] Installing /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-api/pom.xml to /home/ubuntu/.m2/repository/org/apache/tiles/tiles-api/2.2.0-SNAPSHOT/tiles-api-2.2.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Tiles - Core Library 2.2.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ tiles-core ---
+[INFO] Deleting /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tiles-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ tiles-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/target/classes
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java uses or overrides a deprecated API.
+[INFO] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/context/enhanced/EnhancedContextFactory.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,31] method match in class org.apache.tiles.util.WildcardHelper cannot be applied to given types;
+  required: java.util.Map<java.lang.Integer,java.lang.String>,java.lang.String,int[]
+  found: java.util.List<java.lang.String>,java.lang.String,int[]
+  reason: actual argument java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String> by method invocation conversion
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Tiles 2 ............................................ SUCCESS [  1.083 s]
+[INFO] Tiles - API ........................................ SUCCESS [  2.241 s]
+[INFO] Tiles - Core Library ............................... FAILURE [  1.148 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.885 s
+[INFO] Finished at: 2019-12-04T09:31:18+00:00
+[INFO] Final Memory: 21M/211M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project tiles-core: Compilation failure
+[ERROR] /home/ubuntu/ATLAS/apps/apache-tiles/download/433468921b445774419660e5c16957b3b0e29937/tiles-core/src/main/java/org/apache/tiles/definition/pattern/WildcardPatternDefinitionResolver.java:[109,31] method match in class org.apache.tiles.util.WildcardHelper cannot be applied to given types;
+[ERROR] required: java.util.Map<java.lang.Integer,java.lang.String>,java.lang.String,int[]
+[ERROR] found: java.util.List<java.lang.String>,java.lang.String,int[]
+[ERROR] reason: actual argument java.util.List<java.lang.String> cannot be converted to java.util.Map<java.lang.Integer,java.lang.String> by method invocation conversion
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :tiles-core
+(mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am)  || (mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am) || (sed -i -- 's/1-SNAPSHOT/1/g' pom.xml ; sed -i -- 's/4-SNAPSHOT/4/g' pom.xml ; mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am)
+0.467s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac to provide /usr/bin/javac (javac) in manual mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+  3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+* 4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java to provide /usr/bin/java (java) in manual mode
+Compile apache-tiles 433468921b445774419660e5c16957b3b0e29937:
+(mvn clean compile -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am)  || (mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am) || (sed -i -- 's/1-SNAPSHOT/1/g' pom.xml ; sed -i -- 's/4-SNAPSHOT/4/g' pom.xml ; mvn clean install -DskipTests -Denforcer.skip=true -Drat.skip=true -Dmaven.test.skip=true -Dmaven.site.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dpmd.skip=true -Dfindbugs.skip=true -pl tiles-core -am)
+0.26s delay before adding the failure to the log file
+There are 5 choices for the alternative javac (providing /usr/bin/javac).
+
+  Selection    Path                                                Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/javac   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/javac     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/javac     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/bin/javac          1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac          1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+There are 5 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                               Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      auto mode
+  1            /home/ubuntu/ATLAS/external/jdk/j2sdk1.4/bin/java   1         manual mode
+  2            /home/ubuntu/ATLAS/external/jdk/jdk1.5/bin/java     1         manual mode
+* 3            /home/ubuntu/ATLAS/external/jdk/jdk1.6/bin/java     1         manual mode
+  4            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java      1071      manual mode
+  5            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java      1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode
